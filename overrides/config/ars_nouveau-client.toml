@@ -1,0 +1,6 @@
+
+#Lighting
+[lights]
+	#If dynamic lights are enabled
+	lightsEnabled = false
+

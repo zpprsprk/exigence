@@ -1,0 +1,23 @@
+Version 2.0.1
+
+added Configured, Industrial Reborn, Botania
+removed Scaling Health
+
+Version 2.0.2
+
+Mods Added: 
+Apple Skin
+Artifacts
+ConnectedTexturesMod
+CraftingTweaks
+Dank Storage
+durabilitytooltip
+Dynamic Electricity
+ExpandAbility
+KubeJS
+Nutritional Balance
+Rhino
+Survive
+UnionLib
+
+updated some mods.
