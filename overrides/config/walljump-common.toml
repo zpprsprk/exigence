@@ -2,7 +2,7 @@
 #Common configuration settings
 [common]
 	#Allows you to climb up without alternating walls
-	allowReClinging = false
+	allowReClinging = true
 	#Automatically turn the player when wall clinging
 	autoRotation = false
 	#Elytra speed boost; set to 0.0 to disable
