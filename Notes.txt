@@ -2,4 +2,4 @@ Livingwood Crimson only
 Livingrock Basalt?
 
 RS crafting grid crafting tweaks buttons disable?
-recipe componennt unification (a rod is a rod is a rod... etc.)
+recipe component unification (a rod is a rod is a rod... etc.)
