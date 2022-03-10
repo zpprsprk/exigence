@@ -49,6 +49,12 @@ onEvent('recipes', event => {
 	event.remove({id: 'refinedstorage:coloring_recipes/black_crafter_manager'})
 	event.remove({id: 'advgenerators:crafting/controller'})
 	event.remove({id: 'electrodynamics:ingotsteel_ingot_smelting'})
+	event.remove({id: 'extendedcrafting:luminessence'})
+	event.remove({id: 'immersiveengineering:crafting/light_engineering'})
+	event.remove({id: 'extendedcrafting:black_iron_slate'})
+	event.remove({id: 'extendedcrafting:black_iron_ingot'})
+	event.remove({id: 'extendedcrafting:redstone_ingot'})
+	event.remove({id: 'extendedcrafting:ender_ingot'})
 })
 
 onEvent('item.tags', event => {
