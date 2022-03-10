@@ -58,14 +58,3 @@ onEvent('recipes', event => {
 	// nuggets
 	event.replaceOutput({}, '#forge:nuggets/steel', 'immersiveengineering:nugget_steel')
 })
-
-onEvent('item.tags', event => {
-	// Get the #forge:cobblestone tag collection and add Diamond Ore to it
-	// event.get('forge:cobblestone').add('minecraft:diamond_ore')
-
-	// Get the #forge:cobblestone tag collection and remove Mossy Cobblestone from it
-	// event.get('forge:cobblestone').remove('minecraft:mossy_cobblestone')
-	event.get('forge:ingots/uranium').remove('bigreactors:yellorium_ingot')
-	event.get('forge:dusts/uranium').remove('bigreactors:yellorium_dust')
-	event.get('forge:ores/uranium').remove('bigreactors:yellorite_ore')
-})

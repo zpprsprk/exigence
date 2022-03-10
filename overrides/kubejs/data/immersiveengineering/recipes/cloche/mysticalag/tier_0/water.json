@@ -1,0 +1,20 @@
+{
+	"type": "immersiveengineering:cloche",
+	"results": [
+		{
+			"item": "mysticalagriculture:water_essence",
+			"count": 2
+		}
+	],
+	"input": {
+		"item": "mysticalagriculture:water_seeds"
+	},
+	"soil": {
+		"item": "minecraft:farmland"
+	},
+	"time": 560,
+	"render": {
+		"type": "crop",
+		"block": "mysticalagriculture:water_crop"
+	}
+}
