@@ -57,4 +57,15 @@ onEvent('recipes', event => {
 	
 	// nuggets
 	event.replaceOutput({}, '#forge:nuggets/steel', 'immersiveengineering:nugget_steel')
+	
+	// yellorium from uranium essence fix
+	event.remove({id: 'mysticalagriculture:essence/common/uranium_ingot'})
+	event.shaped('2x immersiveengineering:ingot_uranium', [
+        'EEE',
+        'E E',
+        'EEE'
+      ], {
+        E: 'mysticalagriculture:uranium_essence'
+    })
+
 })

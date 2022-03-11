@@ -55,6 +55,18 @@ onEvent('recipes', event => {
 	event.remove({id: 'extendedcrafting:black_iron_ingot'})
 	event.remove({id: 'extendedcrafting:redstone_ingot'})
 	event.remove({id: 'extendedcrafting:ender_ingot'})
+	event.remove({id: 'mysticalagriculture:inferium_farmland'})
+	event.remove({id: 'mysticalagriculture:inferium_farmland_till'})
+	event.remove({id: 'mysticalagriculture:prudentium_farmland'})
+	event.remove({id: 'mysticalagriculture:prudentium_farmland_till'})
+	event.remove({id: 'mysticalagriculture:tertium_farmland'})
+	event.remove({id: 'mysticalagriculture:tertium_farmland_till'})
+	event.remove({id: 'mysticalagriculture:imperium_farmland'})
+	event.remove({id: 'mysticalagriculture:imperium_farmland_till'})
+	event.remove({id: 'mysticalagriculture:supremium_farmland'})
+	event.remove({id: 'mysticalagriculture:supremium_farmland_till'})
+	event.remove({id: 'mysticalagradditions:insanium_farmland'})
+	event.remove({id: 'mysticalagradditions:insanium_farmland_till'})
 })
 
 onEvent('item.tags', event => {

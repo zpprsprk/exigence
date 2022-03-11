@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "mysticalagriculture:stone_essence",
+    "mysticalagriculture:dirt_essence",
+    "mysticalagriculture:wood_essence",
+    "mysticalagriculture:ice_essence",
+    "mysticalagriculture:deepslate_essence"
+  ]
+}
