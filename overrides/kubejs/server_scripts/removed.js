@@ -67,6 +67,7 @@ onEvent('recipes', event => {
 	event.remove({id: 'mysticalagriculture:supremium_farmland_till'})
 	event.remove({id: 'mysticalagradditions:insanium_farmland'})
 	event.remove({id: 'mysticalagradditions:insanium_farmland_till'})
+	event.remove({id: 'minecraft:leather_boots'})
 })
 
 onEvent('item.tags', event => {
