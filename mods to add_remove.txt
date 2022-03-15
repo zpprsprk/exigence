@@ -1,16 +1,16 @@
 #add
-angelring
-artifacts
-ServerConfig Updater
-mystical customization
-MATC
-Iron chests
-MythicBotany
-Basic Nether ores
-Basic end ores
-CobbleGenRendomizer
++angelring
++artifacts
++ServerConfig Updater
++mystical customization
++MATC
+?Iron chests
++MythicBotany
++Basic Nether ores
++Basic end ores
++CobbleGenRendomizer
 
 
 #remove
 --survive--
-toms simple storage
+--toms simple storage

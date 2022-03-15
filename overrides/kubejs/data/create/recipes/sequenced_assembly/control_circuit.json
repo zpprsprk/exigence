@@ -54,6 +54,22 @@
           "item": "indreb:advanced_circuit"
         }
       ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "indreb:advanced_circuit"
+        },
+        {
+          "item": "electrodynamics:wiresuperconductive"
+        }
+      ],
+      "results": [
+        {
+          "item": "indreb:advanced_circuit"
+        }
+      ]
     }
   ],
   "results": [

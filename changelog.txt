@@ -1,7 +1,22 @@
-Version 2.0.1
+Version 2.0.3
+Removed 
+Survive
+UnionLib
+Tom's Simple Storage
 
-added Configured, Industrial Reborn, Botania
-removed Scaling Health
+Added 
+Angel Ring
+ServerConfig Updater
+Mystical Customization
+Mystical Agriculture Tiered Crystals
+Iron Chests
+Mythic Botany
+Basic Nether Ores
+Basic End Ores
+CobbleGenRandomizer
+
+Updated a bunch of mods
+recipe tweaks
 
 Version 2.0.2
 
@@ -21,3 +36,7 @@ Survive
 UnionLib
 
 updated some mods.
+Version 2.0.1
+
+added Configured, Industrial Reborn, Botania
+removed Scaling Health
