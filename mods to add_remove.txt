@@ -10,6 +10,7 @@
 +Basic end ores
 +CobbleGenRendomizer
 Dark utilities
+mythic botany
 
 
 #remove
