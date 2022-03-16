@@ -1,20 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "X X",
-    "X X",
+    "IXI",
     "I I"
   ],
   "key": {
     "I": {
-      "item": "quark:bonded_leather"
+      "tag": "forge:plates/aluminum"
     },
     "X": {
-      "item": "minecraft:leather"
+      "item": "pickletweaks:flint_boots"
     }
   },
   "result": {
-    "item": "minecraft:leather_boots"
+    "item": "immersiveengineering:armor_faraday_feet"
   }
 }
 

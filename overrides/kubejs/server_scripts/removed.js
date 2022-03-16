@@ -70,6 +70,7 @@ onEvent('recipes', event => {
 	event.remove({id: 'minecraft:ender_eye'})
 	event.remove({id: 'electrodynamics:coalcoke_blasting'})
 	event.remove({id: 'electrodynamics:coalcoke_smelting'})
+	event.remove({id: 'armorplus:crafting/shaped/chicken/chicken_boots_alt'})
 })
 
 onEvent('item.tags', event => {

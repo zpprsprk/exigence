@@ -1,20 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "X X",
-    "X X",
+    "IXI",
     "I I"
   ],
   "key": {
     "I": {
-      "item": "quark:bonded_leather"
+      "item": "minecraft:chain"
     },
     "X": {
-      "item": "minecraft:leather"
+      "item": "minecraft:leather_boots"
     }
   },
   "result": {
-    "item": "minecraft:leather_boots"
+    "item": "minecraft:chainmail_boots"
   }
 }
 

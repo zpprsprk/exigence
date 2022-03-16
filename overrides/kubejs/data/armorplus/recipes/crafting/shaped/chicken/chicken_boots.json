@@ -1,20 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "X X",
-    "X X",
+    "IXI",
     "I I"
   ],
   "key": {
     "I": {
-      "item": "quark:bonded_leather"
+      "item": "supplementaries:feather_block"
     },
     "X": {
-      "item": "minecraft:leather"
+      "item": "create:diving_boots"
     }
   },
   "result": {
-    "item": "minecraft:leather_boots"
+    "item": "armorplus:chicken_boots"
   }
 }
 
