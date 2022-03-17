@@ -9,6 +9,11 @@ compressed obsidian Used in recipe as "#forge:storage_blocks/obsidian_1"
 
 recipes to add............
 chainmail armor plus
+block of infused frost crystal
+
+
+Recipe to remove............
+alfsteel armor smithing table 
 
 Things to hide...
 ardite armor (armor plus)
