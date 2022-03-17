@@ -18,6 +18,7 @@ Recipe to remove............
 alfsteel armor smithing table 
 netherite armor smithing table
 armor plus armor guardian star dragon slayer smithinng table
+majrusz's armor smithing table
 
 Things to hide...
 ardite armor (armor plus)
