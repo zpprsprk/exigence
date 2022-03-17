@@ -7,13 +7,17 @@ recipe component unification (a rod is a rod is a rod... etc.)
 Tags to add.......
 compressed obsidian Used in recipe as "#forge:storage_blocks/obsidian_1"
 
-recipes to add............
+
+recipes to add/change............
 chainmail armor plus
 block of infused frost crystal
+change all the enhanced from armor plus
 
 
 Recipe to remove............
 alfsteel armor smithing table 
+netherite armor smithing table
+armor plus armor guardian star dragon slayer smithinng table
 
 Things to hide...
 ardite armor (armor plus)
