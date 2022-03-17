@@ -4,7 +4,11 @@ RS crafting grid crafting tweaks buttons disable?
 recipe component unification (a rod is a rod is a rod... etc.)
 
 Things to hide...
-ardite boots (armor plus)
+ardite armor (armor plus)
+cobalt armor (armor plus)
+knight slime armor (armor plus)
+pigiron armor (armor plus)
+manyullyn armor (armor plus)
  - materials and such from Mystical Ag that don't exists...
  - electrodynamics coal coke (recipes removed...)
 creative pickaxe to mine bedrock...
