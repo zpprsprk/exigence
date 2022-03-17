@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sds",
+    "rRr",
+    "ses"
+  ],
+  "key": {
+    "r": {
+      "item": "minecraft:redstone"
+    },
+    "R": {
+      "item": "electrodynamics:carbynebattery"
+    },
+    "s": {
+      "item": "rftoolsbase:dimensionalshard"
+    },
+    "d": {
+      "item": "minecraft:diamond"
+    },
+    "e": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "item": "rftoolspower:power_core3"
+  }
+}
