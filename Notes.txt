@@ -3,6 +3,9 @@ get a better quarry option
 RS crafting grid crafting tweaks buttons disable?
 recipe component unification (a rod is a rod is a rod... etc.)
 
+recipes to add............
+chainmail armor plus
+
 Things to hide...
 ardite armor (armor plus)
 cobalt armor (armor plus)
