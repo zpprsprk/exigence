@@ -3,6 +3,10 @@ get a better quarry option
 RS crafting grid crafting tweaks buttons disable?
 recipe component unification (a rod is a rod is a rod... etc.)
 
+
+Tags to add.......
+compressed obsidian Used in recipe as "#forge:storage_blocks/obsidian_1"
+
 recipes to add............
 chainmail armor plus
 
