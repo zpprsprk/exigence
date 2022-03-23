@@ -1,0 +1,23 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "IGI",
+    "GSG",
+    "IGI"
+  ],
+  "key": {
+    "I": {
+      "item": "extendedcrafting:black_iron_ingot"
+    },
+    "G": {
+      "item": "electrodynamics:glassaluminum"
+    },
+    "S": {
+      "item": "extendedcrafting:black_iron_slate"
+    }
+  },
+  "result": {
+    "item": "extendedcrafting:frame",
+    "count": 1
+  }
+}

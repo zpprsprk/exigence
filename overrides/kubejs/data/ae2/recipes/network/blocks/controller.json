@@ -1,0 +1,33 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "SCUCS",
+    "CFEFC",
+    "UEREU",
+    "CFEFC",
+    "SCUCS"
+  ],
+  "key": {
+    "S": {
+      "item": "ae2:smooth_sky_stone_block"
+    },
+    "C": {
+      "item": "advgenerators:controller"
+    },
+    "U": {
+      "item": "electrodynamics:circuitultimate"
+    },
+    "F": {
+      "item": "ae2:fluix_block"
+    },
+    "E": {
+      "item": "ae2:engineering_processor"
+    },
+    "R": {
+      "item": "refinedstorage:controller"
+    }
+  },
+  "result": {
+    "item": "ae2:controller"
+  }
+}

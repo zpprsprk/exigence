@@ -19,7 +19,7 @@
       "item": "immersiveengineering:hammer"
     },
     {
-      "item": "minecraft:glowstone"
+      "tag": "forge:storage_blocks/glowstone"
     }
   ]
 }
