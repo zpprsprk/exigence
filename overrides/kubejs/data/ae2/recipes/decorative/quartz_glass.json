@@ -1,0 +1,19 @@
+{
+  "type": "electrodynamics:reinforced_alloyer_recipe",
+  "iteminputs" : {
+    "count" : 2,
+    "0": {
+      "tag": "ae2:all_quartz_dust",
+      "count": 5
+    },
+    "1": {
+      "tag": "forge:glass",
+      "count": 4
+    }
+  },
+  "output": {
+    "item": "ae2:quartz_glass",
+    "count": 4
+  },
+  "experience": 0.1
+}
