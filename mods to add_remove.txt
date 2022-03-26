@@ -1,18 +1,16 @@
 #add
-+angelring
-+artifacts
-+ServerConfig Updater
-+mystical customization
-+MATC
-?Iron chests
-+MythicBotany
-+Basic Nether ores
-+Basic end ores
-+CobbleGenRendomizer
 Dark utilities
+Runelic
+Pig Pen Cipher
+ProjectE
+ProjectExtended
+Mekanism
+ReAuth
+PneumaticCraft: Repressurized
+Assembly Lines
+Luggage
+AE2 Mekanism addons
 
 
 
 #remove
---survive--
---toms simple storage
