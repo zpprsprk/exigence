@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "armorplus:lapis",
+  "pattern": [
+    "SXS",
+    "S S"
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:storage_blocks/lapis"
+    },
+    "X": {
+      "item": "armorplus:slime_boots"
+    }
+  },
+  "result": {
+    "item": "armorplus:lapis_boots"
+  }
+}

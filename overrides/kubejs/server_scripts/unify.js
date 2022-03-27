@@ -11,7 +11,7 @@ onEvent('recipes', event => {
     //
 	// Unify inputs here
     //
-	
+
 	// plates
 	event.replaceInput({}, '#forge:plates/iron', '#forge:plates/iron')
 	event.replaceInput({}, '#forge:plates/copper', '#forge:plates/copper')
@@ -29,6 +29,20 @@ onEvent('recipes', event => {
 	event.replaceInput({}, '#forge:plates/electrum', '#forge:plates/electrum')
 	event.replaceInput({}, '#forge:plates/brass', '#forge:plates/brass')
 	event.replaceInput({}, '#forge:plates/zinc', '#forge:plates/zinc')
+
+	// rods
+	event.replaceInput({}, '#forge:rods/iron', '#forge:rods/iron')
+	event.replaceInput({}, '#forge:rods/copper', '#forge:rods/copper')
+	event.replaceInput({}, '#forge:rods/gold', '#forge:rods/gold')
+	event.replaceInput({}, '#forge:rods/brass', '#forge:rods/brass')
+	event.replaceInput({}, '#forge:rods/steel', '#forge:rods/steel')
+	event.replaceInput({}, '#forge:rods/aluminum', '#forge:rods/aluminum')
+
+	// ingots
+	event.replaceInput({}, '#forge:ingots/zinc', '#forge:ingots/zinc')
+
+	// blocks
+	event.replaceInput({}, '#forge:storage_blocks/zinc', '#forge:storage_blocks/zinc')
 
     //
     // Unify outputs here
@@ -51,15 +65,28 @@ onEvent('recipes', event => {
 	event.replaceOutput({}, '#forge:plates/electrum', 'immersiveengineering:plate_electrum')
 	event.replaceOutput({}, '#forge:plates/brass', 'create:brass_sheet')
 	event.replaceOutput({}, '#forge:plates/zinc', 'create:zinc_sheet')
-	
+
+	// rods
+	event.replaceOutput({}, '#forge:rods/iron', 'immersiveengineering:stick_iron')
+	event.replaceOutput({}, '#forge:rods/copper', 'createaddition:copper_rod')
+	event.replaceOutput({}, '#forge:rods/gold', 'createaddition:gold_rod')
+	event.replaceOutput({}, '#forge:rods/brass', 'createaddition:brass_rod')
+	event.replaceOutput({}, '#forge:rods/steel', 'immersiveengineering:stick_steel')
+	event.replaceOutput({}, '#forge:rods/aluminum', 'immersiveengineering:stick_aluminum')
+
+	// blocks
+	event.replaceOutput({}, '#forge:storage_blocks/zinc', 'create:zinc_block')
+
 	// ingots
 	event.replaceOutput({}, '#forge:ingots/steel', 'immersiveengineering:ingot_steel')
 	event.replaceOutput({}, '#forge:ingots/aluminum', 'immersiveengineering:ingot_aluminum')
-	
+	event.replaceOutput({}, '#forge:ingots/zinc', 'create:zinc_ingot')
+
 	// nuggets
 	event.replaceOutput({}, '#forge:nuggets/steel', 'immersiveengineering:nugget_steel')
 	event.replaceOutput({}, '#forge:nuggets/aluminum', 'immersiveengineering:nugget_aluminum')
-	
+	event.replaceOutput({}, '#forge:nuggets/zinc', 'create:zinc_nugget')
+
 	// yellorium from uranium essence fix
 	event.remove({id: 'mysticalagriculture:essence/common/uranium_ingot'})
 	event.shaped('2x immersiveengineering:ingot_uranium', [

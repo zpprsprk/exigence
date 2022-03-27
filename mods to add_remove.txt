@@ -10,6 +10,7 @@ PneumaticCraft: Repressurized
 Assembly Lines
 Luggage
 AE2 Mekanism addons
+Pam's Harvestcraft 2 (all)
 
 
 
