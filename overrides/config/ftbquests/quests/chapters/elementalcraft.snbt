@@ -1,0 +1,226 @@
+{
+	id: "447E1134CA94E749"
+	group: "282722A75DF81181"
+	order_index: 2
+	filename: "elementalcraft"
+	title: "ElementalCraft"
+	icon: "elementalcraft:containedcrystal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -3.5d
+			description: ["In order to start ElementalCraft, you will need to find some inert crystals. The easiest place to find them will either be in the mining dimension, or the Lost Cities."]
+			dependencies: [
+				"7E5EC68C27B84A70"
+				"65E9881A383430F0"
+				"1A37888733804240"
+			]
+			dependency_requirement: "one_completed"
+			id: "6849A40BFA82F652"
+			tasks: [{
+				id: "68D5535733C97913"
+				type: "item"
+				item: "elementalcraft:inertcrystal"
+			}]
+			rewards: [{
+				id: "60126B66F5821C74"
+				type: "item"
+				item: "elementalcraft:inertcrystal"
+				count: 16
+			}]
+		}
+		{
+			title: "Getting Elements"
+			x: 0.0d
+			y: -2.0d
+			description: ["In order to get the elements in a usable form, you will need to either extract them from the element sources scattered throughout the other dimensions, or evaporate the shards. The Elementopedia will help you here."]
+			dependencies: [
+				"6849A40BFA82F652"
+				"4E94C1E44486E00D"
+			]
+			id: "0BF76D3828FEE19F"
+			tasks: [
+				{
+					id: "5792FDE895DE03C8"
+					type: "item"
+					item: "elementalcraft:extractor"
+				}
+				{
+					id: "5E713641F5DCBEEF"
+					type: "item"
+					item: "elementalcraft:evaporator"
+				}
+			]
+			rewards: [
+				{
+					id: "495D69FB66153A35"
+					type: "item"
+					item: "elementalcraft:powerful_fire_shard"
+				}
+				{
+					id: "662B5EF505FA72EB"
+					type: "item"
+					item: "elementalcraft:powerful_water_shard"
+				}
+				{
+					id: "70EBCB3B68F01594"
+					type: "item"
+					item: "elementalcraft:powerful_earth_shard"
+				}
+				{
+					id: "3982CAF73765C8EE"
+					type: "item"
+					item: "elementalcraft:powerful_air_shard"
+				}
+			]
+		}
+		{
+			title: "Infusing Elements"
+			icon: "elementalcraft:infuser"
+			x: 0.0d
+			y: -0.5d
+			description: ["One use of these elements is to infuse them into your armor and tools."]
+			dependencies: ["0BF76D3828FEE19F"]
+			id: "047C5FA1FDC38CA2"
+			tasks: [
+				{
+					id: "3501C1E5E9BF8EA0"
+					type: "item"
+					item: "elementalcraft:infuser"
+				}
+				{
+					id: "0EF933147F55A24D"
+					type: "item"
+					item: "elementalcraft:drenched_iron_ingot"
+				}
+			]
+			rewards: [{
+				id: "16368542E73D8ADA"
+				type: "item"
+				item: "elementalcraft:drenched_iron_ingot"
+				count: 8
+			}]
+		}
+		{
+			icon: "elementalcraft:binder"
+			x: 0.0d
+			y: 1.0d
+			description: ["The element binder is used to make several useful items."]
+			dependencies: ["047C5FA1FDC38CA2"]
+			id: "01E39DEFE31AEBE5"
+			tasks: [
+				{
+					id: "1A3CE8C8FC6A54B2"
+					type: "item"
+					item: "elementalcraft:binder"
+				}
+				{
+					id: "7A5BF1BB5A8E58C7"
+					type: "item"
+					item: "elementalcraft:swift_alloy_ingot"
+				}
+				{
+					id: "2F186843E2B29A0D"
+					type: "item"
+					item: "elementalcraft:fireite_ingot"
+				}
+			]
+			rewards: [
+				{
+					id: "3C2F05E31FCA2975"
+					type: "item"
+					item: "elementalcraft:swift_alloy_ingot"
+					count: 4
+				}
+				{
+					id: "62607515C3E5839F"
+					type: "item"
+					item: "elementalcraft:fireite_ingot"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			description: ["This handy thing will be able to create crystal versions of the elements."]
+			dependencies: ["01E39DEFE31AEBE5"]
+			id: "29AD2A55B0C056A1"
+			tasks: [{
+				id: "0E1A4165C8F3389E"
+				type: "item"
+				item: "elementalcraft:crystallizer"
+			}]
+			rewards: [
+				{
+					id: "440F25DCBB9AB687"
+					type: "item"
+					item: "elementalcraft:pristine_fire_gem"
+				}
+				{
+					id: "0DC28D60EF077ABC"
+					type: "item"
+					item: "elementalcraft:pristine_water_gem"
+				}
+				{
+					id: "454DA742C936A6D3"
+					type: "item"
+					item: "elementalcraft:pristine_earth_gem"
+				}
+				{
+					id: "6CF2BE1CDDF0E877"
+					type: "item"
+					item: "elementalcraft:pristine_air_gem"
+				}
+			]
+		}
+		{
+			icon: "elementalcraft:pureinfuser"
+			x: 0.5d
+			y: 2.5d
+			description: ["Getting the pure crystals will require infusing a bunch of each of the four types of crystals into one."]
+			dependencies: ["01E39DEFE31AEBE5"]
+			id: "496D1C255EBC3C8C"
+			tasks: [
+				{
+					id: "6A4103BD7F9C5767"
+					type: "item"
+					item: "elementalcraft:pureinfuser"
+				}
+				{
+					id: "41934257D2536D63"
+					type: "item"
+					item: "elementalcraft:pedestal_fire"
+				}
+				{
+					id: "2571079BC11520D6"
+					type: "item"
+					item: "elementalcraft:pedestal_water"
+				}
+				{
+					id: "121718E027998B38"
+					type: "item"
+					item: "elementalcraft:pedestal_earth"
+				}
+				{
+					id: "6D590644EF56FB9A"
+					type: "item"
+					item: "elementalcraft:pedestal_air"
+				}
+				{
+					id: "084265193612BC6C"
+					type: "item"
+					item: "elementalcraft:purecrystal"
+				}
+			]
+			rewards: [{
+				id: "54C261B84C760782"
+				type: "item"
+				item: "elementalcraft:purecrystal"
+				count: 8
+			}]
+		}
+	]
+}

@@ -1,0 +1,12 @@
+#How many experience levels it costs to use a linking book. Stacks with points option.
+#Range: > 0
+linkingCostLevels = 0
+#The radius of chunks to load when a linking panel is rendering.
+#Range: > 0
+linkingPanelChunkLoadRadius = 4
+#The maximum render distance (in chunks) of a linking panel.
+#Range: > 0
+linkingPanelChunkRenderDistance = 4
+#If Immersive Portals is present, uses it to render Linking Portals.
+useImmersivePortalsForLinkingPortals = true
+

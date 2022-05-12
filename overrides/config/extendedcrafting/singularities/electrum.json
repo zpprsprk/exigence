@@ -1,8 +1,8 @@
 {
   "name": "singularity.extendedcrafting.electrum",
   "colors": [
-    "f5f18e",
-    "9e8d3e"
+    "a79135",
+    "a79135"
   ],
   "ingredient": {
     "tag": "forge:ingots/electrum"

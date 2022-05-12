@@ -1,0 +1,131 @@
+{
+	id: "743804EF4EE483F1"
+	group: "64DC45842012534D"
+	order_index: 1
+	filename: "dimension_hopping"
+	title: "Dimension hopping"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -3.5d
+			description: ["The best place for netherrack is of course the nether. You can get there the normal way of constructing a nether portal."]
+			dependencies: ["582ABA95E622D685"]
+			id: "546D2874AA226D91"
+			tasks: [{
+				id: "426E786164EB6817"
+				type: "dimension"
+				title: "Visit the Nether"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "2EB37E9FFB54EDE5"
+				type: "item"
+				item: "minecraft:netherrack"
+				count: 64
+			}]
+		}
+		{
+			title: "Visit The End"
+			x: 1.0d
+			y: -3.5d
+			description: ["The best place for end stone is of course in the end. You can get there by either finding a stronghold in The Lost Cities, or crafting an end cake."]
+			dependencies: ["582ABA95E622D685"]
+			id: "1D7FF602104C4176"
+			tasks: [{
+				id: "4F2B379434F0141A"
+				type: "dimension"
+				icon: "minecraft:end_portal_frame"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [{
+				id: "2AC742D7B6E80994"
+				type: "item"
+				item: "minecraft:end_stone"
+				count: 64
+			}]
+		}
+		{
+			title: "Visit The Undergarden"
+			icon: "undergarden:catalyst"
+			x: 2.0d
+			y: -3.5d
+			description: ["The Undergarden is quite the place. You might find yourself either in fear, or in awe. In order to open the portal, make a frame out of stone bricks, then click it with a catalyst."]
+			dependencies: ["582ABA95E622D685"]
+			id: "29A419376BDDBD17"
+			tasks: [
+				{
+					id: "503A0E348DAD8A7B"
+					type: "item"
+					item: "undergarden:catalyst"
+				}
+				{
+					id: "455B7B4CD5E4A99E"
+					type: "dimension"
+					dimension: "undergarden:undergarden"
+				}
+			]
+			rewards: [
+				{
+					id: "6575FDDFB13AFD1C"
+					type: "item"
+					item: "undergarden:regalium_ore"
+				}
+				{
+					id: "41D79D319F1D356F"
+					type: "item"
+					item: "undergarden:utherium_ore"
+				}
+				{
+					id: "0635D41E3D02FF19"
+					type: "item"
+					item: "undergarden:froststeel_ore"
+				}
+				{
+					id: "03A8940612C58C1C"
+					type: "item"
+					item: "undergarden:cloggrum_ore"
+				}
+			]
+		}
+		{
+			title: "Visit the Mining Dimension"
+			x: 0.5d
+			y: -2.5d
+			description: ["Possibly one of the first other dimensions you can travel to is the Mining Dimension."]
+			dependencies: ["582ABA95E622D685"]
+			id: "7E5EC68C27B84A70"
+			tasks: [{
+				id: "190C58356F7D00BF"
+				type: "dimension"
+				icon: "mining_dimension:teleporter"
+				dimension: "mining_dimension:mining"
+			}]
+			rewards: [{
+				id: "3AA2167F373666BE"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			title: "Visit The Lost Cities"
+			x: 1.5d
+			y: -2.5d
+			description: ["Getting to the Lost Cities will be crucial for progression through this pack. You will be able to find the Astral Sorcery structures, Applied Energistics Meteors, and many dungeons and mineshafts to explore. In order to get there put some diamonds under your bed, then surround with skulls."]
+			dependencies: ["582ABA95E622D685"]
+			id: "65E9881A383430F0"
+			tasks: [{
+				id: "139440E1FF030A9B"
+				type: "dimension"
+				icon: "minecraft:red_bed"
+				dimension: "lostcities:lostcity"
+			}]
+			rewards: [{
+				id: "59F995D8D4DBFD7F"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+	]
+}

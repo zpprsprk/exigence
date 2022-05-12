@@ -1,8 +1,8 @@
 {
   "name": "singularity.extendedcrafting.invar",
   "colors": [
-    "bcc5bb",
-    "5d7877"
+    "929d97",
+    "929d97"
   ],
   "ingredient": {
     "tag": "forge:ingots/invar"

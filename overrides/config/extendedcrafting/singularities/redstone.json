@@ -1,8 +1,8 @@
 {
   "name": "singularity.extendedcrafting.redstone",
   "colors": [
-    "ff0000",
-    "8a0901"
+    "aa0f01",
+    "720000"
   ],
   "ingredient": {
     "item": "minecraft:redstone"

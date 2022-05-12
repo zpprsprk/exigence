@@ -31,23 +31,14 @@
 *   - you can have a line "define a_key !value!" to make the compiler replace all a_key with !value! at runtime.
 */
 
+define func function
 define english "en_us"
 
-var ourMaterial = false;
-
 /** This function is called when mod is being constructed */
-function init()
+func init()
 {
 	// Example: (textures are extracted in /textures/ by default), uncomment to try it out! (Requires game restart)
-
-    /* Comment Start
-
-    // You might need to use CraftTweaker or something else to make the material obtainable!
-	ourMaterial = newMaterial("example")
-	    .langBuilder()
-            .put(english, "Example Material")
-        .build();
-
+	/*
 	panel()
 		.name("example")
 		.height(8 / 16.0)
@@ -56,63 +47,14 @@ function init()
 		.transfer("50331648")
 	.buildAndRegister()
 		.langBuilder()
-			    .put(english, "Example Solar Panel")
+			.put(english, "Example Solar Panel")
 			.build()
 		.recipeBuilder()
 			.shape("ppp", "8c8", "8h8")
 			.bind('p', item("solarflux", "photovoltaic_cell_6"))
 			.bind('8', item("solarflux:sp_8"))
-			.bind('c', tag("forge", "storage_blocks/emerald"))
-			.bind('h', ourMaterial) // Here we use the newly added material in the recipe!
+			.bind('c', item("chorus_fruit"))
+			.bind('h', item("dragon_head"))
 		.build(2);
-
-    Comment end*/
-}
-
-/*
-* This method is used to register additional recipes
-* Below listed all vanilla options for adding recipes.
-*/
-
-function registerRecipes($)
-{
-    // IF you have a mod with custom recipe type, register them with the following:
-    // $.add(IRecipe<?>)
-    // Just don't forget to import the recipe class.
-    // To pass an ingredient to a recipe wrap your item()/tag() call in a ingredient().
-    // Basically this will create Minecraft Ingredient: ingredient(tag("forge", "storage_blocks/emerald"))
-
-    if(ourMaterial)
-    {
-        $.shaped() // Shaped recipe example
-            .result(ourMaterial, 2)
-            .shape("###", "#$#", "###")
-            .map('$', item("solarflux", "ender_glass"))
-            .map('#', tag("forge", "rods/blaze"))
-            .register();
-
-        $.shapeless() // Shapeless recipe example
-            .result(ourMaterial, 1)
-            .add(item("solarflux", "ender_glass"))
-            .add(tag("forge", "rods/blaze"))
-            .add(tag("forge", "rods/blaze"))
-            .add(tag("forge", "rods/blaze"))
-            .register();
-
-        $.stoneCutting() // Stone cutting recipe example
-            .result(ourMaterial, 1)
-            .input(item("solarflux", "ender_glass"))
-            .register();
-
-        // $.blasting() can be replaced with the following: (they have exactly same construction options)
-        //     $.smelting()
-        //     $.campfire()
-        //     $.smoking()
-        $.blasting() // Blasting cutting recipe example
-            .result(ourMaterial, 1)
-            .input(item("solarflux", "ender_glass"))
-            .cookTime(400) // 20 seconds
-            .xp(10.0)
-            .register();
-    }
+	*/
 }

@@ -1,0 +1,493 @@
+{
+  "name": "Creative Items",
+  "quests": [
+    {
+      "uuid": "a7413aea-5d20-4ec9-af35-309ab9e98ba4",
+      "name": "Creative ME Storage Cell",
+      "description": "Shouldn\u0027t be too hard after that last one...",
+      "x": 196,
+      "y": 68,
+      "icon": {
+        "id": "appliedenergistics2:creative_storage_cell",
+        "Count": 1,
+        "tag": {}
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:creative_storage_cell",
+                "Count": 1,
+                "tag": {}
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0f3c7c44-2cf2-4a9b-b153-de9028fd287f"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5343a8ab-5976-4fd2-bb8f-d7badeb72eef",
+      "name": "Dimensional Cell (Creative)",
+      "description": "The first creative energy source available will be this little thing. You will notice it isn\u0027t the most performant thing, but it won\u0027t run out on you.",
+      "x": 118,
+      "y": 24,
+      "icon": {
+        "id": "rftoolspower:dimensionalcell_creative",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "rftoolspower:dimensionalcell_creative",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "bdf9ccb3-1e0b-4a4c-9137-360e14fc83a2"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a0c19d87-9f1b-4a55-bfb5-237500bd1d5d",
+      "name": "Infinite Battery",
+      "description": "A slight upgrade to the dimensional cell. These seem to go a bit faster...",
+      "x": 144,
+      "y": 24,
+      "icon": {
+        "id": "cyclic:battery_infinite",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "cyclic:battery_infinite",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5343a8ab-5976-4fd2-bb8f-d7badeb72eef"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7e56f240-f6c3-4982-b8a0-fd451aff4e04",
+      "name": "Creative Capacitor",
+      "description": "This handy creative energy source works better, but doesn\u0027t have a convienent UI.",
+      "x": 170,
+      "y": 24,
+      "icon": {
+        "id": "immersiveengineering:capacitor_creative",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveengineering:capacitor_creative",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a0c19d87-9f1b-4a55-bfb5-237500bd1d5d"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bdf9ccb3-1e0b-4a4c-9137-360e14fc83a2",
+      "name": "Creative Motor",
+      "description": "A creative source of energy, just possibly a different form than you\u0027d like...",
+      "x": 92,
+      "y": 24,
+      "icon": {
+        "id": "create:creative_motor",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "create:creative_motor",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0b2fe8fd-1e8a-425d-854d-52c8c7832808",
+      "name": "Energy Cell (Creative)",
+      "description": "Possibly one of the best Creative Energy sources.",
+      "x": 222,
+      "y": 24,
+      "icon": {
+        "id": "powah:energy_cell_creative",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "powah:energy_cell_creative",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "39e9b325-7bbc-4028-8eee-b0bf4cfdec6a"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "67130f18-2750-4f63-96eb-3ac9763741e6",
+      "name": "Creative Chemical Tank",
+      "description": "Can store unlimited amounts of chemicals.",
+      "x": 131,
+      "y": 46,
+      "icon": {
+        "id": "mekanism:creative_chemical_tank",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mekanism:creative_chemical_tank",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "994235d2-c2cd-4994-817f-5e2c7988c928"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "36070dd2-c5ad-48f0-8617-6c5855c7e5ee",
+      "name": "Creative Mana Tablet",
+      "description": "Another creative item that doesn\u0027t require other creative items.",
+      "x": 118,
+      "y": 68,
+      "icon": {
+        "id": "botania:mana_tablet",
+        "Count": 1,
+        "tag": {
+          "mana": 500000,
+          "creative": 1
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:mana_tablet",
+                "Count": 1,
+                "tag": {
+                  "mana": 500000,
+                  "creative": 1
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fd8e5498-076a-479d-9b7c-48d31d658665",
+      "name": "Creative Mana Battery",
+      "description": "Provides unlimited mana to your botanical machinery.",
+      "x": 170,
+      "y": 68,
+      "icon": {
+        "id": "botanicalmachinery:mana_battery_creative",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botanicalmachinery:mana_battery_creative",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "155c567b-6450-404c-b1bb-b9759c728d1e"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0f3c7c44-2cf2-4a9b-b153-de9028fd287f",
+      "name": "Creative Vending Upgrade",
+      "description": "You really only need one.",
+      "x": 209,
+      "y": 46,
+      "icon": {
+        "id": "storagedrawers:creative_vending_upgrade",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "storagedrawers:creative_vending_upgrade",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "4d408ea2-fc77-4b6d-8e9b-a4f0a5f0999c",
+        "fd8e5498-076a-479d-9b7c-48d31d658665",
+        "0b2fe8fd-1e8a-425d-854d-52c8c7832808"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6e43c504-d0a2-4d70-b409-3ae3b81ae3b6",
+      "name": "Creative Energy Cell",
+      "description": "Provides creative energy to your ME system",
+      "x": 183,
+      "y": 46,
+      "icon": {
+        "id": "appliedenergistics2:creative_energy_cell",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:creative_energy_cell",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7e56f240-f6c3-4982-b8a0-fd451aff4e04"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "155c567b-6450-404c-b1bb-b9759c728d1e",
+      "name": "The Everlasting Guilty Pool",
+      "description": "Not to be confused with the innocent pool.",
+      "x": 144,
+      "y": 68,
+      "icon": {
+        "id": "botania:creative_pool",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:creative_pool",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "36070dd2-c5ad-48f0-8617-6c5855c7e5ee"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "994235d2-c2cd-4994-817f-5e2c7988c928",
+      "name": "Creative Compressor",
+      "description": "Unlimited Pressure",
+      "x": 105,
+      "y": 46,
+      "icon": {
+        "id": "pneumaticcraft:creative_compressor",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:creative_compressor",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5343a8ab-5976-4fd2-bb8f-d7badeb72eef"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "39e9b325-7bbc-4028-8eee-b0bf4cfdec6a",
+      "name": "Creative Energy Cube",
+      "description": "In order to get a creative version of the energy cube, you will need to combine an ultimate one with 4 creative capacitors.",
+      "x": 196,
+      "y": 24,
+      "icon": {
+        "id": "mekanism:creative_energy_cube",
+        "Count": 1,
+        "tag": {
+          "mekData": {
+            "EnergyContainers": [
+              {
+                "Container": 0,
+                "stored": "18446744073709551615.9999"
+              }
+            ]
+          }
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mekanism:creative_energy_cube",
+                "Count": 1
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7e56f240-f6c3-4982-b8a0-fd451aff4e04"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4d408ea2-fc77-4b6d-8e9b-a4f0a5f0999c",
+      "name": "Creative Fluid Tank",
+      "description": "Infinite fluids",
+      "x": 157,
+      "y": 46,
+      "icon": {
+        "id": "mekanism:creative_fluid_tank",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mekanism:creative_fluid_tank",
+                "Count": 1
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "67130f18-2750-4f63-96eb-3ac9763741e6"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "Getting all the craftable creative items is an end goal for this pack. You don\u0027t have to stop once you get them obviously, you can of course have fun with them..."
+}

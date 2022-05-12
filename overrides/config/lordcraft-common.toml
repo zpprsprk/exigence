@@ -1,0 +1,9 @@
+
+["World Gen"]
+
+	["World Gen".Crystal]
+		"Generation Enabled" = true
+		"Clusters per Chunk" = 14
+		"Blocks per Cluster" = 10
+		"Max Y for spawn" = 24
+
