@@ -1,0 +1,200 @@
+{
+	id: "5770B8808F4CD82B"
+	group: "282722A75DF81181"
+	order_index: 6
+	filename: "blood_magic"
+	title: "Blood Magic"
+	icon: "bloodmagic:altar"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 2.5d
+			y: -5.5d
+			description: ["Starting in Blood Magic requires crafting the blood altar."]
+			dependencies: [
+				"1F2F5E815ADA3CAA"
+				"3A2DDAA7ED092BD1"
+				"20DCC32730CE4F16"
+				"33B7B2E7DA471C48"
+			]
+			id: "44F722170515ED35"
+			tasks: [{
+				id: "2B8DD4E71F699647"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+			rewards: [{
+				id: "3EABDD05681593A4"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 8
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			description: ["Craft at least one of each blood orb."]
+			dependencies: ["44F722170515ED35"]
+			id: "4E31FE587228E7B2"
+			tasks: [
+				{
+					id: "2FBF3F57EC7E7D74"
+					type: "item"
+					item: "bloodmagic:weakbloodorb"
+				}
+				{
+					id: "6C90D9678816EE7C"
+					type: "item"
+					item: "bloodmagic:apprenticebloodorb"
+				}
+				{
+					id: "78EEAD67743378EA"
+					type: "item"
+					item: "bloodmagic:magicianbloodorb"
+				}
+				{
+					id: "650C44ECF842B785"
+					type: "item"
+					item: "bloodmagic:masterbloodorb"
+				}
+			]
+			rewards: [{
+				id: "5090AFD1CE701FB9"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 16
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			description: ["Making the slates is very important for working with Blood Magic."]
+			dependencies: ["44F722170515ED35"]
+			id: "3F441EB8FC774720"
+			tasks: [
+				{
+					id: "23B74238983D4928"
+					type: "item"
+					item: "bloodmagic:blankslate"
+				}
+				{
+					id: "1ADCBE16CD64807E"
+					type: "item"
+					item: "bloodmagic:reinforcedslate"
+				}
+				{
+					id: "2B9256B8BFB0DB47"
+					type: "item"
+					item: "bloodmagic:infusedslate"
+				}
+				{
+					id: "1BC3D9FDABD47161"
+					type: "item"
+					item: "bloodmagic:demonslate"
+				}
+				{
+					id: "67B81AEA855A2B31"
+					type: "item"
+					item: "bloodmagic:etherealslate"
+				}
+			]
+			rewards: [{
+				id: "209CE2B43BF6E385"
+				type: "item"
+				item: "bloodmagic:blankslate"
+				count: 32
+			}]
+		}
+		{
+			title: "Demon Will"
+			x: 0.5d
+			y: -4.0d
+			description: ["Craft a few snares and throw them at your targets. Once you see the particles, you should get some demon will drop from the monster's death."]
+			dependencies: ["44F722170515ED35"]
+			id: "396077144EEF90B5"
+			tasks: [
+				{
+					id: "0C80CBA1C201BFE1"
+					type: "item"
+					item: "bloodmagic:soulsnare"
+				}
+				{
+					id: "075C3E25561AFBB5"
+					type: "item"
+					item: {
+						id: "bloodmagic:basemonstersoul"
+						Count: 1b
+						tag: {
+							souls: 5.0d
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2A54DCDCA2CDC47F"
+				type: "item"
+				item: {
+					id: "bloodmagic:basemonstersoul"
+					Count: 1b
+					tag: {
+						souls: 5.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			description: ["This is a basic crafting tool for blood magic."]
+			dependencies: ["44F722170515ED35"]
+			id: "4774F30B5D3CD867"
+			tasks: [{
+				id: "35519E47A3F29D81"
+				type: "item"
+				item: "bloodmagic:soulforge"
+			}]
+			rewards: [{
+				id: "5E69453089DC0F25"
+				type: "item"
+				item: {
+					id: "bloodmagic:basemonstersoul"
+					Count: 1b
+					tag: {
+						souls: 5.0d
+					}
+				}
+			}]
+		}
+		{
+			title: "Crystallized Will"
+			x: 4.5d
+			y: -4.0d
+			description: ["You will want to find a way to crystallize the demon will."]
+			dependencies: ["44F722170515ED35"]
+			id: "7CE696BAE971BF1D"
+			tasks: [
+				{
+					id: "09F7DF431B0F4CAE"
+					type: "item"
+					item: "bloodmagic:demoncrucible"
+				}
+				{
+					id: "5C9A0E98745DCA9C"
+					type: "item"
+					item: "bloodmagic:demoncrystallizer"
+				}
+				{
+					id: "48A80166033FA605"
+					type: "item"
+					item: "bloodmagic:defaultcrystal"
+				}
+			]
+			rewards: [{
+				id: "741B5602FF4FEECB"
+				type: "item"
+				item: "bloodmagic:defaultcrystal"
+			}]
+		}
+	]
+}

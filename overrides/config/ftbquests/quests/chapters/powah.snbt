@@ -1,0 +1,207 @@
+{
+	id: "1F7C7A31E2219403"
+	group: "21B54E50F117987D"
+	order_index: 1
+	filename: "powah"
+	title: "Powah"
+	icon: "powah:dielectric_casing"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -4.0d
+			y: -4.5d
+			description: ["There are a few ways to make this handy paste. You will want quite a bit of it though."]
+			dependencies: [
+				"3352A8F5541BDFFD"
+				"0FBCF8494A5CDBE4"
+			]
+			id: "071F8F1E71A4F408"
+			tasks: [{
+				id: "76B9F35567A41A05"
+				type: "item"
+				item: "powah:dielectric_paste"
+			}]
+			rewards: [{
+				id: "2EBF75693415B7E3"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 16
+			}]
+		}
+		{
+			icon: "powah:energizing_orb"
+			x: -4.0d
+			y: -3.0d
+			description: ["This small setup is going to be needed not just for upgrading your other powah things, but for a few of the other quest items elsewhere."]
+			dependencies: ["071F8F1E71A4F408"]
+			id: "4E5BCE0F4A42E319"
+			tasks: [
+				{
+					id: "18A06E4A9C175158"
+					type: "item"
+					item: "powah:energizing_orb"
+				}
+				{
+					id: "74747C489D35C6B7"
+					type: "item"
+					item: "powah:energizing_rod_starter"
+				}
+			]
+			rewards: [
+				{
+					id: "5A54939CCC64DE0A"
+					type: "item"
+					item: "powah:energizing_rod_starter"
+				}
+				{
+					id: "1B7816F0ADEAB738"
+					type: "item"
+					item: "powah:energizing_rod_starter"
+				}
+				{
+					id: "69A7F9889A38A190"
+					type: "item"
+					item: "powah:energizing_rod_starter"
+				}
+				{
+					id: "7F3F82CB4E40BF10"
+					type: "item"
+					item: "powah:energizing_rod_starter"
+				}
+			]
+		}
+		{
+			title: "Starter Power"
+			x: -3.0d
+			y: -3.0d
+			description: ["Power generation and storage is something that Powah is pretty decent at. These are just the starter versions."]
+			dependencies: ["071F8F1E71A4F408"]
+			id: "6B7A65D1120FCA81"
+			tasks: [
+				{
+					id: "2C858066677B0BD3"
+					type: "item"
+					item: "powah:energy_cell_starter"
+				}
+				{
+					id: "74D3B4BD8BA46C7B"
+					type: "item"
+					item: "powah:energy_cable_starter"
+				}
+				{
+					id: "521860C080416B2D"
+					type: "item"
+					item: "powah:solar_panel_starter"
+				}
+			]
+			rewards: [
+				{
+					id: "49D9F10DAC517604"
+					type: "item"
+					item: "powah:energy_cell_starter"
+				}
+				{
+					id: "70E2CAFA59C11934"
+					type: "item"
+					item: "powah:energy_cable_starter"
+				}
+				{
+					id: "60EF09658C35C2FF"
+					type: "item"
+					item: "powah:solar_panel_starter"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			description: ["Used to make Hardened level items."]
+			dependencies: ["4E5BCE0F4A42E319"]
+			id: "30E7493BC80E4471"
+			tasks: [{
+				id: "71A7D9D048E60676"
+				type: "item"
+				item: "powah:steel_energized"
+			}]
+			rewards: [{
+				id: "34564A85BCDD6742"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			description: ["Used for making Blazing level items."]
+			dependencies: ["4E5BCE0F4A42E319"]
+			id: "4A04FD90365EC3EC"
+			tasks: [{
+				id: "76C21F2669D4C59F"
+				type: "item"
+				item: "powah:crystal_blazing"
+			}]
+			rewards: [{
+				id: "015EEAFB4057A85D"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 2
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			description: ["Used to make Niotic level items."]
+			dependencies: ["4E5BCE0F4A42E319"]
+			id: "38A77396C10260CB"
+			tasks: [{
+				id: "3DAACBD4C95C874E"
+				type: "item"
+				item: "powah:crystal_niotic"
+			}]
+			rewards: [{
+				id: "3A3E14A2BB7066A0"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			description: ["Used to make Spirited level items."]
+			dependencies: ["4E5BCE0F4A42E319"]
+			id: "1D528D5C21A7FE9E"
+			tasks: [{
+				id: "758E64E2E9F906AA"
+				type: "item"
+				item: "powah:crystal_spirited"
+			}]
+			rewards: [{
+				id: "2F51DBC347436B03"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			description: ["used to make Nitro level items."]
+			dependencies: ["4E5BCE0F4A42E319"]
+			id: "1490AF169ADCD561"
+			tasks: [{
+				id: "655C54CDC42BA2DD"
+				type: "item"
+				item: "powah:crystal_nitro"
+			}]
+			rewards: [{
+				id: "5E18BE0EB6361470"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 2
+			}]
+		}
+	]
+}

@@ -1,0 +1,172 @@
+{
+	id: "233863DB487B1463"
+	group: "282722A75DF81181"
+	order_index: 4
+	filename: "natures_aura"
+	title: "Nature's Aura"
+	icon: "naturesaura:gold_leaf"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Gold Leaves"
+			icon: "naturesaura:gold_leaf"
+			x: 0.5d
+			y: -4.0d
+			description: ["In order to start with Nature's Aura, you will need to  make some brilliant fiber, and place it in some leaves (like infesting with silk worms). This, after a while, will create some leaves that when broken will drop gold leaves."]
+			dependencies: ["4E94C1E44486E00D"]
+			id: "59C060F6635C8F2C"
+			tasks: [
+				{
+					id: "7629FDDAFEF54478"
+					type: "item"
+					item: "naturesaura:gold_fiber"
+				}
+				{
+					id: "7F66E06911C33B5B"
+					type: "item"
+					item: "naturesaura:gold_leaf"
+				}
+			]
+			rewards: [{
+				id: "570F1F682B289671"
+				type: "item"
+				item: "naturesaura:gold_leaf"
+				count: 16
+			}]
+		}
+		{
+			title: "Ritual of the Forest"
+			icon: "naturesaura:wood_stand"
+			x: 0.5d
+			y: -2.5d
+			description: ["This ritual converts the power of trees growing into handy items."]
+			dependencies: ["59C060F6635C8F2C"]
+			id: "1364A5F5111CFCA3"
+			tasks: [
+				{
+					id: "7D906DE43A11F853"
+					type: "item"
+					item: "naturesaura:wood_stand"
+					count: 8L
+				}
+				{
+					id: "72161CF8EFBF6576"
+					type: "item"
+					item: "naturesaura:gold_powder"
+					count: 16L
+				}
+			]
+			rewards: [{
+				id: "188E9ED7B0BAC12A"
+				type: "item"
+				item: "naturesaura:gold_leaf"
+				count: 4
+			}]
+		}
+		{
+			title: "Natural \\& Crimson Altar"
+			icon: "naturesaura:nature_altar"
+			x: 0.5d
+			y: -1.0d
+			description: ["The natural altar is used to convert things into a more useful form. Setting it up in the nether with resources from there, will create the crimson altar version."]
+			dependencies: ["1364A5F5111CFCA3"]
+			id: "6CABFD7D2070A6A9"
+			tasks: [
+				{
+					id: "0FB404F5FA167230"
+					type: "item"
+					item: "naturesaura:nature_altar"
+				}
+				{
+					id: "2B456C0DC319FD9B"
+					type: "item"
+					item: "naturesaura:gold_brick"
+					count: 8L
+				}
+				{
+					id: "68C7FDADA05B862B"
+					type: "item"
+					item: "naturesaura:infused_iron"
+				}
+				{
+					id: "7817E7DEA7CFD571"
+					type: "item"
+					item: "naturesaura:gold_nether_brick"
+					count: 8L
+				}
+				{
+					id: "4006B0AF2B84334A"
+					type: "item"
+					item: "naturesaura:tainted_gold"
+				}
+			]
+			rewards: [
+				{
+					id: "619D7B7796E1F357"
+					type: "item"
+					item: "naturesaura:infused_iron"
+					count: 8
+				}
+				{
+					id: "5E97A8DACDD4FE1D"
+					type: "item"
+					item: "naturesaura:tainted_gold"
+					count: 8
+				}
+			]
+		}
+		{
+			icon: "naturesaura:offering_table"
+			x: 0.5d
+			y: 0.5d
+			description: ["This simple offering table will be useful to you."]
+			dependencies: ["6CABFD7D2070A6A9"]
+			id: "0A455A1B654D32D8"
+			tasks: [
+				{
+					id: "40D7304E20BBBB1B"
+					type: "item"
+					item: "naturesaura:offering_table"
+				}
+				{
+					id: "1CF1E9C247A9AE72"
+					type: "item"
+					item: "naturesaura:calling_spirit"
+				}
+			]
+			rewards: [{
+				id: "524DE69D287823C8"
+				type: "item"
+				item: "naturesaura:calling_spirit"
+				count: 3
+			}]
+		}
+		{
+			icon: "naturesaura:animal_spawner"
+			x: 0.5d
+			y: 2.0d
+			description: ["The Altar of Birthing can create mobs."]
+			dependencies: ["0A455A1B654D32D8"]
+			id: "3A2DDAA7ED092BD1"
+			tasks: [
+				{
+					id: "653C7E117EE645EC"
+					type: "item"
+					item: "naturesaura:animal_spawner"
+				}
+				{
+					id: "3A0769AA75A7E109"
+					type: "item"
+					item: "naturesaura:birth_spirit"
+				}
+			]
+			rewards: [{
+				id: "3055379C7723F853"
+				type: "item"
+				item: "naturesaura:birth_spirit"
+				count: 3
+			}]
+		}
+	]
+}

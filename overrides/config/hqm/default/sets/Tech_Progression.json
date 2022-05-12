@@ -1,0 +1,2687 @@
+{
+  "name": "Tech Progression",
+  "quests": [
+    {
+      "uuid": "e16e8cc1-533d-42a2-bf1a-f8200135e93d",
+      "name": "Coke Oven",
+      "description": "You will find that making the coal coke with create skips out on the creosote oil needed for treated wood. You will also notice that the mixer will be needed to mix these special bricks together.",
+      "x": 53,
+      "y": 134,
+      "icon": {
+        "id": "immersiveengineering:cokebrick",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveengineering:cokebrick",
+                "Count": 27
+              },
+              "required": 27
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c51c0959-21e8-4cac-a18f-848227323317"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "immersiveengineering:creosote_bucket",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c7d16a2b-e41e-4e98-b41f-bbc3dd506573",
+      "name": "Coke Dust",
+      "description": "You may have noticed an issue getting started in Immersive Engineering, but there are a few things that Create will be able to get you started with. First make some coal coke in the mixer, then crush it with the crushing wheels.",
+      "x": 131,
+      "y": 90,
+      "icon": {
+        "id": "immersiveengineering:dust_coke",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveengineering:coal_coke",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "immersiveengineering:dust_coke",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "57e7a46b-3721-4d93-a52e-f10496b926d9",
+        "12bf88e9-9420-4d3e-ba46-59267b069a6d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "immersiveengineering:dust_coke",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e64a0e9f-5156-484c-b61c-1f2ab55d0822",
+      "name": "Fluid Manipulation",
+      "description": "With some copper piping, you can quite simply transfer some fluids around. The mechanical pump will be a great help here.",
+      "x": 92,
+      "y": 68,
+      "icon": {
+        "id": "create:mechanical_pump",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "create:fluid_pipe",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "create:mechanical_pump",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "create:fluid_tank",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "66aa4631-fc0b-4a80-abae-53e99bc00f4b",
+        "382903af-5e1d-4deb-81fa-c570131c7a6c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:fluid_pipe",
+          "Count": 16
+        },
+        {
+          "id": "create:fluid_tank",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4abd5902-6b4e-4af5-81d4-6754462c112e",
+      "name": "Induction Smelter",
+      "description": "You will need two of these in order to craft your first Mekanism Metallurgic Infuser",
+      "x": 274,
+      "y": 68,
+      "icon": {
+        "id": "thermal:machine_smelter",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "thermal:machine_smelter",
+                "Count": 1
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "36f8c864-806d-4eb2-9efe-1f8264da4792"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "thermal:machine_smelter",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "81a379de-df23-43fc-ac2b-4674032a62d0",
+      "name": "Electric Motor",
+      "description": "The electric motor is very helpful in getting some kinetic power somewhere that might not be the easiest to do with shafts, belts, \u0026 gearboxes. Just plug it into your electrical power and it starts turning!",
+      "x": 66,
+      "y": 112,
+      "icon": {
+        "id": "createaddition:electric_motor",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "createaddition:electric_motor",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3043703b-adba-4cfb-a13d-342bc0489829"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "createaddition:connector",
+          "Count": 2
+        },
+        {
+          "id": "createaddition:copper_spool",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4fe3bb90-20d3-4c76-92ed-04eebce2753e",
+      "name": "Metallurgic Infuser",
+      "description": "The first Mekanism machine you are going to want to make is the metallurgic infuser. This will allow you to make those pesky alloys among other things.",
+      "x": 287,
+      "y": 90,
+      "icon": {
+        "id": "mekanism:metallurgic_infuser",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mekanism:metallurgic_infuser",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1cb8af34-5c10-4e3b-b0b4-8074571d7ae9",
+        "4abd5902-6b4e-4af5-81d4-6754462c112e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mekanism:alloy_infused",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "382903af-5e1d-4deb-81fa-c570131c7a6c",
+      "name": "Mechanical Press",
+      "description": "There are two main ways of using the mechanical press. If you just need it to flatten something, just throw it under, if you need it to pack some things together, you will want a basin to do so in.",
+      "x": 53,
+      "y": 46,
+      "icon": {
+        "id": "create:mechanical_press",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "create:mechanical_press",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "96b1e158-8889-4d6c-b0d0-8db4c2fc0a24"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:depot",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cf30e817-a7de-4af4-b1cb-be2162d6d5bb",
+      "name": "PCB",
+      "description": "The first way you will find to create these is to expose an empty PCB to UV light and drop it in some etching acid. After you have made a few of them an assembly machine will be faster.",
+      "x": 183,
+      "y": 90,
+      "icon": {
+        "id": "pneumaticcraft:printed_circuit_board",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:printed_circuit_board",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "596e594a-2ac7-4e68-899a-a609094a5326",
+        "0a525d04-6183-45e3-882c-053e3be448af"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:printed_circuit_board",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "105e00ff-26b4-4ac9-9f35-bc4071f31556",
+      "name": "Dielectric Paste",
+      "description": "There are a few ways to make this handy paste. You will want quite a bit of it though.",
+      "x": 27,
+      "y": 90,
+      "icon": {
+        "id": "powah:dielectric_paste",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "powah:dielectric_paste",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0979c698-4c24-44ff-b48e-0da6842a5377"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "powah:dielectric_paste",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "50c85a79-b02c-4a1a-9668-0cd6ec0678ae",
+      "name": "Combiner",
+      "description": "Usually overlooked, this handy machine will save you a lot of steel making those steel casings.",
+      "x": 274,
+      "y": 112,
+      "icon": {
+        "id": "mekanism:combiner",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mekanism:combiner",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "4fe3bb90-20d3-4c76-92ed-04eebce2753e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mekanism:steel_casing",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1cb8af34-5c10-4e3b-b0b4-8074571d7ae9",
+      "name": "Steel Casing",
+      "description": "The first steel casing you make will need to be compressed down from a larger version. After you make a few this way, you can use the combiner to get them a bit cheaper.",
+      "x": 261,
+      "y": 90,
+      "icon": {
+        "id": "mekanism:steel_casing",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mekanism:steel_casing",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "f05ba3fc-8890-4700-a519-1773f5e25a9d",
+        "36f8c864-806d-4eb2-9efe-1f8264da4792"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mekanism:block_steel",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7472d93e-41d5-4759-b3fe-50fe83b7ebe1",
+      "name": "Plastic",
+      "description": "The main thing to do with all that latex is to turn it into plastic. You likely want to automate this somehow.",
+      "x": 196,
+      "y": 24,
+      "icon": {
+        "id": "industrialforegoing:plastic",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "industrialforegoing:tinydryrubber",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "industrialforegoing:dryrubber",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "industrialforegoing:plastic",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "8c5e8fbd-3d47-4994-be5d-2f9dc6dc5963"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "industrialforegoing:plastic",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e8458caa-58c2-48ef-86a6-b416824c0ea9",
+      "name": "Shaft",
+      "description": "Shafts will be needed to extend the reach of your kinetic power.",
+      "x": 66,
+      "y": 24,
+      "icon": {
+        "id": "create:shaft",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "create:shaft",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "96b1e158-8889-4d6c-b0d0-8db4c2fc0a24"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:shaft",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "706b2fdc-2690-40ee-9f0e-27f7c9ef27c4",
+      "name": "Advanced Comressors",
+      "description": "These compressors will be able to handle higher pressures.",
+      "x": 196,
+      "y": 112,
+      "icon": {
+        "id": "pneumaticcraft:advanced_air_compressor",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:advanced_air_compressor",
+                "Count": 1
+              },
+              "precision": "TAG_NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:advanced_liquid_compressor",
+                "Count": 1
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "bcb7d0b4-bb05-42f3-9559-5975b125dbc9"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:security_upgrade",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f76ca7ab-fdfe-43e6-a730-f23bb5df1696",
+      "name": "Cinder Flour",
+      "description": "In addition to making a blaze cake, cinder flour can be converted to a few other things as well.",
+      "x": 79,
+      "y": 90,
+      "icon": {
+        "id": "create:cinder_flour",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "create:cinder_flour",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "18268138-3a58-4eef-9021-feffbc040147"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:cinder_flour",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b406eec0-b4dc-4735-a895-4db25cca965f",
+      "name": "Dissolution Chamber",
+      "description": "The dissolution chamber will be vital to progressing through this modpack. It will be able to upgrade your little machine frames into more advanced versions.",
+      "x": 222,
+      "y": 24,
+      "icon": {
+        "id": "industrialforegoing:dissolution_chamber",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "industrialforegoing:dissolution_chamber",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7472d93e-41d5-4759-b3fe-50fe83b7ebe1"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "industrialforegoing:latex_bucket",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "abd330a8-1351-49fe-bc72-ba49a89695e7",
+      "name": "Windmill",
+      "description": "A windmill has a much greater capacity for stress. Mechanisms that can easily overload a water wheel can often be done with a decent enough windmill.",
+      "x": 118,
+      "y": 24,
+      "icon": {
+        "id": "create:windmill_bearing",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "create:windmill_bearing",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "create:white_sail",
+                "Count": 1
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "96b1e158-8889-4d6c-b0d0-8db4c2fc0a24"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:white_sail",
+          "Count": 64
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f05ba3fc-8890-4700-a519-1773f5e25a9d",
+      "name": "Compact Crafting",
+      "description": "These useful projectors will be needed to craft your first steel casing. They can also be used to compress your coal (or charcoal) into diamonds.",
+      "x": 235,
+      "y": 90,
+      "icon": {
+        "id": "compactcrafting:field_projector",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "compactcrafting:field_projector",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:diamond",
+          "Count": 64
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bbcd751b-aedd-4394-a301-d45716f7ff9d",
+      "name": "Treated Wood",
+      "description": "Besides being a beautiful block to build with, treated wood is very useful. You will need to get some of that oil into a mixer since dumping the oil all over some planks in the crafting table was making too much of a mess.",
+      "x": 79,
+      "y": 134,
+      "icon": {
+        "id": "immersiveengineering:treated_wood_horizontal",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveengineering:treated_wood_horizontal",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e16e8cc1-533d-42a2-bf1a-f8200135e93d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "immersiveengineering:treated_wood_horizontal",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "57709170-ffc2-4402-87a5-00af607d5d1f",
+      "name": "Compressed Iron",
+      "description": "Throw some iron ingots into an explosion and the resultant metal will be of some use here.",
+      "x": 183,
+      "y": 46,
+      "icon": {
+        "id": "pneumaticcraft:ingot_iron_compressed",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:ingot_iron_compressed",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:ingot_iron_compressed",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c51c0959-21e8-4cac-a18f-848227323317",
+      "name": "Engineer\u0027s Hammer",
+      "description": "This handy tool will be you friend. It will enable you to form the multiblock structures needed.",
+      "x": 118,
+      "y": 112,
+      "icon": {
+        "id": "immersiveengineering:hammer",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveengineering:hammer",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1ffbe817-b64d-47d2-a4b0-167304219dda"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "emendatusenigmatica:steel_ingot",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "96b1e158-8889-4d6c-b0d0-8db4c2fc0a24",
+      "name": "Andesite Alloy",
+      "description": "In order to do much of anything with Create, you are going to need to get some andesite and make some alloy with it.",
+      "x": 40,
+      "y": 24,
+      "icon": {
+        "id": "create:andesite_alloy",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "create:andesite_alloy",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:andesite_alloy",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "18268138-3a58-4eef-9021-feffbc040147",
+      "name": "Crushing Wheel",
+      "description": "These guys will be able to do all that the little millstone can, plus a bit more. Be careful though, they bite.",
+      "x": 53,
+      "y": 90,
+      "icon": {
+        "id": "create:crushing_wheel",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "create:crushing_wheel",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3043703b-adba-4cfb-a13d-342bc0489829"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "exnihilosequentia:chunk_iron",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "73c8d48f-3f31-4fec-a9e9-98d27d9f1e0a",
+      "name": "Millstone",
+      "description": "You will be able to grind down a few things with the millstone. Throwing some of your ores in will possibly get you some extra stuff.",
+      "x": 66,
+      "y": 68,
+      "icon": {
+        "id": "create:millstone",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "create:millstone",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "96b1e158-8889-4d6c-b0d0-8db4c2fc0a24"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "exnihilosequentia:chunk_iron",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bcb7d0b4-bb05-42f3-9559-5975b125dbc9",
+      "name": "Assembly Machine",
+      "description": "This set of machines will be able to craft some important things for you. If you haven\u0027t yet, you will want to set up an Amadron ordering system for your programs.",
+      "x": 209,
+      "y": 90,
+      "icon": {
+        "id": "pneumaticcraft:assembly_laser",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:assembly_platform",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:assembly_io_unit_import",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:assembly_io_unit_export",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:assembly_drill",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:assembly_laser",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:assembly_controller",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "cf30e817-a7de-4af4-b1cb-be2162d6d5bb"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:security_upgrade",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fd920986-c4ed-43f7-8d6f-1bebb81aa9af",
+      "name": "Spout",
+      "description": "The spout is not just useful for filling buckets and potion bottles, you can create a few yummy treats as well as a handful of other useful things.",
+      "x": 118,
+      "y": 68,
+      "icon": {
+        "id": "create:spout",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "create:spout",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e64a0e9f-5156-484c-b61c-1f2ab55d0822"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:depot",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0be8e4e8-371c-4db9-8988-43076d960083",
+      "name": "Mechanical Saw",
+      "description": "This little saw will be able to make two planks out of the logs you throw at it. It can also be taught to convert stone blocks and it can even cut down trees for you.",
+      "x": 79,
+      "y": 46,
+      "icon": {
+        "id": "create:mechanical_saw",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "create:mechanical_saw",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "382903af-5e1d-4deb-81fa-c570131c7a6c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:oak_log",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a1c791e8-a135-4fb7-98f6-2639bbaabf77",
+      "name": "Black Hole Units",
+      "description": "Black hole units can hold a tremendous amount of items of a single type.",
+      "x": 248,
+      "y": 24,
+      "icon": {
+        "id": "industrialforegoing:common_black_hole_unit",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "industrialforegoing:common_black_hole_unit",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "industrialforegoing:pity_black_hole_unit",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "industrialforegoing:simple_black_hole_unit",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "industrialforegoing:advanced_black_hole_unit",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "industrialforegoing:supreme_black_hole_unit",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7472d93e-41d5-4759-b3fe-50fe83b7ebe1"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "industrialforegoing:supreme_black_hole_unit",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "39bd2eea-f085-4b3c-b9fd-d79d31a159ef",
+      "name": "Arc Furnace",
+      "description": "Make an arc furnace, then convert one of those engineering blocks into a pity machine frame. You are going to need a few later on...",
+      "x": 131,
+      "y": 134,
+      "icon": {
+        "id": "industrialforegoing:machine_frame_pity",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "advancements": [
+            {
+              "name": "Form the Arc Furnace",
+              "icon": {
+                "id": "immersiveengineering:graphite_electrode",
+                "Count": 1,
+                "tag": {
+                  "graphDmg": 0
+                }
+              },
+              "adv_name": "immersiveengineering:main/mb_arcfurnace"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "industrialforegoing:machine_frame_pity",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c323c67b-1238-40b8-8bfa-2568cd5eb5d6"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "industrialforegoing:machine_frame_pity",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c39d3681-1f83-42f8-8967-8016751106c7",
+      "name": "Refinery",
+      "description": "The Refinery is used to process your oil. It will make up to 4 different fluids out of the oil.",
+      "x": 196,
+      "y": 68,
+      "icon": {
+        "id": "pneumaticcraft:refinery_output",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:refinery",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:refinery_output",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3ee34b92-b254-4755-a359-e35fc72334b5"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:oil_bucket",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1aabede2-a22f-49af-8b86-bab18470074e",
+      "name": "Circuits",
+      "description": "The circuits will be needed for many things, not just Mekanism...",
+      "x": 248,
+      "y": 112,
+      "icon": {
+        "id": "mekanism:basic_control_circuit",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mekanism:basic_control_circuit",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mekanism:advanced_control_circuit",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mekanism:elite_control_circuit",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mekanism:ultimate_control_circuit",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0b982b24-e1db-444e-a19f-0eb550b43ee4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mekanism:basic_control_circuit",
+          "Count": 16
+        },
+        {
+          "id": "mekanism:advanced_control_circuit",
+          "Count": 16
+        },
+        {
+          "id": "mekanism:elite_control_circuit",
+          "Count": 16
+        },
+        {
+          "id": "mekanism:ultimate_control_circuit",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c323c67b-1238-40b8-8bfa-2568cd5eb5d6",
+      "name": "Engineer\u0027s Workbench",
+      "description": "There are a few things that can only be made on the workbench. ",
+      "x": 105,
+      "y": 134,
+      "icon": {
+        "id": "immersiveengineering:workbench",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveengineering:workbench",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "bbcd751b-aedd-4394-a301-d45716f7ff9d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "immersiveengineering:blueprint",
+          "Count": 1,
+          "tag": {
+            "blueprint": "components"
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "12bf88e9-9420-4d3e-ba46-59267b069a6d",
+      "name": "Blaze Burner",
+      "description": "As the name suggests, this will need a blaze. You don\u0027t necessarily need to find a living though. You can always grab one from a spawner. Just place this under your mixer\u0027s basin and it will heat it up for you once you feed some combustable item to the poor blaze inside.",
+      "x": 92,
+      "y": 112,
+      "icon": {
+        "id": "create:blaze_burner",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "create:empty_blaze_burner",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "create:blaze_burner",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "382903af-5e1d-4deb-81fa-c570131c7a6c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:blaze_rod",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e051d7c2-3995-4391-be70-e541506fff8d",
+      "name": "Gearbox",
+      "description": "Sometimes you just need that thing to turn the other way, sometimes you need the turning to be pointing that other way... the gearbox can do both of these things.",
+      "x": 105,
+      "y": 46,
+      "icon": {
+        "id": "create:gearbox",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "create:gearbox",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e8458caa-58c2-48ef-86a6-b416824c0ea9",
+        "66aa4631-fc0b-4a80-abae-53e99bc00f4b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:gearbox",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "095afc94-f2d7-4de5-b30d-efc36c4eda39",
+      "name": "Rolling Mill",
+      "description": "The rolling mill will allow you to roll your sheets into wires, and your ingots into rods.",
+      "x": 27,
+      "y": 46,
+      "icon": {
+        "id": "createaddition:rolling_mill",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "createaddition:rolling_mill",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "382903af-5e1d-4deb-81fa-c570131c7a6c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:copper_sheet",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f1405cdf-f37d-4ae8-bf35-6f70f9b55b33",
+      "name": "Energizing Orb",
+      "description": "This small setup is going to be needed not just for upgrading your other powah things, but for a few of the other quest items elsewhere.",
+      "x": 40,
+      "y": 112,
+      "icon": {
+        "id": "powah:energizing_orb",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "powah:energizing_orb",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "powah:energizing_rod_starter",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "105e00ff-26b4-4ac9-9f35-bc4071f31556"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "powah:energizing_rod_starter",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1ffbe817-b64d-47d2-a4b0-167304219dda",
+      "name": "Steel",
+      "description": "The first steel you will be able to get will be from create. In order to do this, you will need to super heat some coke dust with some iron dust. This will make the steel dust for you that you can then smelt into handy ingots.",
+      "x": 144,
+      "y": 112,
+      "icon": {
+        "id": "emendatusenigmatica:steel_dust",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "emendatusenigmatica:steel_dust",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c7d16a2b-e41e-4e98-b41f-bbc3dd506573"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "emendatusenigmatica:steel_dust",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b828b8e5-c128-465d-afdd-82b0b47cede5",
+      "name": "Fusion",
+      "description": "In a way, the opposite of Fission, combining atoms together can also create large amounts of energy. It needs a bit of a boost though...",
+      "x": 235,
+      "y": 134,
+      "icon": {
+        "id": "mekanismgenerators:fusion_reactor_controller",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mekanismgenerators:fusion_reactor_controller",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mekanismgenerators:fusion_reactor_frame",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mekanismgenerators:fusion_reactor_port",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mekanismgenerators:reactor_glass",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mekanismgenerators:laser_focus_matrix",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mekanismgenerators:hohlraum",
+                "Count": 1,
+                "tag": {
+                  "mekData": {
+                    "GasTanks": [
+                      {
+                        "Tank": 0,
+                        "stored": {
+                          "gasName": "mekanismgenerators:fusion_fuel",
+                          "amount": 10
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1aabede2-a22f-49af-8b86-bab18470074e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mekanismgenerators:fusion_fuel_bucket",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3043703b-adba-4cfb-a13d-342bc0489829",
+      "name": "Mechanical Crafter",
+      "description": "Mechanical crafting will allow you to automate shaped recipes as well as a few that won\u0027t fit in your regular crafting grid.",
+      "x": 144,
+      "y": 68,
+      "icon": {
+        "id": "create:mechanical_crafter",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "create:mechanical_crafter",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0979c698-4c24-44ff-b48e-0da6842a5377",
+        "66aa4631-fc0b-4a80-abae-53e99bc00f4b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:mechanical_crafter",
+          "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0979c698-4c24-44ff-b48e-0da6842a5377",
+      "name": "Mechanical Mixer",
+      "description": "In addition to automating shapeless recipes, you will need the mixer with some heat in order to get further in the tech progression.",
+      "x": 40,
+      "y": 68,
+      "icon": {
+        "id": "create:mechanical_mixer",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "create:mechanical_mixer",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "382903af-5e1d-4deb-81fa-c570131c7a6c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:basin",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8c5e8fbd-3d47-4994-be5d-2f9dc6dc5963",
+      "name": "Fluid Extractor",
+      "description": "One of the first things you will need to do is start gathering some latex. To do this, place this Fluid Extractor by a log. Different types of logs can have different amounts of latex in them.",
+      "x": 170,
+      "y": 24,
+      "icon": {
+        "id": "industrialforegoing:fluid_extractor",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "industrialforegoing:fluid_extractor",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "39bd2eea-f085-4b3c-b9fd-d79d31a159ef"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:acacia_log",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c890181c-091c-4c7c-86b5-b0b69a5b91e4",
+      "name": "Black Hole Tanks",
+      "description": "Black hole tanks will be very useful ways to store liquids.",
+      "x": 274,
+      "y": 24,
+      "icon": {
+        "id": "industrialforegoing:common_black_hole_tank",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "industrialforegoing:common_black_hole_tank",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "industrialforegoing:pity_black_hole_tank",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "industrialforegoing:simple_black_hole_tank",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "industrialforegoing:advanced_black_hole_tank",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "industrialforegoing:supreme_black_hole_tank",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7472d93e-41d5-4759-b3fe-50fe83b7ebe1"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "industrialforegoing:supreme_black_hole_tank",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4c65688e-1595-4a43-a93c-6c53df094a0a",
+      "name": "Pink Slime",
+      "description": "In order to get pink slime, you will first need to set up a slaughter factory. Once you have the liquid version, you can solidify it a bit in your dissolution chamber.",
+      "x": 235,
+      "y": 46,
+      "icon": {
+        "id": "industrialforegoing:pink_slime",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "industrialforegoing:pink_slime_bucket",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "industrialforegoing:pink_slime",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7472d93e-41d5-4759-b3fe-50fe83b7ebe1",
+        "b406eec0-b4dc-4735-a895-4db25cca965f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "industrialforegoing:pink_slime",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "95f18fd3-4dde-422f-acd6-5934aa1aa379",
+      "name": "Compressors",
+      "description": "These handy things will be able to produce large amounts of compressed air that you can use for all sorts of fun.",
+      "x": 209,
+      "y": 46,
+      "icon": {
+        "id": "pneumaticcraft:air_compressor",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:air_compressor",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:liquid_compressor",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "57709170-ffc2-4402-87a5-00af607d5d1f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:security_upgrade",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0b982b24-e1db-444e-a19f-0eb550b43ee4",
+      "name": "Alloys",
+      "description": "These alloys will help you make the various machines and even help to upgrade them.",
+      "x": 222,
+      "y": 112,
+      "icon": {
+        "id": "mekanism:alloy_infused",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mekanism:alloy_infused",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mekanism:alloy_reinforced",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mekanism:alloy_atomic",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "4fe3bb90-20d3-4c76-92ed-04eebce2753e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mekanism:alloy_infused",
+          "Count": 16
+        },
+        {
+          "id": "mekanism:alloy_reinforced",
+          "Count": 16
+        },
+        {
+          "id": "mekanism:alloy_atomic",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fd46de3e-c573-4d68-b36c-7739e24ac7a8",
+      "name": "Fission",
+      "description": "Splitting the atom can be done in a relatively straight-forward way. Be careful with the waste, it can cause quite a mess if you let it out.",
+      "x": 261,
+      "y": 134,
+      "icon": {
+        "id": "mekanismgenerators:fission_fuel_assembly",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mekanismgenerators:fission_reactor_casing",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mekanismgenerators:fission_reactor_port",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mekanismgenerators:fission_fuel_assembly",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mekanism:pellet_polonium",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mekanism:pellet_plutonium",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1aabede2-a22f-49af-8b86-bab18470074e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mekanism:pellet_polonium",
+          "Count": 1
+        },
+        {
+          "id": "mekanism:pellet_plutonium",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cd2352a5-2da6-4868-8f2c-3d4170f1840e",
+      "name": "Water Wheel",
+      "description": "One of the easiest ways of generating kinetic energy is with a simple water wheel.",
+      "x": 144,
+      "y": 24,
+      "icon": {
+        "id": "create:water_wheel",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "create:water_wheel",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "96b1e158-8889-4d6c-b0d0-8db4c2fc0a24"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:water_wheel",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "66aa4631-fc0b-4a80-abae-53e99bc00f4b",
+      "name": "Cogwheels",
+      "description": "Cogwheels come in two sizes and are a great way of making things turn. You can also use them to create your very own mechanical advantage.",
+      "x": 92,
+      "y": 24,
+      "icon": {
+        "id": "create:large_cogwheel",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "create:large_cogwheel",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "create:cogwheel",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "96b1e158-8889-4d6c-b0d0-8db4c2fc0a24"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:large_cogwheel",
+          "Count": 2
+        },
+        {
+          "id": "create:cogwheel",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3ee34b92-b254-4755-a359-e35fc72334b5",
+      "name": "Crude Oil",
+      "description": "There are a few ways of getting this fluid. The straight forward way is to just find some in a different dimension and bucket it up. A more sustained way would be to use the fluid laser mining in certain biomes to get some from the void. You could also just order some from the Amadron tablet for easy delivery.",
+      "x": 170,
+      "y": 68,
+      "icon": {
+        "id": "pneumaticcraft:oil_bucket",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:oil_bucket",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:oil_bucket",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "09b71efd-efe9-4abb-aa7f-535e071fa6c7",
+      "name": "Ore Processing",
+      "description": "One of the most famous things Mekanism gives you is up to 5x ore processing. Although, if you first convert your ores into the pure versions from Elementalcraft, you will find a 7.5x rate from the base ore.",
+      "x": 183,
+      "y": 134,
+      "icon": {
+        "id": "minecraft:iron_ore",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "emendatusenigmatica:iron_dust",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mekanism:clump_iron",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mekanism:shard_iron",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mekanism:crystal_iron",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1aabede2-a22f-49af-8b86-bab18470074e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "elementalcraft:pure_ore",
+          "Count": 4,
+          "tag": {
+            "elementalcraft": {
+              "ore": {
+                "id": "emendatusenigmatica:iron_ore",
+                "Count": 1
+              }
+            }
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "20bf5ed1-6f2c-49ec-82bd-8ba73f6a62b9",
+      "name": "Ether Gas",
+      "description": "There is a strange way of gathering this fluid. First, you need to find a wither that isn\u0027t actively trying to kill you, then politely ask it to stand under your fluid miner.",
+      "x": 287,
+      "y": 46,
+      "icon": {
+        "id": "industrialforegoing:ether_gas_bucket",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "industrialforegoing:ether_gas_bucket",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1f7006cd-4a97-40cd-a9b3-351258bc0a0f"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f06bcb53-6a04-4923-ad29-b1b3b2a6c5c9",
+      "name": "Encased Fan",
+      "description": "This handy little fan will be of much use to you. Blowing some hot air from the lava, or fire can act like a furnace for most things. Using it with some water though will be able to get you some extra metal from those ores of yours. You will also find it useful to replace those silly sieves you\u0027ve been shaking.",
+      "x": 131,
+      "y": 46,
+      "icon": {
+        "id": "create:encased_fan",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "create:encased_fan",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "382903af-5e1d-4deb-81fa-c570131c7a6c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:encased_fan",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "48500405-4ca7-4dd5-887e-bbdf69a0934a",
+      "name": "Induction Matrix",
+      "description": "This multiblock structure can store immense amounts of power depending on how big you make it and what internal components you use.",
+      "x": 209,
+      "y": 134,
+      "icon": {
+        "id": "mekanism:induction_port",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mekanism:induction_casing",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mekanism:induction_port",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mekanism:basic_induction_cell",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mekanism:basic_induction_provider",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mekanism:advanced_induction_cell",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mekanism:advanced_induction_provider",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mekanism:elite_induction_cell",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mekanism:elite_induction_provider",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mekanism:ultimate_induction_cell",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mekanism:ultimate_induction_provider",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1aabede2-a22f-49af-8b86-bab18470074e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mekanism:ultimate_induction_cell",
+          "Count": 1
+        },
+        {
+          "id": "mekanism:ultimate_induction_provider",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0a525d04-6183-45e3-882c-053e3be448af",
+      "name": "Etching Acid",
+      "description": "In order to get this useful liquid, you will want to throw some simple mob drops in the pressure chamber with some molten plastic.",
+      "x": 157,
+      "y": 90,
+      "icon": {
+        "id": "pneumaticcraft:etching_acid_bucket",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:etching_acid_bucket",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "96987a1b-3513-4832-bec7-19644cb91ac5",
+        "596e594a-2ac7-4e68-899a-a609094a5326"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:etching_acid_bucket",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "57e7a46b-3721-4d93-a52e-f10496b926d9",
+      "name": "Blaze Cake",
+      "description": "That blaze sitting in your blaze burner only gets so hot when you feed it normal combustables. If you want it to get super hot, feed it one of these cakes...",
+      "x": 105,
+      "y": 90,
+      "icon": {
+        "id": "create:blaze_cake",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "create:blaze_cake_base",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "create:blaze_cake",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "f76ca7ab-fdfe-43e6-a730-f23bb5df1696",
+        "fd920986-c4ed-43f7-8d6f-1bebb81aa9af"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:blaze_cake",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "596e594a-2ac7-4e68-899a-a609094a5326",
+      "name": "Plastic",
+      "description": "There are actually two different methods to creating molten plastic each with differing environmental impacts. The classic way of refining your LPG with some coal, or a more sustainable method of converting bio-diesel with some charcoal. In order to get the sheet of plastic, you will want to dump a bucket on the ground.",
+      "x": 222,
+      "y": 68,
+      "icon": {
+        "id": "pneumaticcraft:plastic",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:plastic_bucket",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:plastic",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c39d3681-1f83-42f8-8967-8016751106c7"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:plastic",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1f7006cd-4a97-40cd-a9b3-351258bc0a0f",
+      "name": "Laser Mining",
+      "description": "There are two types of laser mining you can do with Industrial Foregoing. You can mine ores and fluids.",
+      "x": 261,
+      "y": 46,
+      "icon": {
+        "id": "industrialforegoing:laser_drill",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "industrialforegoing:laser_drill",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "industrialforegoing:ore_laser_base",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "industrialforegoing:fluid_laser_base",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "4c65688e-1595-4a43-a93c-6c53df094a0a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "industrialforegoing:laser_drill",
+          "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b813f6d4-3b67-48ea-8618-83de3f2e6555",
+      "name": "Drones",
+      "description": "These useful things can be quite fun to set up.",
+      "x": 170,
+      "y": 112,
+      "icon": {
+        "id": "pneumaticcraft:drone",
+        "Count": 1,
+        "tag": {
+          "pneumaticcraft:air": 120000
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:drone",
+                "Count": 1
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "cf30e817-a7de-4af4-b1cb-be2162d6d5bb"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:programmer",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "36f8c864-806d-4eb2-9efe-1f8264da4792",
+      "name": "Machine Frame",
+      "description": "These blocks are a bit trickier than usual to make, and you will need to set up the assembly machine from PneumaticCraft to make them.",
+      "x": 248,
+      "y": 68,
+      "icon": {
+        "id": "thermal:machine_frame",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "thermal:machine_frame",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "bcb7d0b4-bb05-42f3-9559-5975b125dbc9"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "thermal:machine_frame",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "95b1e8c0-a999-4328-9419-85d7d928e15c",
+      "name": "Alternator",
+      "description": "Kinetic power is great and all, but converting it into electricity can be helpful in many ways.",
+      "x": 27,
+      "y": 134,
+      "icon": {
+        "id": "createaddition:alternator",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "createaddition:alternator",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3043703b-adba-4cfb-a13d-342bc0489829"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "createaddition:multimeter",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "854908f0-dcfa-405c-894c-b623d7194c95",
+      "name": "Anti-Matter",
+      "description": "Inherently the opposite of regular matter, you will want to make a decent handful of these...",
+      "x": 287,
+      "y": 134,
+      "icon": {
+        "id": "mekanism:pellet_antimatter",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mekanism:pellet_antimatter",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "fd46de3e-c573-4d68-b36c-7739e24ac7a8"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mekanism:pellet_antimatter",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "96987a1b-3513-4832-bec7-19644cb91ac5",
+      "name": "Pressure Chamber",
+      "description": "The pressure chamber is vital to making lots of things. You will want to set up an easy way to work with it.",
+      "x": 157,
+      "y": 46,
+      "icon": {
+        "id": "pneumaticcraft:pressure_chamber_wall",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:pressure_chamber_wall",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:pressure_chamber_valve",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:pressure_chamber_interface",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:pressure_chamber_glass",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "57709170-ffc2-4402-87a5-00af607d5d1f",
+        "39bd2eea-f085-4b3c-b9fd-d79d31a159ef"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:security_upgrade",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "The tech mod progression starts out with the basic machines and progresses down to much more capable and powerful machines."
+}

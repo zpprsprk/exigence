@@ -1,0 +1,499 @@
+{
+	id: "4BBEC499B9C5D9BF"
+	group: "282722A75DF81181"
+	order_index: 0
+	filename: "botania"
+	title: "Botania"
+	icon: "botania:runic_altar"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: -2.5d
+			description: ["In order to start into some of the early botania, you will need to weather some limestone and stonecut it into the cobble version."]
+			dependencies: [
+				"7E5EC68C27B84A70"
+				"65E9881A383430F0"
+				"1848F19B66EF84F9"
+			]
+			dependency_requirement: "one_completed"
+			id: "546BD55BF4E07AA7"
+			tasks: [{
+				id: "662DFA6B93A64F98"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+			rewards: [{
+				id: "58D99AF1D5B9F528"
+				type: "item"
+				item: "botania:fertilizer"
+				count: 32
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			description: ["A pure daisy is the first flower you are going to want."]
+			dependencies: ["546BD55BF4E07AA7"]
+			id: "14891689E1BEE5B3"
+			tasks: [{
+				id: "0041214819F83E32"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+			rewards: [{
+				id: "0C01FF625B78BE96"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+		}
+		{
+			title: "Living Stuff"
+			x: -0.5d
+			y: 0.5d
+			description: ["Livingrock and Livingwood are some of the basic crafting ingredients needed. In this pack you will need specific stones and logs in order to create them..."]
+			dependencies: ["14891689E1BEE5B3"]
+			id: "47D1C43E18E13C81"
+			tasks: [
+				{
+					id: "3EE445F7FD35DFC3"
+					type: "item"
+					item: "botania:livingrock"
+				}
+				{
+					id: "7EFD7E40EDD92FE8"
+					type: "item"
+					item: "botania:livingwood"
+				}
+			]
+			rewards: [
+				{
+					id: "2A942BEA295971CC"
+					type: "item"
+					item: "botania:livingrock"
+					count: 16
+				}
+				{
+					id: "564AC92DED217CE9"
+					type: "item"
+					item: "botania:livingwood"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "Mana Manipulation"
+			x: -0.5d
+			y: 2.0d
+			description: ["The easiest way of moving and storing mana will be with a mana spreader and mana pool."]
+			dependencies: ["47D1C43E18E13C81"]
+			id: "54A43ACA43002788"
+			tasks: [
+				{
+					id: "12B2556438B748F3"
+					type: "item"
+					item: "botania:mana_pool"
+				}
+				{
+					id: "3C8CB07DAE8DC3BE"
+					type: "item"
+					item: "botania:mana_spreader"
+				}
+			]
+			rewards: [{
+				id: "69B5E06C5E0AA5B5"
+				type: "item"
+				item: "botania:black_lotus"
+				count: 16
+			}]
+		}
+		{
+			title: "Mana Generation"
+			x: 0.5d
+			y: 0.5d
+			description: ["A simple and common way of generating mana is to set up a dropper with some redstone and use it to drop coal for some Endoflames to use."]
+			dependencies: ["14891689E1BEE5B3"]
+			id: "0911E043B976A2DD"
+			tasks: [{
+				id: "39AFC6974DE29DC9"
+				type: "item"
+				item: "botania:endoflame"
+			}]
+			rewards: [{
+				id: "30E905DED434EC44"
+				type: "item"
+				item: "botania:endoflame"
+				count: 7
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			description: ["The runic altar is a basic crafting tool. One of the first things you will want to craft are some runes."]
+			dependencies: ["54A43ACA43002788"]
+			id: "20DCC32730CE4F16"
+			tasks: [{
+				id: "71C85EBFA81D2762"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+			rewards: [{
+				id: "4711E918473E874E"
+				type: "item"
+				item: "botania:blacker_lotus"
+				count: 8
+			}]
+		}
+		{
+			title: "Elemental Runes"
+			x: -2.0d
+			y: 5.0d
+			description: ["The first level of runes is the elemental ones."]
+			dependencies: ["20DCC32730CE4F16"]
+			id: "4E022AC62AE2B840"
+			tasks: [
+				{
+					id: "186CC37C781B147A"
+					type: "item"
+					item: "botania:rune_water"
+				}
+				{
+					id: "2B7FD8894AFB3CE3"
+					type: "item"
+					item: "botania:rune_fire"
+				}
+				{
+					id: "0B9001B8F2DA7AF8"
+					type: "item"
+					item: "botania:rune_earth"
+				}
+				{
+					id: "2E6A9BEBA65F166A"
+					type: "item"
+					item: "botania:rune_air"
+				}
+				{
+					id: "699D7D0E3A18685D"
+					type: "item"
+					item: "botania:rune_mana"
+				}
+			]
+			rewards: [{
+				id: "654E41A0E0D0735B"
+				type: "item"
+				item: "botania:blacker_lotus"
+				count: 8
+			}]
+		}
+		{
+			title: "Season Runes"
+			x: -1.0d
+			y: 5.0d
+			description: ["The season runes are the second level of runes."]
+			dependencies: [
+				"4E022AC62AE2B840"
+				"20DCC32730CE4F16"
+			]
+			id: "2D5B5C5BCA05C848"
+			tasks: [
+				{
+					id: "7FA725AE38E8C53B"
+					type: "item"
+					item: "botania:rune_spring"
+				}
+				{
+					id: "1BB26AB84CD4E95A"
+					type: "item"
+					item: "botania:rune_summer"
+				}
+				{
+					id: "1EB9F3AFF3F5C479"
+					type: "item"
+					item: "botania:rune_autumn"
+				}
+				{
+					id: "2DEF5D2BF4A32445"
+					type: "item"
+					item: "botania:rune_winter"
+				}
+			]
+			rewards: [{
+				id: "0C206280E51F9F32"
+				type: "item"
+				item: "botania:blacker_lotus"
+				count: 8
+			}]
+		}
+		{
+			title: "Sin Runes"
+			x: 0.0d
+			y: 5.0d
+			description: ["The Sin Runes are the third level of runes."]
+			dependencies: [
+				"20DCC32730CE4F16"
+				"2D5B5C5BCA05C848"
+			]
+			id: "14A5781182401827"
+			tasks: [
+				{
+					id: "7F9CB23475AB5EC8"
+					type: "item"
+					item: "botania:rune_lust"
+				}
+				{
+					id: "261CE4C4862B8831"
+					type: "item"
+					item: "botania:rune_gluttony"
+				}
+				{
+					id: "20A54E558C6A76CD"
+					type: "item"
+					item: "botania:rune_greed"
+				}
+				{
+					id: "3E9EA9719AE8B873"
+					type: "item"
+					item: "botania:rune_sloth"
+				}
+				{
+					id: "6EFAD6501D8D9D26"
+					type: "item"
+					item: "botania:rune_wrath"
+				}
+				{
+					id: "1E801AEDB7909997"
+					type: "item"
+					item: "botania:rune_envy"
+				}
+				{
+					id: "38C960E3780145E0"
+					type: "item"
+					item: "botania:rune_pride"
+				}
+			]
+			rewards: [{
+				id: "70B30FC65B393B50"
+				type: "item"
+				item: "botania:blacker_lotus"
+				count: 8
+			}]
+		}
+		{
+			title: "World Runes"
+			x: 1.0d
+			y: 5.0d
+			description: ["The nine world runes make up the fourth level of runes."]
+			dependencies: [
+				"20DCC32730CE4F16"
+				"14A5781182401827"
+			]
+			id: "0CC017DAC1AB34C3"
+			tasks: [
+				{
+					id: "3A418F6B02AB2A10"
+					type: "item"
+					item: "mythicbotany:asgard_rune"
+				}
+				{
+					id: "4EA9D8B95E828C80"
+					type: "item"
+					item: "mythicbotany:vanaheim_rune"
+				}
+				{
+					id: "23EC827068D5EE14"
+					type: "item"
+					item: "mythicbotany:alfheim_rune"
+				}
+				{
+					id: "18DC65D171527804"
+					type: "item"
+					item: "mythicbotany:midgard_rune"
+				}
+				{
+					id: "304665CA1E950FA5"
+					type: "item"
+					item: "mythicbotany:joetunheim_rune"
+				}
+				{
+					id: "6E531C9EFA5F0BF1"
+					type: "item"
+					item: "mythicbotany:muspelheim_rune"
+				}
+				{
+					id: "587BD81A41D1F596"
+					type: "item"
+					item: "mythicbotany:niflheim_rune"
+				}
+				{
+					id: "7F5E4F28C1917B2F"
+					type: "item"
+					item: "mythicbotany:nidavellir_rune"
+				}
+				{
+					id: "4A9F9DC245081053"
+					type: "item"
+					item: "mythicbotany:helheim_rune"
+				}
+			]
+			rewards: [{
+				id: "6A7A00E2D64AACB9"
+				type: "item"
+				item: "botania:blacker_lotus"
+				count: 8
+			}]
+		}
+		{
+			title: "Terrasteel"
+			x: -1.0d
+			y: 6.5d
+			description: ["Terrasteel is made by combining manasteel, a mana pearl, and a mana diamond together on the terrestrial agglomeration plate."]
+			dependencies: ["4E022AC62AE2B840"]
+			id: "69DBA82DF4E6A20E"
+			tasks: [
+				{
+					id: "551F6B5A4DE0D186"
+					type: "item"
+					item: "botania:terra_plate"
+				}
+				{
+					id: "0AEA98699A816017"
+					type: "item"
+					item: "botania:terrasteel_ingot"
+				}
+			]
+			rewards: [{
+				id: "254B57416C4EFAF9"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+				count: 8
+			}]
+		}
+		{
+			title: "Portal to the Alfheim"
+			x: -1.0d
+			y: 8.0d
+			description: ["This portal will allow you to trade materials with those living on the other side. The Lexica Botania can explain how to set it up."]
+			dependencies: ["69DBA82DF4E6A20E"]
+			id: "3ADCB73512B38888"
+			tasks: [
+				{
+					id: "73BF7E090C004776"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "684DD13FE555B7F7"
+					type: "item"
+					item: "botania:glimmering_livingwood"
+					count: 3L
+				}
+				{
+					id: "053A0A061EE80AEC"
+					type: "item"
+					item: "botania:natura_pylon"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "32165B3B358569F2"
+				type: "item"
+				item: "botania:blacker_lotus"
+				count: 16
+			}]
+		}
+		{
+			title: "Alfsteel"
+			x: 0.0d
+			y: 9.5d
+			description: ["After trading a few things with through the portal, you will want to make some Alfsteel. The process is similar to terrasteel, but with the traded versions."]
+			dependencies: [
+				"3ADCB73512B38888"
+				"0CC017DAC1AB34C3"
+			]
+			id: "6B22B3A8C90ED29D"
+			tasks: [
+				{
+					id: "38B8F67652318F66"
+					type: "item"
+					item: "mythicbotany:mana_infuser"
+				}
+				{
+					id: "3C8A7C04B45710FE"
+					type: "item"
+					item: "mythicbotany:alfsteel_ingot"
+				}
+			]
+			rewards: [
+				{
+					id: "1F88C8FA331FE208"
+					type: "item"
+					item: "botania:blacker_lotus"
+					count: 32
+				}
+				{
+					id: "125271C24D6C5147"
+					type: "item"
+					item: "mythicbotany:alfsteel_ingot"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Botanical Machinery"
+			x: -1.0d
+			y: 9.5d
+			description: ["These handy machines will greatly simplify automation of the botania crafts."]
+			dependencies: ["3ADCB73512B38888"]
+			id: "6FAC011A0A01E016"
+			tasks: [
+				{
+					id: "72CE92F66410C766"
+					type: "item"
+					item: "botanicalmachinery:mechanical_apothecary"
+				}
+				{
+					id: "15E79A6E9D68668F"
+					type: "item"
+					item: "botanicalmachinery:mechanical_mana_pool"
+				}
+				{
+					id: "1C79DE81B6639721"
+					type: "item"
+					item: "botanicalmachinery:mechanical_daisy"
+				}
+				{
+					id: "006468FD27702054"
+					type: "item"
+					item: "botanicalmachinery:mechanical_runic_altar"
+				}
+				{
+					id: "027F760989332782"
+					type: "item"
+					item: "botanicalmachinery:mechanical_brewery"
+				}
+				{
+					id: "5619B08CCA4B46E5"
+					type: "item"
+					item: "botanicalmachinery:industrial_agglomeration_factory"
+				}
+				{
+					id: "020179D18587F84B"
+					type: "item"
+					item: "botanicalmachinery:alfheim_market"
+				}
+				{
+					id: "3AB5EA4E09B03457"
+					type: "item"
+					item: "botanicalmachinery:mana_battery"
+				}
+			]
+			rewards: [{
+				id: "580ABB3EC37E2E2B"
+				type: "item"
+				item: "botania:blacker_lotus"
+				count: 32
+			}]
+		}
+	]
+}

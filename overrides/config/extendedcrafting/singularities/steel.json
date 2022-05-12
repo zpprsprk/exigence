@@ -2,7 +2,7 @@
   "name": "singularity.extendedcrafting.steel",
   "colors": [
     "565656",
-    "232323"
+    "565656"
   ],
   "ingredient": {
     "tag": "forge:ingots/steel"

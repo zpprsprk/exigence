@@ -1,0 +1,510 @@
+{
+	id: "3526F3FEAB7076D7"
+	group: "21B54E50F117987D"
+	order_index: 0
+	filename: "create"
+	title: "Create"
+	icon: "create:andesite_alloy"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: -6.5d
+			description: ["In order to do much of anything with Create, you are going to need to get some andesite and make some alloy with it."]
+			dependencies: ["1C7988F709CFCD54"]
+			id: "40833F8015286CA2"
+			tasks: [{
+				id: "7B5B864B426E8A6A"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+			rewards: [{
+				id: "78BBD380912A4CA2"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 16
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.0d
+			description: ["Shafts will be needed to extend the reach of your kinetic power."]
+			dependencies: ["40833F8015286CA2"]
+			id: "6A787C6F6DAF8486"
+			tasks: [{
+				id: "6CD7A420F1649FF6"
+				type: "item"
+				item: "create:shaft"
+			}]
+			rewards: [{
+				id: "7521F546596EA365"
+				type: "item"
+				item: "create:shaft"
+				count: 8
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			description: ["Cogwheels come in two sizes and are a great way of making things turn. You can also use them to create your very own mechanical advantage."]
+			dependencies: ["40833F8015286CA2"]
+			id: "4E0CB8B8F551AD8F"
+			tasks: [
+				{
+					id: "2DDFE6A4DC986EF6"
+					type: "item"
+					item: "create:cogwheel"
+				}
+				{
+					id: "117AACAF98775502"
+					type: "item"
+					item: "create:large_cogwheel"
+				}
+			]
+			rewards: [
+				{
+					id: "409E4C57CDEF2907"
+					type: "item"
+					item: "create:cogwheel"
+					count: 8
+				}
+				{
+					id: "7D1284376F9D87A4"
+					type: "item"
+					item: "create:large_cogwheel"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			description: ["There are two main ways of using the mechanical press. If you just need it to flatten something, just throw it under, if you need it to pack some things together, you will want a basin to do so in."]
+			dependencies: ["4E0CB8B8F551AD8F"]
+			id: "74004EFD9EEC8B42"
+			tasks: [{
+				id: "123BD79029310066"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+			rewards: [{
+				id: "5CE6E1D3C202C5B4"
+				type: "item"
+				item: "create:depot"
+			}]
+		}
+		{
+			icon: "create:windmill_bearing"
+			x: -4.0d
+			y: -3.5d
+			description: ["A windmill has a great capacity for stress. Mechanisms that can easily overload a water wheel can often be done with a decent enough windmill."]
+			dependencies: ["6A787C6F6DAF8486"]
+			id: "060AE5AB2533F042"
+			tasks: [
+				{
+					id: "1EE9352C8A3B96C7"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+				{
+					id: "66056520E566B8D4"
+					type: "item"
+					item: "create:white_sail"
+				}
+			]
+			rewards: [{
+				id: "1F1057F16B4DC1A7"
+				type: "item"
+				item: "create:white_sail"
+				count: 64
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.5d
+			description: ["One of the easiest ways of generating kinetic energy is with a simple water wheel."]
+			dependencies: ["4E0CB8B8F551AD8F"]
+			id: "64D0FB9E4CC3463E"
+			tasks: [{
+				id: "47B74047F43927CA"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+			rewards: [{
+				id: "07D2FDF7C8B6DFAC"
+				type: "item"
+				item: "create:water_wheel"
+				count: 4
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.0d
+			description: ["The rolling mill will allow you to roll your sheets into wires, and your ingots into rods."]
+			dependencies: ["74004EFD9EEC8B42"]
+			id: "28D34C01093EA0EE"
+			tasks: [{
+				id: "15A4A4E704E76DAE"
+				type: "item"
+				item: "createaddition:rolling_mill"
+			}]
+			rewards: [{
+				id: "5D1C0685844907BA"
+				type: "item"
+				item: "emendatusenigmatica:copper_plate"
+				count: 8
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			description: ["In addition to automating shapeless recipes, you will need the mixer with some heat in order to get further in the tech progression."]
+			dependencies: ["74004EFD9EEC8B42"]
+			id: "0FBCF8494A5CDBE4"
+			tasks: [{
+				id: "122EE98B2BBC2D6B"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+			rewards: [{
+				id: "7DBF71C7B1524F74"
+				type: "item"
+				item: "create:basin"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			description: ["This little saw will be able to make two planks out of the logs you throw at it. It can also be taught to convert stone blocks and it can even cut down trees for you. Depends on which direction the blade is facing..."]
+			dependencies: ["74004EFD9EEC8B42"]
+			id: "5682C229B9BD8AE8"
+			tasks: [{
+				id: "53D07E8C897968DF"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+			rewards: [{
+				id: "15C0C0A23040B785"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 16
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			description: ["This handy little fan will be of much use to you. Blowing some hot air from the lava, or fire can act like a furnace for most things. Using it with some water though will be able to get you some extra metal from those ores of yours. You will also find it useful to replace those silly sieves you've been shaking."]
+			dependencies: ["74004EFD9EEC8B42"]
+			id: "1848F19B66EF84F9"
+			tasks: [{
+				id: "325E4BB9852DF140"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+			rewards: [{
+				id: "4931397F58876C66"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			description: ["You will be able to grind down a few things with the millstone. Throwing some of your ores in will possibly get you some extra stuff."]
+			dependencies: ["4E0CB8B8F551AD8F"]
+			id: "283F1FF827A5FDFC"
+			tasks: [{
+				id: "34B4EA2171096C94"
+				type: "item"
+				item: "create:millstone"
+			}]
+			rewards: [{
+				id: "5545518FAD421426"
+				type: "item"
+				item: "exnihilosequentia:chunk_iron"
+				count: 4
+			}]
+		}
+		{
+			icon: "create:mechanical_pump"
+			x: -0.5d
+			y: -2.0d
+			description: ["With some copper piping, you can quite simply transfer some fluids around. The mechanical pump will be a great help here."]
+			dependencies: ["74004EFD9EEC8B42"]
+			id: "57342E58E54A0CC2"
+			tasks: [
+				{
+					id: "4BBD40B87E53DBA2"
+					type: "item"
+					item: "create:mechanical_pump"
+				}
+				{
+					id: "70A3C62CA734C1FF"
+					type: "item"
+					item: "create:fluid_pipe"
+				}
+				{
+					id: "0AC2C1C31A9B11A2"
+					type: "item"
+					item: "create:fluid_tank"
+				}
+			]
+			rewards: [
+				{
+					id: "440AA458490210D1"
+					type: "item"
+					item: "create:fluid_pipe"
+					count: 16
+				}
+				{
+					id: "243495B044C3DE34"
+					type: "item"
+					item: "create:fluid_tank"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			description: ["The spout is not just useful for filling buckets and potion bottles, you can create a few yummy treats as well as a handful of other useful things."]
+			dependencies: ["57342E58E54A0CC2"]
+			id: "1DB516ACEFDA641F"
+			tasks: [{
+				id: "596BF96F06060BBE"
+				type: "item"
+				item: "create:spout"
+			}]
+			rewards: [{
+				id: "7BC4D2497FDBA752"
+				type: "item"
+				item: "create:depot"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			description: ["Mechanical crafting will allow you to automate shaped recipes as well as a few that won't fit in your regular crafting grid."]
+			dependencies: ["587ED567E0A5C68A"]
+			id: "07DDB9929AF234DA"
+			tasks: [{
+				id: "2DFB5A53E0240095"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+			rewards: [{
+				id: "799142295307D1B8"
+				type: "item"
+				item: "create:mechanical_crafter"
+				count: 3
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			description: ["As the name suggests, this will need a blaze. You can either grab one from a spawner, or capture a live one. Just place this under your mixer's basin and it will heat it up for you once you feed some combustable item to the poor blaze inside."]
+			dependencies: ["74004EFD9EEC8B42"]
+			id: "3352A8F5541BDFFD"
+			tasks: [{
+				id: "596ABDCCE55E95B9"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+			rewards: [{
+				id: "799ADBC3C41097A5"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				count: 8
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			description: ["Sometimes you just need that thing to turn the other way, sometimes you need the turning to be pointing that other way... the gearbox can do both of these things."]
+			dependencies: ["4E0CB8B8F551AD8F"]
+			id: "48D3B1AC49EAAA70"
+			tasks: [{
+				id: "2ACAB1F9670EB432"
+				type: "item"
+				item: "create:gearbox"
+			}]
+			rewards: [{
+				id: "3CB76ECF7CAD6D3A"
+				type: "item"
+				item: "create:gearbox"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			description: ["These guys will be able to do all that the little millstone can, plus a bit more. Be careful though, they bite."]
+			dependencies: ["07DDB9929AF234DA"]
+			id: "0CFBA43D9B8EC874"
+			tasks: [{
+				id: "1A812C257D2A321B"
+				type: "item"
+				item: "create:crushing_wheel"
+			}]
+			rewards: [{
+				id: "063D4E70B6436B40"
+				type: "item"
+				item: "exnihilosequentia:chunk_iron"
+				count: 16
+			}]
+		}
+		{
+			x: -2.5d
+			y: -0.5d
+			dependencies: [
+				"3352A8F5541BDFFD"
+				"0FBCF8494A5CDBE4"
+			]
+			id: "587ED567E0A5C68A"
+			tasks: [{
+				id: "61807A05F51B722B"
+				type: "item"
+				item: "emendatusenigmatica:brass_ingot"
+			}]
+			rewards: [{
+				id: "5269BD140A2831DA"
+				type: "item"
+				item: "emendatusenigmatica:brass_ingot"
+				count: 8
+			}]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			description: ["You may have noticed an issue getting started in Immersive Engineering, but there are a few things that Create will be able to get you started with. First make some coal coke in the mixer, then crush it with the crushing wheels."]
+			dependencies: ["3352A8F5541BDFFD"]
+			id: "79FC4E3736FAFF6B"
+			tasks: [{
+				id: "46866AD2E31213D1"
+				type: "item"
+				item: "immersiveengineering:coal_coke"
+			}]
+			rewards: [{
+				id: "570A8953C4C0D835"
+				type: "item"
+				item: "immersiveengineering:coal_coke"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.5d
+			description: ["Crushing the Coal Coke will allow it to be mixed with the iron a bit better."]
+			dependencies: [
+				"79FC4E3736FAFF6B"
+				"0CFBA43D9B8EC874"
+			]
+			id: "217393E0AB7B7B98"
+			tasks: [{
+				id: "4307218207037834"
+				type: "item"
+				item: "immersiveengineering:dust_coke"
+			}]
+			rewards: [{
+				id: "7D5ABCE1C80C6095"
+				type: "item"
+				item: "immersiveengineering:dust_coke"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.5d
+			description: ["The first steel you will be able to get will be from create. In order to do this, you will need to super heat some coke dust with some iron dust. This will make the steel dust for you that you can then smelt into handy ingots."]
+			dependencies: [
+				"217393E0AB7B7B98"
+				"2CDA8B9D2DB514EB"
+			]
+			id: "050C422805A2BBC8"
+			tasks: [{
+				id: "6C4C2190E849EDEF"
+				type: "item"
+				item: "emendatusenigmatica:steel_dust"
+			}]
+			rewards: [{
+				id: "2E5C84B6D4B120E1"
+				type: "item"
+				item: "emendatusenigmatica:steel_dust"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			description: ["That blaze sitting in your blaze burner only gets so hot when you feed it normal combustables. If you want it to get super hot, feed it one of these cakes..."]
+			dependencies: [
+				"7613CB60F8E34CA6"
+				"1DB516ACEFDA641F"
+			]
+			id: "2CDA8B9D2DB514EB"
+			tasks: [{
+				id: "7EEAC24E19A64F3F"
+				type: "item"
+				item: "create:blaze_cake"
+			}]
+			rewards: [{
+				id: "367E15DF8A9CFAE4"
+				type: "item"
+				item: "create:blaze_cake"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			description: ["In addition to making a blaze cake, cinder flour can be converted to a few other things as well."]
+			dependencies: ["0CFBA43D9B8EC874"]
+			id: "7613CB60F8E34CA6"
+			tasks: [{
+				id: "46EFB1F9611B8CE8"
+				type: "item"
+				item: "create:cinder_flour"
+			}]
+			rewards: [{
+				id: "0D5650F2DA358EEE"
+				type: "item"
+				item: "create:cinder_flour"
+				count: 8
+			}]
+		}
+		{
+			title: "Electric Power"
+			x: -2.5d
+			y: 1.0d
+			description: ["Kinetic power is great and all, but converting it into electricity can be helpful in many ways."]
+			dependencies: ["07DDB9929AF234DA"]
+			id: "64F6254D51B95A9E"
+			tasks: [
+				{
+					id: "3C9C53A6E08939CB"
+					type: "item"
+					item: "createaddition:alternator"
+				}
+				{
+					id: "158A940850C0DEA9"
+					type: "item"
+					item: "createaddition:electric_motor"
+				}
+			]
+			rewards: [
+				{
+					id: "0192BA36281584D4"
+					type: "item"
+					item: "createaddition:multimeter"
+				}
+				{
+					id: "02427D42789E377B"
+					type: "item"
+					item: "createaddition:connector"
+					count: 2
+				}
+				{
+					id: "2E8BFD2B7438AA29"
+					type: "item"
+					item: "createaddition:copper_spool"
+				}
+			]
+		}
+	]
+}
