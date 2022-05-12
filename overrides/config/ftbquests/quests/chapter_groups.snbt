@@ -1,8 +1,0 @@
-{
-	chapter_groups: [
-		{ id: "64DC45842012534D", title: "Resources" }
-		{ id: "21B54E50F117987D", title: "Tech Progression" }
-		{ id: "282722A75DF81181", title: "Magic Progression" }
-		{ id: "75CEB147A281FB5C", title: "Storage, Transport, \\& Creative" }
-	]
-}

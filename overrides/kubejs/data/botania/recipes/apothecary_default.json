@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SPS",
+    " C ",
+    "CCC"
+  ],
+  "key": {
+    "P": {
+      "tag": "botania:petals"
+    },
+    "S": {
+      "item": "minecraft:cobbled_deepslate_slab"
+    },
+    "C": {
+      "item": "minecraft:cobbled_deepslate"
+    }
+  },
+  "result": {
+    "item": "botania:apothecary_default"
+  }
+}

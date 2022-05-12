@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "mysticalagriculture:gold_essence",
+    "mysticalagriculture:lapis_lazuli_essence",
+    "mysticalagriculture:end_essence",
+    "mysticalagriculture:experience_essence",
+    "mysticalagriculture:blaze_essence",
+    "mysticalagriculture:ghast_essence",
+    "mysticalagriculture:enderman_essence",
+    "mysticalagriculture:steel_essence",
+    "mysticalagriculture:nickel_essence",
+    "mysticalagriculture:constantan_essence",
+    "mysticalagriculture:electrum_essence",
+    "mysticalagriculture:invar_essence",
+    "mysticalagriculture:mithril_essence",
+    "mysticalagriculture:tungsten_essence",
+    "mysticalagriculture:titanium_essence",
+    "mysticalagriculture:uranium_essence",
+    "mysticalagriculture:chrome_essence",
+    "mysticalagriculture:ruby_essence",
+    "mysticalagriculture:sapphire_essence",
+    "mysticalagriculture:hop_graphite_essence",
+    "mysticalagriculture:cobalt_essence",
+    "mysticalagriculture:rose_gold_essence",
+    "mysticalagriculture:elementium_essence",
+    "mysticalagriculture:fluix_essence"
+  ]
+}

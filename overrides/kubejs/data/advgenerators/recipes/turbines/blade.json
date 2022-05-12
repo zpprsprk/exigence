@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AI",
+    "AI",
+    " I"
+  ],
+  "key": {
+    "A": {
+      "item": "indreb:advanced_alloy"
+    },
+    "I": {
+      "tag": "forge:rods/iron"
+    }
+  },
+  "result": {
+    "item": "advgenerators:turbine_blade",
+    "count": 4
+  }
+}

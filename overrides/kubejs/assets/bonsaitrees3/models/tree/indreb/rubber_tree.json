@@ -1,0 +1,68 @@
+{
+  "type": "bonsaitrees3:sapling/indreb/rubber_tree",
+  "version": 3,
+  "ref": {
+    "a": {"block":"indreb:rubber_leaves","properties":{"distance":"4","persistent":"false"}},
+    "b": {"block":"indreb:rubber_log","properties":{"axis":"y","dry":"false","wet":"false"}},
+    "c": {"block":"indreb:rubber_leaves","properties":{"distance":"3","persistent":"false"}},
+    "d": {"block":"indreb:rubber_leaves","properties":{"distance":"1","persistent":"false"}},
+    "e": {"block":"indreb:rubber_leaves","properties":{"distance":"2","persistent":"false"}}
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "aceca",
+      "acec ",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      "  e  ",
+      " ede ",
+      "cedec",
+      "cedec",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "  c  ",
+      "  e  ",
+      " ede ",
+      " dbd ",
+      "edbde",
+      "edbde",
+      "  b  ",
+      "  b  ",
+      "  b  "
+    ],
+    [
+      "     ",
+      "     ",
+      "  e  ",
+      "  d  ",
+      "cedec",
+      "cedec",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "aceca",
+      " cec ",
+      "     ",
+      "     ",
+      "     "
+    ]
+  ]
+}

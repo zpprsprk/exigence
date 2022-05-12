@@ -1,0 +1,25 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "extendedcrafting:luminessence",
+    "count": 1
+  },
+  "mana": 5200,
+  "ingredients": [
+    {
+      "item": "minecraft:soul_lantern"
+    },
+    {
+      "item": "minecraft:lantern"
+    },
+    {
+      "item": "quark:blaze_lantern"
+    },
+	{
+      "item": "immersiveengineering:hammer"
+    },
+    {
+      "tag": "forge:storage_blocks/glowstone"
+    }
+  ]
+}

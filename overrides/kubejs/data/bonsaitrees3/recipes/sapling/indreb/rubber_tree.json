@@ -1,0 +1,54 @@
+{
+	"type": "bonsaitrees3:sapling",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "indreb"
+		}
+	],
+	"sapling": {
+		"item": "indreb:rubber_sapling"
+	},
+	"drops": [
+		{
+			"rolls": 1,
+			"chance": 0.05,
+			"result": {
+				"item": "indreb:rubber_sapling"
+			}
+		},
+		{
+			"rolls": 1,
+			"chance": 0.75,
+			"result": {
+				"item": "indreb:rubber_log"
+			}
+		},
+		{
+			"rolls": 3,
+			"chance": 0.2,
+			"result": {
+				"item": "minecraft:stick"
+			}
+		},
+		{
+			"rolls": 2,
+			"chance": 0.18,
+			"result": {
+				"item": "indreb:rubber_leaves"
+			},
+			"requiresSilkTouch": true
+		},
+		{
+			"rolls": 2,
+			"chance": 0.25,
+			"result": {
+				"item": "indreb:sticky_resin"
+			}
+		}
+	],
+	"compatibleSoilTags": [
+		"dirt",
+		"grass"
+	]
+}

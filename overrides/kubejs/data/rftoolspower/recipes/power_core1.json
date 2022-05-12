@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " d ",
+    "rRr",
+    " r "
+  ],
+  "key": {
+    "r": {
+      "item": "minecraft:redstone"
+    },
+    "R": {
+      "item": "electrodynamics:battery"
+    },
+    "d": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "rftoolspower:power_core1"
+  }
+}

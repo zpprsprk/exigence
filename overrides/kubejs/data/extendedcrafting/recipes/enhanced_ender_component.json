@@ -1,0 +1,27 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "PSSSBSP",
+    "SSSSBSS",
+    "BBBBBBB",
+    "SSSSBSS",
+    "SSSSBSS",
+    "SSSSBSS",
+    "PSSSBSP"
+  ],
+  "key": {
+    "P": {
+      "item": "extendedcrafting:luminessence_block"
+    },
+    "B": {
+      "item": "extendedcrafting:enhanced_ender_ingot_block"
+    },
+    "S": {
+      "item": "extendedcrafting:black_iron_slate"
+    }
+  },
+  "result": {
+    "item": "extendedcrafting:enhanced_ender_component",
+    "count": 1
+  }
+}

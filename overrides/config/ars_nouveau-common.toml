@@ -3,11 +3,9 @@
 [general]
 	#Dimensions where hostile mobs will not spawn. Ex: ["minecraft:overworld", "undergarden:undergarden"]. . Run /forge dimensions for a list.
 	dimensionBlacklist = []
-	#Spawn Arcane Ore in the world
-	genOre = true
 	#Rate of tree spawn per chunk
-	#Range: 0.0 ~ 1.0
-	genTrees = 0.002
+	#Range: > 0
+	treeWeight = 100
 	#Spawn Mana Berry Bushes in the world
 	genBerries = true
 	#Spawn a book in the players inventory on login
@@ -21,6 +19,9 @@
 	#How often Drygmys spawn
 	#Range: 0 ~ 100
 	drygmyWeight = 3
+	#How much mana sylphs consume per generation
+	#Range: 0 ~ 10000
+	sylphManaCost = 250
 	#How often Wilden Guardians spawn
 	#Range: 0 ~ 200
 	wguardianWeight = 50
@@ -36,14 +37,23 @@
 	stalkerHuntsAnimals = false
 	#Should the Wilden Defender attack animals?
 	defenderHuntsAnimals = false
-	#Archwood forest spawn weight
-	#Range: > 0
-	archwoodForest = 3
-	#Crystallizer output item. Do not use a wrong ID!
-	crystallizer_output = "ars_nouveau:mana_gem"
-	#How much mana sylphs consume per generation
+
+[drygmy_production]
+	#How much source drygmys consume per generation
 	#Range: 0 ~ 10000
-	sylphManaCost = 250
+	drygmyManaCost = 1000
+	#How many channels must occur before a drygmy produces loot
+	#Range: 0 ~ 300
+	drygmyMaxProgress = 20
+	#Bonus number of items a drygmy produces per unique mob
+	#Range: 0 ~ 300
+	drygmyUniqueBonus = 2
+	#Base number of items a drygmy produces per cycle before bonuses.
+	#Range: > -2147483648
+	drygmyBaseItems = 1
+	#Max Bonus number of items a drygmy produces from nearby entities. Each entity equals 1 item.
+	#Range: 0 ~ 300
+	drygmyQuantityCap = 5
 
 #Mana
 [mana]
@@ -74,21 +84,12 @@
 	#Regen bonus per potion level
 	#Range: > 0
 	potionRegen = 10
+	#Enforce augment cap on casting? Turn this off if you are a pack maker and want to create more powerful items than players.
+	enforceCapOnCast = true
 
-[drygmy_production]
-	#How much mana drygmys consume per generation
-	#Range: 0 ~ 10000
-	drygmyManaCost = 1000
-	#How many channels must occur before a drygmy produces loot
-	#Range: 0 ~ 300
-	drygmyMaxProgress = 20
-	#Bonus number of items a drygmy produces per unique mob
-	#Range: 0 ~ 300
-	drygmyUniqueBonus = 2
-	#Base number of items a drygmy produces per cycle before bonuses.
-	#Range: > -2147483648
-	drygmyBaseItems = 1
-	#Max Bonus number of items a drygmy produces from nearby entities. Each entity equals 1 item.
-	#Range: 0 ~ 300
-	drygmyQuantityCap = 5
+#Items
+[item]
+	#Cost per glyph in a codex
+	#Range: > 0
+	codexCost = 10
 

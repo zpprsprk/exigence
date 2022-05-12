@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"sst",
+		"ari",
+		"sTt"
+	],
+	"key": {
+		"s": {
+			"tag": "forge:plates/stainlesssteel"
+		},
+		"a": {
+			"item": "dynamicelectricity:stator"
+		},
+		"T": {
+			"item": "electrodynamics:tankreinforced"
+		},
+		"r": {
+			"item": "dynamicelectricity:shaftstainlesssteel"
+		},
+		"i": {
+			"item": "electrodynamics:insulation"
+		},
+		"t": {
+			"item": "dynamicelectricity:alternator"
+		}
+	},
+	"result": {
+		"item": "dynamicelectricity:motordcmv",
+		"count": 1
+	}
+}

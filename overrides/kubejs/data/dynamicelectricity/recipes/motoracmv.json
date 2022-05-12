@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"ssc",
+		"ari",
+		"stc"
+	],
+	"key": {
+		"s": {
+			"tag": "forge:plates/stainlesssteel"
+		},
+		"a": {
+			"item": "dynamicelectricity:stator"
+		},
+		"t": {
+			"item": "electrodynamics:tankreinforced"
+		},
+		"r": {
+			"item": "dynamicelectricity:shaftstainlesssteel"
+		},
+		"i": {
+			"item": "electrodynamics:insulation"
+		},
+		"c": {
+			"item": "dynamicelectricity:commutator"
+		}
+	},
+	"result": {
+		"item": "dynamicelectricity:motoracmv",
+		"count": 1
+	}
+}

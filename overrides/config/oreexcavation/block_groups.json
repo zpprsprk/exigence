@@ -14,7 +14,10 @@
     ],
     [
       "minecraft:stone",
-      "minecraft:infested_stone"
+      "minecraft:infested_stone",
+      "minecraft:granite",
+      "minecraft:diorite",
+      "minecraft:andesite"
     ],
     [
       "minecraft:cobblestone",

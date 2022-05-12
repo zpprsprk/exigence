@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "tag": "forge:dusts/redstone"
+    }
+  ],
+  "results": [
+    {
+      "item": "extendedcrafting:redstone_ingot"
+    }
+  ],
+  "keepHeldItem": false
+}

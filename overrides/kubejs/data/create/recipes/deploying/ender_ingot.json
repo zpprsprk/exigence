@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "tag": "forge:dusts/ender"
+    }
+  ],
+  "results": [
+    {
+      "item": "extendedcrafting:ender_ingot"
+    }
+  ],
+  "keepHeldItem": false
+}

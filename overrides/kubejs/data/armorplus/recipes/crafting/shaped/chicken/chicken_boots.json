@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IXI",
+    "I I"
+  ],
+  "key": {
+    "I": {
+      "item": "supplementaries:feather_block"
+    },
+    "X": {
+      "item": "create:diving_boots"
+    }
+  },
+  "result": {
+    "item": "armorplus:chicken_boots"
+  }
+}
+
+

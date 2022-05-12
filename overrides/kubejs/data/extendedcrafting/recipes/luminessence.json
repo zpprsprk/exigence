@@ -1,0 +1,36 @@
+{
+  "type": "extendedcrafting:combination",
+  "powerCost": 100,
+  "input": {
+    "item": "immersiveengineering:hammer"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:soul_lantern"
+    },
+    {
+      "item": "minecraft:lantern"
+    },
+    {
+      "item": "quark:blaze_lantern"
+    },
+    {
+      "tag": "forge:storage_blocks/glowstone"
+    },
+    {
+      "item": "minecraft:soul_lantern"
+    },
+    {
+      "item": "minecraft:lantern"
+    },
+    {
+      "item": "quark:blaze_lantern"
+    },
+    {
+      "tag": "forge:storage_blocks/glowstone"
+    }
+  ],
+  "result": {
+    "item": "extendedcrafting:luminessence"
+  }
+}

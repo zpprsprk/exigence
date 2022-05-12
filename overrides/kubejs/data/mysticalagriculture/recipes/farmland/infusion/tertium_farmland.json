@@ -1,0 +1,35 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalagriculture:prudentium_farmland"
+  },
+  "ingredients": [
+    {
+      "tag": "mysticalagriculture:essences/tier3"
+    },
+    {
+      "item": "mysticalagriculture:tertium_block"
+    },
+    {
+      "tag": "mysticalagriculture:essences/tier3"
+    },
+    {
+      "item": "mysticalagriculture:tertium_block"
+    },
+    {
+      "tag": "mysticalagriculture:essences/tier3"
+    },
+    {
+      "item": "mysticalagriculture:tertium_block"
+    },
+    {
+      "tag": "mysticalagriculture:essences/tier3"
+    },
+    {
+      "item": "mysticalagriculture:tertium_block"
+    }
+  ],
+  "result": {
+    "item": "mysticalagriculture:tertium_farmland"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IDI",
+    "IXI",
+    "IDI"
+  ],
+  "key": {
+    "X": {
+      "item": "advgenerators:upgrade_kit"
+    },
+    "I": {
+      "item": "extendedcrafting:enhanced_ender_ingot"
+    },
+    "D": {
+      "tag": "forge:gems/diamond"
+    }
+  },
+  "result": {
+    "item": "advgenerators:capacitor_kit_tier3"
+  }
+}

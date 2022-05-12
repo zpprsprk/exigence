@@ -1,0 +1,27 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "PSSSBSP",
+    "SSSSBSS",
+    "BBBBBBB",
+    "SSSSBSS",
+    "SSSSBSS",
+    "SSSSBSS",
+    "PSSSBSP"
+  ],
+  "key": {
+    "P": {
+      "item": "extendedcrafting:luminessence_block"
+    },
+    "B": {
+      "item": "extendedcrafting:redstone_ingot_block"
+    },
+    "S": {
+      "item": "extendedcrafting:black_iron_slate"
+    }
+  },
+  "result": {
+    "item": "extendedcrafting:redstone_component",
+    "count": 1
+  }
+}

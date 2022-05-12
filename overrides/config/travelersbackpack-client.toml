@@ -2,11 +2,13 @@
 #Client-only settings
 [client]
 	#Displays warning about item deletion after updating from older version
-	displayWarning = false
+	displayWarning = true
 	#Enables auto message with backpack coords after player dies
 	enableBackpackCoordsMessage = true
-	#Enables tool cycling via shift + scroll combination, while backpack is worn
+	#Enables tool cycling via keybind (Default Z) + scroll combination, while backpack is worn
 	enableToolCycling = true
+	#Allows tool cycling using keybinding only (Default Z)
+	disableScrollWheel = false
 	#Enables tip, how to obtain a backpack, if there's no crafting recipe for it
 	obtainTips = true
 	#Render tools in tool slots on the backpack, while worn
