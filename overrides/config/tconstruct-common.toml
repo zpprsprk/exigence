@@ -102,64 +102,6 @@
 	#Approx Ores per Chunk
 	veinCountCobalt = 8
 
-	#Options related to slime islands
-	[worldgen.slime_islands]
-
-		#Options related to earth slime islands spawning in the oceans
-		[worldgen.slime_islands.earth]
-			#If true, this island generates
-			generate = true
-			#How many chunks on average between islands
-			#Range: 10 ~ 500
-			spacing = 35
-			#Percentage of spacing to use for separation
-			#Range: 0.0 ~ 1.0
-			separationPercent = 0.75
-
-		#Settings for sky slime islands in the overworld sky
-		[worldgen.slime_islands.sky]
-			#If true, this island generates
-			generate = true
-			#How many chunks on average between islands
-			#Range: 10 ~ 500
-			spacing = 40
-			#Percentage of spacing to use for separation
-			#Range: 0.0 ~ 1.0
-			separationPercent = 0.35
-
-		#Settings for clay islands in the overworld sky
-		[worldgen.slime_islands.clay]
-			#If true, this island generates
-			generate = true
-			#How many chunks on average between islands
-			#Range: 10 ~ 500
-			spacing = 125
-			#Percentage of spacing to use for separation
-			#Range: 0.0 ~ 1.0
-			separationPercent = 0.65
-
-		#Settings for blood islands in the nether lava ocean
-		[worldgen.slime_islands.blood]
-			#If true, this island generates
-			generate = true
-			#How many chunks on average between islands
-			#Range: 10 ~ 500
-			spacing = 15
-			#Percentage of spacing to use for separation
-			#Range: 0.0 ~ 1.0
-			separationPercent = 0.6
-
-		#Settings for end slime islands in the outer end islands
-		[worldgen.slime_islands.end]
-			#If true, this island generates
-			generate = true
-			#How many chunks on average between islands
-			#Range: 10 ~ 500
-			spacing = 25
-			#Percentage of spacing to use for separation
-			#Range: 0.0 ~ 1.0
-			separationPercent = 0.5
-
 	#Options related to slime geodes
 	[worldgen.geodes]
 		#If true, earthslime geodes generate deep in the world as another way to get slime

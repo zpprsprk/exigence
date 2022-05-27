@@ -1,17 +1,17 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "indreb:advanced_circuit"
+    "item": "rftoolscontrol:cpu_core_2000"
   },
   "transitionalItem": {
-    "item": "indreb:advanced_circuit"
+    "item": "rftoolscontrol:cpu_core_2000"
   },
   "sequence": [
     {
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "indreb:advanced_circuit"
+          "item": "rftoolscontrol:cpu_core_2000"
         },
         {
           "tag": "immersiveengineering:circuits/logic"
@@ -19,7 +19,7 @@
       ],
       "results": [
         {
-          "item": "indreb:advanced_circuit"
+          "item": "rftoolscontrol:cpu_core_2000"
         }
       ]
     },
@@ -27,7 +27,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "indreb:advanced_circuit"
+          "item": "rftoolscontrol:cpu_core_2000"
         },
         {
           "tag": "forge:dusts/redstone"
@@ -35,7 +35,7 @@
       ],
       "results": [
         {
-          "item": "indreb:advanced_circuit"
+          "item": "rftoolscontrol:cpu_core_2000"
         }
       ]
     },
@@ -43,7 +43,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "indreb:advanced_circuit"
+          "item": "rftoolscontrol:cpu_core_2000"
         },
         {
           "tag": "forge:dusts/certus_quartz"
@@ -51,7 +51,7 @@
       ],
       "results": [
         {
-          "item": "indreb:advanced_circuit"
+          "item": "rftoolscontrol:cpu_core_2000"
         }
       ]
     },
@@ -59,7 +59,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "indreb:advanced_circuit"
+          "item": "rftoolscontrol:cpu_core_2000"
         },
         {
           "item": "electrodynamics:wiresuperconductive"
@@ -67,7 +67,7 @@
       ],
       "results": [
         {
-          "item": "indreb:advanced_circuit"
+          "item": "rftoolscontrol:cpu_core_2000"
         }
       ]
     }
@@ -78,7 +78,7 @@
       "chance": 90.0
     },
     {
-      "item": "indreb:advanced_circuit",
+      "item": "rftoolscontrol:cpu_core_2000",
       "chance": 10.0
     }
   ],

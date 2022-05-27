@@ -3,13 +3,13 @@
 [general]
 	#Enable FPS Reducer features.
 	enableFpsReducer = true
-	#Waiting time(sec) until reducing FPS. (0:OFF)
+	#Waiting time(sec) before reducing the FPS. (0:OFF)
 	#Range: 0 ~ 86400
 	waitingTime = 300
-	#Frame rate during reducing.
+	#Max frame rate when there is no operation for the specified period of time.
 	#Range: 1 ~ 60
 	idleFps = 10
-	#Frame rate during GUI screen(Inventory/Menu) is opened.(0:OFF)
+	#Max frame rate during GUI screen(Inventory/Menu) is opened. (0:OFF)
 	#Range: 0 ~ 60
 	guiScreenFps = 0
 	#Detect movement of player position. (0:OFF, 1:Riding/Flying, 2:Always)
@@ -35,9 +35,17 @@
 	#Behavior of HUD display when a chat window opened. (0:keep to display, 1:off, 2:dodge a chat box)
 	#Range: 0 ~ 2
 	hudBehindChatBox = 2
-	#HUD information (1:FPS/CPU(long), 1:FPS/CPU(short), 3:FPS/CPU(2lines), 4:FPS only, 5:CPU only)
-	#Range: 0 ~ 5
+	#HUD information (1:FPS/CPU(long), 1:FPS/CPU(short), 3:FPS/CPU(2lines), 4:FPS only, 5:CPU only, 6:Simple)
+	#Range: 0 ~ 6
 	hudInfo = 4
+	#Max frame rate when the character is stationary. (0:OFF)
+	#Range: 0 ~ 260
+	noActFps = 0
+	#Reduce FPS in Game Menu.
+	reducingInGameMenu = true
+	#Profile (0:custom, 1:modest-eco, 2:eco, 3:cooling-low, 4:cooling-high)
+	#Range: 0 ~ 4
+	profile = 0
 
 #HUD offsets from reference positions at the screen edge.
 [hud_offset]
@@ -111,6 +119,8 @@
 	cpuUsageThread = 0
 	#Permit to set IdleFPS=1.
 	allowOneFps = false
+	#HUD color for FPS display when the character is stationary.
+	hudNoActModeColor = "ceffd4"
 
 #Debug options
 [debug]

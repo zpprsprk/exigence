@@ -1,3 +1,22 @@
+Version 2.0.4
+Removed
+Basic End Ores
+Industrial Reborn
+Majrusz Library
+Majrusz's Difficulty
+Stoneholm
+
+Added
+Mekanism
+Advent of Ascension 3
+Project E
+Thermal Set
+A few others that we were looking at for 1.18.2
+
+Updated a bunch of mods
+Updated Forge to 40.1.20 (Minecraft 1.18.2)
+Tweaked all the recipes I could find that were using things from the removed mods
+
 Version 2.0.3
 Removed 
 Survive

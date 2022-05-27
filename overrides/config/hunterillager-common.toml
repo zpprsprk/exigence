@@ -1,6 +1,3 @@
-#Changed HunterHouse Generate Spacing. [24 ~ 100]
-#Range: 24 ~ 100
-"HunterHouse Generate Spacing" = 26
 #Add Item for What Hunter Illager can eatable [example: minecraft:apple]
 "HunterIllager's Food Whitelist" = ["minecraft:apple", "minecraft:cooked_beef", "minecraft:cooked_chicken", "minecraft:cooked_mutton", "minecraft:cooked_porkchop", "minecraft:beef", "minecraft:chicken", "minecraft:mutton", "minecraft:porkchop"]
 #Add Entity for What Hunter Illager can hunt [example: minecraft:chicken]

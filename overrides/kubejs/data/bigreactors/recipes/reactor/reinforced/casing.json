@@ -8,7 +8,7 @@
   ],
   "key": {
     "I": {
-      "item": "indreb:containment_reactor_plating"
+      "tag": "forge:plates/novasteel"
     },
     "C": {
       "item": "bigreactors:basic_reactorcasing"

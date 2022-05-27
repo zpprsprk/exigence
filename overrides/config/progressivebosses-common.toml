@@ -24,7 +24,7 @@
 		#If false and there's more than 1 player around the Wither, difficulty will be the average of all the players' difficulty instead of summing them.
 		"Sum Spawned Wither Difficulty" = false
 		#Percentage bonus difficulty added to the Wither when more than one player is present. Each player past the first one will add this percentage to the difficulty.
-		#Range: 0.0 ~ 24.0
+		#Range: 0.0 ~ 1.7976931348623157E308
 		"Bonus Difficulty per Player" = 0.25
 		#The Maximum difficulty (times spawned) reachable by Wither.
 		#Range: > 1
@@ -45,7 +45,7 @@
 		#At this difficulty the Wither Explosion will cause fire. Set to -1 to disable.
 		#Range: > -1
 		"Explosion Causes Fire at Difficulty" = 16
-		#The Wither will no longer wait 1 full second before breaking blocks when he's hit, instead just 0.5s
+		#The Wither will no longer wait 1.0 seconds before breaking blocks when he's hit, instead just 0.5s
 		"Faster Breaking Blocks" = true
 		#The Wither will break even blocks below him when hit.
 		"Bigger Breaking Blocks" = true
@@ -61,10 +61,12 @@
 		#Increase Wither's Health by this value per difficulty
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Health Bonus per Difficulty" = 30.0
-		#Maximum bonus regeneration per second given by "Bonus Regeneration per Difficulty". Set to 0 to disable bonus health regeneration. This doesn't affect the natural regeneration of the Wither (1 Health per Second).
+		#Maximum bonus regeneration per second given by "Bonus Regeneration per Difficulty".
+		#Set to 0 to disable bonus health regeneration. This doesn't affect the natural regeneration of the Wither (1 Health per Second).
+		#Note that the health regen is disabled when Wither's health is between 49% and 50% to prevent making it impossible to approach when half health.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Maximum Bonus Regeneration" = 2.0
-		#How many half hearts will the Wither regen more per difficulty. This doesn't affect the natural regeneration of the Wither (1 Health per Second). (E.g. By default, with 6 Withers spawned, the Wither will heal 1.3 health per second).
+		#How many half hearts will the Wither regen per difficulty. This is added to the natural regeneration of the Wither (1 Health per Second).
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Bonus Regeneration per Difficulty" = 0.1
 
@@ -91,19 +93,9 @@
 		#How much more experience (percentage) will Wither drop per Difficulty. The percentage is additive (e.g. with this set to 200%, 7 withers spawned = 1400% more experience)
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Bonus Experience per Difficulty" = 2.5
-		#A list of drops for the Withers. Entry format: item,amount,difficulty_required,chance,difficulty_mode,chance_mode
-		#item: item id
-		#amount: amount
-		#difficulty_required: the amount of difficulty required for the item to drop, works differently based on mode
-		#chance: chance for the drop to happen, between 0 and 1
-		#difficulty_mode:
-		#* MINIMUM: will try to drop the item when the difficulty matches or is higher
-		#* PER_DIFFICULTY: will try to drop the item once per difficulty (e.g. at difficulty 10, difficulty required 3, there is the chance to drop the item, trying 7 times)
-		#chance_mode:
-		#* FLAT: chance is the percentage chance for the item to drop if the difficulty criteria matches
-		#* SCALING: each point of difficulty >= 'difficulty to drop the item' will be multiplied by the chance (e.g. chance 2% and difficulty 10, difficulty required 5, chance to drop the item will be chance * (difficulty - difficulty_required + 1) = 2% * (10 - 5 + 1) = 12%)
-		#By default Withers have 60% chance per difficulty to drop 1 shard (So at difficulty 20, up to 20 shards can be dropped, 60% chance each).
-		Drops = ["progressivebosses:nether_star_shard,1,1,0.6,PER_DIFFICULTY,FLAT"]
+		#If true default mod drops are added to the Wither.
+		#Note that replacing the Wither loot table (e.g. via DataPack) will automatically remove the Injected loot.
+		"Injecet Default Loot" = true
 
 	#Wither will spawn deadly Minions
 	[Wither.Minions]
@@ -157,7 +149,7 @@
 	[Wither.Attack]
 		#If the AI changes should be applied to the first wither spawned too.
 		"Apply to Vanilla Wither" = true
-		#Max Chance every time the Wither takes damage to start a charge attack. The actual chance is inversely proportional to Wither's health (100% health = 0% chance, 50% health = 2.5% chance, ...).
+		#Chance every time the Wither takes damage to start a charge attack. Less health = higher chance and more damage taken = more chance. This value is the chance at 0% health and when taking 10 damage.
 		#Range: 0.0 ~ 1.0
 		"Max Charge Attack Chance" = 0.06
 		#Percentage bonus damage dealt by the Wither per difficulty.
@@ -165,13 +157,13 @@
 		"Increased Damage" = 0.04
 
 		[Wither.Attack."Barrage Attack"]
-			#Chance (per difficulty) every time the Wither takes damage to start a barrage attack. The actual chance is inversely proportional to Wither's health and damage taken (more damage and less health = higher chance).
+			#Chance (per difficulty) every time the Wither takes damage to start a barrage attack. Less health = higher chance and more damage taken = more chance. This value is the chance at 0% health and when taking 10 damage.
 			#Range: 0.0 ~ 1.0
 			"Max Barrage Attack Chance Per Difficulty" = 0.0035
-			#Min time (in ticks) for the duration of the barrage attack. The actual duration is inversely proportional to Wither's health and damage taken (more damage and less health = higher chance)
+			#Min time (in ticks) for the duration of the barrage attack. Less health = longer barrage.
 			#Range: > 0
 			"Min Barrage Duration" = 20
-			#Max time (in ticks) for the duration of the barrage attack. The actual duration is inversely proportional to Wither's health (100% health = min duration, 0% health = max duration)
+			#Max time (in ticks) for the duration of the barrage attack. Less health = longer barrage
 			#Range: > 0
 			"Max Barrage Duration" = 150
 
@@ -210,7 +202,7 @@
 		#If false and there's more than 1 player around the Dragon, difficulty will be the average of all the players' difficulty instead of summing them.
 		"Sum Killed Dragons Difficulty" = false
 		#Percentage bonus difficulty added to the Dragon when more than one player is present. Each player past the first one will add this percentage to the difficulty.
-		#Range: 0.0 ~ 24.0
+		#Range: 0.0 ~ 1.7976931348623157E308
 		"Bonus Difficulty per Player" = 0.25
 		#The Maximum difficulty (times killed) reachable by Ender Dragon. By default is set to 24 because it's the last spawning end gate.
 		#Range: > 1
@@ -232,7 +224,7 @@
 		#How much health will the Ender Dragon regen per difficulty. This is added to the noaml Crystal regeneration.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Bonus Regeneration per Difficulty" = 0.05
-		#How much health will the Ender Dragon regen per difficulty each second whenever she's attached to a Crystal. This is added to the normal Crystal regen.
+		#How much health (when missing 100% health) will the Ender Dragon regen per difficulty each second whenever she's attached to a Crystal. So if she's missing 30% health, this will be 30% effective. This is added to the normal Crystal regen.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Bonus Crystal Regeneration" = 0.05
 
@@ -245,12 +237,12 @@
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Bonus Acid Pool Damage" = 0.11
 		#Normally the Ender Dragon attacks only when leaving the center platform. With this active she has a chance when she has finished charging / fireballing or before checking if she should land in the center to charge the player.
-		#This is the chance to start a charge attack when the difficulty is at max (24 by default). Otherwise it scales accordingly.
+		#This is the chance to start a charge attack when the difficulty is at max. Otherwise it scales accordingly.
 		#The actual chance is: (this_value * (difficulty / max difficulty)).
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Charge Player Max Chance" = 0.5
 		#Normally the Ender Dragon spits fireballs when a Crystal is destroyed and rarely during the fight. With this active she has a chance when she has finished charging / fireballing or before checking if she should land in the center to spit a fireball.
-		#This is the chance to start a fireball attack when the difficulty is at max (24 by default). Otherwise it scales accordingly.
+		#This is the chance to start a fireball attack when the difficulty is at max. Otherwise it scales accordingly.
 		#The actual chance is: (this_value * (difficulty / max difficulty)).
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Fireball Max Chance" = 0.4
@@ -274,19 +266,9 @@
 		"Bonus Experience per Difficulty" = 1.0
 		#If true whenever a player, that has never killed the dragon, kills the dragon a Dragon Egg Ã¬Ã¬ will drop. E.g. If 2 players kill the Dragon for the first time, she will drop 2 Dragon Eggs
 		"Dragon Egg per Player" = true
-		#A list of drops for the Dragons. Entry format: item,amount,difficulty_required,chance,difficulty_mode,chance_mode
-		#item: item id
-		#amount: amount
-		#difficulty_required: the amount of difficulty required for the item to drop, works differently based on mode
-		#chance: chance for the drop to happen, between 0 and 1
-		#difficulty_mode:
-		#* MINIMUM: will try to drop the item when the difficulty matches or is higher
-		#* PER_DIFFICULTY: will try to drop the item once per difficulty (e.g. at difficulty 10, difficulty required 3, there is the chance to drop the item, trying 7 times)
-		#chance_mode:
-		#* FLAT: chance is the percentage chance for the item to drop if the difficulty criteria matches
-		#* SCALING: each point of difficulty >= 'difficulty to drop the item' will be multiplied by the chance (e.g. chance 2% and difficulty 10, difficulty required 5, chance to drop the item will be chance * (difficulty - difficulty_required + 1) = 2% * (10 - 5 + 1) = 12%)
-		#By default Withers have 2% chance per difficulty >= 2 to drop 1 shard + 4% chance per difficulty >= 4 to drop 2 shards + 8% chance per difficulty >= 8 to drop 4 shards.
-		Drops = []
+		#If true default mod drops are added to the Ender Dragon.
+		#Note that replacing the Ender Dragon loot table (e.g. via DataPack) will automatically remove the Injected loot.
+		"Injecet Default Loot" = true
 
 	#Shulkers that will make you float around.
 	[Dragon.Minions]
@@ -307,6 +289,9 @@
 		"Blinding Chance" = 0.015
 		#If true, Dragon Minions will take only 10% damage from the Ender Dragon.
 		"Reduced Dragon Damage" = true
+		#Time (in ticks) for the bliding effect when hit by a blinding bullet.
+		#Range: 0 ~ 6000
+		"Blinding duration" = 150
 
 	#Mini things that are just annoying.
 	[Dragon.Larva]
@@ -319,10 +304,10 @@
 		#Maximum Larva spawned by the Ender Dragon
 		#Range: > 0
 		"Max Larvae Spawned" = 7
-		#Minimum ticks (20 ticks = 1 seconds) after Minions can spwan.
+		#Minimum ticks (20 ticks = 1 seconds) after Minions can spawn.
 		#Range: > 0
 		"Minimum Cooldown" = 800
-		#Maximum ticks (20 ticks = 1 seconds) after Minions can spwan.
+		#Maximum ticks (20 ticks = 1 seconds) after Minions can spawn.
 		#Range: > 0
 		"Maximum Cooldown" = 1400
 		#If true, Larvae will take only 10% damage from the Ender Dragon.
@@ -330,16 +315,10 @@
 
 	#Handles the Damage Resistances and Vulnerabilities
 	[Dragon."Resistances & Vulnerabilities"]
-		#Percentage of Dragon's current health dealth as Bonus damage when attacked directly (melee) and she's not at the center.
-		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Current Health Direct Damage" = 0.02
-		#Percentage of Dragon's current health dealth as Bonus damage when attacked indirectly (e.g. arrows) and she's not at the center.
-		#Range: 0.0 ~ 1.7976931348623157E308
-		"Bonus Current Health Indirect Damage" = 0.008
 		#Melee Damage reduction per difficulty while the Ender Dragon is at the center.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Melee Damage reduction while at the center" = 0.0125
-		#Damage reduction when hit by explosions.
+		#Damage reduction when hit by explosions (firework rockets excluded).
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Explosion Damage reduction" = 0.5
 
@@ -351,22 +330,22 @@
 		#Max number of bonus cages that can spawn around the crystals.
 		#Range: 0 ~ 8
 		"Max Bonus Cages" = 4
-		#At this difficulty more crystals will start to appear inside obsidian towers. -1 will disable this feature.
+		#At this difficulty one crystal will start to appear inside obsidian towers. -1 will disable this feature.
 		#Range: > -1
 		"More Crystals at Difficulty" = 8
-		#Max number of bonus crystals that can spawn inside the towers.
-		#Range: 0 ~ 10
-		"Max Bonus Crystals" = 5
-		#Everytime the dragon is hit (when below 20% of health) there's a chance to to trigger a Crystal respawn Phase. The phase can only happen once. The chance is 0% when health >= 20% and 100% when health <= 5%.
+		#Everytime the dragon is hit (when below 50% of health) there's a chance to to trigger a Crystal respawn Phase. The chance is 0% when health >=50% and 100% when health <=30%, the health threshold decreases by 20% every time the dragon respawns crystals.
 		"Enable crystal respawn" = true
-		#Difficulty multiplied by this number will output how many tries will the dragon take to respawn crystals. Tries are capped between 1 and 100.
-		#Range: 0.0 ~ 100.0
-		"Crystal Respawn Multiplier" = 0.6
-		#When respawning Crystals, chance for the crystal to be spawned inside a Tower instead of on top
-		#Range: 0.0 ~ 1.0
-		"Crystal Respawn Inside Tower Chance" = 0.005
 		#Crystals can no longer be destroyed by other explosions.
 		"Explosion Immune" = true
+		#Every how much difficulty one more crystal will be spawned inside towers
+		#Range: > -1
+		"More Crystals Step" = 3
+		#Max number of bonus crystals that can spawn inside the towers.
+		#Range: 0 ~ 10
+		"More Crystals Max" = 3
+		#Difficulty multiplied by this number will output how many crystals will the dragon respawn.
+		#Range: 0.0 ~ 10.0
+		"Crystal Respawn Per Difficulty" = 0.375
 
 ["Elder Guardian"]
 	#Bonus Health and Health regeneration.
@@ -425,23 +404,13 @@
 
 	#Bonus Experience and Dragon Egg per player
 	["Elder Guardian".Rewards]
-		#How much experience will an Elder Guardian drop.
-		#Range: 0 ~ 1024
+		#How much experience will an Elder Guardian drop. -1 will make the Elder Guardian drop vanilla experience.
+		#Range: -1 ~ 1024
 		"Base Experience" = 40
 		#How much more experience (percentage) will Elder Guardian drop per killed Elder Guardian. The percentage is additive (e.g. with this set to 100%, the last Elder will drop 200% more experience)
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Bonus Experience" = 1.0
-		#A list of bonus drops for the Elder Guardian. Entry format: item,amount,missing_guardians,chance,mode,chance_mode
-		#item: item id
-		#amount: amount
-		#missing_guardians: the amount of missing guardians required for the item to drop, works differently based on mode
-		#chance: chance for the drop to happen, between 0 and 1
-		#mode:
-		#* MINIMUM: will try to drop the item when the missing_guardians matches or is higher
-		#* PER_DIFFICULTY: will try to drop the item one more time per missing_guardians
-		#chance_mode:
-		#* FLAT: chance is the percentage chance for the item to drop if the difficulty criteria matches
-		#* SCALING: each point of difficulty >= 'difficulty to drop the item' will be multiplied by the chance (e.g. chance 2% and difficulty 10, difficulty required 5, chance to drop the item will be chance * (difficulty - difficulty_required + 1) = 2% * (10 - 5 + 1) = 12%)
-		#
-		Drops = ["minecraft:wet_sponge,1,0,1,MINIMUM,FLAT", "minecraft:wet_sponge,2,1,1,MINIMUM,FLAT", "minecraft:wet_sponge,2,2,1,MINIMUM,FLAT", "progressivebosses:elder_guardian_spike,1,0,1,MINIMUM,FLAT"]
+		#If true default mod drops are added to the Elder Guardian.
+		#Note that replacing the Elder Guardian loot table (e.g. via DataPack) will automatically remove the Injected loot.
+		"Injecet Default Loot" = true
 

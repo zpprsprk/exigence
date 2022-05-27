@@ -127,5 +127,6 @@ onEvent('recipes', event => {
 	event.remove({id: 'armorplus:crafting/shaped/slime/slime_boots_alt'})
 	event.remove({id: 'mythicbotany:alfsteel_boots_smithing'})
 	event.remove({id: 'immersiveengineering:crafting/stick_iron'})
-	event.remove({id: 'indreb:item/iron_rod'})
+	event.remove({id: 'advgenerators:turbines/rotor_tier5_enderium'})
+	event.remove({id: 'advgenerators:turbines/kit_tier5_enderium'})
 })
