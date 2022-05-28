@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IGI",
+    "GTG",
+    "IGI"
+  ],
+  "key": {
+    "G": {
+      "item": "ae2:quartz_glass"
+    },
+    "I": {
+      "tag": "forge:ingots/osmium"
+    },
+    "T": {
+      "tag": "forge:gears/pure_steel"
+    }
+  },
+  "result": {
+    "item": "thermal:machine_frame"
+  },
+  "conditions": [
+    {
+      "flag": "machine_frame",
+      "type": "thermal:flag"
+    }
+  ]
+}

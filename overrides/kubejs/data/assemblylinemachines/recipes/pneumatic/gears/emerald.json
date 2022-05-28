@@ -1,0 +1,12 @@
+{
+  "type": "assemblylinemachines:pneumatic",
+  "input": {
+    "tag": "forge:gems/emerald",
+    "count": 4
+  },
+  "output": {
+    "tag": "forge:gears/emerald"
+  },
+  "time": 9,
+  "mold": "gear"
+}
