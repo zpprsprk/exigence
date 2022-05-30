@@ -30,7 +30,7 @@
           "item": "immersiveengineering:sheetmetal_iron"
         },
         {
-          "item": "minecraft:copper_ingot"
+          "tag": "forge:circuits/basic"
         }
       ],
       "results": [
@@ -46,7 +46,7 @@
           "item": "immersiveengineering:sheetmetal_iron"
         },
         {
-          "item": "minecraft:gold_ingot"
+          "tag": "forge:wires/gold"
         }
       ],
       "results": [

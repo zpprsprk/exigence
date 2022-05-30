@@ -1,4 +1,4 @@
-get a better quarry option
+Create mechanical press to make all types of metal plates (i.e. aluminum)
 
 RS crafting grid crafting tweaks buttons disable?
 recipe component unification (a rod is a rod is a rod... etc.)

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "mekanism:metallurgic_infuser"
+  },
+  "pattern": [
+    "I#I",
+    "ROR",
+    "I#I"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/pure_iron"
+    },
+    "O": {
+      "tag": "forge:ingots/osmium"
+    },
+    "R": {
+      "item": "extendedcrafting:redstone_ingot"
+    },
+    "#": {
+      "item": "electrodynamics:energizedalloyer"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "immersiveengineering:sheetmetal_steel"
+  },
+  "transitionalItem": {
+    "item": "immersiveengineering:sheetmetal_steel"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "immersiveengineering:sheetmetal_steel"
+        },
+        {
+          "item": "immersiveengineering:component_steel"
+        }
+      ],
+      "results": [
+        {
+          "item": "immersiveengineering:sheetmetal_steel"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "immersiveengineering:sheetmetal_steel"
+        },
+        {
+          "tag": "forge:circuits/advanced"
+        }
+      ],
+      "results": [
+        {
+          "item": "immersiveengineering:sheetmetal_steel"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "immersiveengineering:sheetmetal_steel"
+        },
+        {
+          "tag": "forge:wires/electrum"
+        }
+      ],
+      "results": [
+        {
+          "item": "immersiveengineering:sheetmetal_steel"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "immersiveengineering:heavy_engineering",
+      "chance": 90.0
+    },
+    {
+      "item": "immersiveengineering:sheetmetal_steel",
+      "chance": 10.0
+    }
+  ],
+  "loops": 4
+}
