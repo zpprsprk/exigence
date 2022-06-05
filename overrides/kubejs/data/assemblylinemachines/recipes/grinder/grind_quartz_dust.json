@@ -1,0 +1,12 @@
+{
+  "type": "assemblylinemachines:grinder",
+  "input":{
+    "tag": "forge:gems/quartz"
+  },
+  "output":{
+    "item": "thermal:quartz_dust",
+    "count": 1
+  },
+  "grinds": 3,
+  "bladetype": "TITANIUM"
+}

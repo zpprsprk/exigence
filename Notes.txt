@@ -8,11 +8,14 @@ Tags to add.......
 compressed obsidian Used in recipe as "#forge:storage_blocks/obsidian_1"
   -- added to "forge:storage_blocks/compressed_obsidian" instead, since that tag already existed...
 
+Things to add to carryon ignore list:
+assembly line machines all of them
 
 recipes to add/change............
 chainmail armor plus
 block of infused frost crystal
 change all the enhanced from armor plus
+flerovium gear in metal press, etc.
 
 Recipe to remove............
 alfsteel armor smithing table 
