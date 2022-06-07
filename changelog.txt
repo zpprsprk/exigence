@@ -1,3 +1,11 @@
+Version 2.0.5
+Added
+Connectivity
+Industrial Foregoing
+
+Updated a bunch of mods
+Updated Forge to 40.1.30 because of dependencies
+
 Version 2.0.4
 Removed
 Basic End Ores
