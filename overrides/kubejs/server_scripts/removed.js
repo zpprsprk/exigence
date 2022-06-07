@@ -156,5 +156,8 @@ onEvent('recipes', event => {
 	event.remove({id: 'thermal:parts/signalum_gear'})
 	event.remove({id: 'thermal:parts/lumium_gear'})
 	event.remove({id: 'thermal:parts/enderium_gear'})
+	event.remove({id: 'industrialforegoing:iron_gear'})
+	event.remove({id: 'industrialforegoing:gold_gear'})
+	event.remove({id: 'industrialforegoing:diamond_gear'})
 	event.remove({id: 'refinedstorage:quartz_enriched_iron'})
 })
