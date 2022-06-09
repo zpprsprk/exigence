@@ -1,0 +1,18 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "inputs": [
+    {
+      "item": "immersiveengineering:insulating_glass"
+    },
+    {
+      "tag": "forge:plates/copper"
+    },
+    {
+      "item": "pneumaticcraft:plastic"
+    }
+  ],
+  "category": "components",
+  "result": {
+    "item": "immersiveengineering:circuit_board"
+  }
+}

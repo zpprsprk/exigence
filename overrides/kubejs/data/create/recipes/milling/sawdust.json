@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:bamboo"
+    }
+  ],
+  "results": [
+    {
+      "item": "mekanism:sawdust",
+      "count": 1
+    }
+  ],
+  "processingTime": 70
+}

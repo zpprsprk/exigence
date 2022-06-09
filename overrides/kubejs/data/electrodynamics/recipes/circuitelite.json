@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ggg",
+    "bdb",
+    "ggg"
+  ],
+  "key": {
+    "g": {
+      "tag": "forge:ingots/pure_gold"
+    },
+    "d": {
+      "item": "pneumaticcraft:smooth_plastic_brick_blue"
+    },
+    "b": {
+      "tag": "forge:circuits/advanced"
+    }
+  },
+  "result": {
+    "item": "electrodynamics:circuitelite",
+    "count": 1
+  }
+}

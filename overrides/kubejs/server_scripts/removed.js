@@ -160,4 +160,5 @@ onEvent('recipes', event => {
 	event.remove({id: 'industrialforegoing:gold_gear'})
 	event.remove({id: 'industrialforegoing:diamond_gear'})
 	event.remove({id: 'refinedstorage:quartz_enriched_iron'})
+	event.remove({id: 'minecraft:paper'})
 })
