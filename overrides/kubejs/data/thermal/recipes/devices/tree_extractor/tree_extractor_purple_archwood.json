@@ -1,0 +1,9 @@
+{
+  "type": "thermal:tree_extractor",
+  "trunk": "ars_nouveau:purple_archwood_log",
+  "leaves": "ars_nouveau:purple_archwood_leaves",
+  "result": {
+    "fluid": "thermal:latex",
+    "amount": 50
+  }
+}

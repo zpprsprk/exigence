@@ -9,6 +9,9 @@
     },
     {
       "item": "pneumaticcraft:plastic"
+    },
+    {
+      "item": "thermal:cured_rubber"
     }
   ],
   "category": "components",
