@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "EEE",
+    "EAE",
+    "EEE"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:coal"
+    },
+    "E": {
+      "item": "mysticalagriculture:inferium_essence"
+    }
+  },
+  "result": {
+    "item": "mysticalagradditions:inferium_coal"
+  }
+}

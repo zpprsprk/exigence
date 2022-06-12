@@ -1,0 +1,23 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "E#E",
+    "#C#",
+    "E#E"
+  ],
+  "key": {
+    "E": {
+      "tag": "mysticalagriculture:essences/tier4"
+    },
+    "#": {
+      "item": "mysticalagriculture:imperium_essence"
+    },
+    "C": {
+      "tag": "matc:imperium",
+      "data": 32767
+    }
+  },
+  "result": {
+    "item": "mysticalagriculture:supremium_essence"
+  }
+}

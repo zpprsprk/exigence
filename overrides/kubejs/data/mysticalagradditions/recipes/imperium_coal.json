@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "EEE",
+    "EAE",
+    "EEE"
+  ],
+  "key": {
+    "A": {
+      "item": "mysticalagradditions:tertium_coal"
+    },
+    "E": {
+      "item": "mysticalagriculture:imperium_essence"
+    }
+  },
+  "result": {
+    "item": "mysticalagradditions:imperium_coal"
+  }
+}

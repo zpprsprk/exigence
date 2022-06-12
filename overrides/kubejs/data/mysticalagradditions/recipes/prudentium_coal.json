@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "EEE",
+    "EAE",
+    "EEE"
+  ],
+  "key": {
+    "A": {
+      "item": "mysticalagradditions:inferium_coal"
+    },
+    "E": {
+      "item": "mysticalagriculture:prudentium_essence"
+    }
+  },
+  "result": {
+    "item": "mysticalagradditions:prudentium_coal"
+  }
+}

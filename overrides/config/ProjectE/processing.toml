@@ -18,3 +18,7 @@
 	[processors.StoredEMCProcessor]
 		enabled = true
 
+	#Increases the EMC value of any Mekanism items by the value of the stored or installed contents.
+	[processors.MekanismContentsProcessor]
+		enabled = true
+

@@ -1,0 +1,29 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagradditions"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E#E",
+    "#C#",
+    "E#E"
+  ],
+  "key": {
+    "E": {
+      "tag": "mysticalagriculture:essences/tier5"
+    },
+    "#":  {
+      "item": "mysticalagriculture:supremium_essence"
+    },
+    "C": {
+      "tag": "matc:supremium",
+      "data":  32767
+    }
+  },
+  "result": {
+    "item": "mysticalagradditions:insanium_essence"
+  }
+}

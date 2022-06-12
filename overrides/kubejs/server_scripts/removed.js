@@ -163,4 +163,5 @@ onEvent('recipes', event => {
 	event.remove({id: 'minecraft:paper'})
 	event.remove({id: 'thermal:smelting/cured_rubber_from_smelting'})
 	event.remove({id: 'bigreactors:reactor/reinforced/casing_upgrade'})
+	event.remove({id:  'mysticalagriculture:infusion_crystal'})
 })

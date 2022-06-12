@@ -24,6 +24,13 @@
     "mysticalagriculture:cobalt_essence",
     "mysticalagriculture:rose_gold_essence",
     "mysticalagriculture:elementium_essence",
-    "mysticalagriculture:fluix_essence"
+    "mysticalagriculture:fluix_essence",
+    "mysticalagriculture:compressed_iron_essence",
+    "mysticalagriculture:refined_obsidian_essence",
+    "mysticalagriculture:refined_glowstone_essence",
+    "mysticalagriculture:fluorite_essence",
+    "mysticalagriculture:osmium_essence",
+    "mysticalagriculture:lumium_essence",
+    "mysticalagriculture:signalum_essence"
   ]
 }
