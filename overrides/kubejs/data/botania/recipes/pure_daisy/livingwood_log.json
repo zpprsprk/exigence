@@ -2,7 +2,7 @@
   "type": "botania:state_copying_pure_daisy",
   "input": {
     "type": "block",
-    "block": "minecraft:crimson_hyphae"
+    "block": "minecraft:crimson_stem"
   },
-  "output": "botania:livingwood"
+  "output": "botania:livingwood_log"
 }
