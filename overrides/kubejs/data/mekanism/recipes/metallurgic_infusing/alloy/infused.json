@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:metallurgic_infusing",
+  "itemInput": {
+    "ingredient": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "chemicalInput": {
+    "amount": 10,
+    "tag": "mekanism:redstone"
+  },
+  "output": {
+    "item": "mekanism:alloy_infused"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "pneumaticcraft:unassembled_pcb"
+  },
+  "transitionalItem": {
+    "item": "pneumaticcraft:unassembled_pcb"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pneumaticcraft:unassembled_pcb"
+        },
+        {
+          "item": "pneumaticcraft:transistor"
+        }
+      ],
+      "results": [
+        {
+          "item": "pneumaticcraft:unassembled_pcb"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pneumaticcraft:unassembled_pcb"
+        },
+        {
+          "item": "pneumaticcraft:capacitor"
+        }
+      ],
+      "results": [
+        {
+          "item": "pneumaticcraft:unassembled_pcb"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "pneumaticcraft:printed_circuit_board",
+      "chance": 99.0
+    },
+    {
+      "item": "pneumaticcraft:failed_pcb",
+      "chance": 1.0
+    }
+  ],
+  "loops": 3
+}
