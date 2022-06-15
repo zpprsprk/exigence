@@ -4,10 +4,6 @@ RS crafting grid crafting tweaks buttons disable?
 recipe component unification (a rod is a rod is a rod... etc.)
 
 
-Tags to add.......
-compressed obsidian Used in recipe as "#forge:storage_blocks/obsidian_1"
-  -- added to "forge:storage_blocks/compressed_obsidian" instead, since that tag already existed...
-
 Things to add to carryon ignore list:
 
 recipes to add/change............
