@@ -168,4 +168,6 @@ onEvent('recipes', event => {
 	event.remove({id: 'create:crafting/materials/andesite_alloy_from_zinc'})
 	event.remove({id: 'tconstruct:smeltery/seared/seared_brick'})
 	event.remove({id: 'tconstruct:smeltery/seared/seared_brick_kiln'})
+	event.remove({id: 'immersiveengineering:crafting/component_iron'})
+	event.remove({id: 'immersiveengineering:crafting/component_steel'})
 })
