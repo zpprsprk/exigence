@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.crystalized_menril",
+  "colors": [
+    "62a7c8",
+    "3a7d9c"
+  ],
+  "ingredient": {
+    "item": "integrateddynamics:crystalized_menril_block"
+  }
+}

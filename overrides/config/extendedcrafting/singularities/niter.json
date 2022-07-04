@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.niter",
+  "colors": [
+    "b8afaf",
+    "655a5b"
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/niter"
+  }
+}

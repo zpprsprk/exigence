@@ -5,6 +5,6 @@
     "bc5430"
   ],
   "ingredient": {
-    "item": "minecraft:copper_ingot"
+    "tag": "forge:storage_blocks/copper"
   }
 }

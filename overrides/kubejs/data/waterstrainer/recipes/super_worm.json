@@ -1,0 +1,51 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "input": {
+    "item": "waterstrainer:worm"
+  },
+  "output": "waterstrainer:super_worm",
+  "count": 1,
+  "source": 2000,
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "mysticalagriculture:fertilized_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:fertilized_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:fertilized_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:fertilized_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:fertilized_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:fertilized_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:fertilized_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagriculture:fertilized_essence"
+      }
+    }
+  ]
+}

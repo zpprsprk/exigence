@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.manasteel",
+  "colors": [
+    "5bb8fc",
+    "336890"
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/manasteel"
+  }
+}

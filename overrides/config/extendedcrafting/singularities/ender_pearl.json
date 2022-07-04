@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.ender_pearl",
+  "colors": [
+    "157161",
+    "083931"
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/ender_pearl"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "thermal:bottler",
+  "ingredients": [
+    {
+      "tag": "minecraft:planks"
+    },
+    {
+      "fluid_tag": "forge:creosote",
+      "amount": 125
+    }
+  ],
+  "result": [
+    {
+      "item": "immersiveengineering:treated_wood_horizontal"
+    }
+  ],
+  "energy": 2000
+}

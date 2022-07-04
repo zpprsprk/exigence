@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.blutonium",
+  "colors": [
+    "2929ec",
+    "0c0c4b"
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/blutonium"
+  }
+}

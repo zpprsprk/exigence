@@ -170,4 +170,6 @@ onEvent('recipes', event => {
 	event.remove({id: 'tconstruct:smeltery/seared/seared_brick_kiln'})
 	event.remove({id: 'immersiveengineering:crafting/component_iron'})
 	event.remove({id: 'immersiveengineering:crafting/component_steel'})
+	event.remove({id: 'projecte:philosophers_stone_alt'})
+	event.remove({id: 'avaritia:infinity_catalyst'})
 })

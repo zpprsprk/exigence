@@ -1,0 +1,118 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "extendedcrafting:ultimate_singularity"
+  },
+  "transitionalItem": {
+    "item": "extendedcrafting:ultimate_singularity"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        {
+          "item": "avaritia:crystal_matrix_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "extendedcrafting:ultimate_singularity"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        {
+          "item": "avaritia:neutronium_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "extendedcrafting:ultimate_singularity"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        {
+          "item": "avaritia:cosmic_meatballs"
+        }
+      ],
+      "results": [
+        {
+          "item": "extendedcrafting:ultimate_singularity"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        {
+          "item": "avaritia:ultimate_stew"
+        }
+      ],
+      "results": [
+        {
+          "item": "extendedcrafting:ultimate_singularity"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        {
+          "item": "avaritia:endest_pearl"
+        }
+      ],
+      "results": [
+        {
+          "item": "extendedcrafting:ultimate_singularity"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        {
+          "item": "avaritia:record_fragment"
+        }
+      ],
+      "results": [
+        {
+          "item": "extendedcrafting:ultimate_singularity"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "avaritia:infinity_catalyst",
+      "chance": 90.0
+    },
+    {
+      "item": "extendedcrafting:ultimate_singularity",
+      "chance": 10.0
+    }
+  ],
+  "loops": 4
+}

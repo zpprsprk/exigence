@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.warped_wart",
+  "colors": [
+    "167d84",
+    "093235"
+  ],
+  "ingredient": {
+    "item": "minecraft:warped_wart_block"
+  }
+}

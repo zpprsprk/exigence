@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.elf_quartz",
+  "colors": [
+    "dcf6dd",
+    "899f8a"
+  ],
+  "ingredient": {
+    "item": "botania:elf_quartz"
+  }
+}

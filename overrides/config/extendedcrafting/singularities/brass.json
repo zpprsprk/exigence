@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.brass",
+  "colors": [
+    "efbf6c",
+    "795a2d"
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/brass"
+  }
+}

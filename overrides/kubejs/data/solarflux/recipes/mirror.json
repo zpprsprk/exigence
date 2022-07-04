@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "forge:glass_panes/colorless"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "forge:molten_silver",
+    "amount": 30
+  },
+  "result": "solarflux:mirror",
+  "cooling_time": 30
+}

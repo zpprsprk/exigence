@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.cyanite",
+  "colors": [
+    "6aa7ca",
+    "21365a"
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/cyanite"
+  }
+}

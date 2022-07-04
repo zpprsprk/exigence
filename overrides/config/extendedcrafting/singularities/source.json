@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.source",
+  "colors": [
+    "c16beb",
+    "603277"
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/source"
+  }
+}

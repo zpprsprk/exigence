@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.zinc",
+  "colors": [
+    "b3cfb8",
+    "4a5148"
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/zinc"
+  }
+}

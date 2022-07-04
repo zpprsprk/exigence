@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.pig_iron",
+  "colors": [
+    "f4b1ad",
+    "805053"
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/pig_iron"
+  }
+}

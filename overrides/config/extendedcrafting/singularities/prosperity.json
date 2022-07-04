@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.prosperity",
+  "colors": [
+    "ecfcfc",
+    "637676"
+  ],
+  "ingredient": {
+    "item": "mysticalagriculture:prosperity_block"
+  }
+}

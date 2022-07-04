@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.vanadiumsteel",
+  "colors": [
+    "86a1a6",
+    "5e6e71"
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/vanadiumsteel"
+  }
+}

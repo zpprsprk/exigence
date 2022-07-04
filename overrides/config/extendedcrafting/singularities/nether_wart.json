@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.nether_wart",
+  "colors": [
+    "7a0000",
+    "440300"
+  ],
+  "ingredient": {
+    "item": "minecraft:nether_wart_block"
+  }
+}

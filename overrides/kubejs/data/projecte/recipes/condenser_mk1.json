@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ODO",
+    "DCD",
+    "ODO"
+  ],
+  "key": {
+    "C": {
+      "item": "projecte:alchemical_chest"
+    },
+    "O": {
+      "tag": "forge:obsidian"
+    },
+    "D": {
+      "item": "projecte:dark_matter"
+    }
+  },
+  "result": {
+    "item": "projecte:condenser_mk1"
+  }
+}

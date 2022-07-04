@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.dark_quartz",
+  "colors": [
+    "11151c",
+    "060609"
+  ],
+  "ingredient": {
+    "item": "botania:dark_quartz"
+  }
+}

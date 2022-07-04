@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:nucleosynthesizing",
+  "itemInput": {
+    "ingredient": {
+      "item": "assemblylinemachines:miniature_black_hole"
+    }
+  },
+  "gasInput": {
+    "amount": 50,
+    "gas": "mekanism:antimatter"
+  },
+  "output": {
+    "item": "rftoolsdim:block_absorber"
+  },
+  "duration": 1250
+}

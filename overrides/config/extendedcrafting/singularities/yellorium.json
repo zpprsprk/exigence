@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.yellorium",
+  "colors": [
+    "f7f475",
+    "978f35"
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/yellorium"
+  }
+}

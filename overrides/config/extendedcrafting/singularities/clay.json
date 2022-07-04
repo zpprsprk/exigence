@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.clay",
+  "colors": [
+    "aaacbb",
+    "676b71"
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/clay"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.flint",
+  "colors": [
+    "303030",
+    "1c1c1d"
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/flint"
+  }
+}

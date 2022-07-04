@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.bone",
+  "colors": [
+    "e5e2cf",
+    "c1bd9f"
+  ],
+  "ingredient": {
+    "item": "minecraft:bone_block"
+  }
+}

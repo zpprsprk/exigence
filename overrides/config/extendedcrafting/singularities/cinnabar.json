@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.cinnabar",
+  "colors": [
+    "bf2d39",
+    "700626"
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/cinnabar"
+  }
+}

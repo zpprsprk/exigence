@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.chromium",
+  "colors": [
+    "cfcfdf",
+    "747782"
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/chromium"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.cobalt",
+  "colors": [
+    "328de7",
+    "0042a3"
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/cobalt"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "singularity.avaritia.ultimate",
+  "colors": [
+    "ffffff",
+    "ffffff"
+  ],
+  "timeRequired": 240,
+  "ingredient": {
+    "item": "extendedcrafting:ultimate_singularity"
+  }
+}

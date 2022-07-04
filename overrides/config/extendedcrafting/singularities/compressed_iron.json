@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.compressed_iron",
+  "colors": [
+    "65615d",
+    "363330"
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/compressed_iron"
+  }
+}

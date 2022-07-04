@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.hslasteel",
+  "colors": [
+    "e4ebf6",
+    "b3cdea"
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/hslasteel"
+  }
+}

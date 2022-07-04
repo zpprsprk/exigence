@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.gunpowder",
+  "colors": [
+    "74797a",
+    "212626"
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/gunpowder"
+  }
+}

@@ -5,6 +5,6 @@
     "1b53a7"
   ],
   "ingredient": {
-    "item": "minecraft:lapis_lazuli"
+    "tag": "forge:storage_blocks/lapis"
   }
 }

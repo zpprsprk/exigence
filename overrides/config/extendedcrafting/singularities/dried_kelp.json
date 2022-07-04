@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.dried_kelp",
+  "colors": [
+    "3f4937",
+    "1a2213"
+  ],
+  "ingredient": {
+    "item": "minecraft:dried_kelp_block"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:nucleosynthesizing",
+  "itemInput": {
+    "ingredient": {
+      "item": "minecraft:sponge"
+    }
+  },
+  "gasInput": {
+    "amount": 50,
+    "gas": "mekanism:antimatter"
+  },
+  "output": {
+    "item": "rftoolsdim:fluid_absorber"
+  },
+  "duration": 1250
+}

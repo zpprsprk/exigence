@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.slimesteel",
+  "colors": [
+    "8ac4c0",
+    "66b7b3"
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/slimesteel"
+  }
+}

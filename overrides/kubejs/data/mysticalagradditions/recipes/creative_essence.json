@@ -1,0 +1,55 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "reagent": [
+    {
+      "item": "projecte:harvest_goddess_band"
+    }
+  ],
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "waterstrainer:super_worm"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagradditions:insanium_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "waterstrainer:super_worm"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagradditions:insanium_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "waterstrainer:super_worm"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagradditions:insanium_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "waterstrainer:super_worm"
+      }
+    },
+    {
+      "item": {
+        "item": "mysticalagradditions:insanium_essence"
+      }
+    }
+  ],
+  "output": {
+    "item": "mysticalagradditions:creative_essence"
+  },
+  "sourceCost": 4000,
+  "keepNbtOfReagent": false
+}

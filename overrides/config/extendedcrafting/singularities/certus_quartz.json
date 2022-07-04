@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.certus_quartz",
+  "colors": [
+    "bddcfc",
+    "788ca0"
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/certus_quartz"
+  }
+}

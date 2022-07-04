@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.quartz",
+  "colors": [
+    "ebe7e3",
+    "e7dfd7"
+  ],
+  "ingredient": {
+    "item": "minecraft:quartz_block"
+  }
+}
