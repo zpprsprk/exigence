@@ -28,7 +28,7 @@
             "tag": "forge:gears/pure_iron"
           },
           "R": {
-            "tag": "pneumaticcraft:reinforced_stone_bricks"
+            "item": "mekanism:steel_casing"
           }
         },
         "result": {

@@ -4,18 +4,18 @@
 		"count" : 1,
 		"0": {
 			"item": "minecraft:melon_slice",
-			"count": 1
+			"count": 10
 		}
 	},
 	"fluidinputs":{
 		"count" : 1,
 		"0": {
 			"fluid": "minecraft:water",
-			"amount": 1000
+			"amount": 200
 		}
 	},
 	"output": {
 		"fluid": "electrodynamics:fluidethanol",
-		"amount": 20
+		"amount": 200
 	}
 }

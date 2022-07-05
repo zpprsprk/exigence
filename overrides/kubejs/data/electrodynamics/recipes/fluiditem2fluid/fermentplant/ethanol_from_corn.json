@@ -3,19 +3,19 @@
 	"iteminputs":{
 		"count" : 1,
 		"0": {
-			"tag": "forge:grain/corn",
-			"count": 1
+			"tag": "forge:crops/corn",
+			"count": 10
 		}
 	},
 	"fluidinputs":{
 		"count" : 1,
 		"0": {
 			"fluid": "minecraft:water",
-			"amount": 1000
+			"amount": 1600
 		}
 	},
 	"output": {
 		"fluid": "electrodynamics:fluidethanol",
-		"amount": 160
+		"amount": 1600
 	}
 }

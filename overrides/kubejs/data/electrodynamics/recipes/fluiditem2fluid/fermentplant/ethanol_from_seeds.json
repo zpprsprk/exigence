@@ -3,7 +3,7 @@
 	"iteminputs":{
 		"count" : 1,
 		"0": {
-			"tag": "forge:crops/potato",
+			"tag": "forge:seeds",
 			"count": 10
 		}
 	},
@@ -11,11 +11,11 @@
 		"count" : 1,
 		"0": {
 			"fluid": "minecraft:water",
-			"amount": 800
+			"amount": 100
 		}
 	},
 	"output": {
 		"fluid": "electrodynamics:fluidethanol",
-		"amount": 800
+		"amount": 100
 	}
 }

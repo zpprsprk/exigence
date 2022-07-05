@@ -4,18 +4,18 @@
 		"count" : 1,
 		"0": {
 			"item": "minecraft:sugar_cane",
-			"count": 1
+			"count": 10
 		}
 	},
 	"fluidinputs":{
 		"count" : 1,
 		"0": {
 			"fluid": "minecraft:water",
-			"amount": 1000
+			"amount": 800
 		}
 	},
 	"output": {
 		"fluid": "electrodynamics:fluidethanol",
-		"amount": 80
+		"amount": 800
 	}
 }
