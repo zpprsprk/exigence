@@ -1,0 +1,12 @@
+{
+  "type": "assemblylinemachines:pneumatic",
+  "input": {
+    "item": "avaritia:neutronium_ingot",
+    "count": 4
+  },
+  "output": {
+    "item": "avaritia:neutronium_gear"
+  },
+  "time": 18,
+  "mold": "gear"
+}

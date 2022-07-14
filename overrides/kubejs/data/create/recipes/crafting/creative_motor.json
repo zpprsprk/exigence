@@ -1,0 +1,55 @@
+{
+  "type": "avaritia:shaped_extreme_craft",
+  "pattern": [
+    "ABBBCBBBA",
+    "BDEFFFEDB",
+    "BEGHIHGEB",
+    "BFHJKJHFB",
+    "CFIKLKIFC",
+    "BFHJKJHFB",
+    "BEGHIHGEB",
+    "BDEFFFEDB",
+    "ABBBCBBBA"
+  ],
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "B": {
+      "item": "pneumaticcraft:smooth_plastic_brick_purple"
+    },
+    "C": {
+      "item": "create:shaft"
+    },
+    "D": {
+      "tag": "forge:pellets/antimatter"
+    },
+    "E": {
+      "item": "immersiveengineering:toolupgrade_drill_lube"
+    },
+    "F": {
+      "item": "avaritia:neutronium_gear"
+    },
+    "G": {
+      "item": "assemblylinemachines:crank"
+    },
+    "H": {
+      "item": "create:mechanical_arm"
+    },
+    "I": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "J": {
+      "item": "create:hand_crank"
+    },
+    "K": {
+      "item": "projecte:klein_star_omega"
+    },
+    "L": {
+      "item": "avaritia:infinity_catalyst"
+    }
+  },
+  "result": {
+    "item": "create:creative_motor"
+  }
+}

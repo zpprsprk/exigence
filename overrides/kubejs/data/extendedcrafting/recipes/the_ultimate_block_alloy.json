@@ -1,0 +1,19 @@
+{
+  "type":"electrodynamics:reinforced_alloyer_recipe",
+  "iteminputs" : {
+    "count" : 2,
+    "0":{
+      "item":"extendedcrafting:crystaltine_block",
+      "count":1
+    },
+    "1":{
+      "item":"extendedcrafting:ultimate_singularity",
+      "count":1
+    }
+  },
+  "output":{
+    "item":"extendedcrafting:the_ultimate_block",
+    "count":1
+  },
+  "experience": 0.3
+}
