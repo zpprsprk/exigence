@@ -1,0 +1,79 @@
+{
+  "type": "avaritia:shaped_extreme_craft",
+  "pattern": [
+    "ABCBDBCBA",
+    "BEFGHGFEB",
+    "IFFJKJFFI",
+    "BLMNONMLB",
+    "DPHKQKHPD",
+    "BRSNTNSRB",
+    "IFFJKJFFI",
+    "BEFGHGFEB",
+    "ABCBDBCBA"
+  ],
+  "key": {
+    "A": {
+      "item": "ars_nouveau:wixie_shards"
+    },
+    "B": {
+      "tag": "forge:ingots/pure_gold"
+    },
+    "C": {
+      "item": "ars_nouveau:whirlisprig_shards"
+    },
+    "D": {
+      "item": "ars_nouveau:starbuncle_shards"
+    },
+    "E": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "F": {
+      "item": "ars_nouveau:magebloom_fiber"
+    },
+    "G": {
+      "item": "ars_nouveau:source_berry_pie"
+    },
+    "H": {
+      "item": "ars_nouveau:source_jar"
+    },
+    "I": {
+      "item": "ars_nouveau:drygmy_shard"
+    },
+    "J": {
+      "item": "ars_nouveau:source_berry_roll"
+    },
+    "K": {
+      "item": "ars_nouveau:relay"
+    },
+    "L": {
+      "item": "ars_nouveau:vitalic_sourcelink"
+    },
+    "M": {
+      "item": "ars_nouveau:mycelial_sourcelink"
+    },
+    "N": {
+      "item": "avaritia:infinity_catalyst"
+    },
+    "O": {
+      "item": "ars_nouveau:bucket_of_source"
+    },
+    "P": {
+      "item": "ars_nouveau:alchemical_sourcelink"
+    },
+    "Q": {
+      "item": "botania:creative_pool"
+    },
+    "R": {
+      "item": "ars_nouveau:volcanic_sourcelink"
+    },
+    "S": {
+      "item": "ars_nouveau:agronomic_sourcelink"
+    },
+    "T": {
+      "item": "botania:conjuration_catalyst"
+    }
+  },
+  "result": {
+    "item": "ars_nouveau:creative_source_jar"
+  }
+}

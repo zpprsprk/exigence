@@ -1,0 +1,57 @@
+{
+  "type": "avaritia:shaped_extreme_craft",
+  "pattern": [
+    "AAAAAAAAA",
+    "ABCDEDCBA",
+    "ACFGHGFCA",
+    "ADGIJIGDA",
+    "AEHJKJHEA",
+    "ADGIJIGDA",
+    "ACFGHGFCA",
+    "ABCDEDCBA",
+    "AAAAAAAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "botania:chiseled_livingrock_bricks"
+    },
+    "B": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "C": {
+      "item": "botania:ender_air_bottle"
+    },
+    "D": {
+      "item": "botania:rune_mana"
+    },
+    "E": {
+      "item": "botania:pinkinator"
+    },
+    "F": {
+      "item": "botania:gaia_pylon"
+    },
+    "G": {
+      "item": "botania:life_essence"
+    },
+    "H": {
+      "item": "avaritia:infinity_catalyst"
+    },
+    "I": {
+      "item": "botania:mana_bottle"
+    },
+    "J": {
+      "item": "botania:mana_tablet"
+    },
+    "K": {
+      "item": "mekanism:creative_fluid_tank"
+    }
+  },
+  "result": {
+    "type": "forge:nbt",
+    "item": "botania:mana_tablet",
+    "nbt": {
+      "mana": 500000,
+      "creative": true
+    }
+  }
+}

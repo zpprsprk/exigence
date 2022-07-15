@@ -1,0 +1,55 @@
+{
+  "type": "avaritia:shaped_extreme_craft",
+  "pattern": [
+    "ABBBCBBBA",
+    "BDEFCFEDB",
+    "BEGHIHGEB",
+    "BFHJKJHFB",
+    "CCIKLKICC",
+    "BFHJKJHFB",
+    "BEGHIHGEB",
+    "BDEFCFEDB",
+    "ABBBCBBBA"
+  ],
+  "key": {
+    "A": {
+      "item": "mekanismadditions:black_slick_plastic"
+    },
+    "B": {
+      "tag": "thermal:glass/hardened"
+    },
+    "C": {
+      "item": "mekanism:ultimate_mechanical_pipe"
+    },
+    "D": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "E": {
+      "item": "pneumaticcraft:huge_tank"
+    },
+    "F": {
+      "item": "mekanism:ultimate_fluid_tank"
+    },
+    "G": {
+      "item": "create:creative_motor"
+    },
+    "H": {
+      "item": "createaddition:alternator"
+    },
+    "I": {
+      "item": "mekanism:rotary_condensentrator"
+    },
+    "J": {
+      "item": "avaritia:infinity_ingot"
+    },
+    "K": {
+      "item": "mekanism:ultimate_pressurized_tube"
+    },
+    "L": {
+      "item": "mekanism:creative_chemical_tank"
+    }
+  },
+  "result": {
+    "item": "mekanism:creative_fluid_tank"
+  }
+}
