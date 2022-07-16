@@ -40,7 +40,11 @@
       "item": "botania:mana_bottle"
     },
     "J": {
-      "item": "botania:mana_tablet"
+      "type": "forge:nbt",
+      "item": "botania:mana_tablet",
+      "nbt": {
+        "mana": 500000
+      }
     },
     "K": {
       "item": "mekanism:creative_fluid_tank"

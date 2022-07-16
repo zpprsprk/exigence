@@ -17,6 +17,7 @@
 <add> <strainer>strainer_survivalist</strainer> <chance>13</chance> <item>minecraft:gravel</item> </add>
 <add> <strainer>strainer_survivalist</strainer> <chance>1</chance> <item>minecraft:iron_nugget</item> </add>
 <add> <strainer>strainer_survivalist</strainer> <chance>1</chance> <item>minecraft:gold_nugget</item> </add>
+<add> <strainer>strainer_survivalist</strainer> <chance>2</chance> <item>mysticalagriculture:prosperity_shard</item> </add>
 
 <copy> <child>strainer_survivalist_solid</child> <parent>strainer_survivalist</parent> </copy>
 <copy> <child>strainer_survivalist_reinforced</child> <parent>strainer_survivalist</parent> </copy>

@@ -1,0 +1,89 @@
+{
+  "type": "avaritia:shaped_extreme_craft",
+  "pattern": [
+    "ABBBBBBBA",
+    "BCDEFEDCB",
+    "BDEGHGEDB",
+    "BEGIJIGEB",
+    "BGKLMNOGB",
+    "BEGIPIGEB",
+    "BDEGQGEDB",
+    "BCDEREDCB",
+    "ABBBBBBBA"
+  ],
+  "key": {
+    "A": {
+      "item": "storagedrawers:creative_storage_upgrade"
+    },
+    "B": {
+      "item": "extendedcrafting:the_ultimate_block"
+    },
+    "C": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "D": {
+      "item": "refinedstorage:64k_storage_part"
+    },
+    "E": {
+      "item": "ae2:cell_component_256k"
+    },
+    "F": {
+      "item": "pneumaticcraft:creative_compressor"
+    },
+    "G": {
+      "item": "extendedcrafting:the_ultimate_catalyst"
+    },
+    "H": {
+      "item": "botania:creative_pool"
+    },
+    "I": {
+      "item": "avaritia:infinity"
+    },
+    "J": {
+      "item": "immersiveengineering:capacitor_creative"
+    },
+    "K": {
+      "item": "mekanism:creative_chemical_tank"
+    },
+    "L": {
+      "item": "cyclic:battery_infinite"
+    },
+    "M": {
+      "type": "forge:nbt",
+      "item": "mekanism:creative_energy_cube",
+      "nbt": {
+        "mekData": {
+          "EnergyContainers": [
+            {
+              "Container": false,
+              "stored": "18446744073709551615.9999"
+            }
+          ]
+        }
+      }
+    },
+    "N": {
+      "item": "electrodynamics:creativepowersource"
+    },
+    "O": {
+      "item": "mekanism:creative_fluid_tank"
+    },
+    "P": {
+      "item": "create:creative_motor"
+    },
+    "Q": {
+      "type": "forge:nbt",
+      "item": "botania:mana_tablet",
+      "nbt": {
+        "mana": 500000,
+        "creative": true
+      }
+    },
+    "R": {
+      "item": "ars_nouveau:creative_source_jar"
+    }
+  },
+  "result": {
+    "item": "storagedrawers:creative_vending_upgrade"
+  }
+}

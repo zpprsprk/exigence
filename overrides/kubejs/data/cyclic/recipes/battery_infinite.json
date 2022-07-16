@@ -1,0 +1,46 @@
+{
+  "type": "avaritia:shaped_extreme_craft",
+  "pattern": [
+    "AABBCBBAA",
+    "ADEECEEDA",
+    "BEFGCGFEB",
+    "BEGHCHGEB",
+    "CCCCICCCC",
+    "BEGHCHGEB",
+    "BEFGCGFEB",
+    "ADEECEEDA",
+    "AABBCBBAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:purple_glazed_terracotta"
+    },
+    "B": {
+      "item": "cyclic:gem_obsidian"
+    },
+    "C": {
+      "item": "assemblylinemachines:ultimate_omnipipe"
+    },
+    "D": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "E": {
+      "item": "electrodynamics:wirehighlyinsulatedsuperconductive"
+    },
+    "F": {
+      "item": "extendedcrafting:the_ultimate_block"
+    },
+    "G": {
+      "item": "cyclic:fireball_dark"
+    },
+    "H": {
+      "item": "avaritia:infinity_ingot"
+    },
+    "I": {
+      "item": "immersiveengineering:capacitor_creative"
+    }
+  },
+  "result": {
+    "item": "cyclic:battery_infinite"
+  }
+}
