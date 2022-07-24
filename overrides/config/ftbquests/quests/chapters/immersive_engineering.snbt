@@ -1,0 +1,137 @@
+{
+	id: "64EED7F5FE492EB6"
+	group: "1335774DD3375A84"
+	order_index: 1
+	filename: "immersive_engineering"
+	title: "Immersive Engineering"
+	icon: {
+		id: "immersiveengineering:hammer"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Alloy Kiln"
+			icon: "immersiveengineering:alloy_smelter"
+			x: 0.0d
+			y: -6.0d
+			description: ["In addition to alloying many things, the alloy kiln will be needed for getting cured rubber the first time."]
+			dependencies: ["4DE00D1233FCF6DF"]
+			id: "1ED24A39E69C41B4"
+			tasks: [{
+				id: "6F8FE3A1CCB02DB9"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+				count: 8L
+			}]
+			rewards: [{
+				id: "649F4DC61536AB47"
+				type: "item"
+				item: "minecraft:charcoal"
+				count: 64
+			}]
+		}
+		{
+			title: "Coke Oven"
+			icon: "immersiveengineering:coke_oven"
+			x: 1.5d
+			y: -6.0d
+			description: ["Creosote and Coal Coke are both quite handy resources. You are going to want to get some..."]
+			dependencies: ["4DE00D1233FCF6DF"]
+			id: "24962C6BAC6B7EF4"
+			tasks: [
+				{
+					id: "35D7B38B82319418"
+					type: "item"
+					item: "immersiveengineering:cokebrick"
+					count: 27L
+				}
+				{
+					id: "336CA67E6D6119E9"
+					type: "item"
+					item: "immersiveengineering:coal_coke"
+				}
+				{
+					id: "033EC8F3D4519251"
+					type: "item"
+					item: "immersiveengineering:creosote_bucket"
+				}
+			]
+			rewards: [{
+				id: "438E275306F6ED4D"
+				type: "item"
+				item: "minecraft:coal"
+				count: 64
+			}]
+		}
+		{
+			title: "Blast Furnace"
+			icon: "immersiveengineering:blast_furnace"
+			x: 3.0d
+			y: -6.0d
+			dependencies: ["4DE00D1233FCF6DF"]
+			id: "77F11644A7F720AB"
+			tasks: [
+				{
+					id: "651FFC86C78F7BE2"
+					type: "item"
+					item: "immersiveengineering:blastbrick"
+					count: 27L
+				}
+				{
+					id: "7B1A5DBA1CA795DA"
+					type: "item"
+					title: "Any #forge:ingots/steel"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/steel"
+						}
+					}
+				}
+				{
+					id: "22961B7261F09B30"
+					type: "item"
+					item: "immersiveengineering:slag"
+				}
+			]
+			rewards: [
+				{
+					id: "701635B9D85D5F54"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 16
+				}
+				{
+					id: "68E7D0B48F35A408"
+					type: "item"
+					item: "immersiveengineering:coal_coke"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -4.5d
+			description: ["Treated wood is a bit tricker to get than just throwing some stuff in a crafting table. You will actually need to pour the creosote on top of the planks."]
+			dependencies: ["24962C6BAC6B7EF4"]
+			id: "0E3A2845EFE00818"
+			tasks: [{
+				id: "21C8887A7B9CB2D5"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+			}]
+			rewards: [{
+				id: "3AB57E1111ED6434"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+				count: 16
+			}]
+		}
+	]
+}

@@ -1,0 +1,284 @@
+{
+	id: "26E0FF922CBE41EA"
+	group: "1335774DD3375A84"
+	order_index: 0
+	filename: "tinkers_construct"
+	title: "Tinker's Construct"
+	icon: "tconstruct:crafting_station"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Tinker's Tables"
+			x: -3.0d
+			y: -10.0d
+			id: "71B994B76F5C1D4A"
+			tasks: [
+				{
+					id: "5D687E8077F5DB96"
+					type: "item"
+					item: "tconstruct:crafting_station"
+				}
+				{
+					id: "7337E4138A391E85"
+					type: "item"
+					item: "tconstruct:part_builder"
+				}
+				{
+					id: "1400B94A5540C905"
+					type: "item"
+					item: {
+						id: "tconstruct:tinker_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "1C36A038A3556F78"
+					type: "item"
+					item: "tconstruct:part_chest"
+				}
+				{
+					id: "35F52C47733D6512"
+					type: "item"
+					item: "tconstruct:tinkers_chest"
+				}
+			]
+			rewards: [{
+				id: "05B98BB6352FB467"
+				type: "item"
+				item: "tconstruct:pattern"
+				count: 16
+			}]
+		}
+		{
+			title: "Scorched Bricks"
+			x: -1.5d
+			y: -10.0d
+			id: "52C7048F2480608E"
+			tasks: [
+				{
+					id: "10EA20E8DA33F2AA"
+					type: "item"
+					item: "tconstruct:nether_grout"
+				}
+				{
+					id: "3CB38BFB78888C3B"
+					type: "item"
+					item: "tconstruct:scorched_brick"
+				}
+			]
+			rewards: [{
+				id: "501EF59B1CDCC95D"
+				type: "item"
+				item: "tconstruct:scorched_brick"
+				count: 32
+			}]
+		}
+		{
+			title: "Alloyer"
+			x: -1.5d
+			y: -8.5d
+			description: ["In order to make the smeltery, you are going to need a foundry to smelt those seared bricks. You will need to set up an alloyer first though to alloy some lava and water into obsidian."]
+			dependencies: ["52C7048F2480608E"]
+			id: "4079E7536D721421"
+			tasks: [
+				{
+					id: "72938D630757D046"
+					type: "item"
+					title: "Any #tconstruct:scorched_tanks"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:scorched_tanks"
+						}
+					}
+					count: 3L
+				}
+				{
+					id: "5F591C2F097836B8"
+					type: "item"
+					item: "tconstruct:scorched_alloyer"
+				}
+				{
+					id: "182885E98AEBC10B"
+					type: "item"
+					item: "tconstruct:scorched_faucet"
+				}
+				{
+					id: "168D22E53FC2266B"
+					type: "item"
+					item: "tconstruct:scorched_basin"
+				}
+				{
+					id: "040A168AFA678F89"
+					type: "item"
+					item: "tconstruct:scorched_table"
+				}
+			]
+			rewards: [{
+				id: "1185511EE0F1F5F2"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			title: "Foundry"
+			x: -1.5d
+			y: -5.5d
+			description: ["With the foundry set up, you can get a little bit of extra stuff by melting you ores. Most importantly though, you can melt the grout down for the seared bricks."]
+			dependencies: ["3A0C156664EC1F0C"]
+			id: "5BB921410C491649"
+			tasks: [
+				{
+					id: "681ED7A1A0E9A5DF"
+					type: "item"
+					item: "tconstruct:foundry_controller"
+				}
+				{
+					id: "3843BA23EACC51FC"
+					type: "item"
+					item: "tconstruct:scorched_drain"
+				}
+				{
+					id: "06EA48692C78BDFF"
+					type: "item"
+					item: "tconstruct:scorched_chute"
+				}
+				{
+					id: "1C836C97CE155E5D"
+					type: "item"
+					item: "tconstruct:scorched_bricks"
+				}
+			]
+			rewards: [{
+				id: "7AEF3913E66847EA"
+				type: "item"
+				item: "tconstruct:scorched_bricks"
+				count: 16
+			}]
+		}
+		{
+			title: "Pouring Obsidian"
+			x: -1.5d
+			y: -7.0d
+			description: ["With your molten obsidian, you can create the key foundry components. In order to use the scorched casting table, you are going to need some tinker's gold bars. Make sure you select the correct recipe when creating them."]
+			dependencies: ["4079E7536D721421"]
+			id: "3A0C156664EC1F0C"
+			tasks: [
+				{
+					id: "312F9225B4473C05"
+					type: "item"
+					item: "tconstruct:obsidian_pane"
+					count: 4L
+				}
+				{
+					id: "2DFA24645598D8FF"
+					type: "item"
+					item: "tconstruct:gold_bars"
+				}
+			]
+		}
+		{
+			title: "Seared Bricks"
+			x: -1.5d
+			y: -4.0d
+			description: ["Now that your foundry is up and running, you can finally cast some seared bricks for your smeltery."]
+			dependencies: ["5BB921410C491649"]
+			id: "01EA6A181911F99A"
+			tasks: [
+				{
+					id: "6D450252FEFA4A28"
+					type: "item"
+					item: "tconstruct:grout"
+				}
+				{
+					id: "51BA99B50058483E"
+					type: "item"
+					item: "tconstruct:seared_brick"
+				}
+			]
+			rewards: [{
+				id: "07FB61603C7483CC"
+				type: "item"
+				item: "tconstruct:seared_brick"
+				count: 32
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			dependencies: ["01EA6A181911F99A"]
+			id: "13FF1F192FAB021D"
+			tasks: [
+				{
+					id: "74A7F93DA23DEEBA"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "285E9C07C2A8C3B4"
+					type: "item"
+					title: "Any #tconstruct:seared_tanks"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:seared_tanks"
+						}
+					}
+				}
+				{
+					id: "22E85EBD0DCF2577"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+				{
+					id: "00F67505A3EA6333"
+					type: "item"
+					item: "tconstruct:seared_chute"
+				}
+				{
+					id: "7FE5B56A75A4EA44"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+				}
+				{
+					id: "73A10C31D5E769CF"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+				}
+				{
+					id: "3A45C5A8C9234F38"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "4E0A37978B337C2C"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+			]
+			rewards: [{
+				id: "0874F125C620C112"
+				type: "item"
+				item: "tconstruct:seared_bricks"
+				count: 16
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			dependencies: ["13FF1F192FAB021D"]
+			id: "0D0F64BC8214D2D2"
+			tasks: [{
+				id: "30A0387F2DA28AC3"
+				type: "item"
+				item: "tconstruct:tinkers_anvil"
+			}]
+		}
+	]
+}

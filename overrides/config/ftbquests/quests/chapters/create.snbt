@@ -1,0 +1,28 @@
+{
+	id: "71D0C882C007CB43"
+	group: "1335774DD3375A84"
+	order_index: 2
+	filename: "create"
+	title: "Create"
+	icon: "create:wrench"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.5d
+		y: -6.0d
+		description: ["This simple alloy will be the key to starting in on Create. You will need a way to get molten iron and pour it onto some andesite for your first several alloys."]
+		dependencies: ["5BB921410C491649"]
+		id: "27D0203F5D0F7CC2"
+		tasks: [{
+			id: "140ABC0CD603E30B"
+			type: "item"
+			item: "create:andesite_alloy"
+		}]
+		rewards: [{
+			id: "2358F673E5AAB3C1"
+			type: "item"
+			item: "create:andesite_alloy"
+			count: 16
+		}]
+	}]
+}

@@ -1,3 +1,41 @@
+Version 2.0.11
+Updated Forge to 40.1.67
+Updated mods
+Architectury API
+Ars Nouveau
+Bookshelf
+Chunk Loaders
+Clumps
+Collective
+Corail Tombstone
+Cyclic
+Easy Villagters
+Extended Crafting
+Extreme sound muffler
+FramedBlocks
+GeckoLib
+Hostile Neural networks
+In Control
+Integrated Dynamics
+iron jetpacks
+JEI
+KubeJS
+Large Ore Deposits
+LaserIO
+Lootr
+Moving Elevators
+Mystical Agriculture
+Mystical Customization
+MythicBotany
+Occultism
+Placebo
+Platforms
+Pretty Pipes
+RFTools Dimensions
+Rhino
+The Lost Cities
+Traveler's Backpack
+
 Version 2.0.10
 Updated several mods
 

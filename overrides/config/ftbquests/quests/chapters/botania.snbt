@@ -1,0 +1,142 @@
+{
+	id: "35B3C0D9AC2A6113"
+	group: "085C3FA1EC0C2189"
+	order_index: 0
+	filename: "botania"
+	title: "Botania"
+	icon: "botania:runic_altar"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.0d
+			y: -8.5d
+			description: ["You will need to dig a bit deeper than you used to for the materials needed here."]
+			id: "59D2F02255160EEB"
+			tasks: [{
+				id: "63AEB2965696A608"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+			rewards: [{
+				id: "7B6BBE806F65929A"
+				type: "item"
+				item: "botania:white_petal"
+				count: 16
+			}]
+		}
+		{
+			x: 1.0d
+			y: -7.0d
+			dependencies: ["59D2F02255160EEB"]
+			id: "7F326C0CC7E0474E"
+			tasks: [{
+				id: "6615E1348CEADBB0"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+		}
+		{
+			title: "Living Materials"
+			x: 1.0d
+			y: -5.5d
+			description: ["Before you can get too far into Botania, you are going to need a few specific things from the Nether. Crimson stems will turn into livingwood for you and the livingrock is going to require smooth basalt."]
+			dependencies: ["7F326C0CC7E0474E"]
+			id: "261B416B09206E32"
+			tasks: [
+				{
+					id: "4CAB42CB57C6EFA7"
+					type: "item"
+					title: "Any #botania:livingwood_logs"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "botania:livingwood_logs"
+						}
+					}
+				}
+				{
+					id: "43A3D2C170CBEE28"
+					type: "item"
+					item: "botania:livingrock"
+				}
+			]
+			rewards: [
+				{
+					id: "12585E9D2FF8949F"
+					type: "item"
+					item: "botania:livingwood"
+					count: 16
+				}
+				{
+					id: "36AFDA543596CEAF"
+					type: "item"
+					item: "botania:livingrock"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "Mana"
+			icon: "botania:mana_pool"
+			x: 1.0d
+			y: -4.0d
+			dependencies: ["261B416B09206E32"]
+			id: "38106C9254121A1A"
+			tasks: [
+				{
+					id: "05C84C8EAA70D9BF"
+					type: "item"
+					item: "botania:mana_pool"
+				}
+				{
+					id: "5298126E05278A8A"
+					type: "item"
+					item: "botania:mana_spreader"
+				}
+				{
+					id: "26B7DBCA2E1319E9"
+					type: "item"
+					title: "Any #botania:generating_special_flowers"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "botania:generating_special_flowers"
+						}
+					}
+				}
+				{
+					id: "12026E72A8F24D5B"
+					type: "item"
+					item: "botania:twig_wand"
+				}
+			]
+			rewards: [{
+				id: "45434DB9BD4FAA04"
+				type: "item"
+				item: "botania:blacker_lotus"
+				count: 4
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			description: ["The runic altar will be quite useful early on as it is needed for a few recipes for other mods."]
+			dependencies: ["38106C9254121A1A"]
+			id: "4DE00D1233FCF6DF"
+			tasks: [{
+				id: "57A76747EFC7CA7C"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+			rewards: [{
+				id: "0FAE86589C2EF15B"
+				type: "item"
+				item: "botania:livingrock"
+				count: 16
+			}]
+		}
+	]
+}
