@@ -20,6 +20,8 @@ Mob Grinding Utils
 Occultism
 The Lost Cities
 Traveler's Backpack
+Known Issues:
+https://github.com/Creators-of-Create/Create/issues/3397
 
 Version 2.0.11
 Updated Forge to 40.1.67
