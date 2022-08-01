@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Exigence 2.1.0",
-  "author": "",
+  "author": "ZpprSprk",
   "files": [
     {
       "projectID": 260262,
@@ -375,7 +375,7 @@
     },
     {
       "projectID": 238222,
-      "fileID": 3904349,
+      "fileID": 3885885,
       "required": true
     },
     {

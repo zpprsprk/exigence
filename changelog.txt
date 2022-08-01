@@ -13,7 +13,6 @@ Integrated Dynamics
 Integrated Tunnels
 Iron Jetpacks
 JourneyMap
-Just Enough Items
 KubeJS
 McJtyLib
 Mob Grinding Utils
