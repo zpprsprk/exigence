@@ -1,3 +1,26 @@
+Version 2.1.0
+Recipe tweaks and Quest Book
+Update mods:
+Ars Nouveau
+Bookshelf
+Clumps
+Compact Machines
+Cyclops Core
+FTB Library
+Immersive Engineering
+In Control!
+Integrated Dynamics
+Integrated Tunnels
+Iron Jetpacks
+JourneyMap
+Just Enough Items
+KubeJS
+McJtyLib
+Mob Grinding Utils
+Occultism
+The Lost Cities
+Traveler's Backpack
+
 Version 2.0.11
 Updated Forge to 40.1.67
 Updated mods
