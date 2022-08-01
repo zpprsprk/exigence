@@ -13,7 +13,7 @@
   ],
   "key": {
     "I": {
-      "tag": "forge:storage_blocks/iron"
+      "item": "industrialforegoing:machine_frame_pity"
     },
     "C": {
       "item": "avaritia:double_compressed_crafting_table"

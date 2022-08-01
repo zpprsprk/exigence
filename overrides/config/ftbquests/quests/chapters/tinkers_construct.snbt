@@ -3,60 +3,16 @@
 	group: "1335774DD3375A84"
 	order_index: 0
 	filename: "tinkers_construct"
-	title: "Tinker's Construct"
-	icon: "tconstruct:crafting_station"
+	title: "Andesite Alloy"
+	icon: "create:andesite_alloy"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Tinker's Tables"
-			x: -3.0d
-			y: -10.0d
-			id: "71B994B76F5C1D4A"
-			tasks: [
-				{
-					id: "5D687E8077F5DB96"
-					type: "item"
-					item: "tconstruct:crafting_station"
-				}
-				{
-					id: "7337E4138A391E85"
-					type: "item"
-					item: "tconstruct:part_builder"
-				}
-				{
-					id: "1400B94A5540C905"
-					type: "item"
-					item: {
-						id: "tconstruct:tinker_station"
-						Count: 1b
-						tag: {
-							texture: "minecraft:oak_planks"
-						}
-					}
-				}
-				{
-					id: "1C36A038A3556F78"
-					type: "item"
-					item: "tconstruct:part_chest"
-				}
-				{
-					id: "35F52C47733D6512"
-					type: "item"
-					item: "tconstruct:tinkers_chest"
-				}
-			]
-			rewards: [{
-				id: "05B98BB6352FB467"
-				type: "item"
-				item: "tconstruct:pattern"
-				count: 16
-			}]
-		}
-		{
 			title: "Scorched Bricks"
 			x: -1.5d
 			y: -10.0d
+			dependencies: ["77D987DEE2AB5C81"]
 			id: "52C7048F2480608E"
 			tasks: [
 				{
@@ -184,8 +140,8 @@
 		}
 		{
 			title: "Seared Bricks"
-			x: -1.5d
-			y: -4.0d
+			x: 0.0d
+			y: -5.5d
 			description: ["Now that your foundry is up and running, you can finally cast some seared bricks for your smeltery."]
 			dependencies: ["5BB921410C491649"]
 			id: "01EA6A181911F99A"
@@ -209,8 +165,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -2.5d
+			x: 1.5d
+			y: -5.5d
 			dependencies: ["01EA6A181911F99A"]
 			id: "13FF1F192FAB021D"
 			tasks: [
@@ -271,13 +227,21 @@
 		}
 		{
 			x: -1.5d
-			y: -1.0d
-			dependencies: ["13FF1F192FAB021D"]
+			y: -4.0d
+			shape: "hexagon"
+			description: ["Congratulations, you can create stuff now."]
+			dependencies: ["5BB921410C491649"]
 			id: "0D0F64BC8214D2D2"
 			tasks: [{
 				id: "30A0387F2DA28AC3"
 				type: "item"
-				item: "tconstruct:tinkers_anvil"
+				item: "create:andesite_alloy"
+			}]
+			rewards: [{
+				id: "1008F9E617853C3D"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 16
 			}]
 		}
 	]

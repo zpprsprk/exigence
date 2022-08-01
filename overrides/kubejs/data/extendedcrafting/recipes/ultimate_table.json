@@ -17,7 +17,7 @@
   ],
   "key": {
     "I": {
-      "tag": "forge:storage_blocks/emerald"
+      "item": "industrialforegoing:machine_frame_supreme"
     },
     "C": {
       "item": "extendedcrafting:elite_table"

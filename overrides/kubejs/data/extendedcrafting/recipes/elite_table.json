@@ -15,7 +15,7 @@
   ],
   "key": {
     "I": {
-      "tag": "forge:storage_blocks/diamond"
+      "item": "industrialforegoing:machine_frame_advanced"
     },
     "C": {
       "item": "extendedcrafting:advanced_table"

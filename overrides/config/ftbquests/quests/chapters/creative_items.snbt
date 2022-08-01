@@ -1,0 +1,301 @@
+{
+	id: "628E0042A3478B7E"
+	group: "1335774DD3375A84"
+	order_index: 6
+	filename: "creative_items"
+	title: "Creative Items"
+	icon: "storagedrawers:creative_vending_upgrade"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5d
+			y: -4.5d
+			description: ["You really only need one though..."]
+			dependencies: ["240158CE874A67D5"]
+			id: "2A538EA4343012A2"
+			tasks: [{
+				id: "080D5A0F5D72BEDE"
+				type: "item"
+				item: "storagedrawers:creative_vending_upgrade"
+			}]
+			rewards: [{
+				id: "0BB5AABEC813AAE2"
+				type: "item"
+				item: "storagedrawers:creative_vending_upgrade"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -8.5d
+			description: ["This special item is needed in a lot of really cool things."]
+			dependencies: [
+				"4B21A6FD7104030B"
+				"4DB384853DE1C5F8"
+			]
+			id: "09118794A047DB3B"
+			tasks: [{
+				id: "05E5D08F8D26D0F1"
+				type: "item"
+				item: "avaritia:infinity_catalyst"
+			}]
+			rewards: [{
+				id: "538AB5BD37606F6E"
+				type: "item"
+				item: "avaritia:infinity_catalyst"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -7.5d
+			description: ["It just keeps turning, and turning, and turning, and..."]
+			dependencies: [
+				"09118794A047DB3B"
+				"766B59E0DABA54FE"
+			]
+			id: "01A9AC7562B35BC6"
+			tasks: [{
+				id: "659A093DBA2704DE"
+				type: "item"
+				item: "create:creative_motor"
+			}]
+			rewards: [{
+				id: "7099036384000E49"
+				type: "item"
+				item: "avaritia:infinity_catalyst"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -7.5d
+			description: ["All the pressure you could ever need."]
+			dependencies: ["01A9AC7562B35BC6"]
+			id: "3B13A71E3FCBBF26"
+			tasks: [{
+				id: "729EB567174C2851"
+				type: "item"
+				item: "pneumaticcraft:creative_compressor"
+			}]
+			rewards: [{
+				id: "480B7DC75B9CB761"
+				type: "item"
+				item: "avaritia:infinity_catalyst"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -7.5d
+			description: ["One handy little chemical tank."]
+			dependencies: ["3B13A71E3FCBBF26"]
+			id: "531BCC9E8F45CADE"
+			tasks: [{
+				id: "51A8463FFFFA107E"
+				type: "item"
+				item: "mekanism:creative_chemical_tank"
+			}]
+			rewards: [{
+				id: "119BEA3E479147B9"
+				type: "item"
+				item: "avaritia:infinity_catalyst"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -6.5d
+			description: ["This one is quite useful too."]
+			dependencies: ["531BCC9E8F45CADE"]
+			id: "204F77D0903E3174"
+			tasks: [{
+				id: "54A6D569117963E5"
+				type: "item"
+				item: "mekanism:creative_fluid_tank"
+			}]
+			rewards: [{
+				id: "652D1BD72DD2F856"
+				type: "item"
+				item: "avaritia:infinity_catalyst"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -6.5d
+			description: ["Now you'll never run out of mana."]
+			dependencies: ["204F77D0903E3174"]
+			id: "21F7B07C474DCDCD"
+			tasks: [{
+				id: "09DCA06FB424F842"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: {
+						mana: 500000
+						creative: 1b
+					}
+				}
+			}]
+			rewards: [{
+				id: "23F2CDB26D4FC882"
+				type: "item"
+				item: "avaritia:infinity_catalyst"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -6.5d
+			description: ["Not for swimming."]
+			dependencies: ["21F7B07C474DCDCD"]
+			id: "6C27A6502C5B3105"
+			tasks: [{
+				id: "1B5EC1D094B47DD6"
+				type: "item"
+				item: "botania:creative_pool"
+			}]
+			rewards: [{
+				id: "4F5C91EC940475DF"
+				type: "item"
+				item: "avaritia:infinity_catalyst"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.5d
+			description: ["An excellent source of source."]
+			dependencies: ["6C27A6502C5B3105"]
+			id: "6BB061DA3CD9F55B"
+			tasks: [{
+				id: "72AB165A29A22DF7"
+				type: "item"
+				item: "ars_nouveau:creative_source_jar"
+			}]
+			rewards: [{
+				id: "65CE2EFACA235C4F"
+				type: "item"
+				item: "avaritia:infinity_catalyst"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -5.5d
+			description: ["All the electricity you could ever need."]
+			dependencies: ["6BB061DA3CD9F55B"]
+			id: "695E987875D4FA93"
+			tasks: [{
+				id: "6B6977179188DCCC"
+				type: "item"
+				item: "electrodynamics:creativepowersource"
+			}]
+			rewards: [{
+				id: "7A8A1011D9EFDFBA"
+				type: "item"
+				item: "avaritia:infinity_catalyst"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.5d
+			description: ["A creative amount of energy."]
+			dependencies: ["695E987875D4FA93"]
+			id: "55B6A104C5CBF38A"
+			tasks: [{
+				id: "01A1B018C2D7F57F"
+				type: "item"
+				item: "immersiveengineering:capacitor_creative"
+			}]
+			rewards: [{
+				id: "36DA0CD48D9178DD"
+				type: "item"
+				item: "avaritia:infinity_catalyst"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.5d
+			description: ["Infinite energy for all your needs."]
+			dependencies: ["55B6A104C5CBF38A"]
+			id: "4C0A7B8E789F2D29"
+			tasks: [{
+				id: "7420D8BC87AC0574"
+				type: "item"
+				item: "cyclic:battery_infinite"
+			}]
+			rewards: [{
+				id: "79BA6FD853FF23DC"
+				type: "item"
+				item: "avaritia:infinity_catalyst"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.5d
+			description: ["Another creative amount of energy."]
+			dependencies: ["4C0A7B8E789F2D29"]
+			id: "240158CE874A67D5"
+			tasks: [{
+				id: "7518639EC317B9C5"
+				type: "item"
+				item: {
+					id: "mekanism:creative_energy_cube"
+					Count: 1b
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "18446744073709551615.9999"
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "12E658BD92EA8330"
+				type: "item"
+				item: "avaritia:infinity_catalyst"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -9.5d
+			description: ["The extreme crafting table is another table used for some creative recipes."]
+			dependencies: ["246F6807D6ABEB53"]
+			id: "4DB384853DE1C5F8"
+			tasks: [{
+				id: "266DEABFF1492FFE"
+				type: "item"
+				item: "avaritia:extreme_crafting_table"
+			}]
+			rewards: [{
+				id: "4C59B2AA8662591D"
+				type: "item"
+				item: "avaritia:extreme_crafting_table"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.5d
+			description: ["A great tool used for all sorts of fun things."]
+			dependencies: [
+				"4B21A6FD7104030B"
+				"4DB384853DE1C5F8"
+			]
+			id: "766B59E0DABA54FE"
+			tasks: [{
+				id: "231C1208F8E6FAC0"
+				type: "item"
+				item: {
+					id: "projecte:philosophers_stone"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "2CB325E0CC55D3D9"
+				type: "item"
+				item: "extendedcrafting:ultimate_singularity"
+			}]
+		}
+	]
+}

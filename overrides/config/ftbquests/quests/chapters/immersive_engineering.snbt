@@ -3,133 +3,105 @@
 	group: "1335774DD3375A84"
 	order_index: 1
 	filename: "immersive_engineering"
-	title: "Immersive Engineering"
-	icon: {
-		id: "immersiveengineering:hammer"
-		Count: 1b
-		tag: {
-			Damage: 0
-		}
-	}
+	title: "Plastic"
+	icon: "pneumaticcraft:plastic"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Alloy Kiln"
-			icon: "immersiveengineering:alloy_smelter"
-			x: 0.0d
-			y: -6.0d
-			description: ["In addition to alloying many things, the alloy kiln will be needed for getting cured rubber the first time."]
-			dependencies: ["4DE00D1233FCF6DF"]
-			id: "1ED24A39E69C41B4"
+			x: -2.5d
+			y: 0.0d
+			description: ["Throw some iron into an explosion. A pressure chamber will be more efficient later, so you might want to set one of those up too."]
+			dependencies: ["77D987DEE2AB5C81"]
+			id: "58BBA11FA8C930FF"
 			tasks: [{
-				id: "6F8FE3A1CCB02DB9"
+				id: "2068B62284352F93"
 				type: "item"
-				item: "immersiveengineering:alloybrick"
-				count: 8L
+				item: "pneumaticcraft:ingot_iron_compressed"
 			}]
 			rewards: [{
-				id: "649F4DC61536AB47"
+				id: "70E23FFC958960E0"
 				type: "item"
-				item: "minecraft:charcoal"
-				count: 64
+				item: "pneumaticcraft:ingot_iron_compressed"
+				count: 32
 			}]
 		}
 		{
-			title: "Coke Oven"
-			icon: "immersiveengineering:coke_oven"
-			x: 1.5d
-			y: -6.0d
-			description: ["Creosote and Coal Coke are both quite handy resources. You are going to want to get some..."]
-			dependencies: ["4DE00D1233FCF6DF"]
-			id: "24962C6BAC6B7EF4"
+			title: "Refinery"
+			icon: "pneumaticcraft:refinery"
+			x: -2.5d
+			y: 1.5d
+			description: ["Put together this on top of a good heat source (a blaze burner can be convenient) and feed it some oil."]
+			dependencies: ["58BBA11FA8C930FF"]
+			id: "6F0246F68F3E0B01"
 			tasks: [
 				{
-					id: "35D7B38B82319418"
+					id: "33339C66D8909EDE"
 					type: "item"
-					item: "immersiveengineering:cokebrick"
-					count: 27L
+					item: "pneumaticcraft:refinery"
 				}
 				{
-					id: "336CA67E6D6119E9"
+					id: "5AA73E2DCA3B63B3"
 					type: "item"
-					item: "immersiveengineering:coal_coke"
-				}
-				{
-					id: "033EC8F3D4519251"
-					type: "item"
-					item: "immersiveengineering:creosote_bucket"
+					item: "pneumaticcraft:refinery_output"
 				}
 			]
 			rewards: [{
-				id: "438E275306F6ED4D"
+				id: "4A99D795621729B9"
 				type: "item"
-				item: "minecraft:coal"
-				count: 64
+				item: "pneumaticcraft:refinery_output"
+				count: 3
 			}]
 		}
 		{
-			title: "Blast Furnace"
-			icon: "immersiveengineering:blast_furnace"
-			x: 3.0d
-			y: -6.0d
-			dependencies: ["4DE00D1233FCF6DF"]
-			id: "77F11644A7F720AB"
+			title: "Thermopneumatic Processing Plant"
+			icon: "pneumaticcraft:thermopneumatic_processing_plant"
+			x: -2.5d
+			y: 3.0d
+			description: ["Once you get enough LPG, add some heat and coal, and out comes the plastic!"]
+			dependencies: ["6F0246F68F3E0B01"]
+			id: "122A54997E71DA99"
 			tasks: [
 				{
-					id: "651FFC86C78F7BE2"
+					id: "050333A8A029B030"
 					type: "item"
-					item: "immersiveengineering:blastbrick"
-					count: 27L
+					item: "pneumaticcraft:thermopneumatic_processing_plant"
 				}
 				{
-					id: "7B1A5DBA1CA795DA"
+					id: "243368306D3CF167"
 					type: "item"
-					title: "Any #forge:ingots/steel"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:ingots/steel"
-						}
-					}
-				}
-				{
-					id: "22961B7261F09B30"
-					type: "item"
-					item: "immersiveengineering:slag"
+					item: "pneumaticcraft:lpg_bucket"
 				}
 			]
-			rewards: [
-				{
-					id: "701635B9D85D5F54"
-					type: "item"
-					item: "minecraft:iron_ingot"
-					count: 16
-				}
-				{
-					id: "68E7D0B48F35A408"
-					type: "item"
-					item: "immersiveengineering:coal_coke"
-					count: 16
-				}
-			]
+			rewards: [{
+				id: "3A7EF5F0F5CF9DD3"
+				type: "item"
+				item: "pneumaticcraft:lpg_bucket"
+			}]
 		}
 		{
-			x: 1.5d
-			y: -4.5d
-			description: ["Treated wood is a bit tricker to get than just throwing some stuff in a crafting table. You will actually need to pour the creosote on top of the planks."]
-			dependencies: ["24962C6BAC6B7EF4"]
-			id: "0E3A2845EFE00818"
-			tasks: [{
-				id: "21C8887A7B9CB2D5"
-				type: "item"
-				item: "immersiveengineering:treated_wood_horizontal"
-			}]
+			title: "Plastic"
+			icon: "pneumaticcraft:plastic"
+			x: -2.5d
+			y: 4.5d
+			dependencies: ["122A54997E71DA99"]
+			id: "7C5B8771B9F9914C"
+			tasks: [
+				{
+					id: "476F48822A080B4F"
+					type: "item"
+					item: "pneumaticcraft:plastic_bucket"
+				}
+				{
+					id: "0E3BC69E768C5B67"
+					type: "item"
+					item: "pneumaticcraft:plastic"
+				}
+			]
 			rewards: [{
-				id: "3AB57E1111ED6434"
+				id: "0D2E702349F27B23"
 				type: "item"
-				item: "immersiveengineering:treated_wood_horizontal"
+				item: "pneumaticcraft:plastic"
 				count: 16
 			}]
 		}

@@ -1,28 +1,180 @@
 {
 	id: "71D0C882C007CB43"
 	group: "1335774DD3375A84"
-	order_index: 2
+	order_index: 3
 	filename: "create"
-	title: "Create"
-	icon: "create:wrench"
+	title: "Gears"
+	icon: "assemblylinemachines:pure_titanium_gear"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: 0.5d
-		y: -6.0d
-		description: ["This simple alloy will be the key to starting in on Create. You will need a way to get molten iron and pour it onto some andesite for your first several alloys."]
-		dependencies: ["5BB921410C491649"]
-		id: "27D0203F5D0F7CC2"
-		tasks: [{
-			id: "140ABC0CD603E30B"
-			type: "item"
-			item: "create:andesite_alloy"
-		}]
-		rewards: [{
-			id: "2358F673E5AAB3C1"
-			type: "item"
-			item: "create:andesite_alloy"
-			count: 16
-		}]
-	}]
+	quests: [
+		{
+			x: -1.0d
+			y: -6.0d
+			description: [
+				""
+				"With the pure titanium and metal press, you can make your first pure titanium gears."
+			]
+			dependencies: [
+				"5BB921410C491649"
+				"4207D035DC28CD88"
+				"0F950605AC11C705"
+			]
+			id: "27D0203F5D0F7CC2"
+			tasks: [{
+				id: "140ABC0CD603E30B"
+				type: "item"
+				item: "assemblylinemachines:pure_titanium_gear"
+			}]
+			rewards: [{
+				id: "49A3FFC6C9729F87"
+				type: "item"
+				item: "assemblylinemachines:pure_titanium_gear"
+				count: 4
+			}]
+		}
+		{
+			title: "Metal Press"
+			icon: "immersiveengineering:metal_press"
+			x: 0.0d
+			y: -7.5d
+			description: ["Getting the engineering blocks for the metal press will require passing some sheet metal through a sequenced assembly process."]
+			dependencies: ["35008A26E56B016F"]
+			id: "4207D035DC28CD88"
+			tasks: [
+				{
+					id: "3BFF59CBF6D33598"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+				}
+				{
+					id: "3E8A0BA8A8D240F6"
+					type: "item"
+					item: "minecraft:piston"
+				}
+				{
+					id: "7E7340E457BD49A3"
+					type: "item"
+					title: "Any #immersiveengineering:scaffoldings/steel"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "immersiveengineering:scaffoldings/steel"
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "650D5AAD8F26C643"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 2L
+				}
+				{
+					id: "69C1BB68031B55FB"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+			]
+			rewards: [{
+				id: "74BA6F95E4D03CFC"
+				type: "item"
+				item: "immersiveengineering:mold_gear"
+			}]
+		}
+		{
+			title: "Pure Titanium"
+			x: -2.0d
+			y: -7.5d
+			description: ["In order to get the other pure metal gears, you'll need to get some pure titanium first."]
+			dependencies: ["5AF67448B028DFF9"]
+			id: "0F950605AC11C705"
+			tasks: [
+				{
+					id: "5C4E906A7AE80ACB"
+					type: "item"
+					item: "assemblylinemachines:ground_titanium"
+				}
+				{
+					id: "59DFEAE52C339319"
+					type: "item"
+					item: "assemblylinemachines:silt_titanium"
+				}
+				{
+					id: "197CDEB0C5D59FF3"
+					type: "item"
+					item: "assemblylinemachines:pure_titanium_ingot"
+				}
+			]
+			rewards: [{
+				id: "77C048EEFEDA5B0F"
+				type: "item"
+				item: "assemblylinemachines:silt_titanium"
+				count: 8
+			}]
+		}
+		{
+			title: "Silt"
+			x: -2.0d
+			y: -10.5d
+			description: ["In order to get the pure metals needed later on, you will need to mix up some silt first."]
+			dependencies: ["77D987DEE2AB5C81"]
+			id: "209650546D401AD0"
+			tasks: [
+				{
+					id: "1E1B1B79403AEE23"
+					type: "item"
+					item: "assemblylinemachines:fluid_bath"
+				}
+				{
+					id: "16CC46356292E389"
+					type: "item"
+					item: {
+						id: "assemblylinemachines:wooden_stirring_stick"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4C8950B58063B59D"
+					type: "item"
+					item: "assemblylinemachines:silt"
+				}
+			]
+			rewards: [{
+				id: "266EE9A1CF755B0F"
+				type: "item"
+				item: "assemblylinemachines:silt"
+				count: 16
+			}]
+		}
+		{
+			x: -2.0d
+			y: -9.0d
+			description: ["Grinding up some ores can get you extra metals."]
+			dependencies: ["209650546D401AD0"]
+			id: "5AF67448B028DFF9"
+			tasks: [
+				{
+					id: "3ADF75F1C1EDB326"
+					type: "item"
+					item: "assemblylinemachines:hand_grinder"
+				}
+				{
+					id: "6132D538BB5FB05C"
+					type: "item"
+					item: "assemblylinemachines:crank"
+				}
+			]
+			rewards: [{
+				id: "489634BA27DB0417"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 32
+			}]
+		}
+	]
 }

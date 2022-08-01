@@ -1,141 +1,192 @@
 {
 	id: "35B3C0D9AC2A6113"
-	group: "085C3FA1EC0C2189"
-	order_index: 0
+	group: ""
+	order_index: 1
 	filename: "botania"
-	title: "Botania"
-	icon: "botania:runic_altar"
+	title: "Side Quests"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 1.0d
-			y: -8.5d
-			description: ["You will need to dig a bit deeper than you used to for the materials needed here."]
-			id: "59D2F02255160EEB"
+			x: -0.5d
+			y: 2.0d
+			description: ["Go visit the Castle in the Sky. Be prepared for a long journey..."]
+			dependencies: ["77D987DEE2AB5C81"]
+			optional: true
+			id: "4955FF801D3A0801"
 			tasks: [{
-				id: "63AEB2965696A608"
+				id: "0799E05FDD80E564"
 				type: "item"
-				item: "botania:apothecary_default"
-			}]
-			rewards: [{
-				id: "7B6BBE806F65929A"
-				type: "item"
-				item: "botania:white_petal"
-				count: 16
+				item: "castle_in_the_sky:laputa_miniature"
 			}]
 		}
 		{
-			x: 1.0d
-			y: -7.0d
-			dependencies: ["59D2F02255160EEB"]
-			id: "7F326C0CC7E0474E"
+			title: "Visit the Alfheim"
+			x: -0.5d
+			y: 3.5d
+			description: ["There's a strange mead that when drunk, will allow you to travel through that portal..."]
+			dependencies: ["77D987DEE2AB5C81"]
+			optional: true
+			id: "7BBFF7ABC3D953B4"
 			tasks: [{
-				id: "6615E1348CEADBB0"
-				type: "item"
-				item: "botania:pure_daisy"
+				id: "3320E9503262137B"
+				type: "dimension"
+				dimension: "mythicbotany:alfheim"
 			}]
 		}
 		{
-			title: "Living Materials"
-			x: 1.0d
-			y: -5.5d
-			description: ["Before you can get too far into Botania, you are going to need a few specific things from the Nether. Crimson stems will turn into livingwood for you and the livingrock is going to require smooth basalt."]
-			dependencies: ["7F326C0CC7E0474E"]
-			id: "261B416B09206E32"
+			x: 1.5d
+			y: 2.0d
+			description: ["Make ALL the cobblestone."]
+			dependencies: ["09118794A047DB3B"]
+			optional: true
+			id: "3A0B123F1EE0DFDC"
+			tasks: [{
+				id: "5B04F6A14301D1CC"
+				type: "item"
+				item: "compacter:cobbler"
+			}]
+		}
+		{
+			title: "Infinity Armor \\& Tools"
+			x: 3.5d
+			y: 2.0d
+			description: ["Infinity can be useful."]
+			dependencies: ["09118794A047DB3B"]
+			optional: true
+			id: "320B12E3DC6A3A18"
 			tasks: [
 				{
-					id: "4CAB42CB57C6EFA7"
+					id: "7099A8377EEFBF60"
 					type: "item"
-					title: "Any #botania:livingwood_logs"
+					item: "avaritia:infinity_helmet"
+				}
+				{
+					id: "5A6476A16D04E1AF"
+					type: "item"
+					item: "avaritia:infinity_chestplate"
+				}
+				{
+					id: "7AD2B5C00A704DF8"
+					type: "item"
+					item: "avaritia:infinity_pants"
+				}
+				{
+					id: "18CFCDD737327D42"
+					type: "item"
+					item: "avaritia:infinity_boots"
+				}
+				{
+					id: "29648D7014DC72B8"
+					type: "item"
 					item: {
-						id: "itemfilters:tag"
+						id: "avaritia:infinity_pickaxe"
 						Count: 1b
-						tag: {
-							value: "botania:livingwood_logs"
-						}
+						tag: { }
 					}
 				}
 				{
-					id: "43A3D2C170CBEE28"
+					id: "15BD21FE4865D305"
 					type: "item"
-					item: "botania:livingrock"
-				}
-			]
-			rewards: [
-				{
-					id: "12585E9D2FF8949F"
-					type: "item"
-					item: "botania:livingwood"
-					count: 16
-				}
-				{
-					id: "36AFDA543596CEAF"
-					type: "item"
-					item: "botania:livingrock"
-					count: 16
-				}
-			]
-		}
-		{
-			title: "Mana"
-			icon: "botania:mana_pool"
-			x: 1.0d
-			y: -4.0d
-			dependencies: ["261B416B09206E32"]
-			id: "38106C9254121A1A"
-			tasks: [
-				{
-					id: "05C84C8EAA70D9BF"
-					type: "item"
-					item: "botania:mana_pool"
-				}
-				{
-					id: "5298126E05278A8A"
-					type: "item"
-					item: "botania:mana_spreader"
-				}
-				{
-					id: "26B7DBCA2E1319E9"
-					type: "item"
-					title: "Any #botania:generating_special_flowers"
 					item: {
-						id: "itemfilters:tag"
+						id: "avaritia:infinity_shovel"
 						Count: 1b
-						tag: {
-							value: "botania:generating_special_flowers"
-						}
+						tag: { }
 					}
 				}
 				{
-					id: "12026E72A8F24D5B"
+					id: "3ACEE5DE065F13D1"
 					type: "item"
-					item: "botania:twig_wand"
+					item: "avaritia:infinity_hoe"
+				}
+				{
+					id: "5548C004673D1F16"
+					type: "item"
+					item: "avaritia:infinity_axe"
+				}
+				{
+					id: "063182E740110CF3"
+					type: "item"
+					item: "avaritia:infinity_sword"
+				}
+				{
+					id: "36BF4E02B68D5086"
+					type: "item"
+					item: "avaritia:infinity_bow"
 				}
 			]
-			rewards: [{
-				id: "45434DB9BD4FAA04"
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			description: ["Just throw some stuff into the fuel compressor."]
+			dependencies: ["77D987DEE2AB5C81"]
+			optional: true
+			id: "602232B716E944FA"
+			tasks: [{
+				id: "7E0A2B3D4F510616"
 				type: "item"
-				item: "botania:blacker_lotus"
-				count: 4
+				item: "avaritiafurnace:infinity_fuel"
 			}]
 		}
 		{
-			x: 1.0d
-			y: -2.5d
-			description: ["The runic altar will be quite useful early on as it is needed for a few recipes for other mods."]
-			dependencies: ["38106C9254121A1A"]
-			id: "4DE00D1233FCF6DF"
+			title: "Digital Storage"
+			x: 3.5d
+			y: 3.5d
+			description: ["Refined Storage is much easier to get in this pack but is missing the auto-crafting. In order to set that up, you'll need to use Applied Energistics."]
+			dependencies: ["77D987DEE2AB5C81"]
+			optional: true
+			id: "072C66AD2A3E0ADD"
+			tasks: [
+				{
+					id: "6A6AA981824A3096"
+					type: "item"
+					item: "refinedstorage:controller"
+				}
+				{
+					id: "3D37505491627F22"
+					type: "item"
+					item: "ae2:controller"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 5.0d
+			description: ["Did you know you can make energy with this if you link enough running furnaces to it..."]
+			dependencies: ["77D987DEE2AB5C81"]
+			optional: true
+			id: "3069AD89DA3D0970"
 			tasks: [{
-				id: "57A76747EFC7CA7C"
+				id: "7B7AFDA1A0DC7668"
 				type: "item"
-				item: "botania:runic_altar"
+				item: {
+					id: "ironfurnaces:million_furnace"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"extra\":[{\"color\":\"yellow\",\"text\":\"R\"},{\"color\":\"red\",\"text\":\"a\"},{\"color\":\"yellow\",\"text\":\"i\"},{\"color\":\"green\",\"text\":\"n\"},{\"color\":\"red\",\"text\":\"b\"},{\"color\":\"light_purple\",\"text\":\"o\"},{\"color\":\"red\",\"text\":\"w\"},{\"color\":\"blue\",\"text\":\" \"},{\"color\":\"aqua\",\"text\":\"F\"},{\"color\":\"red\",\"text\":\"u\"},{\"color\":\"yellow\",\"text\":\"r\"},{\"color\":\"aqua\",\"text\":\"n\"},{\"color\":\"yellow\",\"text\":\"a\"},{\"color\":\"light_purple\",\"text\":\"c\"},{\"color\":\"green\",\"text\":\"e\"}],\"text\":\"\"}"
+						}
+					}
+				}
 			}]
 			rewards: [{
-				id: "0FAE86589C2EF15B"
+				id: "7428B936B5936102"
 				type: "item"
-				item: "botania:livingrock"
-				count: 16
+				item: "ironfurnaces:item_linker"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.0d
+			description: ["Are you sure this isn't just a fancy jetpack?"]
+			dependencies: ["77D987DEE2AB5C81"]
+			optional: true
+			id: "127BD370B999E3A9"
+			tasks: [{
+				id: "1857A187934E635F"
+				type: "item"
+				item: "angelring:resonant_angel_ring"
 			}]
 		}
 	]

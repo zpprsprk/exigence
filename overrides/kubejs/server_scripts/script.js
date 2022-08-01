@@ -8,6 +8,7 @@ settings.logErroringRecipes = true
 console.info('Hello, World! (You will see this line every time server resources reload)')
 
 onEvent('recipes', event => {
+    event.replaceInput({}, '#forge:storage_blocks/cobblestone', '#forge:storage_blocks/cobblestone')
 	// Change recipes here
 })
 

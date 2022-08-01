@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":[
+    "psp",
+    "sms",
+    "psp"
+  ],
+  "key":{
+    "m":{
+      "item": "minecraft:bucket"
+    },
+    "s":{
+      "tag": "assemblylinemachines:industrial_gears"
+    },
+    "p": {
+      "tag": "forge:plastic"
+    }
+  },
+  "result":{
+    "item": "assemblylinemachines:fluid_regulator"
+  }
+}
