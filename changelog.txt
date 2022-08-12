@@ -1,3 +1,48 @@
+Version 2.1.1
+Recipes & Config Changes:
+Added in some item unification (mostly metals and such, no world gen or loot table changes)
+Added Mods:
+Sophisticated Backpacks
+Sophisticated Core
+Updated Forge to 40.1.71
+Updated mods:
+AppleSkin
+Applied Energistics 2
+Architectury API
+Ars Nouveau
+Balm
+Bookshelf
+Clumps
+Collective
+Electrodynamics
+Engineer's Decor
+FastWorkbench
+FramedBlocks
+GeckoLib
+In Control!
+Integrated Dynamics
+JourneyMap
+KubeJS
+LaserIO
+Macaw's Fences and Walls
+Macaw's Lights and Lamps
+Macaw's Trapdoors
+Majrusz Library
+Majrusz's Progressive Difficulty
+Mob Grinding Utils
+Nuclear Science
+Occultism
+Placebo
+PneumaticCraft: Repressurized
+Prefab
+Refined Storage
+RFTools Base
+RFTools Builder
+Rhino
+The Lost Cities
+Toast Control
+Traveler's Backpack
+
 Version 2.1.0
 Recipe tweaks and Quest Book
 Update mods:
