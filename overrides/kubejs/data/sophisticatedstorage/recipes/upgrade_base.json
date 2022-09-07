@@ -1,0 +1,89 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "tconstruct:pattern"
+  },
+  "transitionalItem": {
+    "item": "tconstruct:pattern"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tconstruct:pattern"
+        },
+        {
+          "tag": "forge:plates/pure_iron"
+        }
+      ],
+      "results": [
+        {
+          "item": "tconstruct:pattern"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tconstruct:pattern"
+        },
+        {
+          "tag": "forge:string"
+        }
+      ],
+      "results": [
+        {
+          "item": "tconstruct:pattern"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "tconstruct:pattern"
+        }
+      ],
+      "results": [
+        {
+          "item": "tconstruct:pattern"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "tconstruct:pattern"
+        }
+      ],
+      "results": [
+        {
+          "item": "tconstruct:pattern"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "tconstruct:pattern"
+        }
+      ],
+      "results": [
+        {
+          "item": "tconstruct:pattern"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "sophisticatedstorage:upgrade_base",
+      "chance": 100.0
+    }
+  ],
+  "loops": 4
+}

@@ -1,0 +1,30 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "conditions": [
+    {
+      "itemRegistryName": "sophisticatedstorage:stack_upgrade_tier_2",
+      "type": "sophisticatedcore:item_enabled"
+    }
+  ],
+  "pattern": [
+    "BIIIB",
+    "I   I",
+    "I S I",
+    "I   I",
+    "BIIIB"
+  ],
+  "key": {
+    "S": {
+      "item": "sophisticatedstorage:stack_upgrade_tier_1"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "B": {
+      "tag": "forge:storage_blocks/iron"
+    }
+  },
+  "result": {
+    "item": "sophisticatedstorage:stack_upgrade_tier_2"
+  }
+}

@@ -1,3 +1,87 @@
+Version 2.1.2
+Recipes & Config Changes:
+Adjusted some Sophisticated Backpacks recipes (for upgrades)
+Added:
+Macaw's Fences - Biomes O' Plenty
+Macaw's Furniture
+Macaw's Paintings
+Macaw's Paths and Pavings
+Sophisticated Storage
+SwingThroughGrass
+Updated:
+Apotheosis
+Applied Energistics 2
+Aquaculture 2
+Armor Plus
+Ars Nouveau
+Assembly Line Machines
+Avaritia Furnace
+Botania
+Bookshelf
+Ceiling Torch
+Chance Cubes
+Chisels & Bits
+Chunk Loaders
+Cloth Config API
+Collective
+Configured
+ConnectedTexturesMod
+Controlling
+Corail Tombstone
+Create
+Create Crafts & Additions
+CreativeCore
+Croptopia
+Cyclic
+Durability Tooltip
+Enchantment Descriptions
+Ender Storage
+Extreme sound muffler
+Flywheel
+ForgeEndertech
+FramedBlocks
+FTB Chunks
+Gauges and Switches
+Geckolib
+Hostile Neural Networks
+Immersive Engineering
+Industrial Foregoing
+Integrated Dynamics
+Integrated Tunnels
+Iron Chests
+Jade
+Just Enough Items
+KubeJS
+Large Ore Deposits
+LaserIO
+Lootr
+Macaw's Doors
+Macaw's Roofs
+Macaw's Roofs - Biomes O' Plenty
+Mob Grinding Utils
+MythicBotany
+Occultism
+Pam's HarvestCraft 2 - Food Core
+Pam's HarvestCraft 2 - Food Extended
+Placebo
+PneumaticCraft
+Progressive Bosses
+RFTools Base
+RFTools Control
+RFTools Power
+RFTools Storage
+RFTools Utility
+Rhino
+RSInfinityBooster
+Sophisticated Backpacks
+Sophisticated Core
+Supplementaries
+TerraBlender
+The Lost Cities
+Tiny Redstone
+Traveler's backpack
+XNet
+
 Version 2.1.1
 Recipes & Config Changes:
 Added in some item unification (mostly metals and such, no world gen or loot table changes)

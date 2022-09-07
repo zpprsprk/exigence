@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#C#",
+    "CWC",
+    "#C#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sand"
+    },
+    "C": {
+      "item": "minecraft:clay"
+    },
+    "W": {
+      "tag": "forge:water"
+    }
+  },
+  "result": {
+    "item": "electrodynamics:ceramicwet",
+    "count": 4
+  }
+}
