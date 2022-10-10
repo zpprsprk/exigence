@@ -560,7 +560,7 @@
 
 [UndeadArmy]
 	#Is the Undead Army enabled?
-	is_enabled = true
+	is_enabled = false
 	#Required amount of killed undead to start the Undead Army.
 	#Range: 10 ~ 1000
 	kill_requirement = 100

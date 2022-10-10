@@ -102,12 +102,12 @@
 			tasks: [{
 				id: "40E2A34A7220E4E0"
 				type: "item"
-				item: "industrialforegoing:machine_frame_supreme"
+				item: "mekanism:steel_casing"
 			}]
 			rewards: [{
 				id: "0DA1E1C57ECC1D43"
 				type: "item"
-				item: "industrialforegoing:machine_frame_supreme"
+				item: "mekanism:steel_casing"
 			}]
 		}
 		{

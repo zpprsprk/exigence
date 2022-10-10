@@ -17,7 +17,7 @@
   ],
   "key": {
     "I": {
-      "item": "industrialforegoing:machine_frame_supreme"
+      "tag": "forge:storage_blocks/flerovium"
     },
     "C": {
       "item": "extendedcrafting:elite_table"

@@ -13,7 +13,7 @@
   ],
   "key": {
     "I": {
-      "item": "industrialforegoing:machine_frame_pity"
+      "tag": "forge:storage_blocks/attuned_titanium"
     },
     "C": {
       "item": "avaritia:double_compressed_crafting_table"

@@ -2,7 +2,6 @@
   "replace": false,
   "values": [
     "mekanism:hdpe_sheet",
-    "industrialforegoing:plastic",
     "pneumaticcraft:plastic",
     "electrodynamics:sheetplastic"
   ]

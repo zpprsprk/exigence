@@ -106,7 +106,7 @@
 			x: -1.0d
 			y: -5.0d
 			description: ["This pitiful crafting table isn't much better than that wooden one you made ages ago."]
-			dependencies: ["21459660D2AFED38"]
+			dependencies: ["03E67F7EE902EB7D"]
 			id: "2029424499075F08"
 			tasks: [{
 				id: "4D21931C2C1243A7"
@@ -125,7 +125,7 @@
 			description: ["This crafting table is able to handle some larger recipes."]
 			dependencies: [
 				"2029424499075F08"
-				"3ABA2D278E346521"
+				"46AE593179C04910"
 			]
 			id: "1F13D8456E0CD077"
 			tasks: [{
@@ -145,7 +145,7 @@
 			description: ["This one will be more useful than that last one."]
 			dependencies: [
 				"1F13D8456E0CD077"
-				"1DD6ACE031B12082"
+				"46AA7582493F44BF"
 			]
 			id: "2B6C160995CEB990"
 			tasks: [{
@@ -165,7 +165,7 @@
 			description: ["The ultimate crafting table will be able to combine all those singularities together."]
 			dependencies: [
 				"2B6C160995CEB990"
-				"6DD55322C3951F4B"
+				"01564BBAF007DE35"
 			]
 			id: "246F6807D6ABEB53"
 			tasks: [{
@@ -1565,6 +1565,74 @@
 				id: "5FEE9254A8ED9B2B"
 				type: "item"
 				item: "extendedcrafting:compressor"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -6.5d
+			dependencies: ["0F950605AC11C705"]
+			id: "03E67F7EE902EB7D"
+			tasks: [{
+				id: "7BC5F26A0CE81E38"
+				type: "item"
+				item: "assemblylinemachines:attuned_titanium_ingot"
+			}]
+			rewards: [{
+				id: "2DD687289CFDA8A0"
+				type: "item"
+				item: "assemblylinemachines:attuned_titanium_ingot"
+				count: 8
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			dependencies: ["27D0203F5D0F7CC2"]
+			id: "46AE593179C04910"
+			tasks: [{
+				id: "2C8A0CA35782D408"
+				type: "item"
+				item: "assemblylinemachines:energized_gold_ingot"
+			}]
+			rewards: [{
+				id: "5861E3E51AAB778C"
+				type: "item"
+				item: "assemblylinemachines:energized_gold_ingot"
+				count: 8
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.5d
+			dependencies: ["46AE593179C04910"]
+			id: "46AA7582493F44BF"
+			tasks: [{
+				id: "3946C587D6629952"
+				type: "item"
+				item: "assemblylinemachines:mystium_ingot"
+			}]
+			rewards: [{
+				id: "515BD708DB7C03DA"
+				type: "item"
+				item: "assemblylinemachines:mystium_ingot"
+				count: 8
+			}]
+		}
+		{
+			x: 2.0d
+			y: -6.5d
+			dependencies: ["46AA7582493F44BF"]
+			id: "01564BBAF007DE35"
+			tasks: [{
+				id: "341CA5B9CEA76762"
+				type: "item"
+				item: "assemblylinemachines:flerovium_ingot"
+			}]
+			rewards: [{
+				id: "672B4F7D33D3575B"
+				type: "item"
+				item: "assemblylinemachines:flerovium_ingot"
+				count: 8
 			}]
 		}
 	]

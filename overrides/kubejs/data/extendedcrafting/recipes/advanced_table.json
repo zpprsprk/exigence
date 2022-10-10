@@ -13,7 +13,7 @@
   ],
   "key": {
     "I": {
-      "item": "industrialforegoing:machine_frame_simple"
+      "tag": "forge:storage_blocks/energized_gold"
     },
     "C": {
       "item": "extendedcrafting:basic_table"

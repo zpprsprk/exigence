@@ -22,13 +22,13 @@
       "item": "mysticalagradditions:creative_essence"
     },
     "D": {
-      "item": "mekanism:pellet_polonium"
+      "tag": "forge:pellets/polonium"
     },
     "E": {
       "item": "mekanism:module_energy_unit"
     },
     "F": {
-      "item": "mekanism:pellet_plutonium"
+      "tag": "forge:pellets/plutonium"
     },
     "G": {
       "tag": "mekanism:crystals/osmium"

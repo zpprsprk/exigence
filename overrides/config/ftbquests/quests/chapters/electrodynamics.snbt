@@ -4,82 +4,10 @@
 	order_index: 4
 	filename: "electrodynamics"
 	title: "Machines"
-	icon: "industrialforegoing:machine_frame_supreme"
+	icon: "mekanism:steel_casing"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
-		{
-			x: 0.0d
-			y: -4.0d
-			description: ["This is the final machine frame in the chain."]
-			dependencies: ["1DD6ACE031B12082"]
-			id: "6DD55322C3951F4B"
-			tasks: [{
-				id: "0FF9E7F26322B40B"
-				type: "item"
-				item: "industrialforegoing:machine_frame_supreme"
-			}]
-			rewards: [{
-				id: "46D5DA8754B0F676"
-				type: "item"
-				item: "industrialforegoing:machine_frame_supreme"
-				count: 4
-			}]
-		}
-		{
-			x: 0.0d
-			y: -5.5d
-			description: ["This machine frame is a bit more advanced."]
-			dependencies: ["3ABA2D278E346521"]
-			id: "1DD6ACE031B12082"
-			tasks: [{
-				id: "7A95F0E2587B1F9B"
-				type: "item"
-				item: "industrialforegoing:machine_frame_advanced"
-			}]
-			rewards: [{
-				id: "4E7B649DA50BB7F8"
-				type: "item"
-				item: "industrialforegoing:machine_frame_advanced"
-				count: 4
-			}]
-		}
-		{
-			x: 0.0d
-			y: -7.0d
-			description: ["A simple upgrade to the pity machine frame."]
-			dependencies: ["21459660D2AFED38"]
-			id: "3ABA2D278E346521"
-			tasks: [{
-				id: "63B8B5E7923B4757"
-				type: "item"
-				item: "industrialforegoing:machine_frame_simple"
-			}]
-			rewards: [{
-				id: "62CD4982949652B3"
-				type: "item"
-				item: "industrialforegoing:machine_frame_simple"
-				count: 4
-			}]
-		}
-		{
-			x: 0.0d
-			y: -8.5d
-			description: ["This next frame upgrade will get you started into Industrial Foregoing."]
-			dependencies: ["4795AC3DDFF27F7C"]
-			id: "21459660D2AFED38"
-			tasks: [{
-				id: "3A36E000539A6C49"
-				type: "item"
-				item: "industrialforegoing:machine_frame_pity"
-			}]
-			rewards: [{
-				id: "6A69FC814D566D03"
-				type: "item"
-				item: "industrialforegoing:machine_frame_pity"
-				count: 4
-			}]
-		}
 		{
 			x: 0.0d
 			y: -10.0d

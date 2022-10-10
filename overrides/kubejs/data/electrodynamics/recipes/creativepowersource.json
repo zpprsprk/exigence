@@ -37,7 +37,7 @@
       "item": "assemblylinemachines:condensed_void_bucket"
     },
     "I": {
-      "item": "nuclearscience:polonium210"
+      "tag": "forge:pellets/polonium"
     },
     "J": {
       "item": "avaritia:infinity_ingot"
