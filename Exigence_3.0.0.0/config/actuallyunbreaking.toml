@@ -1,0 +1,23 @@
+
+["Actually Unbreaking Config"]
+	#only the last level of unbreaking will set the tool
+	#to be unbreakable if this is true. default = false
+	maxLevelOnly = false
+	#if this is true, the tool will only be
+	#unbreakable at a specified level
+	#(overrides max level option). default = false
+	useUnbreakableAtLevel = false
+	#if this is true, the tool will only be
+	#unbreakable at a specified level
+	#(overrides max level option). default = false
+	unbreakableAtLevel = 3
+	#unbreaking will be incompatible with mending
+	#if this is true. default = true
+	mendingIncompatibility = true
+	#when the tool takes damage, the unbreakable
+	#nbt tag will be added and unbreaking (and mending) will be
+	#removed from the tool (you will no longer be able
+	#to add unbreaking and mending to the tool) if this is true.
+	#default = true
+	useUnbreakableTag = true
+

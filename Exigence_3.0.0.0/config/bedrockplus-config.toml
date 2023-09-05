@@ -1,0 +1,57 @@
+
+["Bedrock Plus Mod"]
+	#Range: -10000.0 ~ 10000.0
+	SwordAttackSpeed = -2.4
+	#Range: 1.0 ~ 1.7976931348623157E308
+	BedrockImpureDeepslateResistance = 1200.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	BlockOfImpureBedrockHardness = 75.0
+	#Range: -10000.0 ~ 10000.0
+	PickaxeAttackSpeed = -2.8
+	#Range: -10000 ~ 10000
+	AxeAttackDamage = 8
+	#Range: 0 ~ 10000
+	ArmorEnchantability = 22
+	#Range: 0.0 ~ 10000.0
+	ArmorToughness = 4.0
+	#Range: 0 ~ 10000
+	ArmorProtectionAmountsBoots = 4
+	#Range: 0 ~ 4
+	ToolMiningLevel = 4
+	#Range: 0.0 ~ 5.0
+	ArmorKnockbackResistance = 0.2
+	#Range: -10000 ~ 10000
+	SwordAttackDamage = 5
+	#Range: 1.0 ~ 1.7976931348623157E308
+	BedrockImpureDeepslateHardness = 45.0
+	#Range: 0 ~ 10000
+	ArmorProtectionAmountsLeggings = 7
+	#Range: 1.0 ~ 10000.0
+	ToolAttackDamage = 6.0
+	#Range: -10000 ~ 10000
+	HoeAttackDamage = -5
+	#Range: -10000.0 ~ 10000.0
+	ShovelAttackDamage = 2.75
+	#Range: 1.0 ~ 10000.0
+	ToolMiningSpeed = 13.0
+	#Range: -10000.0 ~ 10000.0
+	AxeAttackSpeed = -3.0
+	#Range: 0 ~ 10000
+	ToolEnchantability = 22
+	#Range: -10000.0 ~ 10000.0
+	ShovelAttackSpeed = -3.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	BlockOfImpureBedrockResistance = 1200.0
+	#Range: 0 ~ 10000
+	ArmorProtectionAmountsChestplate = 9
+	#Range: -10000 ~ 10000
+	PickaxeAttackDamage = 2
+	#Range: -10000.0 ~ 1000.0
+	HoeAttackSpeed = 0.0
+	#Range: 0 ~ 10000
+	ArmorDurabilityMultiplier = 55
+	#Range: 1 ~ 10000
+	ToolDurability = 3046
+	#Range: 0 ~ 10000
+	ArmorProtectionAmountsHelmet = 4
+

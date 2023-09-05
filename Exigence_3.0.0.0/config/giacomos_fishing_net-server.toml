@@ -1,0 +1,20 @@
+
+[server]
+	#The waiting time in minutes for the next fish in a full bonus net: bait=bait_max and lure=3.
+	time_full_bonus = 4.0
+	#The probability that a net will break when it is collected: 0=never, 1=always. This parameter is multiplied by (1-unbreaking/3) which means that if the net is enchanted with unbreaking 3 it never breaks.
+	break_chance = 0.3
+	#Fishingnet Server Config
+	#Maximum number of items that can be contained in a fishing net.
+	items_count_max = 5
+	#The time for the next fish is multiplied by a random number between 1-time_spread and 1+time_spread.
+	time_spread = 0.3
+	#Maximum number of fishmeal applicable.
+	bait_max = 3
+	#The waiting time in minutes for the next fish in a net with no bonus: bait=0 and lure=0.
+	time_no_bonus = 8.0
+	#It determines how much influence the bait has in the calculation of the next time, the formula is: bait*bait_weight+lure*(1-bait_weight).
+	bait_weight = 0.5
+	#The probability that the bait application works: 0=never, 1=always.
+	bait_success_rate = 1.0
+

@@ -1,0 +1,245 @@
+
+[items]
+
+	[items.wand]
+
+		[items.wand.wandEnergyCapacity]
+			#The Energy Amount the Wand can hold.
+			#Range: 1 ~ 99999
+			wandEnergyCapacity = 50000
+
+		[items.wand.wandEnergyUse]
+			#The Energy Amount the Wand is using when Teleport.
+			#Range: 0 ~ 99999
+			wandEnergyUse = 550
+
+		[items.wand.wandPortDelay]
+			#Minimum number of ticks between porting. Values of 10 or less allow a limited sort of flight.
+			#Range: 10 ~ 255
+			wandPortDelay = 10
+
+	[items.shield]
+
+		[items.shield.shieldEnergyCapacity]
+			#The Energy Amount the Powered Shield can hold multiplied by Soul Bank Level.
+			#Range: 1 ~ 99999
+			shieldEnergyCapacity = 12000
+
+		[items.shield.shieldEnergyUse]
+			#The Energy Amount the Powered Shield is consume while Blocking.
+			#Range: 0 ~ 99999
+			shieldEnergyUse = 20
+
+	[items.sword]
+
+		[items.sword.swordEnergyCapacity]
+			#The Energy Amount the Powered Sword can hold multiplied by Soul Bank Level.
+			#Range: 1 ~ 99999
+			swordEnergyCapacity = 24000
+
+		[items.sword.swordEnergyUse]
+			#The Energy Amount the Powered Sword is consume when perform a Dash.
+			#Range: 0 ~ 99999
+			swordEnergyUse = 750
+
+	[items.worm]
+
+		[items.worm.witherWorms]
+			#Spawn Wither Worms.
+			witherWorms = true
+
+[tools]
+
+	[tools.soulieink]
+		#Toggle the Soulie Font On/Off.
+		soulieink = true
+
+[withersteel]
+
+	[withersteel.powerUsePerHit]
+		#The amount of energy used per hit.
+		#Range: 1 ~ 99999999
+		powerUsePerHit = 750
+
+	[withersteel.damageBonus]
+
+		[withersteel.damageBonus.damageBonusEmpowered0]
+			#The extra damage dealt when the sword has no SoulBank Power.
+			#Range: 0.0 ~ 32.0
+			damageBonusEmpowered0 = 0.0
+
+		[withersteel.damageBonus.damageBonusEmpowered1]
+			#The extra damage dealt when the sword has SoulBank Power I and has energy.
+			#Range: 0.0 ~ 32.0
+			damageBonusEmpowered1 = 3.0
+
+		[withersteel.damageBonus.damageBonusEmpowered2]
+			#The extra damage dealt when the sword has SoulBank Power II and has energy.
+			#Range: 0.0 ~ 32.0
+			damageBonusEmpowered2 = 6.0
+
+		[withersteel.damageBonus.damageBonusEmpowered3]
+			#The extra damage dealt when the sword has SoulBank Power III and has energy.
+			#Range: 0.0 ~ 32.0
+			damageBonusEmpowered3 = 9.0
+
+	[withersteel.speedBonus]
+
+		[withersteel.speedBonus.speedBonusEmpowered0]
+			#The increase in attack speed when the sword has no SoulBank Power.
+			#Range: 0.0 ~ 2.0
+			speedBonusEmpowered0 = 0.0
+
+		[withersteel.speedBonus.speedBonusEmpowered1]
+			#The increase in attack speed when the sword has SoulBank Power I and has energy.
+			#Range: 0.0 ~ 2.0
+			speedBonusEmpowered1 = 0.5
+
+		[withersteel.speedBonus.speedBonusEmpowered2]
+			#The increase in attack speed when the sword has SoulBank Power II and has energy.
+			#Range: 0.0 ~ 2.0
+			speedBonusEmpowered2 = 0.6
+
+		[withersteel.speedBonus.speedBonusEmpowered3]
+			#The increase in attack speed when the sword has SoulBank Power III and has energy.
+			#Range: 0.0 ~ 2.0
+			speedBonusEmpowered3 = 0.7
+
+	[withersteel.armorToughnessBonus]
+
+		[withersteel.armorToughnessBonus.armorToughnessBonusEmpowered0]
+			#The increase in armor toughness. No SoulBank Power.
+			#Range: 0.0 ~ 20.0
+			armorToughnessBonusEmpowered0 = 0.0
+
+		[withersteel.armorToughnessBonus.armorToughnessBonusEmpowered1]
+			#The increase in armor toughness when SoulBank Power I and has energy.
+			#Range: 0.0 ~ 20.0
+			armorToughnessBonusEmpowered1 = 5.0
+
+		[withersteel.armorToughnessBonus.armorToughnessBonusEmpowered2]
+			#The increase in armor toughness when SoulBank Power II and has energy.
+			#Range: 0.0 ~ 20.0
+			armorToughnessBonusEmpowered2 = 10.0
+
+		[withersteel.armorToughnessBonus.armorToughnessBonusEmpowered3]
+			#The increase in armor toughness when SoulBank Power III and has energy.
+			#Range: 0.0 ~ 20.0
+			armorToughnessBonusEmpowered3 = 15.0
+
+	[withersteel.knockbackBonus]
+
+		[withersteel.knockbackBonus.knockbackBonusEmpowered0]
+			#The increase in Knockback Resistance. No SoulBank Power.
+			#Range: 0.0 ~ 1.0
+			knockbackBonusEmpowered0 = 0.0
+
+		[withersteel.knockbackBonus.knockbackBonusEmpowered1]
+			#The increase in Knockback Resistance when SoulBank Power I and has energy.
+			#Range: 0.0 ~ 1.0
+			knockbackBonusEmpowered1 = 0.2
+
+		[withersteel.knockbackBonus.knockbackBonusEmpowered2]
+			#The increase in Knockback Resistance when SoulBank Power II and has energy.
+			#Range: 0.0 ~ 1.0
+			knockbackBonusEmpowered2 = 0.5
+
+		[withersteel.knockbackBonus.knockbackBonusEmpowered3]
+			#The increase in Knockback Resistance when SoulBank Power III and has energy.
+			#Range: 0.0 ~ 1.0
+			knockbackBonusEmpowered3 = 0.8
+
+[watergenerator]
+
+	[watergenerator.generatorEffeciencyRate]
+		#Generates RF by EffeciencyRate
+		generatorEffeciencyRate = true
+
+	[watergenerator.generatorEffeciencyBase]
+		#Lowest of EffeciencyRate
+		#Range: 0.1 ~ 100.0
+		generatorEffeciencyBase = 0.5
+
+	[watergenerator.generatorMaxRF]
+		#Maximum RF storage that the generator can hold
+		generatorMaxRF = 100000.0
+
+	[watergenerator.generatorRFPerTick]
+		#RF per tick that the generator can send
+		generatorRFPerTick = 2000.0
+
+	[watergenerator.generatorChargePerTick]
+		#RF per tick that the generator can charge items with
+		#Range: > 0
+		generatorChargePerTick = 1000
+
+[lavagenerator]
+
+	[lavagenerator.generatorEffeciencyRate]
+		#Generates RF by EffeciencyRate
+		generatorEffeciencyRate = true
+
+	[lavagenerator.generatorEffeciencyBase]
+		#Lowest of EffeciencyRate
+		#Range: 0.1 ~ 100.0
+		generatorEffeciencyBase = 0.5
+
+	[lavagenerator.generatorMaxRF]
+		#Maximum RF storage that the generator can hold
+		generatorMaxRF = 100000.0
+
+	[lavagenerator.generatorRFPerTick]
+		#RF per tick that the generator can send
+		generatorRFPerTick = 2000.0
+
+	[lavagenerator.generatorChargePerTick]
+		#RF per tick that the generator can charge items with
+		#Range: > 0
+		generatorChargePerTick = 1000
+
+	[lavagenerator.dissapearLavaTick]
+		#How much ticks before Lava Blocks can dissapear.
+		#Range: > 0
+		dissapearLavaTick = 1000
+
+[windgenerator]
+
+	[windgenerator.generatorEffeciencyRate]
+		#Generates RF by EffeciencyRate
+		generatorEffeciencyRate = true
+
+	[windgenerator.generatorEffeciencyBase]
+		#Lowest of EffeciencyRate
+		#Range: 0.1 ~ 100.0
+		generatorEffeciencyBase = 0.5
+
+	[windgenerator.generatorMaxRF]
+		#Maximum RF storage that the generator can hold
+		generatorMaxRF = 100000.0
+
+	[windgenerator.generatorRFPerTick]
+		#RF per tick that the generator can send
+		generatorRFPerTick = 2000.0
+
+	[windgenerator.generatorChargePerTick]
+		#RF per tick that the generator can charge items with
+		#Range: > 0
+		generatorChargePerTick = 1000
+
+	[windgenerator.windGenerationMin]
+		#Minimum base generation value of the Wind Generator.
+		windGenerationMin = 10
+
+	[windgenerator.windGenerationMax]
+		#Maximum base generation value of the Wind Generator.
+		windGenerationMax = 480
+
+	[windgenerator.minY]
+		#The minimum Y value that affects the Wind Generators Power generation.
+		#Range: -2032 ~ 2030
+		minY = 24
+
+	[windgenerator.maxY]
+		#The maximum Y value that affects the Wind Generators Power generation.
+		maxY = 2031
+
