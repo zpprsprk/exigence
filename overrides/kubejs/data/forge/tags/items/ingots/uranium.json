@@ -1,8 +1,0 @@
-{
-  "replace": true,
-  "values": [
-    "immersiveengineering:ingot_uranium",
-    "bno:uranium_ingot",
-    "mekanism:ingot_uranium"
-  ]
-}

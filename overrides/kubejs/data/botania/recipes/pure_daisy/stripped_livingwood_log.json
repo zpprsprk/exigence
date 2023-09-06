@@ -1,8 +1,0 @@
-{
-  "type": "botania:state_copying_pure_daisy",
-  "input": {
-    "type": "block",
-    "block": "minecraft:stripped_crimson_stem"
-  },
-  "output": "botania:stripped_livingwood_log"
-}

@@ -1,9 +1,0 @@
-{
-  "replace": true,
-  "values": [
-    "immersiveengineering:ore_uranium",
-    "immersiveengineering:deepslate_ore_uranium",
-    "electrodynamics:oreuraninite",
-    "electrodynamics:deepslateoreuraninite"
-  ]
-}

@@ -1,8 +1,0 @@
-{
-  "type": "botania:state_copying_pure_daisy",
-  "input": {
-    "type": "block",
-    "block": "minecraft:crimson_hyphae"
-  },
-  "output": "botania:livingwood"
-}
