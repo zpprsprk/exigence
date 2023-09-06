@@ -1,0 +1,427 @@
+
+[items]
+
+	[items.wand]
+
+		[items.wand.wandEnergyCapacity]
+			#The Energy Amount the Wand can hold.
+			#Range: 1 ~ 99999
+			wandEnergyCapacity = 50000
+
+		[items.wand.wandEnergyUse]
+			#The Energy Amount the Wand is using when Teleport.
+			#Range: 0 ~ 99999
+			wandEnergyUse = 550
+
+		[items.wand.wandPortDelay]
+			#Minimum number of ticks between porting. Values of 10 or less allow a limited sort of flight.
+			#Range: 10 ~ 255
+			wandPortDelay = 10
+
+	[items.shield]
+
+		[items.shield.shieldEnergyCapacity]
+			#The Energy Amount the Powered Shield can hold multiplied by Soul Bank Level.
+			#Range: 1 ~ 99999
+			shieldEnergyCapacity = 12000
+
+		[items.shield.shieldEnergyUse]
+			#The Energy Amount the Powered Shield is consume while Blocking.
+			#Range: 0 ~ 99999
+			shieldEnergyUse = 20
+
+	[items.sword]
+
+		[items.sword.swordEnergyCapacity]
+			#The Energy Amount the Powered Sword can hold multiplied by Soul Bank Level.
+			#Range: 1 ~ 99999
+			swordEnergyCapacity = 24000
+
+		[items.sword.swordEnergyUse]
+			#The Energy Amount the Powered Sword is consume when perform a Dash.
+			#Range: 0 ~ 99999
+			swordEnergyUse = 750
+
+	[items.worm]
+
+		[items.worm.witherWorms]
+			#Spawn Wither Worms.
+			witherWorms = true
+
+	[items.anvil]
+
+		[items.anvil.fasthitcounter]
+			#All Recipes for the Anvil needs only one Hit.
+			fasthitcounter = false
+
+		[items.anvil.anvilfoodexhaustion]
+			#How many Food Exhaustion a Hammer Hit can do.
+			#Range: 0.0 ~ 1.0
+			anvilfoodexhaustion = 0.4
+
+		[items.anvil.hammercooldown]
+			#Enables/Disables the Cooldown after hitting the Anvil with the Hammer.
+			hammercooldown = true
+
+[tools]
+
+	[tools.soulieink]
+		#Toggle the Soulie Font On/Off.
+		soulieink = true
+
+[withersteel]
+
+	[withersteel.powerUsePerHit]
+		#The amount of energy used per hit.
+		#Range: 1 ~ 99999999
+		powerUsePerHit = 750
+
+	[withersteel.damageBonus]
+
+		[withersteel.damageBonus.damageBonusEmpowered0]
+			#The extra damage dealt when the sword has no SoulBank Power.
+			#Range: 0.0 ~ 32.0
+			damageBonusEmpowered0 = 0.0
+
+		[withersteel.damageBonus.damageBonusEmpowered1]
+			#The extra damage dealt when the sword has SoulBank Power I and has energy.
+			#Range: 0.0 ~ 32.0
+			damageBonusEmpowered1 = 3.0
+
+		[withersteel.damageBonus.damageBonusEmpowered2]
+			#The extra damage dealt when the sword has SoulBank Power II and has energy.
+			#Range: 0.0 ~ 32.0
+			damageBonusEmpowered2 = 6.0
+
+		[withersteel.damageBonus.damageBonusEmpowered3]
+			#The extra damage dealt when the sword has SoulBank Power III and has energy.
+			#Range: 0.0 ~ 32.0
+			damageBonusEmpowered3 = 9.0
+
+	[withersteel.speedBonus]
+
+		[withersteel.speedBonus.speedBonusEmpowered0]
+			#The increase in attack speed when the sword has no SoulBank Power.
+			#Range: 0.0 ~ 2.0
+			speedBonusEmpowered0 = 0.0
+
+		[withersteel.speedBonus.speedBonusEmpowered1]
+			#The increase in attack speed when the sword has SoulBank Power I and has energy.
+			#Range: 0.0 ~ 2.0
+			speedBonusEmpowered1 = 0.5
+
+		[withersteel.speedBonus.speedBonusEmpowered2]
+			#The increase in attack speed when the sword has SoulBank Power II and has energy.
+			#Range: 0.0 ~ 2.0
+			speedBonusEmpowered2 = 0.6
+
+		[withersteel.speedBonus.speedBonusEmpowered3]
+			#The increase in attack speed when the sword has SoulBank Power III and has energy.
+			#Range: 0.0 ~ 2.0
+			speedBonusEmpowered3 = 0.7
+
+	[withersteel.armorToughnessBonus]
+
+		[withersteel.armorToughnessBonus.armorToughnessBonusEmpowered0]
+			#The increase in armor toughness. No SoulBank Power.
+			#Range: 0.0 ~ 20.0
+			armorToughnessBonusEmpowered0 = 0.0
+
+		[withersteel.armorToughnessBonus.armorToughnessBonusEmpowered1]
+			#The increase in armor toughness when SoulBank Power I and has energy.
+			#Range: 0.0 ~ 20.0
+			armorToughnessBonusEmpowered1 = 5.0
+
+		[withersteel.armorToughnessBonus.armorToughnessBonusEmpowered2]
+			#The increase in armor toughness when SoulBank Power II and has energy.
+			#Range: 0.0 ~ 20.0
+			armorToughnessBonusEmpowered2 = 10.0
+
+		[withersteel.armorToughnessBonus.armorToughnessBonusEmpowered3]
+			#The increase in armor toughness when SoulBank Power III and has energy.
+			#Range: 0.0 ~ 20.0
+			armorToughnessBonusEmpowered3 = 15.0
+
+	[withersteel.knockbackBonus]
+
+		[withersteel.knockbackBonus.knockbackBonusEmpowered0]
+			#The increase in Knockback Resistance. No SoulBank Power.
+			#Range: 0.0 ~ 1.0
+			knockbackBonusEmpowered0 = 0.0
+
+		[withersteel.knockbackBonus.knockbackBonusEmpowered1]
+			#The increase in Knockback Resistance when SoulBank Power I and has energy.
+			#Range: 0.0 ~ 1.0
+			knockbackBonusEmpowered1 = 0.2
+
+		[withersteel.knockbackBonus.knockbackBonusEmpowered2]
+			#The increase in Knockback Resistance when SoulBank Power II and has energy.
+			#Range: 0.0 ~ 1.0
+			knockbackBonusEmpowered2 = 0.5
+
+		[withersteel.knockbackBonus.knockbackBonusEmpowered3]
+			#The increase in Knockback Resistance when SoulBank Power III and has energy.
+			#Range: 0.0 ~ 1.0
+			knockbackBonusEmpowered3 = 0.8
+
+[watergenerator]
+
+	[watergenerator.generatorEffeciencyRate]
+		#Generates RF by EffeciencyRate
+		generatorEffeciencyRate = true
+
+	[watergenerator.generatorEffeciencyBase]
+		#Lowest of EffeciencyRate
+		#Range: 0.1 ~ 100.0
+		generatorEffeciencyBase = 0.5
+
+	[watergenerator.generatorMaxRF]
+		#Maximum RF storage that the generator can hold
+		generatorMaxRF = 100000
+
+	[watergenerator.generatorRFPerTick]
+		#RF per tick that the generator can send
+		generatorRFPerTick = 2000
+
+	[watergenerator.generatorChargePerTick]
+		#RF per tick that the generator can charge items with
+		#Range: > 0
+		generatorChargePerTick = 1000
+
+[lavagenerator]
+
+	[lavagenerator.generatorEffeciencyRate]
+		#Generates RF by EffeciencyRate
+		generatorEffeciencyRate = true
+
+	[lavagenerator.generatorEffeciencyBase]
+		#Lowest of EffeciencyRate
+		#Range: 0.1 ~ 100.0
+		generatorEffeciencyBase = 0.5
+
+	[lavagenerator.generatorMaxRF]
+		#Maximum RF storage that the generator can hold
+		generatorMaxRF = 100000
+
+	[lavagenerator.generatorRFPerTick]
+		#RF per tick that the generator can send
+		generatorRFPerTick = 2000
+
+	[lavagenerator.generatorChargePerTick]
+		#RF per tick that the generator can charge items with
+		#Range: > 0
+		generatorChargePerTick = 1000
+
+	[lavagenerator.dissapearLavaTick]
+		#How much ticks before Lava Blocks can dissapear.
+		#Range: > 0
+		dissapearLavaTick = 1000
+
+[windgenerator]
+
+	[windgenerator.generatorEffeciencyRate]
+		#Generates RF by EffeciencyRate
+		generatorEffeciencyRate = true
+
+	[windgenerator.generatorEffeciencyBase]
+		#Lowest of EffeciencyRate
+		#Range: 0.1 ~ 100.0
+		generatorEffeciencyBase = 0.5
+
+	[windgenerator.generatorMaxRF]
+		#Maximum RF storage that the generator can hold
+		generatorMaxRF = 100000
+
+	[windgenerator.generatorRFPerTick]
+		#RF per tick that the generator can send
+		generatorRFPerTick = 2000
+
+	[windgenerator.generatorChargePerTick]
+		#RF per tick that the generator can charge items with
+		#Range: > 0
+		generatorChargePerTick = 1000
+
+	[windgenerator.windGenerationMin]
+		#Minimum base generation value of the Wind Generator.
+		windGenerationMin = 10
+
+	[windgenerator.windGenerationMax]
+		#Maximum base generation value of the Wind Generator.
+		windGenerationMax = 480
+
+	[windgenerator.minY]
+		#The minimum Y value that affects the Wind Generators Power generation.
+		#Range: -2032 ~ 2030
+		minY = 24
+
+	[windgenerator.maxY]
+		#The maximum Y value that affects the Wind Generators Power generation.
+		maxY = 2031
+
+[battery]
+
+	[battery.pylon]
+
+		[battery.pylon.pylonCapacity]
+			#The Energy Amount the Pylon can hold.
+			#Range: > 0
+			pylonCapacity = 2000
+
+	[battery.core]
+
+		[battery.core.coreCapacity]
+			#The Energy Amount the Core can hold.
+			#Range: 0 ~ 2000000000
+			coreCapacity = 1000000000
+
+[blocks]
+
+	[blocks.alloy]
+
+		[blocks.alloy.alloyMaxRF]
+			#Maximum RF storage that Alloy Furnace can hold
+			alloyMaxRF = 100000
+
+		[blocks.alloy.alloyRFPerTick]
+			#RF per tick that Alloy Furnace can send
+			alloyRFPerTick = 2000
+
+		[blocks.alloy.alloyUseEnergy]
+			#RF per Task the Alloy Furnace needs
+			alloyUseEnergy = 30
+
+	[blocks.furnace]
+
+		[blocks.furnace.furnaceMaxRF]
+			#Maximum RF storage that Electro Furnace can hold
+			furnaceMaxRF = 100000
+
+		[blocks.furnace.furnaceRFPerTick]
+			#RF per tick that Electro Furnace can send
+			furnaceRFPerTick = 2000
+
+		[blocks.furnace.furnaceUseEnergy]
+			#RF per Task the Electro Furnace needs
+			furnaceUseEnergy = 100
+
+	[blocks.miner]
+
+		[blocks.miner.minerMaxRF]
+			#Maximum RF storage that Miner can hold
+			minerMaxRF = 100000
+
+		[blocks.miner.minerRFPerTick]
+			#RF per tick that Miner can transfer
+			minerRFPerTick = 2000
+
+		[blocks.miner.minerUseEnergy]
+			#RF per Operation the Miner needs
+			minerUseEnergy = 30
+
+	[blocks.tankdrum]
+
+		[blocks.tankdrum.drumCapacity]
+			#Maximum Value the Tank can hold. 28 x 1000 - 28000 for example.
+			drumCapacity = 28
+
+	[blocks.greenhouse]
+
+		[blocks.greenhouse.growChance]
+			#Lowering this, will increase the Chance, the Crop will bonemealed.
+			growChance = 1200
+
+		[blocks.greenhouse.moistureNeed]
+			#Is a moistured Farmland Block needed?.
+			moistureNeed = true
+
+	[blocks.collector]
+
+		[blocks.collector.collectRange]
+			#The Maximum Distance, the Collector can find Items to suck on.
+			range = 5
+
+		[blocks.collector.collectMaxItems]
+			#How many Items the Collector can suck at the same time.
+			maxItems = 20
+
+	[blocks.fisher]
+
+		[blocks.fisher.timerForFishing]
+			#How many Ticks needed for one Fishing Fishes Fish.
+			timerForFishing = 100
+
+		[blocks.fisher.cooldownFishing]
+			#How many Ticks needed for one Fishing Fishes Fish Cooldown.
+			cooldownFishing = 25
+
+		[blocks.fisher.maxfoodFishing]
+			#Maximum Amount of Food the Fisher can hold.
+			maxfoodFishing = 25
+
+[solar]
+
+	[solar.all]
+
+		[solar.all.canConnectTogether]
+			#When enabled, Panels of different kinds can join together as a multi-block.
+			canConnectTogether = true
+
+		[solar.all.solarRecalcSunTick]
+			#How often (in ticks) the Panels should check the sun's angle.
+			solarRecalcSunTick = 100
+
+	[solar.basic]
+
+		[solar.basic.basicInputRf]
+			#Energy generated per TICK by Basic Panels.
+			basicInputRf = 4
+
+		[solar.basic.basicOutputRf]
+			#Energy transfered by Basic Panels.
+			basicOutputRf = 100
+
+	[solar.advanced]
+
+		[solar.advanced.advancedInputRf]
+			#Energy generated per TICK by Advanced Panels.
+			advancedInputRf = 11
+
+		[solar.advanced.advancedOutputRf]
+			#Energy transfered by Advanced Panels.
+			advancedOutputRf = 400
+
+	[solar.ultra]
+
+		[solar.ultra.ultraInputRf]
+			#Energy generated per TICK by Ultra Panels.
+			ultraInputRf = 28
+
+		[solar.ultra.ultraOutputRf]
+			#Energy transfered by Ultra Panels.
+			ultraOutputRf = 1000
+
+[loot]
+
+	[loot.lilly]
+
+		[loot.lilly.enderlillychance]
+			#The Chance Modifier, EnderMan drops a EnderLilly
+			#Range: 0.01 ~ 1.0
+			enderlillychance = 0.1
+
+[fakeplayer]
+
+	[fakeplayer.basics]
+
+		[fakeplayer.basics.stamina]
+			#The Countdown in Ticks before the FakePlayer can act again.
+			stamina = 120
+
+[modintegration]
+
+	[modintegration.industrialforegoing]
+
+		[modintegration.industrialforegoing.fertilizerIF]
+			#If Industrial Foregoing is loaded, the Fertilizer can used in Farmer Block.
+			fertilizerIF = true
+

@@ -1,0 +1,17 @@
+
+["Cobblestone Melter"]
+	#Cobblestone Melter Delay
+	#Range: 2 ~ 10000
+	cobblestone_melter_delay = 200
+	#Lava Per Cobblestone
+	#Range: 1 ~ 10000
+	cobblestone_melter_lava_per_cobblestone = 500
+
+["Lava Generator"]
+	#Lava Generator Delay
+	#Range: 2 ~ 10000
+	lava_generator_delay = 200
+	#Power Per Lava Bucket
+	#Range: 1 ~ 100000
+	lava_generator_power_per_lava_bucket = 100000
+

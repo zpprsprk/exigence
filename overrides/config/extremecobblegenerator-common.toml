@@ -1,0 +1,19 @@
+
+#Energy settings
+[energySettings]
+	#The FE capacity of the internal storage of the generator
+	#Range: 10000 ~ 1000000000
+	capacity = 2000000
+	#The maximum FE/Tick that the generator can receive
+	#Range: 10000 ~ 1000000000
+	maxReceive = 1001000
+
+#Generation settings
+[generationSettings]
+	#How much FE one cobble generation consume
+	#Range: 1 ~ 10000
+	costPerCobble = 10
+	#The maximum FE/Tick that the generator can receive
+	#Range: 10 ~ 1000000
+	maxGeneration = 100000
+

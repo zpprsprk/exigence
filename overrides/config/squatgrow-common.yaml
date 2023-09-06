@@ -1,0 +1,13 @@
+!!dev.wuffs.squatgrow.config.SquatGrowConfig
+ae2Multiplier: 4
+allowAdventureTwerking: true
+chance: 0.5
+debug: false
+enableAE2Accelerator: true
+enableMysticalCrops: true
+ignoreList: ['minecraft:grass_block', 'minecraft:grass', 'minecraft:tall_grass', 'minecraft:netherrack',
+  'minecraft:warped_nylium', 'minecraft:crimson_nylium']
+range: 3
+requireHoe: true
+sugarcaneMultiplier: 4
+useWhitelist: false
