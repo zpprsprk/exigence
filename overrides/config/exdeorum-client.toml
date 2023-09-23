@@ -4,5 +4,5 @@
 	#Whether to use a simplified renderer for infested leaves (reduces FPS lag with lots of infested trees)
 	use_fast_infested_leaves = false
 	#Whether the Void World type is set as the default world preset in the world creation screen.
-	set_void_world_as_default = true
+	set_void_world_as_default = false
 
