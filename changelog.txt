@@ -1,2 +1,10 @@
 Version 3.0.0
 First attempt at 1.20.1
+
+Version 3.0.1
+Mods Added
+Better Beacon Placement
+Custom Credits
+Framed Blocks
+KubeJS EnderIO
+Rain Be Gone Ritual
