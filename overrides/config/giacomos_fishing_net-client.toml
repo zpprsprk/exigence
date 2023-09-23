@@ -1,9 +1,0 @@
-
-[client]
-	#Maximum number of floating items that can be viewed within a fishing net. Used only if fancy_graphics = true.
-	items_count_max = 4
-	#If true: Graphics with floating items. If false: Graphics with crossed textures.
-	fancy_graphics = true
-	#Enable the glint effect for enchanted net blocks.
-	glint_enabled = false
-
