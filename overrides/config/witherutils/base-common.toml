@@ -358,6 +358,12 @@
 			#Maximum Amount of Food the Fisher can hold.
 			maxfoodFishing = 25
 
+	[blocks.controller]
+
+		[blocks.controller.controllerCapacity]
+			#Maximum Value the Controller can hold.
+			controllerCapacity = 16777216
+
 [solar]
 
 	[solar.all]
