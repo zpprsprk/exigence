@@ -8,3 +8,39 @@ Custom Credits
 Framed Blocks
 KubeJS EnderIO
 Rain Be Gone Ritual
+
+3.0.2
+Mods Added
+Butcher's Delight
+Citadel
+FTB Ultimine
+L_Ender's Cataclysm
+LootJS: KubeJS Addon
+Craft slabs back into blocks
+
+Mods Removed
+Create: Balanced Flight (Angel Ring)
+
+3.0.3
+Mods Added
+Electron Energy*
+Environmental Core*
+Environmental Tech*
+Mekanism
+Mekanism Additions
+Mekanism Generators
+Mekanism Tools
+Multipart Machines: Farming
+Valkyrielib*
+
+Mods Removed
+Mayhem Tweaks
+
+* These mods are not publicly available yet so aren't being distributed here
+
+3.0.4
+Mods Added
+Applied Mekanistics
+Just Enough Mekanism Multiblocks
+Mekanism More Solar Panels
+More Mekanism Processing
