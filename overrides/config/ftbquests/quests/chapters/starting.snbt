@@ -1,0 +1,34 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "starting"
+	group: ""
+	id: "32F51D7447CAC1AE"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: ["In this pack, you will be able to expand the land you start out on chunk by chunk, but before you will be able to do that, you will need a few materials. This dirt and sapling should help you out with that."]
+		id: "6FEC7254ACDA9A23"
+		rewards: [
+			{
+				id: "270A89575D90316B"
+				item: "minecraft:dirt"
+				type: "item"
+			}
+			{
+				id: "44510EC6186619FB"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}
+		]
+		subtitle: "Free Tree!"
+		tasks: [{
+			id: "4E5F2F5B9188899F"
+			type: "checkmark"
+		}]
+		title: "Starting out"
+		x: -1.5d
+		y: -6.0d
+	}]
+	title: "Starting"
+}
