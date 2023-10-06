@@ -44,3 +44,17 @@ Applied Mekanistics
 Just Enough Mekanism Multiblocks
 Mekanism More Solar Panels
 More Mekanism Processing
+
+3.0.5
+Mods Added
+Aether: Lost Content Addon
+Blocks Booster (disabled)
+FTB Quests Optimizer (disabled)
+FTB Xmod Compat (disabled)
+Structure Gel API
+The Aether
+Wall Jump TXF
+
+Mods Removed
+Excavar
+Jump over fences
