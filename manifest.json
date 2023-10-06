@@ -3,7 +3,7 @@
     "version": "1.20.1",
     "modLoaders": [
       {
-        "id": "forge-47.2.0",
+        "id": "forge-47.1.47",
         "primary": true
       }
     ]
@@ -12,7 +12,7 @@
   "manifestVersion": 1,
   "name": "Exigence 3",
   "version": "3.0.5",
-  "author": "",
+  "author": "ZpprSprk",
   "files": [
     {
       "projectID": 666014,
