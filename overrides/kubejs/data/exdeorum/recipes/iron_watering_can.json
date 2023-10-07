@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "tag": "forge:storage_blocks/iron"
+    },
+    "B": {
+      "item": "exdeorum:stone_watering_can"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "#B#",
+    " # "
+  ],
+  "result": {
+    "item": "exdeorum:iron_watering_can"
+  },
+  "show_notification": true
+}

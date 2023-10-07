@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "tag": "forge:storage_blocks/diamond"
+    },
+    "B": {
+      "item": "exdeorum:golden_watering_can"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "#B#",
+    " # "
+  ],
+  "result": {
+    "item": "exdeorum:diamond_watering_can"
+  },
+  "show_notification": true
+}
