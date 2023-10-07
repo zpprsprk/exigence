@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "tag": "forge:storage_blocks/diamond"
+    },
+    "S": {
+      "tag": "exdeorum:golden_mesh"
+    }
+  },
+  "pattern": [
+    "bbb",
+    "bmb",
+    "bbb"
+  ],
+  "result": {
+    "item": "exdeorum:diamond_mesh"
+  },
+  "show_notification": true
+}
