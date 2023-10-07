@@ -9,7 +9,7 @@
       "item": "exdeorum:oak_crucible"
     },
     "L": {
-      "tag": "#minecraft:leaves"
+      "tag": "minecraft:leaves"
     }
   },
   "pattern": [
