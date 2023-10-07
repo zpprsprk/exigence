@@ -5,8 +5,8 @@
     "b": {
       "tag": "forge:storage_blocks/diamond"
     },
-    "S": {
-      "tag": "exdeorum:golden_mesh"
+    "m": {
+      "item": "exdeorum:golden_mesh"
     }
   },
   "pattern": [

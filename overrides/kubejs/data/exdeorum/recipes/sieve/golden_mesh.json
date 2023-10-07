@@ -6,7 +6,7 @@
       "tag": "forge:storage_blocks/gold"
     },
     "S": {
-      "tag": "exdeorum:iron_mesh"
+      "item": "exdeorum:iron_mesh"
     }
   },
   "pattern": [
