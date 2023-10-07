@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "cucumber:feature_flag",
+      "flag": "pickletweaks:watering_cans"
+    }
+  ],
+  "pattern": [
+    " BD",
+    "DWD",
+    " D "
+  ],
+  "key": {
+    "D": {
+      "tag": "forge:storage_blocks/diamond"
+    },
+    "W": {
+      "item": "mysticalagriculture:tertium_watering_can"
+    },
+    "B": {
+      "item": "mysticalagriculture:mystical_fertilizer"
+    }
+  },
+  "result": {
+    "item": "pickletweaks:reinforced_watering_can"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "cucumber:feature_flag",
+      "flag": "pickletweaks:watering_cans"
+    }
+  ],
+  "pattern": [
+    " BI",
+    "IWI",
+    " I "
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:storage_blocks/iron"
+    },
+    "W": {
+      "item": "exdeorum:netherite_watering_can"
+    },
+    "B": {
+      "item": "minecraft:bone_meal"
+    }
+  },
+  "result": {
+    "item": "pickletweaks:watering_can"
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" BI",
+		"IWI",
+		" I "
+	],
+	"key": {
+		"I": {
+			"item": "compressium:iron_1"
+		},
+		"W": {
+			"item": "pickletweaks:watering_can"
+		},
+		"B": {
+			"item": "mysticalagriculture:inferium_essence"
+		}
+	},
+	"result": {
+		"item": "mysticalagriculture:watering_can"
+	}
+}
