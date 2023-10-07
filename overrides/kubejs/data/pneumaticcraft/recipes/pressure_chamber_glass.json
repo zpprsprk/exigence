@@ -1,0 +1,20 @@
+{
+  "type": "extendedcrafting:shaped_ender_crafter",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "pneumaticcraft:reinforced_bricks"
+    },
+    "B": {
+      "item": "botania:elf_glass"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:pressure_chamber_glass",
+    "count": 4
+  }
+}

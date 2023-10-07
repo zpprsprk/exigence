@@ -1,0 +1,24 @@
+{
+    "type": "immersiveengineering:sawmill",
+    "energy": 800,
+    "input": [
+        {
+            "item": "botania:stripped_livingwood_log"
+        },
+        {
+            "item": "botania:stripped_livingwood"
+        }
+    ],
+    "result": {
+        "count": 4,
+        "item": "botania:livingwood_planks"
+    },
+    "secondaries": [
+        {
+            "output": {
+                "tag": "forge:dusts/wood"
+            },
+            "stripping": false
+        }
+    ]
+}

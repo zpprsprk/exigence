@@ -1,0 +1,24 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAAAA",
+    "AAAAA",
+    "AABAA",
+    "A   A",
+    "     "
+  ],
+  "key": {
+    "A": {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+    },
+    "B": {
+      "type": "forge:nbt",
+      "item": "immersiveengineering:armor_steel_head",
+      "count": 1,
+      "nbt": "{Damage:0}"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:compressed_iron_helmet"
+  }
+}

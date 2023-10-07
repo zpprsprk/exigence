@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/netherite"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:netherite_plate"
+    }
+  ]
+}

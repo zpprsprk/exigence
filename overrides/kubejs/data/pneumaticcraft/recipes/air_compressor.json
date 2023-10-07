@@ -1,0 +1,25 @@
+{
+  "type": "extendedcrafting:shaped_ender_crafter",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ADA"
+  ],
+  "key": {
+    "A": {
+      "item": "immersiveengineering:blastbrick_reinforced"
+    },
+    "B": {
+      "item": "pneumaticcraft:reinforced_bricks"
+    },
+    "C": {
+      "item": "pneumaticcraft:pressure_tube"
+    },
+    "D": {
+      "item": "ironfurnaces:iron_furnace"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:air_compressor"
+  }
+}

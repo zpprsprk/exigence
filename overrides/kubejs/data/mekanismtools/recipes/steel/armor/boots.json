@@ -11,7 +11,7 @@
     ],
     "key": {
       "A": {
-        "item": "thermal:steel_plate"
+        "tag": "forge:plates/steel"
       },
       "B": {
         "type": "forge:nbt",

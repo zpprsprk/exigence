@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+      "tag": "forge:glass_panes"
+    },
+    "Q": {
+      "item": "create:polished_rose_quartz"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    },
+    "I": {
+      "tag": "forge:plates/iron"
+    },
+    "C": {
+      "tag": "forge:wires/copper"
+    }
+  },
+  "pattern": [
+    "GQG",
+    "GRG",
+    "ICI"
+  ],
+  "result": {
+    "item": "create:electron_tube"
+  }
+}

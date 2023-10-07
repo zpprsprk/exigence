@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "compressium:emerald_1"
+    },
+    "X": {
+      "item": "ironfurnaces:crystal_furnace"
+    }
+  },
+  "result": {
+    "item": "ironfurnaces:emerald_furnace"
+  }
+}

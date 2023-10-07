@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "K": {
+      "item": "minecraft:dried_kelp"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "LLL",
+    "KKK"
+  ],
+  "result": {
+    "count": 1,
+    "item": "create:andesite_funnel"
+  }
+}

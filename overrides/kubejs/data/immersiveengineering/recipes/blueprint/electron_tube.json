@@ -1,0 +1,8 @@
+{"type":"immersiveengineering:blueprint",
+	"category":"components",
+	"inputs":[
+		{"tag":"forge:glass"},
+		{"tag":"forge:plates/nickel"},
+		{"item":"immersiveengineering:wirecoil_copper"},
+		{"item":"immersiveengineering:wirecoil_redstone"}],
+	"result":{"count":1,"item":"immersiveengineering:electron_tube"}}

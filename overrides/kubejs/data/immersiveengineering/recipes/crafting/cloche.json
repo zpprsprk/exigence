@@ -1,0 +1,39 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AABAA",
+      "ACCCA",
+      "ADDDA",
+      "AEFEA",
+      "GGHGG"
+    ],
+    "key": {
+      "A": {
+        "item": "pneumaticcraft:pressure_chamber_glass"
+      },
+      "B": {
+        "item": "immersiveengineering:light_bulb"
+      },
+      "C": {
+        "item": "minecraft:wheat_seeds"
+      },
+      "D": {
+        "item": "farmersdelight:rich_soil"
+      },
+      "E": {
+        "item": "immersiveengineering:electron_tube"
+      },
+      "F": {
+        "item": "fluidsystem:infinite_water_source"
+      },
+      "G": {
+        "item": "immersiveengineering:treated_wood_horizontal"
+      },
+      "H": {
+        "item": "immersiveengineering:capacitor_hv"
+      }
+    },
+    "result": {
+      "item": "immersiveengineering:cloche"
+    }
+  }

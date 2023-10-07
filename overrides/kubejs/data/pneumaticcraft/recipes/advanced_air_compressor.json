@@ -1,0 +1,36 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABCBA",
+    "BDEDB",
+    "FEGEF",
+    "BDEDB",
+    "ABCBA"
+  ],
+  "key": {
+    "A": {
+      "item": "thermal:steel_block"
+    },
+    "B": {
+      "item": "pneumaticcraft:compressed_iron_block"
+    },
+    "C": {
+      "item": "ironfurnaces:gold_furnace"
+    },
+    "D": {
+      "item": "pneumaticcraft:capacitor"
+    },
+    "E": {
+      "item": "pneumaticcraft:advanced_pressure_tube"
+    },
+    "F": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "G": {
+      "item": "pneumaticcraft:air_compressor"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:advanced_air_compressor"
+  }
+}

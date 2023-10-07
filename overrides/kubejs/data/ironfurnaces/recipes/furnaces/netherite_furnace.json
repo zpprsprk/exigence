@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:plates/netherite"
+    },
+    "X": {
+      "item": "ironfurnaces:obsidian_furnace"
+    }
+  },
+  "result": {
+    "item": "ironfurnaces:netherite_furnace"
+  }
+}

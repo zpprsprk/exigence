@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "b": {
+            "item": "minecraft:terracotta"
+        },
+        "s": {
+            "tag": "forge:sandstone"
+        }
+    },
+    "pattern": [
+        "sb",
+        "bs"
+    ],
+    "result": {
+        "count": 1,
+        "item": "immersiveengineering:alloybrick"
+    }
+}

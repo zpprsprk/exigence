@@ -1,0 +1,38 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AABCBAA",
+    "ADDDDDA",
+    "BDEFEDB",
+    "CDFGFDC",
+    "BDEFEDB",
+    "ADDDDDA",
+    "AABCBAA"
+  ],
+  "key": {
+    "A": {
+      "item": "pneumaticcraft:compressed_iron_block"
+    },
+    "B": {
+      "item": "pneumaticcraft:pressure_chamber_wall"
+    },
+    "C": {
+      "item": "pneumaticcraft:small_tank"
+    },
+    "D": {
+      "item": "pneumaticcraft:advanced_pressure_tube"
+    },
+    "E": {
+      "item": "pneumaticcraft:pressure_chamber_glass"
+    },
+    "F": {
+      "item": "pneumaticcraft:module_expansion_card"
+    },
+    "G": {
+      "item": "pneumaticcraft:liquid_compressor"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:advanced_liquid_compressor"
+  }
+}

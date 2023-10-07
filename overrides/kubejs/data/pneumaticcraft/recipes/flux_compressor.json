@@ -1,0 +1,53 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABCDCBA",
+    "BEFGFEB",
+    "CFAHAFC",
+    "DGIJKGD",
+    "CFALAFC",
+    "BEFGFEB",
+    "ABCDCBA"
+  ],
+  "key": {
+    "A": {
+      "item": "pneumaticcraft:module_expansion_card"
+    },
+    "B": {
+      "item": "pneumaticcraft:transistor"
+    },
+    "C": {
+      "item": "pneumaticcraft:capacitor"
+    },
+    "D": {
+      "item": "createaddition:capacitor"
+    },
+    "E": {
+      "item": "pneumaticcraft:advanced_pressure_tube"
+    },
+    "F": {
+      "item": "immersiveengineering:wirecoil_steel"
+    },
+    "G": {
+      "item": "immersiveengineering:capacitor_hv"
+    },
+    "H": {
+      "item": "pneumaticcraft:advanced_air_compressor"
+    },
+    "I": {
+      "item": "pneumaticcraft:liquid_compressor"
+    },
+    "J": {
+      "item": "pneumaticcraft:thermal_compressor"
+    },
+    "K": {
+      "item": "pneumaticcraft:air_compressor"
+    },
+    "L": {
+      "item": "pneumaticcraft:advanced_liquid_compressor"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:flux_compressor"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "PRP",
+    "RFR",
+    "PRP"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/obsidian"
+    },
+    "R": {
+      "item": "minecraft:blaze_rod"
+    },
+    "F": {
+      "item": "ironfurnaces:emerald_furnace"
+    }
+  },
+  "result": {
+    "item": "ironfurnaces:obsidian_furnace"
+  }
+}

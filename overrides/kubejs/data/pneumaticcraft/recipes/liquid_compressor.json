@@ -1,0 +1,53 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABCDCBA",
+    "BEFGFEB",
+    "CHIJIHC",
+    "DGJKJGD",
+    "CLIJILC",
+    "BEFGFEB",
+    "ABCDCBA"
+  ],
+  "key": {
+    "A": {
+      "item": "pneumaticcraft:small_tank"
+    },
+    "B": {
+      "item": "pneumaticcraft:pressure_chamber_wall"
+    },
+    "C": {
+      "item": "pneumaticcraft:advanced_pressure_tube"
+    },
+    "D": {
+      "item": "pneumaticcraft:compressed_iron_block"
+    },
+    "E": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "F": {
+      "item": "immersiveengineering:heavy_engineering"
+    },
+    "G": {
+      "item": "pneumaticcraft:pressure_chamber_glass"
+    },
+    "H": {
+      "item": "botania:rune_air"
+    },
+    "I": {
+      "item": "pneumaticcraft:module_expansion_card"
+    },
+    "J": {
+      "item": "pneumaticcraft:compressed_iron_gear"
+    },
+    "K": {
+      "item": "pneumaticcraft:advanced_air_compressor"
+    },
+    "L": {
+      "item": "create:steam_engine"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:liquid_compressor"
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "A": {
+            "tag": "forge:rods/wooden"
+        },
+        "B": {
+            "item": "exnihilosequentia:platinum_ingot"
+        },
+        "C": {
+            "item": "immersiveengineering:hemp_fiber"
+        },
+        "D": {
+            "item": "immersiveengineering:wirecoil_structure_rope"
+        }
+    },
+    "pattern": [
+        "DBC",
+        "DAB",
+        "ADD"
+    ],
+    "result": {
+        "item": "immersiveengineering:hammer"
+    }
+}

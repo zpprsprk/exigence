@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/bronze"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:bronze_plate"
+    }
+  ]
+}

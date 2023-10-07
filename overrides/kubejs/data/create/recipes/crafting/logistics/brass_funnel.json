@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "tag": "forge:plates/brass"
+    },
+    "A": {
+      "item": "create:andesite_funnel"
+    },
+    "R": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BAB",
+    "BRB"
+  ],
+  "result": {
+    "count": 1,
+    "item": "create:brass_funnel"
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "i": {
+            "item": "create:brass_casing"
+        },
+        "w": {
+            "item": "immersiveengineering:wirecoil_electrum"
+        }
+    },
+    "pattern": [
+        "www",
+        "wiw",
+        "www"
+    ],
+    "result": {
+        "item": "immersiveengineering:coil_mv"
+    }
+}

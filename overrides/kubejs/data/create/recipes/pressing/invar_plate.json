@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/invar"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:invar_plate"
+    }
+  ]
+}

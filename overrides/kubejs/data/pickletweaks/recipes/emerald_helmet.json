@@ -1,0 +1,26 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAAAAAA",
+    "AAAAAAA",
+    "AAABAAA",
+    "AA   AA",
+    "AA   AA",
+    "       ",
+    "       "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:emerald"
+    },
+    "B": {
+      "type": "forge:nbt",
+      "item": "botania:terrasteel_helmet",
+      "count": 1,
+      "nbt": "{Damage:0}"
+    }
+  },
+  "result": {
+    "item": "pickletweaks:emerald_helmet"
+  }
+}

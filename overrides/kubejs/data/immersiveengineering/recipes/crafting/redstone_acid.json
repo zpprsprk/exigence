@@ -1,0 +1,12 @@
+{
+    "type": "exnihilosequentia:fluid_transform",
+    "catalyst": {
+        "item": "minecraft:redstone_block"
+    },
+    "fluidInTank": {
+        "fluid": "create:honey"
+    },
+    "result": {
+        "fluid": "immersiveengineering:redstone_acid"
+    }
+}

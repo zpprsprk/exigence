@@ -9,7 +9,7 @@
     ],
     "key": {
       "A": {
-        "item": "thermal:bronze_plate"
+        "tag": "forge:ingots/bronze"
       },
       "B": {
         "type": "forge:nbt",

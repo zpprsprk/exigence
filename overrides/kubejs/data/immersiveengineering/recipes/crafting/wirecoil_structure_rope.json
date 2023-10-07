@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "C": {
+            "item": "immersiveengineering:hemp_fiber"
+        },
+        "S": {
+            "tag": "forge:rods/wooden"
+        }
+    },
+    "pattern": [
+        "CCC",
+        "CSC",
+        "CCC"
+    ],
+    "result": {
+        "count": 2,
+        "item": "immersiveengineering:wirecoil_structure_rope"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "type": "immersiveengineering:sawmill",
+    "energy": 800,
+    "input": [
+        {
+            "item": "integrateddynamics:menril_log_stripped"
+        },
+        {
+            "item": "integrateddynamics:menril_wood_stripped"
+        }
+    ],
+    "result": {
+        "count": 4,
+        "item": "integrateddynamics:menril_planks"
+    },
+    "secondaries": [
+        {
+            "output": {
+                "tag": "forge:dusts/wood"
+            },
+            "stripping": false
+        }
+    ]
+}

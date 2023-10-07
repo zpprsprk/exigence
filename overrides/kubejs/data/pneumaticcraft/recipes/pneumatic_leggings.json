@@ -1,0 +1,31 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAAAAAAAA",
+    "ABBAAABBA",
+    "ABBAAABBA",
+    "AAAAAAAAA",
+    "ACCADACCA",
+    "ACCA ACCA",
+    "ACCA ACCA",
+    "ACCA ACCA",
+    "AAAA AAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+    },
+    "B": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "C": {
+      "item": "pneumaticcraft:air_canister"
+    },
+    "D": {
+      "item": "redstone_arsenal:flux_leggings"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:pneumatic_leggings"
+  }
+}

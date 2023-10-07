@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:plates/iron"
+    },
+    "X": {
+       "item": "ironfurnaces:copper_furnace"
+    }
+  },
+  "result": {
+    "item": "ironfurnaces:iron_furnace"
+  }
+}

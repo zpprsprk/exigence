@@ -1,0 +1,23 @@
+{
+    "type": "immersiveengineering:turn_and_copy",
+    "key": {
+        "c": {
+            "item": "immersiveengineering:wirecoil_structure_rope"
+        },
+        "i": {
+            "tag": "forge:sheetmetals/iron"
+        },
+        "r": {
+            "item": "immersiveengineering:wirecoil_redstone"
+        }
+    },
+    "pattern": [
+        "iri",
+        "rcr",
+        "iri"
+    ],
+    "result": {
+        "count": 1,
+        "item": "immersiveengineering:rs_engineering"
+    }
+}

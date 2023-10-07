@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "c": {
+            "item": "minecraft:red_nether_bricks"
+        },
+        "m": {
+            "item": "minecraft:redstone_block"
+        },
+        "s": {
+            "item": "minecraft:blast_furnace"
+        }
+    },
+    "pattern": [
+        "csc",
+        "sms",
+        "csc"
+    ],
+    "result": {
+        "count": 3,
+        "item": "immersiveengineering:blastbrick"
+    }
+}

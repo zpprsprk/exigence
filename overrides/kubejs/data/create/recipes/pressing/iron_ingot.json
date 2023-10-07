@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:iron_sheet"
+    }
+  ]
+}

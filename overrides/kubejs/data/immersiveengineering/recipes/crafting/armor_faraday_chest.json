@@ -1,0 +1,22 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "immersiveengineering:plate_aluminum"
+      },
+      "B": {
+        "type": "forge:nbt",
+        "item": "mekanismtools:lapis_lazuli_chestplate",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      }
+    },
+    "result": {
+      "item": "immersiveengineering:armor_faraday_chest"
+    }
+  }

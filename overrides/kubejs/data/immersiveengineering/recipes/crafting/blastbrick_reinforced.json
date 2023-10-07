@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "C": {
+            "tag": "forge:plates/steel"
+        },
+        "S": {
+            "item": "immersiveengineering:blastbrick"
+        }
+        
+    },
+    "pattern": [
+        "CCC",
+        "CSC",
+        "CCC"
+    ],
+    "result": {
+        "count": 1,
+        "item": "immersiveengineering:blastbrick_reinforced"
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/enderium"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:enderium_plate"
+    }
+  ]
+}

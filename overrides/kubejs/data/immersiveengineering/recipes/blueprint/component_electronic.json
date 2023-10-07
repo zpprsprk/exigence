@@ -1,0 +1,8 @@
+{"type":"immersiveengineering:blueprint",
+	"category":"components",
+	"inputs":[
+		{"tag":"forge:treated_wood_slab"},
+		{"tag":"immersiveengineering:circuits/logic"},
+		{"item":"advgenerators:iron_wiring"},
+		{"item":"create:rose_quartz"}],
+	"result":{"item":"immersiveengineering:component_electronic"}}

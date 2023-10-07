@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "tag": "forge:ingots/zinc"
+    },
+    "I": {
+      "item": "immersiveengineering:sheetmetal_steel"
+    },
+    "H": {
+      "item": "minecraft:hopper"
+    }
+  },
+  "pattern": [
+    "IAI",
+    "I I",
+    "IHI"
+  ],
+  "result": {
+    "count": 1,
+    "item": "create:chute"
+  }
+}

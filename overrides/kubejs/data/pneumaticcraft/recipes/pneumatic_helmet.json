@@ -1,0 +1,31 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAAAAAAAA",
+    "ABBAAABBA",
+    "AAAAAAAAA",
+    "ACCAAACCA",
+    "ACCADACCA",
+    "ACA   ACA",
+    "AA     AA",
+    "A       A",
+    "         "
+  ],
+  "key": {
+    "A": {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+    },
+    "B": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "C": {
+      "item": "pneumaticcraft:air_canister"
+    },
+    "D": {
+      "item": "redstone_arsenal:flux_helmet"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:pneumatic_helmet"
+  }
+}

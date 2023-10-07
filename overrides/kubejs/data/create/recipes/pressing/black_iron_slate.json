@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/black_iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "extendedcrafting:black_iron_slate"
+    }
+  ]
+}

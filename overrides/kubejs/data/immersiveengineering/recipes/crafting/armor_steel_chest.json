@@ -1,0 +1,24 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AABAA",
+      "AAAAA",
+      " AAA ",
+      " AAA ",
+      " AAA "
+    ],
+    "key": {
+      "A": {
+        "item": "thermal:steel_ingot"
+      },
+      "B": {
+        "type": "forge:nbt",
+        "item": "botania:elementium_chestplate",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      }
+    },
+    "result": {
+      "item": "immersiveengineering:armor_steel_chest"
+    }
+  }

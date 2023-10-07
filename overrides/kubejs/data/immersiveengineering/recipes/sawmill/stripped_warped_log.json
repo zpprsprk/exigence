@@ -1,0 +1,24 @@
+{
+    "type": "immersiveengineering:sawmill",
+    "energy": 800,
+    "input": [
+        {
+            "item": "minecraft:stripped_warped_stem"
+        },
+        {
+            "item": "minecraft:stripped_warped_hyphae"
+        }
+    ],
+    "result": {
+        "count": 4,
+        "item": "minecraft:warped_planks"
+    },
+    "secondaries": [
+        {
+            "output": {
+                "tag": "forge:dusts/wood"
+            },
+            "stripping": false
+        }
+    ]
+}

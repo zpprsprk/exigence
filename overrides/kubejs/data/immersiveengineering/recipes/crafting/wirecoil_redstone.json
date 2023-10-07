@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "C": {
+            "tag": "forge:wires/aluminum"
+        },
+        "S": {
+            "item": "immersiveengineering:stick_treated"
+        },
+        "A": {
+            "item": "extendedcrafting:redstone_ingot"
+        }
+    },
+    "pattern": [
+        "CAC",
+        "ASA",
+        "CAC"
+    ],
+   
+    "result": {
+        "count": 1,
+        "item": "immersiveengineering:wirecoil_redstone"
+    }
+}

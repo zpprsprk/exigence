@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:metal_press","conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:storage_blocks/brass"}},{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:plates/brass"}}],"energy":2400,"input":{"tag":"forge:storage_blocks/brass"},"mold":"immersiveengineering:mold_plate","result":{"tag":"forge:plates/brass"}}

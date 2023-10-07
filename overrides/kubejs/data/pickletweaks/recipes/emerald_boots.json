@@ -1,0 +1,26 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "       ",
+    "       ",
+    " AA AA ",
+    " AA AA ",
+    " AA AA ",
+    "AAA AAA",
+    "AAABAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:emerald"
+    },
+    "B": {
+      "type": "forge:nbt",
+      "item": "botania:terrasteel_boots",
+      "count": 1,
+      "nbt": "{Damage:0}"
+    }
+  },
+  "result": {
+    "item": "pickletweaks:emerald_boots"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "botania:elf_glass"
+    },
+    {
+      "item": "pneumaticcraft:pressure_chamber_wall"
+    },
+    {
+      "item": "pneumaticcraft:pressure_chamber_wall"
+    },
+    {
+      "item": "pneumaticcraft:pressure_chamber_wall"
+    },
+    {
+      "item": "pneumaticcraft:pressure_chamber_wall"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pneumaticcraft:pressure_chamber_glass"
+  }
+}

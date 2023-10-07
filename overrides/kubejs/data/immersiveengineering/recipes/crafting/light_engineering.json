@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "I": {
+            "item": "create:gearbox"
+        },
+        "A": {
+            "item": "create:copper_casing"
+        },
+        "C": {
+            "item": "immersiveengineering:component_electronic"
+        },
+        "R": {
+            "item": "create:precision_mechanism"
+        }
+    },
+    "pattern": [
+        "ICI",
+        "RAR",
+        "ICI"
+    ],
+    "result": {
+        "count": 1,
+        "item": "immersiveengineering:light_engineering"
+    }
+}

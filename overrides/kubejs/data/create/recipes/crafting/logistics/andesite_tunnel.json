@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "L": {
+      "tag": "minecraft:planks"
+    },
+    "K": {
+      "item": "minecraft:dried_kelp"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "LKL",
+    "LKL"
+  ],
+  "result": {
+    "count": 1,
+    "item": "create:andesite_tunnel"
+  }
+}

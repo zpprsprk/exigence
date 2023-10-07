@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "I": {
+            "item": "immersiveengineering:light_engineering"
+        },
+        "A": {
+            "item": "create:copper_casing"
+        },
+        "C": {
+            "item": "immersiveengineering:component_electronic"
+        },
+        "R": {
+            "item": "immersiveengineering:component_steel"
+        }
+    },
+    "pattern": [
+        "ICI",
+        "RAR",
+        "ICI"
+    ],
+    "result": {
+        "count": 1,
+        "item": "immersiveengineering:heavy_engineering"
+    }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "         ",
+    "  AA AA  ",
+    "  AA AA  ",
+    "  AA AA  ",
+    "  AA AA  ",
+    "  AA AA  ",
+    "BACA ACAB",
+    "ACCA ACCA",
+    "AAA D AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+    },
+    "B": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "C": {
+      "item": "pneumaticcraft:air_canister"
+    },
+    "D": {
+      "item": "redstone_arsenal:flux_boots"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:pneumatic_boots"
+  }
+}
+

@@ -1,0 +1,20 @@
+{
+  "type": "extendedcrafting:shaped_ender_crafter",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "pneumaticcraft:reinforced_bricks"
+    },
+    "B": {
+      "item": "pneumaticcraft:compressed_iron_block"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:pressure_chamber_wall",
+    "count": 4
+  }
+}

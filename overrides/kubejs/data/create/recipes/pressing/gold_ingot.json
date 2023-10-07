@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/gold"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:golden_sheet"
+    }
+  ]
+}

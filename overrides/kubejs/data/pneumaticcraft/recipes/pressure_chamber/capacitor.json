@@ -1,0 +1,28 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "type": "pneumaticcraft:stacked_item",
+      "count": 2,
+      "tag": "forge:wires/gold"
+    },
+    {
+      "tag": "forge:slimeballs"
+    },
+    {
+      "item": "createaddition:capacitor"
+    },
+    {
+      "item": "immersiveengineering:circuit_board"
+    },
+    {
+      "item": "pneumaticcraft:plastic"
+    }
+  ],
+  "pressure": 1.0,
+  "results": [
+    {
+      "item": "pneumaticcraft:capacitor"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "type": "mekanism:sawing",
+    "input": {
+        "ingredient": {
+            "tag": "integrateddynamics:menril_logs"
+        }
+    },
+    "mainOutput": {
+        "count": 8,
+        "item": "integrateddynamics:menril_planks"
+    },
+    "secondaryChance": 0.25,
+    "secondaryOutput": {
+        "item": "mekanism:sawdust"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "i": {
+            "item": "create:copper_casing"
+        },
+        "w": {
+            "item": "immersiveengineering:wirecoil_copper"
+        }
+    },
+    "pattern": [
+        "www",
+        "wiw",
+        "www"
+    ],
+    "result": {
+        "item": "immersiveengineering:coil_lv"
+    }
+}

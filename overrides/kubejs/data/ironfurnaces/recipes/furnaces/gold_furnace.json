@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:plates/gold"
+    },
+    "X": {
+       "item": "ironfurnaces:silver_furnace"
+    }
+  },
+  "result": {
+    "item": "ironfurnaces:gold_furnace"
+  }
+}

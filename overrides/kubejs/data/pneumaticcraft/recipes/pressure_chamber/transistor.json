@@ -1,0 +1,25 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "type": "pneumaticcraft:stacked_item",
+      "count": 3,
+      "tag": "forge:wires/gold"
+    },
+    {
+      "item": "extendedcrafting:redstone_ingot"
+    },
+    {
+      "item": "immersiveengineering:circuit_board"
+    },
+    {
+      "item": "pneumaticcraft:plastic"
+    }
+  ],
+  "pressure": 1.0,
+  "results": [
+    {
+      "item": "pneumaticcraft:transistor"
+    }
+  ]
+}
