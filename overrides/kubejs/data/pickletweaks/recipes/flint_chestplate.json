@@ -11,7 +11,7 @@
     },
     "B": {
       "type": "forge:nbt",
-      "item": "immersiveengineering:armor_faraday_chest",
+      "item": "immersiveengineering:armor_faraday_chestplate",
       "count": 1,
       "nbt": "{Damage:0}"
     }

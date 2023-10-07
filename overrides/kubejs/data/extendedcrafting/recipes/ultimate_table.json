@@ -1,0 +1,27 @@
+{
+  "type": "extendedcrafting:shaped_flux_crafter",
+  "powerRequired": 1000000,
+  "powerRate": 400,
+  "pattern": [
+    "ABC",
+    "BDB",
+    "CBA"
+  ],
+  "key": {
+    "A": {
+      "item": "extendedcrafting:elite_table"
+    },
+    "B": {
+      "item": "extendedcrafting:flux_star"
+    },
+    "C": {
+      "item": "extendedcrafting:ultimate_component"
+    },
+    "D": {
+      "item": "extendedcrafting:ultimate_catalyst"
+    }
+  },
+  "result": {
+    "item": "extendedcrafting:ultimate_table"
+  }
+}

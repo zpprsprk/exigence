@@ -11,7 +11,7 @@
     },
     "B": {
       "type": "forge:nbt",
-      "item": "immersiveengineering:armor_faraday_feet",
+      "item": "immersiveengineering:armor_faraday_boots",
       "count": 1,
       "nbt": "{Damage:0}"
     }

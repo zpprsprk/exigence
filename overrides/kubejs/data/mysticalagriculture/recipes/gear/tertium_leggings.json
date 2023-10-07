@@ -1,0 +1,54 @@
+{
+  "type": "botania:runic_altar",
+  "ingredients": [
+    {
+      "tag": "botania:mana_dusts"
+    },
+    {
+      "tag": "forge:storage_blocks/manasteel"
+    },
+    {
+      "tag": "forge:storage_blocks/tertium_ingot"
+      
+    },
+    {
+      "tag": "forge:storage_blocks/tertium_ingot"
+      
+    },
+    {
+      "tag": "forge:storage_blocks/tertium_ingot"
+      
+    },
+    {
+      "tag": "forge:storage_blocks/tertium_ingot"
+      
+    },
+    {
+      "tag": "forge:storage_blocks/tertium_gemstone"
+      
+    },
+    {
+      "tag": "forge:storage_blocks/tertium_gemstone"
+      
+    },
+    {
+      "tag": "forge:storage_blocks/tertium_gemstone"
+      
+    },
+    {
+      "tag": "forge:storage_blocks/tertium_gemstone"
+      
+    },
+    {
+      "item": "mysticalagriculture:prudentium_leggings"
+    },
+    {
+      "item": "minecraft:dragon_head"
+    }
+  ],
+  "mana": 5200,
+  "output": {
+    "count": 1,
+    "item": "mysticalagriculture:tertium_leggings"
+  }
+}

@@ -7,7 +7,7 @@
   ],
   "key": {
     "#": {
-      "item": "botania:mana_diamond_block"
+      "tag": "forge:storage_blocks/diamond"
     },
     "X": {
       "item": "ironfurnaces:gold_furnace"

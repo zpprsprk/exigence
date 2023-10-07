@@ -1,0 +1,33 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAABA",
+    "BBBBB",
+    "CDEBA",
+    "CFDBA",
+    "CCCBA"
+  ],
+  "key": {
+    "A": {
+      "item": "extendedcrafting:black_iron_ingot"
+    },
+    "B": {
+      "item": "minecraft:diamond"
+    },
+    "C": {
+      "item": "extendedcrafting:luminessence_block"
+    },
+    "D": {
+      "item": "extendedcrafting:luminessence"
+    },
+    "E": {
+      "item": "extendedcrafting:black_iron_slate"
+    },
+    "F": {
+      "item": "extendedcrafting:advanced_catalyst"
+    }
+  },
+  "result": {
+    "item": "extendedcrafting:elite_component"
+  }
+}

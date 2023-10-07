@@ -1,0 +1,54 @@
+{
+  "type": "botania:runic_altar",
+  "ingredients": [
+    {
+      "tag": "botania:mana_dusts"
+    },
+    {
+      "tag": "forge:storage_blocks/manasteel"
+    },
+    {
+      "tag": "forge:storage_blocks/imperium_ingot"
+      
+    },
+    {
+      "tag": "forge:storage_blocks/imperium_ingot"
+      
+    },
+    {
+      "tag": "forge:storage_blocks/imperium_ingot"
+      
+    },
+    {
+      "tag": "forge:storage_blocks/imperium_ingot"
+      
+    },
+    {
+      "tag": "forge:storage_blocks/imperium_gemstone"
+      
+    },
+    {
+      "tag": "forge:storage_blocks/imperium_gemstone"
+      
+    },
+    {
+      "tag": "forge:storage_blocks/imperium_gemstone"
+      
+    },
+    {
+      "tag": "forge:storage_blocks/imperium_gemstone"
+      
+    },
+    {
+      "item": "mysticalagriculture:tertium_boots"
+    },
+    {
+      "item": "minecraft:beacon"
+    }
+  ],
+  "mana": 5200,
+  "output": {
+    "count": 1,
+    "item": "mysticalagriculture:imperium_boots"
+  }
+}

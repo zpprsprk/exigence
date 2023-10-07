@@ -1,0 +1,35 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAAAABA",
+    "BBBBBBB",
+    "CDEEEBA",
+    "CFEEEBA",
+    "CFEEEBA",
+    "CDFFDBA",
+    "DCCCCBA"
+  ],
+  "key": {
+    "A": {
+      "item": "extendedcrafting:black_iron_ingot"
+    },
+    "B": {
+      "item": "minecraft:emerald"
+    },
+    "C": {
+      "item": "extendedcrafting:luminessence"
+    },
+    "D": {
+      "item": "extendedcrafting:ender_star"
+    },
+    "E": {
+      "item": "extendedcrafting:black_iron_slate"
+    },
+    "F": {
+      "item": "extendedcrafting:luminessence_block"
+    }
+  },
+  "result": {
+    "item": "extendedcrafting:ultimate_component"
+  }
+}

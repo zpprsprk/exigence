@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "III",
+    "IRI",
+    "III"
+  ],
+  "key": {
+    "R": {
+      "tag": "forge:ingots/iron"
+    },
+    "I": {
+      "tag": "forge:dusts/redstone"
+    }
+  },
+  "result": {
+    "item": "extendedcrafting:redstone_ingot"
+  }
+}

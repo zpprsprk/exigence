@@ -1,0 +1,26 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GBG",
+    "RCR"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:dusts/glowstone"
+    },
+    "B": {
+      "tag": "forge:storage_blocks/gunpowder"
+    },
+    "R": {
+      "tag": "forge:ingots/redstone_ingot"
+    },
+    "C": {
+      "item": "minecraft:campfire"
+    }
+  },
+  "result": {
+    "item": "extendedcrafting:luminessence"
+  
+  }
+}

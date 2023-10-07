@@ -1,0 +1,25 @@
+{
+    "type": "botania:runic_altar",
+    "ingredients": [
+      {
+        "tag": "forge:gems/quartz"
+      },
+      {
+        "tag": "forge:dusts/prismarine"
+      },
+      {
+        "tag": "forge:gems/prismarine"
+      },
+      {
+        "item": "ae2:certus_quartz_crystal"
+      },
+      {
+        "item": "ae2:charged_certus_quartz_crystal"
+      }
+    ],
+    "mana": 5200,
+    "output": {
+      "count": 1,
+      "item": "mysticalagriculture:prosperity_shard"
+    }
+  }

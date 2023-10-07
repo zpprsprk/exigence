@@ -1,0 +1,54 @@
+{
+  "type": "botania:runic_altar",
+  "ingredients": [
+    {
+      "tag": "botania:mana_dusts"
+    },
+    {
+      "tag": "forge:storage_blocks/manasteel"
+    },
+    {
+      "tag": "forge:storage_blocks/inferium_ingot"
+      
+    },
+    {
+      "tag": "forge:storage_blocks/inferium_ingot"
+      
+    },
+    {
+      "tag": "forge:storage_blocks/inferium_ingot"
+      
+    },
+    {
+      "tag": "forge:storage_blocks/inferium_ingot"
+      
+    },
+    {
+      "tag": "forge:storage_blocks/inferium_gemstone"
+      
+    },
+    {
+      "tag": "forge:storage_blocks/inferium_gemstone"
+      
+    },
+    {
+      "tag": "forge:storage_blocks/inferium_gemstone"
+      
+    },
+    {
+      "tag": "forge:storage_blocks/inferium_gemstone"
+      
+    },
+    {
+      "item": "pneumaticcraft:pneumatic_boots"
+    },
+    {
+      "item": "minecraft:heart_of_the_sea"
+    }
+  ],
+  "mana": 5200,
+  "output": {
+    "count": 1,
+    "item": "mysticalagriculture:inferium_boots"
+  }
+}

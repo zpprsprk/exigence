@@ -1,0 +1,24 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " C ",
+    " I ",
+    " F "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:black_candle"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "F": {
+      "item": "minecraft:campfire"
+    }
+  },
+  "result": {
+    "item": "extendedcrafting:black_iron_ingot"
+  }
+}
+
+

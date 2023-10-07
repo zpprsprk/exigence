@@ -13,7 +13,7 @@
     },
     "B": {
       "type": "forge:nbt",
-      "item": "immersiveengineering:armor_steel_legs",
+      "item": "immersiveengineering:armor_steel_leggings",
       "count": 1,
       "nbt": "{Damage:0}"
     }

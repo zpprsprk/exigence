@@ -1,0 +1,28 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "III",
+    "LBI",
+    "KLI"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "L": {
+      "item": "extendedcrafting:luminessence"
+    },
+    "B": {
+      "item": "extendedcrafting:black_iron_slate"
+    },
+    "K": {
+      "item": "extendedcrafting:luminessence_block"
+    }
+  },
+  "result": {
+    "item": "extendedcrafting:basic_component"
+  }
+}
+
+
+

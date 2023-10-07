@@ -1,0 +1,25 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAA",
+    "BCA",
+    "DBA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:gold_ingot"
+    },
+    "B": {
+      "item": "extendedcrafting:luminessence"
+    },
+    "C": {
+      "item": "extendedcrafting:black_iron_slate"
+    },
+    "D": {
+      "item": "extendedcrafting:luminessence_block"
+    }
+  },
+  "result": {
+    "item": "extendedcrafting:advanced_component"
+  }
+}
