@@ -2,17 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "tag": "forge:ingots/gold"
+    "B": {
+      "tag": "forge:storage_blocks/gold"
     },
     "S": {
-      "tag": "forge:string"
+      "tag": "exdeorum:iron_mesh"
     }
   },
   "pattern": [
-    "S#S",
-    "#S#",
-    "S#S"
+    "BBB",
+    "BSB",
+    "BBB"
   ],
   "result": {
     "item": "exdeorum:golden_mesh"
