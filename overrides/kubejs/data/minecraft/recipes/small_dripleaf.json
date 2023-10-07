@@ -1,0 +1,22 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      " A ",
+      "ABA",
+      " C "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:lily_pad"
+      },
+      "B": {
+        "item": "minecraft:vine"
+      },
+      "C": {
+        "item": "minecraft:moss_block"
+      }
+    },
+    "result": {
+      "item": "minecraft:small_dripleaf"
+    }
+  }

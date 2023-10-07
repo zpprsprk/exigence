@@ -1,0 +1,26 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AAAAAAA",
+      "AAAAAAA",
+      "AAABAAA",
+      "AAA AAA",
+      "AAA AAA",
+      "AAA AAA",
+      "AAA AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "thermal:netherite_plate"
+      },
+      "B": {
+        "type": "forge:nbt",
+        "item": "minecraft:diamond_leggings",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      }
+    },
+    "result": {
+      "item": "minecraft:netherite_leggings"
+    }
+  }

@@ -1,0 +1,26 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "       ",
+      "       ",
+      " AA AA ",
+      " AA AA ",
+      " AA AA ",
+      "AAA AAA",
+      "AAABAAA"
+    ],
+    "key": {
+      "A": {
+        "item": "thermal:steel_plate"
+      },
+      "B": {
+        "type": "forge:nbt",
+        "item": "mekanismtools:bronze_boots",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      }
+    },
+    "result": {
+      "item": "mekanismtools:steel_boots"
+    }
+  }

@@ -1,0 +1,26 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "       ",
+      "       ",
+      " AA AA ",
+      " AA AA ",
+      " AA AA ",
+      "AAA AAA",
+      "AAABAAA"
+    ],
+    "key": {
+      "A": {
+        "item": "mekanism:ingot_refined_obsidian"
+      },
+      "B": {
+        "type": "forge:nbt",
+        "item": "mekanismtools:osmium_boots",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      }
+    },
+    "result": {
+      "item": "mekanismtools:refined_obsidian_boots"
+    }
+  }

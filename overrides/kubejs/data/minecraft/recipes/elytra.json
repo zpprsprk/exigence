@@ -1,0 +1,24 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABCBA",
+    "AC CA",
+    "AC CA",
+    "AC CA",
+    "AC CA"
+  ],
+  "key": {
+    "A": {
+      "item": "immersiveengineering:ersatz_leather"
+    },
+    "B": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "C": {
+      "item": "immersiveengineering:stick_iron"
+    }
+  },
+  "result": {
+    "item": "minecraft:elytra"
+  }
+}

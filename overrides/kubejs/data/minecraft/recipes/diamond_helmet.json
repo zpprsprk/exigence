@@ -1,0 +1,26 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AAAAAAA",
+      "AAAAAAA",
+      "AAABAAA",
+      "AAA AAA",
+      "AA   AA",
+      "       ",
+      "       "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:diamond"
+      },
+      "B": {
+        "type": "forge:nbt",
+        "item": "mekanismtools:steel_helmet",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      }
+    },
+    "result": {
+      "item": "minecraft:diamond_helmet"
+    }
+  }

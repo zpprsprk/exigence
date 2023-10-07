@@ -1,0 +1,24 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AABAA",
+      "AAAAA",
+      " AAA ",
+      " AAA ",
+      " AAA "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:chain"
+      },
+      "B": {
+        "type": "forge:nbt",
+        "item": "minecraft:golden_chestplate",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      }
+    },
+    "result": {
+      "item": "minecraft:chainmail_chestplate"
+    }
+  }

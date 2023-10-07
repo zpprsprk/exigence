@@ -1,0 +1,24 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "     ",
+      "     ",
+      "AA AA",
+      "AA AA",
+      "AABAA"
+    ],
+    "key": {
+      "A": {
+        "item": "mekanism:ingot_refined_glowstone"
+      },
+      "B": {
+        "type": "forge:nbt",
+        "item": "pneumaticcraft:compressed_iron_boots",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      }
+    },
+    "result": {
+      "item": "mekanismtools:refined_glowstone_boots"
+    }
+  }

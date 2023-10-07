@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "WWW",
+    "W W",
+    "WRW"
+  ],
+  "key": {
+    "W": {
+      "tag": "forge:cobblestone"
+    },
+    
+    "R": {
+      "item": "extendedcrafting:redstone_ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:dropper",
+    "count": 1
+  }
+}

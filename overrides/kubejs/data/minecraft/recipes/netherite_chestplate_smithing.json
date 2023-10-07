@@ -1,0 +1,26 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AAABAAA",
+      "AAAAAAA",
+      "AAAAAAA",
+      "AAAAAAA",
+      " AAAAA ",
+      " AAAAA ",
+      " AAAAA "
+    ],
+    "key": {
+      "A": {
+        "item": "thermal:netherite_plate"
+      },
+      "B": {
+        "type": "forge:nbt",
+        "item": "minecraft:diamond_chestplate",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      }
+    },
+    "result": {
+      "item": "minecraft:netherite_chestplate"
+    }
+  }

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "botania:elf_glass_pane"
+    },
+    "B": {
+      "item": "minecraft:hopper"
+    },
+    "C": {
+      "item": "minecraft:water_bucket"
+    },
+    "D": {
+      "item": "easy_villagers:trader"
+    },
+    "E": {
+      "item": "minecraft:dirt"
+    },
+    "F": {
+      "item": "immersiveengineering:fertilizer"
+    }
+  },
+  "result": {
+    "item": "easy_villagers:farmer"
+  }
+}

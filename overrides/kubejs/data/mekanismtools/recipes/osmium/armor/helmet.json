@@ -1,0 +1,26 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AAAAAAA",
+      "AAAAAAA",
+      "AAABAAA",
+      "AA   AA",
+      "AA   AA",
+      "       ",
+      "       "
+    ],
+    "key": {
+      "A": {
+        "item": "mekanism:ingot_osmium"
+      },
+      "B": {
+        "type": "forge:nbt",
+        "item": "cyclic:emerald_helmet",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      }
+    },
+    "result": {
+      "item": "mekanismtools:osmium_helmet"
+    }
+  }

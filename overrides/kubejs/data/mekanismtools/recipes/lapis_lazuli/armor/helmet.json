@@ -1,0 +1,22 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "   ",
+      "AAA",
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:lapis_lazuli"
+      },
+      "B": {
+        "type": "forge:nbt",
+        "item": "minecraft:leather_helmet",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      }
+    },
+    "result": {
+      "item": "mekanismtools:lapis_lazuli_helmet"
+    }
+  }

@@ -1,0 +1,23 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "TCT",
+    "CFC",
+    "TCT"
+  ],
+  "key": {
+    "T": {
+      "item": "compressium:cobblestone_1"
+    },
+    "C": {
+      "item": "minecraft:cobblestone"
+    },
+    "F": {
+      "item": "quark:blackstone_furnace"
+    }
+  },
+  "result": {
+    "item": "minecraft:furnace",
+    "count": 1
+  }
+}

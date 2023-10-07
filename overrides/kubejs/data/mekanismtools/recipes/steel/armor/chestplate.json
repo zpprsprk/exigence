@@ -1,0 +1,26 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AAABAAA",
+      "AAAAAAA",
+      "AAAAAAA",
+      "AAAAAAA",
+      " AAAAA ",
+      " AAAAA ",
+      " AAAAA "
+    ],
+    "key": {
+      "A": {
+        "item": "thermal:steel_plate"
+      },
+      "B": {
+        "type": "forge:nbt",
+        "item": "mekanismtools:bronze_chestplate",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      }
+    },
+    "result": {
+      "item": "mekanismtools:steel_chestplate"
+    }
+  }

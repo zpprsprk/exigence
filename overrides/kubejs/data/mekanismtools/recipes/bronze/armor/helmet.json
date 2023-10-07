@@ -1,0 +1,24 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AAAAA",
+      "AAAAA",
+      "AABAA",
+      "A   A",
+      "     "
+    ],
+    "key": {
+      "A": {
+        "item": "thermal:bronze_plate"
+      },
+      "B": {
+        "type": "forge:nbt",
+        "item": "mekanismtools:refined_glowstone_helmet",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      }
+    },
+    "result": {
+      "item": "mekanismtools:bronze_helmet"
+    }
+  }

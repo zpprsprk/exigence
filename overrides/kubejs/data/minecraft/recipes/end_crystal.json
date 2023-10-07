@@ -1,0 +1,24 @@
+{
+    "type": "extendedcrafting:shaped_ender_crafter",
+    "pattern": [
+      "ABA",
+      "BCB",
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:glass"
+      },
+      "B": {
+        "item": "minecraft:ender_eye"
+      },
+      "C": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "result": {
+      "item": "minecraft:end_crystal"
+    }
+  }
+  
+  

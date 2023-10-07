@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:amethyst_block"
+      },
+      "B": {
+        "tag": "forge:glass"
+      }
+    },
+    "result": {
+      "item": "minecraft:tinted_glass"
+    }
+  }

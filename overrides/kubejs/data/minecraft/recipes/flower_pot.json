@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ABA",
+      " A ",
+      "CCC"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:nether_brick"
+      },
+      "B": {
+        "item": "cyclic:soil"
+      },
+      "C": {
+        "item": "minecraft:brick"
+      }
+    },
+    "result": {
+      "item": "minecraft:flower_pot"
+    }
+  }

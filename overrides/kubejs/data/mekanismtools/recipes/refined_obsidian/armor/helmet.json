@@ -1,0 +1,26 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AAAAAAA",
+      "AAAAAAA",
+      "AAABAAA",
+      "AA   AA",
+      "AA   AA",
+      "       ",
+      "       "
+    ],
+    "key": {
+      "A": {
+        "item": "mekanism:ingot_refined_obsidian"
+      },
+      "B": {
+        "type": "forge:nbt",
+        "item": "mekanismtools:osmium_helmet",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      }
+    },
+    "result": {
+      "item": "mekanismtools:refined_obsidian_helmet"
+    }
+  }

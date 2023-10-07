@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "minecraft:crimson_stems"
+    }
+  ],
+  "result": {
+    "item": "minecraft:crimson_planks",
+    "count": 1
+  }
+} 

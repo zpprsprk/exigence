@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "CCC"
+  ],
+  "key": {
+    "A": {
+      "item": "botania:elf_glass_pane"
+    },
+    "B": {
+      "item": "immersiveengineering:light_bulb"
+    },
+    "C": {
+      "tag": "forge:plates/iron"
+    }
+  },
+  "result": {
+    "item": "easy_villagers:trader"
+  }
+}

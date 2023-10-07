@@ -1,0 +1,28 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:hopper"
+    },
+    "B": {
+      "item": "immersiveengineering:heavy_engineering"
+    },
+    "C": {
+      "item": "easy_villagers:trader"
+    },
+    "D": {
+      "item": "pneumaticcraft:module_expansion_card"
+    },
+    "E": {
+      "item": "pneumaticcraft:pressure_chamber_glass"
+    }
+  },
+  "result": {
+    "item": "easy_villagers:auto_trader"
+  }
+}

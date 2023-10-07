@@ -1,0 +1,23 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PFP",
+    "SSS"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/iron"
+    },
+    "S": {
+      "item": "minecraft:smooth_stone"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "item": "minecraft:blast_furnace",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      "AAA",
+      "ABA",
+      "CCC"
+    ],
+    "key": {
+      "A": {
+        "item": "thermal:enderium_glass"
+      },
+      "B": {
+        "item": "minecraft:nether_star"
+      },
+      "C": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    "result": {
+      "item": "minecraft:beacon"
+    }
+  }

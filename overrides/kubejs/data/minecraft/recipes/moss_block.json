@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " W ",
+    " A ",
+    " D "
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:water_bucket"
+    },
+    "A": {
+      "item": "supplementaries:ash"
+    },
+    "D": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "result": {
+    "item": "minecraft:moss_block"
+  }
+}

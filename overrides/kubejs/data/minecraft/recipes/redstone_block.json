@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "extendedcrafting:redstone_ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:redstone_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WIW",
+    "WRW"
+  ],
+  "key": {
+    "W": {
+      "tag": "forge:cobblestone"
+    },
+    "I": {
+      "item": "minecraft:crossbow"
+    },
+    "R": {
+      "item": "extendedcrafting:redstone_ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:dispenser",
+    "count": 1
+  }
+}
