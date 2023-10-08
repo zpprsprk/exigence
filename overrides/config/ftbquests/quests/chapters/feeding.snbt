@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "feeding"
+	group: "42124F1AD56C3EE3"
+	id: "1628094DE6AD824E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: ["Set it and forget it "]
+		id: "580CD0767053347A"
+		rewards: [{
+			id: "0B0A294722CBD81C"
+			type: "xp"
+			xp: 100
+		}]
+		subtitle: "Craft a feeding trough"
+		tasks: [{
+			id: "1E48EF0146EAC34F"
+			item: "animal_feeding_trough:feeding_trough"
+			type: "item"
+		}]
+		title: "Breeding made easy"
+		x: -0.5d
+		y: -1.5d
+	}]
+	title: "Feeding"
+}
