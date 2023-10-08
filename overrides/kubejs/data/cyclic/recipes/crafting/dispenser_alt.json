@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dispenser",
+  "pattern": [
+    "I#I",
+    "XDX",
+    "#T#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:rods/wooden"
+    },
+    "X": {
+      "item": "minecraft:string"
+    },
+    "D": {
+      "item": "minecraft:dropper"
+    },
+    "T": {
+      "item": "minecraft:tripwire_hook"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:dispenser"
+  },
+  "conditions": [
+    {
+      "type": "quark:flag",
+      "flag": "dropper_upgrade"
+    }
+  ]
+}

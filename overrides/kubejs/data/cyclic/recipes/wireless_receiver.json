@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "isi",
+    "sqs",
+    "isi"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "q": {
+      "item": "cyclic:eye_redstone"
+    },
+    "s": {
+      "item": "extendedcrafting:redstone_ingot"
+    }
+  },
+  "result": {
+    "item": "cyclic:wireless_receiver",
+    "count": 1
+  }
+}

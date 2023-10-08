@@ -1,0 +1,29 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAAAAAA",
+    "AAAAAAA",
+    "AABABAA",
+    "AAACAAA",
+    "AAA AAA",
+    "AAA AAA",
+    "AAA AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:emerald"
+    },
+    "B": {
+      "item": "cyclic:gem_amber"
+    },
+    "C": {
+      "type": "forge:nbt",
+      "item": "pickletweaks:emerald_leggings",
+      "count": 1,
+      "nbt": "{Damage:0}"
+    }
+  },
+  "result": {
+    "item": "cyclic:emerald_leggings"
+  }
+}

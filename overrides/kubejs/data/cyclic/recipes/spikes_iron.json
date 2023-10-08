@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " s ",
+    "srs",
+    "tet"
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:iron_bars"
+    },
+    "t": {
+      "item": "minecraft:iron_ingot"
+    },
+    "r": {
+      "item": "minecraft:repeater"
+    },
+    
+    "e": {
+      "item": "spikes:copper_spikes"
+    }
+  },
+  "result": {
+    "item": "cyclic:spikes_iron",
+    "count": 1
+  }
+}

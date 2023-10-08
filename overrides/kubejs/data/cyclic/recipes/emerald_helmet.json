@@ -1,0 +1,29 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAAAAAA",
+    "AAAAAAA",
+    "AAABAAA",
+    "AA   AA",
+    "CA   AC",
+    "       ",
+    "       "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:emerald"
+    },
+    "B": {
+      "type": "forge:nbt",
+      "item": "pickletweaks:emerald_helmet",
+      "count": 1,
+      "nbt": "{Damage:0}"
+    },
+    "C": {
+      "item": "cyclic:gem_amber"
+    }
+  },
+  "result": {
+    "item": "cyclic:emerald_helmet"
+  }
+}

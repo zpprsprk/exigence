@@ -10,7 +10,7 @@
       "tag": "forge:dusts/glowstone"
     },
     "B": {
-      "tag": "forge:storage_blocks/gunpowder"
+      "item": "immersiveengineering:gunpowder_barrel"
     },
     "R": {
       "tag": "forge:ingots/redstone_ingot"
@@ -21,6 +21,5 @@
   },
   "result": {
     "item": "extendedcrafting:luminessence"
-  
   }
 }

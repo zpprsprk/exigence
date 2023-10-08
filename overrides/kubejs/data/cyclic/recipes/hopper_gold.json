@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "b b",
+    "bcb",
+    " b "
+  ],
+  "key": {
+    "b": {
+      "tag": "forge:plates/gold"
+    },
+    "c": {
+      "item": "minecraft:hopper"
+    }
+  },
+  "result": {
+    "item": "cyclic:hopper_gold",
+    "count": 1
+  }
+}

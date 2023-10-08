@@ -1,0 +1,26 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAAAAAA",
+    "AAAAAAA",
+    "AAABAAA",
+    "AA   AA",
+    "AA   AA",
+    "       ",
+    "       "
+  ],
+  "key": {
+    "A": {
+      "item": "cyclic:gem_obsidian"
+    },
+    "B": {
+      "type": "forge:nbt",
+      "item": "mekanismtools:refined_obsidian_helmet",
+      "count": 1,
+      "nbt": "{Damage:0}"
+    }
+  },
+  "result": {
+    "item": "cyclic:crystal_helmet"
+  }
+}

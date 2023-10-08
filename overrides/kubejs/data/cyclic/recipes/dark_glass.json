@@ -1,0 +1,27 @@
+{
+  "type": "extendedcrafting:shaped_flux_crafter",
+  "powerRequired": 100000,
+  "powerRate": 400,
+  "pattern": [
+    "ABA",
+    "BCB",
+    "DBD"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "B": {
+      "item": "minecraft:tinted_glass"
+    },
+    "C": {
+      "item": "mysticalagradditions:withering_soul"
+    },
+    "D": {
+      "item": "minecraft:amethyst_block"
+    }
+  },
+  "result": {
+    "item": "cyclic:dark_glass"
+  }
+}
