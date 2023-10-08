@@ -42,13 +42,7 @@ ServerEvents.recipes(event => {
     //event.remove({ id: 'minecraft:netherite_boots'})
     
     
-    
-    event.replaceInput(
-        { input: 'minecraft:redstone' }, 
-        'minecraft:redstone', 
-        Ingredient.of('#forge:nuggets/redstone_ingot') 
-       
-    )
+
     event.replaceInput(
         { mod: "sophisticatedstorage" }, 
         "minecraft:iron_ingot", 
