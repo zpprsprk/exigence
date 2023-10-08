@@ -1,0 +1,5 @@
+Add aether logs
+fix armor chain with botania
+figure out where to add new armor into chain
+ - cataclysm
+remove references to thermal
