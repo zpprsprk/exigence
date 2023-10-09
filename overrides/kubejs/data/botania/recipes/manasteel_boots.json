@@ -1,0 +1,22 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "   ",
+    "A A",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "botania:manasteel_ingot"
+    },
+    "B": {
+      "type": "forge:nbt",
+      "item": "minecraft:iron_boots",
+      "count": 1,
+      "nbt": "{Damage:0}"
+    }
+  },
+  "result": {
+    "item": "botania:manasteel_boots"
+  }
+}

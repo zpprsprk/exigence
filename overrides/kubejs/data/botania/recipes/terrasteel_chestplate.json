@@ -1,0 +1,32 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABACABA",
+    "BDAAADB",
+    "AAAAAAA",
+    "AAAAAAA",
+    " AAAAA ",
+    " AAAAA ",
+    " AAAAA "
+  ],
+  "key": {
+    "A": {
+      "item": "botania:terrasteel_ingot"
+    },
+    "B": {
+      "item": "botania:livingwood_twig"
+    },
+    "C": {
+      "type": "forge:nbt",
+      "item": "minecraft:netherite_chestplate",
+      "count": 1,
+      "nbt": "{Damage:0}"
+    },
+    "D": {
+      "item": "botania:rune_summer"
+    }
+  },
+  "result": {
+    "item": "botania:terrasteel_chestplate"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "       ",
+    "       ",
+    " AA AA ",
+    " AA AA ",
+    "BAA AAB",
+    "AAA AAA",
+    "CCCDCCC"
+  ],
+  "key": {
+    "A": {
+      "item": "botania:terrasteel_ingot"
+    },
+    "B": {
+      "item": "botania:rune_winter"
+    },
+    "C": {
+      "item": "botania:livingwood_twig"
+    },
+    "D": {
+      "type": "forge:nbt",
+      "item": "minecraft:netherite_boots",
+      "count": 1,
+      "nbt": "{Damage:0}"
+    }
+  },
+  "result": {
+    "item": "botania:terrasteel_boots"
+  }
+}

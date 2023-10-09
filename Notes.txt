@@ -5,3 +5,14 @@ figure out where to add new armor into chain
 remove references to thermal
 add enderio plates
 check config to use water for exdeorm watercans
+add leaves to squeezer
+make grass (petal apothacary 8 leaves and dirt) and dirt recipe
+cobble to gravel to dirt to sand in squeezer
+make recipe for clay in drying basin
+1. make furnace
+2. compressed stone to make squeezer
+3. squeezer to make gravel
+4. get flint and make shears
+5. use leaves to make bonemeal compactor
+6. make cyclic cask use to fill petal
+

@@ -1,0 +1,24 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAAAA",
+    "AAAAA",
+    "AABAA",
+    "A   A",
+    "     "
+  ],
+  "key": {
+    "A": {
+      "item": "botania:elementium_ingot"
+    },
+    "B": {
+      "type": "forge:nbt",
+      "item": "minecraft:chainmail_helmet",
+      "count": 1,
+      "nbt": "{Damage:0}"
+    }
+  },
+  "result": {
+    "item": "botania:elementium_helmet"
+  }
+}

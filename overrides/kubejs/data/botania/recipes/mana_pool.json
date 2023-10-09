@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "T": {
+      "item": "botania:livingwood_planks"
+    },
+    "L": {
+      "item": "botania:livingrock"
+    },
+    "D": {
+      "item": "botania:diluted_pool"
+    }
+  },
+  "pattern": [
+    "TTT",
+    "LDL",
+    "LLL"
+  ],
+  "result": {
+    "item": "botania:mana_pool"
+  }
+}
