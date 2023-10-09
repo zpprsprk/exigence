@@ -14,7 +14,7 @@ make recipe for clay in drying basin
 3. squeezer to make gravel
 4. get flint and make shears
 5. use leaves to make bonemeal compactor
-6. make cyclic cask use to fill petal
+6. make cyclic cask use to fill petala
 
 
 Add aether logs
