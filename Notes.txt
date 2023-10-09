@@ -16,3 +16,9 @@ make recipe for clay in drying basin
 5. use leaves to make bonemeal compactor
 6. make cyclic cask use to fill petal
 
+
+Add aether logs
+fix armor chain with botania
+figure out where to add new armor into chain
+ - cataclysm
+remove references to thermal
