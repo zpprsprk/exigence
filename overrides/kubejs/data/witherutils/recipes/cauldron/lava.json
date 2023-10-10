@@ -1,0 +1,12 @@
+{
+  "type": "witherutils:cauldron",
+  "experience": 3,
+  "ingredient": {
+    "item": "compressium:cobblestone_1"
+  },
+  "result": {
+    "amount": 1000,
+    "fluid": "minecraft:lava"
+  },
+  "timer": 640
+}
