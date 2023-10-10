@@ -1,0 +1,12 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "item": "minecraft:cobblestone",
+  "result": {
+    "items": [
+      {
+        "item": "minecraft:gravel"
+      }
+    ]
+  },
+  "duration": 30
+}

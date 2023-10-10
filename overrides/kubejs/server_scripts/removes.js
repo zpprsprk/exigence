@@ -36,6 +36,9 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'cyclic:uncrafter'})
     event.remove({ id: 'cyclic:stonecutting/dark_glass'})
 
+    event.remove({ id: 'integrateddynamics:squeezer/ore/flint'})
+    event.remove({ id: 'integrateddynamics:mechanical_squeezere/ore/flint'})
+
     //event.remove({ id: 'minecraft:netherite_helmet'})
     //event.remove({ id: 'minecraft:netherite_chestplate'})
     //event.remove({ id: 'minecraft:netherite_leggings'})

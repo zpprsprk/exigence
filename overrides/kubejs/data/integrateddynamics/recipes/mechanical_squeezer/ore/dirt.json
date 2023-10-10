@@ -1,0 +1,15 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "item": "minecraft:gravel",
+  "result": {
+    "items": [
+      {
+        "item": {
+          "item": "minecraft:dirt",
+          "count": 1
+        }
+      }
+    ]
+  },
+  "duration": 30
+}

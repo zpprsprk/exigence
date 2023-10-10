@@ -1,0 +1,10 @@
+{
+  "type": "integrateddynamics:squeezer",
+  "tag": "minecraft:leaves",
+  "result": {
+    "fluid": {
+      "fluid": "minecraft:water",
+      "amount": 50
+    }
+  }
+}
