@@ -24,12 +24,15 @@
     },
     {
       "tag": "minecraft:leaves"
+    },
+    {
+      "tag": "minecraft:dirt"
     }
   ],
   "output": {
     "item": "minecraft:grass_block"
   },
   "reagent": {
-    "tag": "minecraft:dirt"
+    "tag": "botania:seed_apothecary_reagent"
   }
 }

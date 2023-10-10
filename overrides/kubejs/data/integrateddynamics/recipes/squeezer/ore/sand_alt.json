@@ -4,7 +4,11 @@
   "result": {
     "items": [
       {
-        "item": "minecraft:seed"
+        "item": "minecraft:sand"
+      },
+      {
+        "item": "minecraft:wheat_seed",
+        "chance": 0.2
       }
     ]
   }
