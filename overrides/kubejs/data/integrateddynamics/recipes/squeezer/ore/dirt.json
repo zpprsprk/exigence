@@ -1,0 +1,14 @@
+{
+  "type": "integrateddynamics:squeezer",
+  "item": "minecraft:gravel",
+  "result": {
+    "items": [
+      {
+        "item": {
+          "item": "minecraft:dirt",
+          "count": 1
+        }
+      }
+    ]
+  }
+}
