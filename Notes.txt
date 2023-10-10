@@ -4,6 +4,8 @@ figure out where to add new armor into chain
  - cataclysm
 remove references to thermal
 add enderio plates
+fix cyclic spike recipes
+
 check config to use water for exdeorm watercans
 add leaves to squeezer
 make grass (petal apothacary 8 leaves and dirt) and dirt recipe
