@@ -1,0 +1,31 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:crushed_end_stone"
+    },
+    {
+      "item": "createsifter:advanced_mesh"
+    }
+  ],
+  "processingTime": 500,
+  "results": [
+    {
+      "chance": 0.2,
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "chance": 0.3,
+      "item": "minecraft:chorus_flower"
+    },
+    {
+      "chance": 0.3,
+      "item": "witherutils:lilly"
+    },
+    {
+      "chance": 0.3,
+      "item": "minecraft:chorus_fruit"
+    }
+  ],
+  "waterlogged": false
+}

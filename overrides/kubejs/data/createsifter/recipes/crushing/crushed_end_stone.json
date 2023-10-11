@@ -1,0 +1,18 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:end_stone"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "createsifter:crushed_end_stone"
+    },
+    {
+      "chance": 0.01,
+      "item": "minecraft:ender_eye"
+    }
+  ]
+}
