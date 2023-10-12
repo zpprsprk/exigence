@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CBC",
+    "CAC",
+    "PPP"
+  ],
+  "key": {
+    "A": {
+      "item": "create:item_drain"
+    },
+    "B": {
+      "item": "create:experience_block"
+    },
+    "P": {
+      "item": "create:fluid_pipe"
+    },
+    "C": {
+      "item": "create:copper_casing"
+    }
+  },
+  "result": {
+    "item": "create_enchantment_industry:disenchanter"
+  }
+}
