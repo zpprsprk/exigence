@@ -1,0 +1,27 @@
+{
+  "type": "botania:runic_altar",
+  "ingredients": [
+    {
+      "tag": "botania:mana_diamond_gems"
+    },
+    {
+      "tag": "forge:dyes/black"
+    },
+    {
+      "tag": "forge:dyes/yellow"
+    },
+    {
+      "item": "scalinghealth:heart_crystal"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+      ],
+  "mana": 12000,
+  "output": {
+    "item": "minecraft:bee_spawn_egg"
+  }
+}
