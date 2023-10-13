@@ -1,0 +1,10 @@
+{
+  "type": "witherutils:anvil",
+  "bonuscount": 4,
+  "experience": 0,
+  "hitcounter": 4,
+  "ingredient": {
+    "item": "minecraft:bone"
+  },
+  "result": "minecraft:bone_meal"
+}

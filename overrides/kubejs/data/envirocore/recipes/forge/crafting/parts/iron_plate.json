@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "c": {
+      "tag": "forge:storage_blocks/iron"
+    },
+    "H": {
+      "item": "immersiveengineering:hammer"
+    }
+  },
+  "pattern": [
+    " c ",
+    " Hc"
+  ],
+  "result": {
+    "count": 1,
+    "item": "envirocore:iron_plate"
+  }
+}

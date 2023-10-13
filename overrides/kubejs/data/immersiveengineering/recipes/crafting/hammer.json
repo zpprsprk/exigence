@@ -5,7 +5,7 @@
             "tag": "forge:rods/wooden"
         },
         "B": {
-            "item": "exnihilosequentia:platinum_ingot"
+            "item": "forge:storage_blocks/iron"
         },
         "C": {
             "item": "immersiveengineering:hemp_fiber"

@@ -1,0 +1,10 @@
+{
+  "type": "witherutils:anvil",
+  "bonuscount": 0,
+  "experience": 1,
+  "hitcounter": 4,
+  "ingredient": {
+    "item": "minecraft:iron_ingot"
+  },
+  "result": "witherutils:iron_rod"
+}

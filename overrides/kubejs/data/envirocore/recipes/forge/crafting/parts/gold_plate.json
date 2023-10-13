@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "c": {
+      "tag": "forge:storage_blocks/gold"
+    },
+    "H": {
+      "item": "immersiveengineering:hammer"
+    }
+  },
+  "pattern": [
+    " c ",
+    " Hc"
+
+  ],
+  "result": {
+    "count": 1,
+    "item": "envirocore:gold_plate"
+  }
+}
