@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:apatite_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:apatite_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:apatite_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagriculture:supremium_farmland"
+    },
+    "time": 1000
+}

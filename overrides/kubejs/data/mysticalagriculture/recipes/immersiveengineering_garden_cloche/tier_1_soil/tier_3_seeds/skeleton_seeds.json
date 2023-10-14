@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:skeleton_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:skeleton_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:skeleton_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagriculture:inferium_farmland"
+    },
+    "time": 1400
+}

@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:obsidian_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:obsidian_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:obsidian_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagriculture:supremium_farmland"
+    },
+    "time": 1000
+}

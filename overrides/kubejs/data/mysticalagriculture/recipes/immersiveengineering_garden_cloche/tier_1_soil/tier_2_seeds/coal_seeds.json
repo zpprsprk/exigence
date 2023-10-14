@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:coal_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:coal_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:coal_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagriculture:inferium_farmland"
+    },
+    "time": 1400
+}

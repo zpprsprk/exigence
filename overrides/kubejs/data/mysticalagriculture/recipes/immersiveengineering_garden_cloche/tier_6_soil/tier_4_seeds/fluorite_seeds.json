@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:fluorite_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:fluorite_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:fluorite_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagradditions:insanium_farmland"
+    },
+    "time": 800
+}

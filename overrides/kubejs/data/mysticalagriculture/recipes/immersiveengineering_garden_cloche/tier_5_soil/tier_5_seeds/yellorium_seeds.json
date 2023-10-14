@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:yellorium_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:yellorium_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:yellorium_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagriculture:supremium_farmland"
+    },
+    "time": 1000
+}

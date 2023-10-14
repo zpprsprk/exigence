@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:amethyst_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:amethyst_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:amethyst_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagradditions:insanium_farmland"
+    },
+    "time": 800
+}

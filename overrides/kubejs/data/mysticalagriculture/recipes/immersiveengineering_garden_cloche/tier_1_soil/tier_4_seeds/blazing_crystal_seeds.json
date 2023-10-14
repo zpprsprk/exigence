@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:blazing_crystal_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:blazing_crystal_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:blazing_crystal_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagriculture:inferium_farmland"
+    },
+    "time": 1400
+}

@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:cyanite_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:cyanite_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:cyanite_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagriculture:imperium_farmland"
+    },
+    "time": 1100
+}

@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:experience_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:experience_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:experience_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagriculture:supremium_farmland"
+    },
+    "time": 1000
+}

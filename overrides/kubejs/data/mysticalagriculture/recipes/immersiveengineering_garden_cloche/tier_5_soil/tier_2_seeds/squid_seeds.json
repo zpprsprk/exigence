@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:squid_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:squid_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:squid_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagriculture:supremium_farmland"
+    },
+    "time": 1000
+}

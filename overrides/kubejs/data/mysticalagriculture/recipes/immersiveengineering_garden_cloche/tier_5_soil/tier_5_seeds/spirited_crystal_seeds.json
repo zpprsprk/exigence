@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:spirited_crystal_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:spirited_crystal_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:spirited_crystal_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagriculture:supremium_farmland"
+    },
+    "time": 1000
+}

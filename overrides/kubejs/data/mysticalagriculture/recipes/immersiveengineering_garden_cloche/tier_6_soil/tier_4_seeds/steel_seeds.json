@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:steel_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:steel_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:steel_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagradditions:insanium_farmland"
+    },
+    "time": 800
+}

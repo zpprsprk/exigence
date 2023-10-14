@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:nether_star_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:nether_star_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:nether_star_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagradditions:nether_star_crux"
+    },
+    "time": 1200
+}

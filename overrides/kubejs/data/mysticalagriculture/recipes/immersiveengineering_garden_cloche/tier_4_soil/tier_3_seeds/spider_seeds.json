@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:spider_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:spider_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:spider_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagriculture:imperium_farmland"
+    },
+    "time": 1100
+}

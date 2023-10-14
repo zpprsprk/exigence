@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:turtle_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:turtle_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:turtle_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagradditions:insanium_farmland"
+    },
+    "time": 800
+}

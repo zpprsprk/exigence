@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:sky_stone_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:sky_stone_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:sky_stone_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagriculture:inferium_farmland"
+    },
+    "time": 1400
+}

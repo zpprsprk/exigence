@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:prismarine_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:prismarine_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:prismarine_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagriculture:inferium_farmland"
+    },
+    "time": 1400
+}

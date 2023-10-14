@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:gaia_spirit_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:gaia_spirit_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:gaia_spirit_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagradditions:gaia_spirit_crux"
+    },
+    "time": 1200
+}

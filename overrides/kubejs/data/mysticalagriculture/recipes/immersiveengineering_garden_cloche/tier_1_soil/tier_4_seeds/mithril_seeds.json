@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:mithril_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:mithril_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:mithril_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagriculture:inferium_farmland"
+    },
+    "time": 1400
+}

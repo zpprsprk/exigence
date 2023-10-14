@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:bronze_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:bronze_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:bronze_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagriculture:imperium_farmland"
+    },
+    "time": 1100
+}

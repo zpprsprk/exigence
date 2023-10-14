@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:pig_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:pig_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:pig_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagradditions:insanium_farmland"
+    },
+    "time": 800
+}

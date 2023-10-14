@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:honey_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:honey_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:honey_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagradditions:insanium_farmland"
+    },
+    "time": 800
+}

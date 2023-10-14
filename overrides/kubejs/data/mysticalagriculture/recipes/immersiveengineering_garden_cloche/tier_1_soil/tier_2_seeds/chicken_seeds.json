@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:chicken_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:chicken_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:chicken_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagriculture:inferium_farmland"
+    },
+    "time": 1400
+}

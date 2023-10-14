@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:rabbit_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:rabbit_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:rabbit_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagriculture:inferium_farmland"
+    },
+    "time": 1400
+}

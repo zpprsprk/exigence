@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:slime_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:slime_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:slime_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagradditions:insanium_farmland"
+    },
+    "time": 800
+}

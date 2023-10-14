@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:zombie_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:zombie_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:zombie_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagriculture:imperium_farmland"
+    },
+    "time": 1100
+}

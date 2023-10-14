@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:coral_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:coral_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:coral_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagriculture:imperium_farmland"
+    },
+    "time": 1100
+}

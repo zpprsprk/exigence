@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:enderium_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:enderium_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:enderium_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagriculture:supremium_farmland"
+    },
+    "time": 1000
+}

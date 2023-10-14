@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:glowstone_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:glowstone_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:glowstone_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagradditions:insanium_farmland"
+    },
+    "time": 800
+}

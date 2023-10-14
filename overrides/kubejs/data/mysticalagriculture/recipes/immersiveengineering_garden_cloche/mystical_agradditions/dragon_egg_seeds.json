@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:dragon_egg_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:dragon_egg_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:dragon_egg_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagradditions:dragon_egg_crux"
+    },
+    "time": 1200
+}

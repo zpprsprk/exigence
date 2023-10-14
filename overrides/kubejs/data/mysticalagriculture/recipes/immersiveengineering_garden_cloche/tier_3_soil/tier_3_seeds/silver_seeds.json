@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:silver_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:silver_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:silver_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagriculture:tertium_farmland"
+    },
+    "time": 1200
+}

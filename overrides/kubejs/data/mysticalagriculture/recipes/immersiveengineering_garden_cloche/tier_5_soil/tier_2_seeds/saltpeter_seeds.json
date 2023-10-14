@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:saltpeter_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:saltpeter_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:saltpeter_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagriculture:supremium_farmland"
+    },
+    "time": 1000
+}

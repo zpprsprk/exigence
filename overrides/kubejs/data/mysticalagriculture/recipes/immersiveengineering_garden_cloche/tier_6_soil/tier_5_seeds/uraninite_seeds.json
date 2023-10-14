@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:uraninite_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:uraninite_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:uraninite_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagradditions:insanium_farmland"
+    },
+    "time": 800
+}
