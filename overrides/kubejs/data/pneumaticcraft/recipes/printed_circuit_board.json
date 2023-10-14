@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "pneumaticcraft:capacitor"
+    },
+    "T": {
+      "item": "pneumaticcraft:transistor"
+    },
+    "U": {
+      "item": "pneumaticcraft:unassembled_pcb"
+    },
+    "A": {
+      "item": "immersiveengineering:component_electronic_adv"
+    },
+    "M": {
+      "item": "envirocore:mv_connector"
+    }
+  },
+  "pattern": [
+    "ATA",
+    "CUC",
+    "MTM"
+  ],
+  "result": {
+    "item": "pneumaticcraft:printed_circuit_board"
+  },
+  "show_notification": true
+}

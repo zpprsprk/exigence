@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "tag": "forge:ingots/hop_graphite"
+    }
+  },
+  "output": {
+    "item": "mekanism:enriched_carbon"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mekanism:infusion_conversion",
+  "input": {
+    "ingredient": [
+      {
+        "tag": "forge:ingots/hop_graphite"
+      }
+    ]
+  },
+  "output": {
+    "amount": 20,
+    "infuse_type": "mekanism:carbon"
+  }
+}

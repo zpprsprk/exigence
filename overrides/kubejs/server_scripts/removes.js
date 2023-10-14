@@ -39,6 +39,11 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'integrateddynamics:squeezer/ore/flint'})
     event.remove({ id: 'integrateddynamics:mechanical_squeezere/ore/flint'})
 
+    event.remove({ id: 'mekanism:infusion_conversion/carbon/from_coal'})
+    event.remove({ id: 'mekanism:infusion_conversion/carbon/from_coal_block'})
+    event.remove({ id: 'mekanism:infusion_conversion/carbon/from_charcoal'})
+    event.remove({ id: 'mekanism:infusion_conversion/carbon/from_charcoal_block'})
+
     //event.remove({ id: 'minecraft:netherite_helmet'})
     //event.remove({ id: 'minecraft:netherite_chestplate'})
     //event.remove({ id: 'minecraft:netherite_leggings'})

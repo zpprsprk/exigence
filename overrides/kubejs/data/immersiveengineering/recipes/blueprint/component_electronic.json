@@ -3,6 +3,6 @@
 	"inputs":[
 		{"tag":"forge:treated_wood_slab"},
 		{"tag":"immersiveengineering:circuits/logic"},
-		{"item":"advgenerators:iron_wiring"},
-		{"item":"create:rose_quartz"}],
+		{"tag":"forge:wires/iron"},
+		{"item":"create:electron_tube"}],
 	"result":{"item":"immersiveengineering:component_electronic"}}

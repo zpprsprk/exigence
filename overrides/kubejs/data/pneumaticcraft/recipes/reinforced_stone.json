@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "tag": "forge:ingots/compressed_iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "pneumaticcraft:reinforced_stone"
+    }
+  ]
+}
