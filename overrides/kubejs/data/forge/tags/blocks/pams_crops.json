@@ -2,9 +2,9 @@
   "replace": false,
   "values": ["pamhc2crops:pamwhitemushroomcrop", "pamhc2crops:pamtrufflecrop", "pamhc2crops:pamagavecrop",
     "pamhc2crops:pamamaranthcrop", "pamhc2crops:pamarrowrootcrop", "pamhc2crops:pamartichokecrop", "pamhc2crops:pamasparaguscrop",
-    "pamhc2crops:pambarleycrop", "pamhc2crops:pambeancrop", "pamhc2crops:pambellpeppercrops", "pamhc2crops:pamblackberrycrop",
+    "pamhc2crops:pambarleycrop", "pamhc2crops:pambeancrop", "pamhc2crops:pambellpeppercrop", "pamhc2crops:pamblackberrycrop",
     "pamhc2crops:pamblueberrycrop", "pamhc2crops:pambroccolicrop","pamhc2crops:pambrusselsproutcrop", "pamhc2crops:pamcabbagecrop",
-    "pamhc2crops:pamcactusfruit", "pamhc2crops:pamcandleberrycrop", "pamhc2crops:pamcantaloupecrop", "pamhc2crops:pamcassavacrop",
+    "pamhc2crops:pamcactusfruitcrop", "pamhc2crops:pamcandleberrycrop", "pamhc2crops:pamcantaloupecrop", "pamhc2crops:pamcassavacrop",
     "pamhc2crops:pamcauliflowercrop", "pamhc2crops:pamcelerycrop", "pamhc2crops:pamchickpeacrop", "pamhc2crops:pamchilipeppercrop",
     "pamhc2crops:pamcoffeebeancrop", "pamhc2crops:pamcorncrop", "pamhc2crops:pamcottoncrop", "pamhc2crops:pamcranberrycrop",
     "pamhc2crops:pamcucumbercrop", "pamhc2crops:pameggplantcrop", "pamhc2crops:pamelderberrycrop", "pamhc2crops:pamflaxcrop", "pamhc2crops:pamgarliccrop",
@@ -15,11 +15,11 @@
     "pamhc2crops:pamokracrop", "pamhc2crops:pamonioncrop", "pamhc2crops:pamparsnipcrop", "pamhc2crops:pampeanutcrop", "pamhc2crops:pampeascrop",
     "pamhc2crops:pampineapplecrop", "pamhc2crops:pamquinoacrop", "pamhc2crops:pamradishcrop", "pamhc2crops:pamraspberrycrop", "pamhc2crops:pamrhubarbcrop",
     "pamhc2crops:pamricecrop", "pamhc2crops:pamrutabagacrop", "pamhc2crops:pamryecrop", "pamhc2crops:pamscallioncrop", "pamhc2crops:pamsesameseedscrop",
-    "pamhc2crops:pamsisalcrop", "pamhc2crops:pamsoybeancrop", "pamhc2crops:pamspiceleafecrop", "pamhc2crops:pamspinachecrop", "pamhc2crops:pamstrawberrycrop",
+    "pamhc2crops:pamsisalcrop", "pamhc2crops:pamsoybeancrop", "pamhc2crops:pamspiceleafcrop", "pamhc2crops:pamspinachcrop", "pamhc2crops:pamstrawberrycrop",
     "pamhc2crops:pamsweetpotatocrop", "pamhc2crops:pamtarocrop", "pamhc2crops:pamtealeafcrop", "pamhc2crops:pamtomatillocrop", "pamhc2crops:pamtomatocrop",
     "pamhc2crops:pamturnipcrop", "pamhc2crops:pamwaterchestnutcrop", "pamhc2crops:pamwintersquashcrop", "pamhc2crops:pamzucchinicrop", "pamhc2crops:pamalfalfacrop",
     "pamhc2crops:pamaloecrop", "pamhc2crops:pambarrelcactuscrop", "pamhc2crops:pamcanolacrop", "pamhc2crops:pamcattailcrop", "pamhc2crops:pamchiacrop",
     "pamhc2crops:pamcloudberrycrop", "pamhc2crops:pamlotuscrop", "pamhc2crops:pamnettlescrop", "pamhc2crops:pamnopalescrop", "pamhc2crops:pamsorghumcrop",
     "pamhc2crops:pamwolfberrycrop", "pamhc2crops:pamyuccacrop", "pamhc2crops:pambokchoycrop", "pamhc2crops:pamcalabashcrop", "pamhc2crops:pamguaranacrop",
-    "pamhc2crops:pampapyrauscrop", "pamhc2crops:pamsunchokecrop"]
+    "pamhc2crops:pampapyruscrop", "pamhc2crops:pamsunchokecrop"]
 }
