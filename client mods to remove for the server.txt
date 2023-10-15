@@ -1,9 +1,9 @@
 Won't work on Akliz
 Better Tags
+Colorful hearts
 
 Will work, but not needed on server
 Borderless Window
-Colorful hearts
 Ding
 Packmenu
 toast control

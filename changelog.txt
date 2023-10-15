@@ -58,3 +58,13 @@ Wall Jump TXF
 Mods Removed
 Excavar
 Jump over fences
+
+3.0.6
+Mods Added
+Better Compatability Checker
+Butcher's Delight Foods
+Sneaky Tree Growing
+Wooden Bucket
+
+Mods Removed
+Squat Grow

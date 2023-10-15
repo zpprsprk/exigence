@@ -7,6 +7,10 @@
 	detection_delay: 20
 	disable_gui: false
 	drop_loot_crates: false
+	emergency_items: [
+		{ Count: 1b, id: "minecraft:dirt" }
+		{ Count: 1b, id: "minecraft:oak_sapling" }
+	]
 	emergency_items_cooldown: 300
 	grid_scale: 0.5d
 	lock_message: ""

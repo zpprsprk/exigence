@@ -6,7 +6,7 @@
   },
   "itemInput": {
     "ingredient": {
-      "tag": "forge:ingots/redstone_iron"
+      "tag": "forge:ingots/redstone_ingot"
     }
   },
   "output": {

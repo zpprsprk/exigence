@@ -5,7 +5,7 @@
             "tag": "forge:rods/wooden"
         },
         "B": {
-            "item": "forge:storage_blocks/iron"
+            "tag": "forge:storage_blocks/iron"
         },
         "C": {
             "item": "immersiveengineering:hemp_fiber"
