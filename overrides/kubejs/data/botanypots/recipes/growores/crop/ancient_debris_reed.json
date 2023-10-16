@@ -1,0 +1,32 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "growores:ancient_debris_reed_item"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "growores:ancient_debris_reed_item"
+  },
+  "categories": [
+    "growing_block"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "growores:ancient_debris_reed"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "growores:ancient_debris_reed_item"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+    }
+  ]
+}

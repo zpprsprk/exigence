@@ -1,0 +1,21 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "growores:growing_block"
+      ]
+    }
+  ],
+  "type": "botanypots:soil",
+  "input": {
+    "item": "growores:growing_block"
+  },
+  "display": {
+    "block": "growores:growing_block"
+  },
+  "categories": [
+    "growing_block"
+  ],
+  "growthModifier": 1.00
+}
