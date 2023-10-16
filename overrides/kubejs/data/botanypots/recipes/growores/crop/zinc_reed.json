@@ -1,0 +1,32 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "growores:zinc_reed_item"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "growores:zinc_reed_item"
+  },
+  "categories": [
+    "growing_block"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "growores:zinc_reed"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "growores:zinc_reed_item"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+    }
+  ]
+}

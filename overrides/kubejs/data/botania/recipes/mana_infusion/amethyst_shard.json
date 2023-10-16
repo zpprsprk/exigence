@@ -1,0 +1,14 @@
+{
+  "type": "botania:mana_infusion",
+  "catalyst": {
+    "type": "block",
+    "block": "botania:alchemy_catalyst"
+  },
+  "input": {
+    "item": "minecraft:prismarine_crystals"
+  },
+  "mana": 50,
+  "output": {
+    "item": "minecraft:amethyst_shard"
+  }
+}
