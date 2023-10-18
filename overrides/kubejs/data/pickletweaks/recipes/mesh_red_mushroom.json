@@ -20,6 +20,9 @@
     ],
     {
       "item": "cyclic:soil"
+    },
+    {
+      "tag": "forge:dyes/red"
     }
   ],
   "result": {

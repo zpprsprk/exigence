@@ -1,0 +1,28 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 25600,
+  "experience": 0.3,
+  "inputs": [
+    {
+      "count": 4,
+      "ingredient": {
+        "tag": "forge:ingots/black_iron"
+      }
+    },
+    {
+      "count": 4,
+      "ingredient": {
+        "tag": "forge:glass/colorless"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "extendedcrafting:black_iron_slate"
+      }
+    }
+  ],
+  "result": {
+    "item": "extendedcrafting:frame"
+  }
+}

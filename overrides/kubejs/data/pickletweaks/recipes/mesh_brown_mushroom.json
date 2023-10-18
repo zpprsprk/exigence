@@ -19,7 +19,10 @@
       }
     ],
     {
-      "item": "farmersdelight:rich_soil"
+      "item": "cyclic:soil"
+    },
+    {
+      "tag": "forge:dyes/brown"
     }
   ],
   "result": {

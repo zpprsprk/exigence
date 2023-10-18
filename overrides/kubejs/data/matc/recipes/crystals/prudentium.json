@@ -1,0 +1,37 @@
+{
+  "type": "botania:runic_altar",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:prosperity_shard"
+    },
+    {
+      "item": "mysticalagriculture:prosperity_shard"
+    },
+    {
+      "item": "mysticalagriculture:prosperity_shard"
+    },
+    {
+      "item": "mysticalagriculture:prosperity_shard"
+    },
+    {
+      "item": "mysticalagriculture:prudentium_block"
+    },
+    {
+      "item": "mysticalagriculture:prudentium_block"
+    },
+    {
+      "item": "mysticalagriculture:prudentium_block"
+    },
+    {
+      "item": "mysticalagriculture:prudentium_block"
+    },
+    {
+      "item": "matc:inferium_crystal",
+      "data":  32767
+    }
+  ],
+  "mana": 8000,
+  "output": {
+    "item": "matc:prudentium_crystal"
+  }
+}

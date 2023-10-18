@@ -1,0 +1,22 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SES",
+    "EGE",
+    "SES"
+  ],
+  "key": {
+    "S":  {
+        "item": "mysticalagriculture:prosperity_shard"
+      },
+    "E": {
+        "item": "mysticalagriculture:inferium_block"
+    },
+    "G": {
+        "item": "mysticalagriculture:inferium_gemstone"
+    }
+  },
+  "result": {
+    "item": "matc:inferium_crystal"
+  }
+}

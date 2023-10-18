@@ -1,0 +1,36 @@
+{
+  "type": "extendedcrafting:combination",
+  "powerCost": 10000,
+  "input": {
+    "item": "matc:imperium_crystal"
+  },
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:supremium_gemstone_block"
+    },
+    {
+      "tag": "forge:nether_stars"
+    },
+    {
+      "item": "mysticalagriculture:supremium_gemstone_block"
+    },
+    {
+      "tag": "forge:nether_stars"
+    },
+    {
+      "item": "mysticalagriculture:supremium_gemstone_block"
+    },
+    {
+      "tag": "forge:nether_stars"
+    },
+    {
+      "item": "mysticalagriculture:supremium_gemstone_block"
+    },
+    {
+      "tag": "forge:nether_stars"
+    }
+  ],
+  "result": {
+    "item": "matc:supremium_crystal"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "pattern": [
+    " G ",
+    "SES",
+    "EDE",
+    "SES",
+    " G "
+  ],
+  "key": {
+    "S": {
+      "item": "mysticalagriculture:prosperity_shard"
+    },
+    "E": {
+      "item": "mysticalagriculture:tertium_block"
+    },
+    "G": {
+      "item": "mysticalagriculture:tertium_gemstone"
+    },
+    "D": {
+      "item": "matc:prudentium_crystal",
+      "data": 32767
+    }
+  },
+  "result": {
+    "item": "matc:tertium_crystal"
+  }
+}
