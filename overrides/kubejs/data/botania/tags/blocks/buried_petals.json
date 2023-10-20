@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "botania:white_buried_petals",
+    "botania:orange_buried_petals",
+    "botania:magenta_buried_petals",
+    "botania:light_blue_buried_petals",
+    "botania:yellow_buried_petals",
+    "botania:lime_buried_petals",
+    "botania:pink_buried_petals",
+    "botania:gray_buried_petals",
+    "botania:light_gray_buried_petals",
+    "botania:cyan_buried_petals",
+    "botania:purple_buried_petals",
+    "botania:blue_buried_petals",
+    "botania:brown_buried_petals",
+    "botania:green_buried_petals",
+    "botania:red_buried_petals",
+    "botania:black_buried_petals"
+  ]
+}
