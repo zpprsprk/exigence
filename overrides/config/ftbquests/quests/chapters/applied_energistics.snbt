@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "applied_energistics"
+	group: "23580880DD31AAB3"
+	id: "693B59ED614ABD35"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Applied Energistics"
+}

@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sophisticated"
+	group: "23580880DD31AAB3"
+	id: "32B31A84E51F762A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Sophisticated "
+}

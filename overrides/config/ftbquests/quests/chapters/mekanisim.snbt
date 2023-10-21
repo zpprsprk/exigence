@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanisim"
+	group: "620B5D5F620B7302"
+	id: "24C88F144DE6A3CC"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Mekanisim"
+}

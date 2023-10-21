@@ -1,0 +1,34 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basic"
+	group: "23580880DD31AAB3"
+	id: "4CF4D79BE61776D6"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "2BE66C3D2E8F0BE4"
+		tasks: [{
+			id: "1EFAAF3895630CE4"
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						ItemStackHandler: {
+							Items: [ ]
+							Size: 9
+						}
+					}
+				}
+				id: "cobblestonesemantics:cobblestone_bag"
+				tag: {
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.5d
+	}]
+	title: "Basic Storage"
+}
