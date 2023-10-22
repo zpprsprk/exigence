@@ -2,12 +2,13 @@
   "type": "create:pressing",
   "ingredients": [
     {
-      "tag": "forge:storage_blocks/enderium"
+      "tag": "forge:ingots/uranium"
     }
   ],
   "results": [
     {
-      "item": "thermal:enderium_plate"
+      "tag": "forge:plates/uranium",
+      "count": 2
     }
   ]
 }

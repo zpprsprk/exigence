@@ -2,15 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "c": {
-      "tag": "forge:storage_blocks/copper"
+      "tag": "forge:ingots/copper"
     },
     "H": {
       "item": "immersiveengineering:hammer"
     }
   },
   "pattern": [
-    " c ",
-    " Hc"
+    "Hcc",
+    " cc"
   ],
   "result": {
     "count": 1,

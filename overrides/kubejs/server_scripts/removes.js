@@ -35,9 +35,10 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'cyclic:crafting/chest'})
     event.remove({ id: 'cyclic:uncrafter'})
     event.remove({ id: 'cyclic:stonecutting/dark_glass'})
+    event.remove({ id: 'cyclic:compressed_cobblestone'})
 
     event.remove({ id: 'integrateddynamics:squeezer/ore/flint'})
-    event.remove({ id: 'integrateddynamics:mechanical_squeezere/ore/flint'})
+    event.remove({ id: 'integrateddynamics:mechanical_squeezer/ore/flint'})
 
     event.remove({ id: 'mekanism:infusion_conversion/carbon/from_coal'})
     event.remove({ id: 'mekanism:infusion_conversion/carbon/from_coal_block'})

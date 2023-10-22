@@ -1,1 +1,12 @@
-{"type":"immersiveengineering:metal_press","energy":2400,"input":{"tag":"forge:storage_blocks/iron"},"mold":"immersiveengineering:mold_plate","result":{"tag":"forge:plates/iron"}}
+{
+  "type": "immersiveengineering:metal_press",
+  "energy": 2400,
+  "input": {
+    "tag": "forge:ingots/iron"
+  },
+  "mold": "immersiveengineering:mold_plate",
+  "result": {
+    "tag": "forge:plates/iron",
+    "count": 2
+  }
+}

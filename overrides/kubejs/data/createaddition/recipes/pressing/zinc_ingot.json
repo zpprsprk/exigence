@@ -2,12 +2,13 @@
   "type": "create:pressing",
   "ingredients": [
     {
-      "tag": "forge:storage_blocks/signalum"
+      "tag": "forge:ingots/zinc"
     }
   ],
   "results": [
     {
-      "item": "thermal:signalum_plate"
+      "item": "createaddition:zinc_sheet",
+      "count": 2
     }
   ]
 }

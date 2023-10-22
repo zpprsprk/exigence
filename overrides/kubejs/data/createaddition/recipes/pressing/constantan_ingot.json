@@ -2,12 +2,13 @@
   "type": "create:pressing",
   "ingredients": [
     {
-      "tag": "forge:storage_blocks/bronze"
+      "tag": "forge:ingots/constantan"
     }
   ],
   "results": [
     {
-      "item": "thermal:bronze_plate"
+      "tag": "forge:plates/constantan",
+      "count": 2
     }
   ]
 }

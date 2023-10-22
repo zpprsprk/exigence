@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "c": {
+      "tag": "forge:ingots/steel"
+    },
+    "H": {
+      "item": "immersiveengineering:hammer"
+    }
+  },
+  "pattern": [
+    "Hcc",
+    " cc"
+  ],
+  "result": {
+    "count": 1,
+    "tag": "forge:plates/steel"
+  }
+}

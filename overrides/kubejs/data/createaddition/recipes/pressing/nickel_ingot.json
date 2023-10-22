@@ -2,12 +2,13 @@
   "type": "create:pressing",
   "ingredients": [
     {
-      "tag": "forge:storage_blocks/rose_gold"
+      "tag": "forge:ingots/nickel"
     }
   ],
   "results": [
     {
-      "item": "thermal:rose_gold_plate"
+      "tag": "forge:plates/nickel",
+      "count": 2
     }
   ]
 }

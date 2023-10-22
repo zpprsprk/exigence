@@ -2,12 +2,13 @@
   "type": "create:pressing",
   "ingredients": [
     {
-      "tag": "forge:storage_blocks/tin"
+      "tag": "forge:ingots/electrum"
     }
   ],
   "results": [
     {
-      "item": "thermal:tin_plate"
+      "tag": "forge:plates/electrum",
+      "count": 2
     }
   ]
 }

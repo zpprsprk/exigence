@@ -1,0 +1,29 @@
+{
+"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "mysticalagradditions" 
+		}
+	],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PIP",
+    "ICI",
+    "PIP"
+  ],
+  "key": {
+    "I":  {
+        "item": "mysticalagradditions:insanium_gemstone_block"
+      },
+    "P": {
+        "item": "enderio:ender_crystal"
+    },
+    "C": {
+        "item": "matc:supremium_crystal",
+        "data":  32767
+    }
+  },
+  "result": {
+    "item": "mysticalagriculture:master_infusion_crystal"
+  }
+}

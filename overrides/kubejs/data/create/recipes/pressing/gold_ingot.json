@@ -2,12 +2,13 @@
   "type": "create:pressing",
   "ingredients": [
     {
-      "tag": "forge:storage_blocks/gold"
+      "tag": "forge:ingots/gold"
     }
   ],
   "results": [
     {
-      "item": "create:golden_sheet"
+      "item": "create:golden_sheet",
+      "count": 2
     }
   ]
 }

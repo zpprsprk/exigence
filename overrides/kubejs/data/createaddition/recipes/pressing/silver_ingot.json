@@ -2,12 +2,13 @@
   "type": "create:pressing",
   "ingredients": [
     {
-      "tag": "forge:storage_blocks/lumium"
+      "tag": "forge:ingots/silver"
     }
   ],
   "results": [
     {
-      "item": "thermal:lumium_plate"
+      "tag": "forge:plates/silver",
+      "count": 2
     }
   ]
 }

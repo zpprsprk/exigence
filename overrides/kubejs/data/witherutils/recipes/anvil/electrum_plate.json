@@ -1,0 +1,10 @@
+{
+  "type": "witherutils:anvil",
+  "bonuscount": 0,
+  "experience": 3,
+  "hitcounter": 10,
+  "ingredient": {
+    "tag": "forge:ingots/electrum"
+  },
+  "result": "immersiveengineering:plate_electrum"
+}

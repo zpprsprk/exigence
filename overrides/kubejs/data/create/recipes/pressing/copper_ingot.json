@@ -2,12 +2,13 @@
   "type": "create:pressing",
   "ingredients": [
     {
-      "tag": "forge:storage_blocks/copper"
+      "tag": "forge:ingots/copper"
     }
   ],
   "results": [
     {
-      "item": "create:copper_sheet"
+      "item": "create:copper_sheet",
+      "count": 2
     }
   ]
 }

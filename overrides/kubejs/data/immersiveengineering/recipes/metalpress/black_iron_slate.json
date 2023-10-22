@@ -1,6 +1,12 @@
-{"type":"immersiveengineering:metal_press",
-	"energy":2400,"input":{
-	"tag":"forge:storage_blocks/black_iron"},
-	"mold":"immersiveengineering:mold_plate",
-	"result":{"item":"extendedcrafting:black_iron_slate"}}
+{
+  "type": "immersiveengineering:metal_press",
+  "energy": 2400,
+  "input": {
+    "tag": "forge:storage_blocks/black_iron"
+  },
+  "mold": "immersiveengineering:mold_plate",
+  "result": {
+    "item": "extendedcrafting:black_iron_slate"
+  }
+}
 

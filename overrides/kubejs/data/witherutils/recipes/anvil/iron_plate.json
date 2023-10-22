@@ -4,7 +4,7 @@
   "experience": 3,
   "hitcounter": 10,
   "ingredient": {
-    "tag": "forge:storage_blocks/iron"
+    "tag": "forge:ingots/iron"
   },
   "result": "witherutils:iron_plate"
 }

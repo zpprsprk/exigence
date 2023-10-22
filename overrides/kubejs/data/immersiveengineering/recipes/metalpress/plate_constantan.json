@@ -1,1 +1,12 @@
-{"type":"immersiveengineering:metal_press","energy":2400,"input":{"tag":"forge:storage_blocks/constantan"},"mold":"immersiveengineering:mold_plate","result":{"tag":"forge:plates/constantan"}}
+{
+  "type": "immersiveengineering:metal_press",
+  "energy": 2400,
+  "input": {
+    "tag": "forge:ingots/constantan"
+  },
+  "mold": "immersiveengineering:mold_plate",
+  "result": {
+    "tag": "forge:plates/constantan",
+    "count": 2
+  }
+}
