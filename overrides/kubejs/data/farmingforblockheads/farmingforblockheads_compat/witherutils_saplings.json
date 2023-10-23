@@ -1,0 +1,17 @@
+{
+  "modId": "witherutils",
+  "silent": true,
+  "group": {
+    "name": "WitherUtils Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:emerald"
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {
+      "output": "witherutils:rotten_sapling"
+    }
+  ]
+}

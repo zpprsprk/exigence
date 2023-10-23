@@ -1,0 +1,17 @@
+{
+  "modId": "integrateddynamics",
+  "silent": true,
+  "group": {
+    "name": "Integrated Dynamics Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:emerald"
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {
+      "output": "integrateddynamics:menril_sapling"
+    }
+  ]
+}
