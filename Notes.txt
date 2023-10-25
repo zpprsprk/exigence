@@ -6,6 +6,8 @@ remove references to thermal
 remove references to quark (recipes)
 add enderio plates
 fix cyclic spike recipes
+extended ae crafted in extended crafting
+skystone dust to sifting
 
 1. make furnace
 2. compressed stone to make squeezer
