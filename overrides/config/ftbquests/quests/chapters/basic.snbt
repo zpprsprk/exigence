@@ -977,6 +977,130 @@
 			x: -28.0d
 			y: -9.0d
 		}
+		{
+			id: "1AD0624694640F84"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "188C36BE81DA6C8B"
+				table_id: 6929875729895633662L
+				type: "random"
+			}]
+			tasks: [{
+				id: "67970F2D4B42B18B"
+				item: "rftoolsstorage:modular_storage"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1AD0624694640F84"]
+			id: "03C3D13080E3DD53"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F134C3928147F93"
+				table_id: 6929875729895633662L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2E5E6CC3C6C6FFC3"
+				item: "rftoolsstorage:storage_module0"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["32EA63A84065DF74"]
+			id: "7D693F46F5BB2F08"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "001E6713A1AA2D2B"
+				table_id: 6929875729895633662L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7C50AD402CF68A0D"
+				item: "rftoolsstorage:storage_module2"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["03C3D13080E3DD53"]
+			id: "32EA63A84065DF74"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B06EEBF5FD81711"
+				table_id: 6929875729895633662L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "376D9A6AE2C372E2"
+				item: "rftoolsstorage:storage_module1"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7D693F46F5BB2F08"]
+			id: "368F3BBBE93F2762"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0769ADD3A8E6ED6D"
+				table_id: 6929875729895633662L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5D4C9AEC0E9F03E7"
+				item: "rftoolsstorage:storage_module3"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1AD0624694640F84"]
+			id: "7FA71F8147E67922"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6975F8F1ECCE5110"
+				table_id: 6929875729895633662L
+				type: "random"
+			}]
+			tasks: [{
+				id: "38EA79D8FEA539C8"
+				item: "rftoolsstorage:storage_scanner"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1AD0624694640F84"]
+			id: "76F261919E2DEA7B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A23ACA93783F35C"
+				table_id: 6929875729895633662L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0C48D44FE430669B"
+				item: {
+					Count: 1b
+					id: "rftoolsstorage:storage_control_module"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -21.5d
+			y: -5.5d
+		}
 	]
 	title: "Basic Storage"
 }

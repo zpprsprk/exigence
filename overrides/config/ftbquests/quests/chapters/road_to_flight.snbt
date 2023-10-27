@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "road_to_flight"
+	group: "3ABAD0DD372A432D"
+	id: "0A7C1B04E22FD53B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		description: ["You fill it with rotation "]
+		id: "1650D75217B9E4D0"
+		rewards: [{
+			exclude_from_claim_all: true
+			id: "3334E7C1DA675B29"
+			table_id: 6929875729895633662L
+			type: "random"
+		}]
+		tasks: [{
+			id: "063342F928D90EEA"
+			item: {
+				Count: 1b
+				id: "create_jetpack:jetpack"
+				tag: {
+					Air: 900.0f
+				}
+			}
+			type: "item"
+		}]
+		x: 1.0d
+		y: -1.0d
+	}]
+	title: "Road to Flight"
+}
