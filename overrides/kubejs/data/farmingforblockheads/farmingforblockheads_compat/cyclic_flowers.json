@@ -1,0 +1,25 @@
+{
+  "modId": "cyclic",
+  "group": {
+    "name": "Cyclic Flowers",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:emerald"
+    },
+    "defaultCategory": "farmingforblockheads:flowers"
+  },
+  "customEntries": [
+    {
+      "output": "cyclic:flower_cyan"
+    },
+    {
+      "output": "cyclic:flower_purple_tulip"
+    },
+    {
+      "output": "cyclic:flower_lime_carnation"
+    },
+    {
+      "output": "cyclic:flower_absalon_tulip"
+    }
+  ]
+}

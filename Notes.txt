@@ -25,6 +25,3 @@ figure out where to add new armor into chain
 
 Add to market
  - mushrooms
- - various saplings
- - various crop seeds
- - 
