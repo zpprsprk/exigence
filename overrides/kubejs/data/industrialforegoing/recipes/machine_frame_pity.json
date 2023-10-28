@@ -21,7 +21,7 @@
             "tag": "forge:ingots/iron"
           },
           "R": {
-            "tag": "rftoolsbase:machine_frame"
+            "item": "rftoolsbase:machine_frame"
           },
           "W": {
             "tag": "minecraft:logs"
