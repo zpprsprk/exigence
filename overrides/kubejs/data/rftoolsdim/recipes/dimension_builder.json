@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "F": {
+      "item": "enderio:souled_chassis"
+    },
+    "d": {
+      "item": "minecraft:diamond"
+    },
+    "e": {
+      "item": "minecraft:emerald"
+    },
+    "g": {
+      "item": "mekanism:block_refined_glowstone"
+    },
+    "o": {
+      "tag": "forge:ender_pearls"
+    }
+  },
+  "pattern": [
+    "oeo",
+    "dFd",
+    "ggg"
+  ],
+  "result": {
+    "item": "rftoolsdim:dimension_builder"
+  }
+}

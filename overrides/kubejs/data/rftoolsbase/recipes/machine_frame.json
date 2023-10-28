@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "g": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "i": {
+      "tag": "forge:storage_blocks/redstone"
+    },
+    "l": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    "ili",
+    "g g",
+    "ili"
+  ],
+  "result": {
+    "item": "rftoolsbase:machine_frame"
+  }
+}
