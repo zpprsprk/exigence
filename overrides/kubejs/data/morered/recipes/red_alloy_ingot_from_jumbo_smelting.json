@@ -1,0 +1,18 @@
+{
+	"type": "jumbofurnace:jumbo_smelting",
+	"ingredients":
+	[
+		{
+			"tag": "forge:ingots/copper"
+		},
+		{
+			"tag": "forge:ingots/redstone_ingot"
+		}
+	],
+	"result":
+	{
+		"item": "morered:red_alloy_ingot",
+		"count": 2
+	},
+	"experience": 0.15
+}

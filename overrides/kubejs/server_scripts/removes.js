@@ -1,3 +1,4 @@
+console.info('Hello, World! This is the removes.js script')
 ServerEvents.recipes(event => {
 
     event.remove({ id: 'immersiveengineering:crafting/plate_nickel_hammering' })
@@ -45,7 +46,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'mekanism:infusion_conversion/carbon/from_charcoal'})
     event.remove({ id: 'mekanism:infusion_conversion/carbon/from_charcoal_block'})
 
-    event.remove({ id: 'morered:red_alloy_ingot_from_jumbo_smelting'})
+    // event.remove({ id: 'morered:red_alloy_ingot_from_jumbo_smelting'})
 
     //event.remove({ id: 'minecraft:netherite_helmet'})
     //event.remove({ id: 'minecraft:netherite_chestplate'})
