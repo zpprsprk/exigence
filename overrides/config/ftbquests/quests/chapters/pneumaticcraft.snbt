@@ -1,0 +1,497 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pneumaticcraft"
+	group: "620B5D5F620B7302"
+	icon: "pneumaticcraft:unassembled_pcb"
+	id: "6C28289950299B05"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "57A0FC9DC3339978"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72AF784DBFA2EB49"
+				table_id: 6929875729895633662L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0CDECA455993B10A"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["57A0FC9DC3339978"]
+			id: "36560EB348A44313"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "192153018B412DD0"
+				table_id: 5889897200976138554L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4C85C68F0E7BE9F2"
+				item: "pneumaticcraft:air_compressor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"31EB2B0652AC84FB"
+				"0C8979159EC29E00"
+			]
+			id: "21107583F6CB6A61"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2329D1D0CB58E0EC"
+				table_id: 4435893151625121745L
+				type: "random"
+			}]
+			tasks: [
+				{
+					count: 23L
+					id: "5E2DA6774B9840FB"
+					item: { Count: 23b, id: "pneumaticcraft:pressure_chamber_wall" }
+					type: "item"
+				}
+				{
+					id: "4C71AFED56BB67E4"
+					item: "pneumaticcraft:pressure_chamber_valve"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6147B25CBDB3DCF0"
+					item: { Count: 2b, id: "pneumaticcraft:pressure_chamber_interface" }
+					type: "item"
+				}
+				{
+					advancement: "pneumaticcraft:pressure_chamber"
+					criterion: ""
+					id: "7E21AF1AC32DE581"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["21107583F6CB6A61"]
+			id: "4F93B3F148A2BD22"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "776E46042EDA2421"
+				table_id: 6929875729895633662L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "04ABA1D9ECACE45D"
+				item: "pneumaticcraft:charging_station"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["36560EB348A44313"]
+			id: "31EB2B0652AC84FB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4ECE3728CDD0CDEA"
+				table_id: 5889897200976138554L
+				type: "random"
+			}]
+			tasks: [{
+				count: 16L
+				id: "4523FC352967B931"
+				item: { Count: 16b, id: "pneumaticcraft:pressure_tube" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["36560EB348A44313"]
+			id: "0C8979159EC29E00"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08B678FD80D788B7"
+				table_id: 5889897200976138554L
+				type: "random"
+			}]
+			tasks: [{
+				id: "05B9652146899687"
+				item: "pneumaticcraft:security_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["21107583F6CB6A61"]
+			id: "5C0ED6F7370CC752"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5ACC0815162E5A7E"
+				table_id: 5889897200976138554L
+				type: "random"
+			}]
+			tasks: [{
+				id: "793CB2DF690C0C23"
+				item: "pneumaticcraft:vacuum_pump"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4F93B3F148A2BD22"
+				"5C0ED6F7370CC752"
+			]
+			id: "690873DB49E51134"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AD8B145895A284C"
+				table_id: 4663541751234590946L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "764ECB8188DD4718"
+					item: "pneumaticcraft:assembly_controller"
+					type: "item"
+				}
+				{
+					id: "64CF1EED04C9D709"
+					item: "pneumaticcraft:assembly_drill"
+					type: "item"
+				}
+				{
+					id: "183A3435D4D29749"
+					item: "pneumaticcraft:assembly_io_unit_export"
+					type: "item"
+				}
+				{
+					id: "02147C232F18CB4B"
+					item: "pneumaticcraft:assembly_laser"
+					type: "item"
+				}
+				{
+					id: "3616FB16EC80D3A2"
+					item: "pneumaticcraft:assembly_platform"
+					type: "item"
+				}
+				{
+					id: "51ABB59BF21271DE"
+					item: "pneumaticcraft:assembly_io_unit_import"
+					type: "item"
+				}
+				{
+					id: "07BB68B557F4434D"
+					item: "pneumaticcraft:assembly_program_drill_laser"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["35B3149C1FC6667A"]
+			description: ["To Get oil use tablet... to get plastic use biodiesel (Immersiveengineering)"]
+			id: "0C872C2036C88BF9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CDCBC85A81F3C20"
+				table_id: 6929875729895633662L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "38DB9CA9503681AF"
+					item: "pneumaticcraft:refinery"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1C5B3A8005352195"
+					item: { Count: 4b, id: "pneumaticcraft:refinery_output" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["21107583F6CB6A61"]
+			id: "35B3149C1FC6667A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70E7726D6DE1B6C5"
+				table_id: 5889897200976138554L
+				type: "random"
+			}]
+			tasks: [{
+				id: "662124E345D94F8F"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["35B3149C1FC6667A"]
+			id: "7E770145AB73E9F4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1511F5305AE30C34"
+				table_id: 5889897200976138554L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6729F1FC7DED46F5"
+				item: "pneumaticcraft:heat_frame"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["35B3149C1FC6667A"]
+			id: "6C4702B234374116"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "291941819BDA6B51"
+				table_id: 5889897200976138554L
+				type: "random"
+			}]
+			tasks: [{
+				count: 6L
+				id: "31AE04CD7D9A1AC2"
+				item: { Count: 6b, id: "pneumaticcraft:heat_pipe" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["35B3149C1FC6667A"]
+			id: "2CD5182EBD0E475B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A1DC27E1DB51DA9"
+				table_id: 5889897200976138554L
+				type: "random"
+			}]
+			tasks: [{
+				count: 6L
+				id: "45051B09D031EC99"
+				item: { Count: 6b, id: "pneumaticcraft:thermal_lagging" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["35B3149C1FC6667A"]
+			id: "7698DA93901FCAC9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68CFF8337E3E5205"
+				table_id: 5889897200976138554L
+				type: "random"
+			}]
+			tasks: [{
+				count: 5L
+				id: "2D6D37BDD3F84550"
+				item: { Count: 5b, id: "pneumaticcraft:heat_sink" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["35B3149C1FC6667A"]
+			id: "368D985D59039193"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05413789A8297B95"
+				table_id: 6929875729895633662L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "0C268F3BB01A6C6D"
+				item: "pneumaticcraft:vortex_tube"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"16B054C4C9EBDCF2"
+				"64A22BABAEF9189E"
+			]
+			id: "01226B9041F53F2F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00C55CA97DCD0DA2"
+				table_id: 4435893151625121745L
+				type: "random"
+			}]
+			tasks: [{
+				id: "50357C7855C30F70"
+				item: "pneumaticcraft:printed_circuit_board"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"62A02F92A50AA8BA"
+				"7D32CEB5C04C1DC8"
+			]
+			id: "591FDAD537B88D70"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A130343E79FF21B"
+				table_id: 6929875729895633662L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7BE6ACFEDDE8E6E2"
+				item: "pneumaticcraft:unassembled_pcb"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["591FDAD537B88D70"]
+			id: "64A22BABAEF9189E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "588453ADD8B484D0"
+				table_id: 6929875729895633662L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3EFE6591E68BAD54"
+				item: "pneumaticcraft:capacitor"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["591FDAD537B88D70"]
+			id: "16B054C4C9EBDCF2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E9BB3C2F59A82BE"
+				table_id: 6929875729895633662L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5A60213BB8EFEAED"
+				item: "pneumaticcraft:transistor"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7E33C48FC0128053"]
+			id: "7D32CEB5C04C1DC8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "434F8E8FE0D0CEC8"
+				table_id: 6929875729895633662L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1D91810E7E299411"
+				item: "pneumaticcraft:etching_tank"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7E33C48FC0128053"]
+			id: "62A02F92A50AA8BA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A0A138E7554F357"
+				table_id: 6929875729895633662L
+				type: "random"
+			}]
+			tasks: [{
+				id: "443B08B207B858C7"
+				item: "pneumaticcraft:etching_acid_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["21107583F6CB6A61"]
+			id: "592DE6BB9522CB63"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35B36F410FADA1D2"
+				table_id: 6929875729895633662L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0F17CAD06854F416"
+				item: "pneumaticcraft:empty_pcb"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["592DE6BB9522CB63"]
+			id: "7E33C48FC0128053"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64F8AF517A7F1490"
+				table_id: 6929875729895633662L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6BC7B11136D1962B"
+				item: "pneumaticcraft:uv_light_box"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["35B3149C1FC6667A"]
+			id: "04806346071B68A2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47FE90B23BE96233"
+				table_id: 6929875729895633662L
+				type: "random"
+			}]
+			tasks: [{
+				id: "46168EE11E8DC333"
+				item: "pneumaticcraft:amadron_tablet"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+	]
+	title: "PneumaticCraft"
+}
