@@ -5,15 +5,18 @@
       "item": "pneumaticcraft:printed_circuit_board"
     },
     "i": {
-      "tag": "forge:storage_blocks/redstone"
+      "tag": "forge:storage_blocks/compressed_iron"
     },
     "l": {
       "item": "create:electron_tube"
+    },
+    "t": {
+      "tag": "forge:storage_blocks/redstone"
     }
   },
   "pattern": [
     "ili",
-    "g g",
+    "gtg",
     "ili"
   ],
   "result": {
