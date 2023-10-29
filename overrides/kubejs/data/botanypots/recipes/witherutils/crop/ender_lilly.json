@@ -1,0 +1,33 @@
+{
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "witherutils:lilly"
+  },
+  "categories": [
+    "stone"
+  ],
+  "growthTicks": 3600,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "witherutils:lilly"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "witherutils:enderpearl_shard",
+        "count": 2
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+    },
+    {
+      "chance": 0.25,
+      "output": {
+        "item": "witherutils:lilly"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+    }
+  ]
+}

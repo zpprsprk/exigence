@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:metallurgic_infusing",
+  "chemicalInput": {
+    "amount": 160,
+    "tag": "mekanism:refined_obsidian"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "industrialforegoing:machine_frame_advanced"
+    }
+  },
+  "output": {
+    "item": "enderio:void_chassis"
+  }
+}

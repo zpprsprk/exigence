@@ -1,0 +1,28 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 4800,
+  "experience": 0.3,
+  "inputs": [
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "industrialforegoing:machine_frame_advanced"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "tag": "forge:storage_blocks/dark_steel"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "tag": "forge:dusts/osmium"
+      }
+    }
+  ],
+  "result": {
+    "item": "mekanism:steel_casing"
+  }
+}
