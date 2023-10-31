@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "aether:crafts_skyroot_planks"
+    }
+  ],
+  "result": {
+    "item": "aether:skyroot_planks"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "///",
+    "#X#",
+    "///"
+  ],
+  "key": {
+    "/": {
+      "tag": "forge:rods/treated_wood"
+    },
+    "#": {
+      "tag": "forge:ingots/gold"
+    },
+    "X": {
+      "item": "storagedrawers:iron_storage_upgrade"
+    }
+  },
+  "result": {
+    "item": "storagedrawers:gold_storage_upgrade"
+  }
+}

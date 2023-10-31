@@ -1,10 +1,8 @@
 #add
-fire crafting?....
 Compressed Creativity
 Embers Rekindled?
 
 #remove
 giacomo's
 Dank Null
-more mekanism processing
 more red -- is this even needed with enderio and additional redstone?

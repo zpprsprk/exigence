@@ -10,13 +10,13 @@
       "tag": "minecraft:planks"
     },
     "C": {
-      "item": "compressium:cobblestone_1"
+      "tag": "forge:storage_blocks/cobblestone"
     },
     "I": {
-      "item": "minecraft:iron_ingot"
+      "tag": "forge:ingots/iron"
     },
     "R": {
-      "item": "extendedcrafting:redstone_ingot"
+      "tag": "forge:ingots/redstone_ingot"
     }
   },
   "result": {
