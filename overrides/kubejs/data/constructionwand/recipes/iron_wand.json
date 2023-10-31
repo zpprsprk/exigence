@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  X",
+    " # ",
+    "#  "
+  ],
+  "key": {
+    "X": {
+      "tag": "forge:storage_blocks/iron"
+    },
+    "#": {
+      "item": "constructionwand:stone_wand"
+    }
+  },
+  "result": {
+    "item": "constructionwand:iron_wand"
+  }
+}

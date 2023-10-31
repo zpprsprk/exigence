@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  X",
+    " # ",
+    "#  "
+  ],
+  "key": {
+    "X": {
+      "tag": "forge:storage_blocks/diamond"
+    },
+    "#": {
+      "item": "constructionwand:iron_wand"
+    }
+  },
+  "result": {
+    "item": "constructionwand:diamond_wand"
+  }
+}

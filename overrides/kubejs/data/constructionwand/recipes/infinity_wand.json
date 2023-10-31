@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  X",
+    " # ",
+    "#  "
+  ],
+  "key": {
+    "X": {
+      "tag": "forge:storage_blocks/nether_star"
+    },
+    "#": {
+      "item": "constructionwand:diamond_wand"
+    }
+  },
+  "result": {
+    "item": "constructionwand:infinity_wand"
+  }
+}
