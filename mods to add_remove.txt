@@ -1,8 +1,4 @@
 #add
-Compressed Creativity
-Embers Rekindled?
 
 #remove
-giacomo's
-Dank Null
-more red -- is this even needed with enderio and additional redstone?
+Experience Obelisk
