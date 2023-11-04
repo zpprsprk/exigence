@@ -46,7 +46,13 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'mekanism:infusion_conversion/carbon/from_charcoal'})
     event.remove({ id: 'mekanism:infusion_conversion/carbon/from_charcoal_block'})
 
-    // event.remove({ id: 'morered:red_alloy_ingot_from_jumbo_smelting'})
+    event.remove({ id: 'powah:crafting/cable_basic_2'})
+    event.remove({ id: 'powah:crafting/cable_hardened_2'})
+    event.remove({ id: 'powah:crafting/cable_blazing_2'})
+    event.remove({ id: 'powah:crafting/cable_niotic_2'})
+    event.remove({ id: 'powah:crafting/cable_spirited_2'})
+    event.remove({ id: 'powah:crafting/cable_nitro_2'})
+    event.remove({ id: 'powah:crafting/energy_cell_basic_2'})
 
     //event.remove({ id: 'minecraft:netherite_helmet'})
     //event.remove({ id: 'minecraft:netherite_chestplate'})

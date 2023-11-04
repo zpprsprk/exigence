@@ -1,0 +1,12 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 300,
+  "input": {
+    "item": "witherutils:enderpearl_shard"
+  },
+  "outputs": [
+    {
+      "item": "enderio:powdered_ender_pearl"
+    }
+  ]
+}
