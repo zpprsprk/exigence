@@ -1,0 +1,384 @@
+{
+	id: "1116477B4395B2BA"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "loot"
+	}
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 64, item: "minecraft:oak_log" }
+		{ count: 64, item: "minecraft:spruce_log" }
+		{ count: 64, item: "minecraft:jungle_log" }
+		{ count: 64, item: "minecraft:birch_log" }
+		{ count: 64, item: "minecraft:acacia_log" }
+		{ count: 64, item: "minecraft:dark_oak_log" }
+		{ count: 64, item: "minecraft:mangrove_log" }
+		{ count: 64, item: "minecraft:cherry_log" }
+		{ count: 64, item: "minecraft:bamboo_block" }
+		{ count: 64, item: "minecraft:crimson_stem" }
+		{ count: 64, item: "minecraft:warped_stem" }
+		{ count: 64, item: "minecraft:cobblestone" }
+		{ count: 64, item: "minecraft:stone" }
+		{ count: 64, item: "minecraft:diorite" }
+		{ count: 64, item: "minecraft:deepslate" }
+		{ count: 64, item: "minecraft:bricks" }
+		{ count: 16, item: "minecraft:sea_lantern" }
+		{ count: 64, item: "minecraft:end_stone" }
+		{ count: 8, item: "minecraft:gold_block" }
+		{ count: 8, item: "minecraft:iron_block" }
+		{ count: 8, item: "minecraft:coal_block" }
+		{
+			type: "xp_levels"
+			xp_levels: 100
+		}
+		{
+			type: "xp"
+			xp: 100
+		}
+		{ count: 8, item: "minecraft:redstone_block" }
+		{ count: 8, item: "minecraft:emerald_block" }
+		{ count: 8, item: "minecraft:lapis_block" }
+		{ count: 8, item: "minecraft:diamond_block" }
+		{ count: 2, item: "minecraft:netherite_block" }
+		{ count: 64, item: "minecraft:andesite" }
+		{ count: 16, item: "minecraft:quartz_block" }
+		{ count: 64, item: "minecraft:quartz_block" }
+		{ count: 16, item: "minecraft:amethyst_block" }
+		{ count: 8, item: "minecraft:copper_block" }
+		{ count: 64, item: "minecraft:white_wool" }
+		{ item: "minecraft:red_bed" }
+		{ count: 64, item: "minecraft:glass" }
+		{ count: 16, item: "minecraft:black_candle" }
+		{ item: "comforts:sleeping_bag_red" }
+		{ item: "comforts:hammock_red" }
+		{ count: 64, item: "minecraft:clay" }
+		{ count: 48, item: "minecraft:grass_block" }
+		{ count: 16, item: "minecraft:podzol" }
+		{ count: 16, item: "pamhc2foodextended:pomegranatejellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:applejellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:apricotjellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:blackberryjellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:blueberryjellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:breadfruitjellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:cactusfruitjellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:candleberryjellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:cantaloupejellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:cherryjellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:cranberryjellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:cucumbersandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:datejellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:dragonfruitjellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:durianjellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:elderberryjellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:figjellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:friedbolognasandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:gooseberryjellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:grapefruitjellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:grapejellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:greengrapejellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:melonjellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:sweetberryjellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:huckleberryjellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:juniperberryjellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:mulberryjellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:raspberryjellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:strawberryjellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:kiwijellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:orangejellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:peachjellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:pearjellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:plumjellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:pawpawjellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:soursopjellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:mangojellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:papayajellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:persimmonjellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:pomegranatejellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:starfruitjellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:jackfruitjellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:guavajellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:lycheejellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:passionfruitjellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:rambutanjellysandwichitem" }
+		{ count: 16, item: "pamhc2foodextended:tamarindjellysandwichitem" }
+		{ count: 16, item: "minecraft:iron_ingot" }
+		{ count: 16, item: "pneumaticcraft:ingot_iron_compressed" }
+		{ count: 16, item: "pneumaticcraft:plastic" }
+		{ item: "create:blaze_cake" }
+		{ item: "minecraft:furnace" }
+		{ count: 29, item: "minecraft:clay_ball" }
+		{ count: 2, item: "immersiveengineering:light_engineering" }
+		{ item: "minecraft:bucket" }
+		{ item: "rechiseled:chisel" }
+		{ count: 8, item: "minecraft:ender_eye" }
+		{ count: 16, item: "minecraft:ender_pearl" }
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 9
+					}
+				}
+				id: "cyclic:ender_book"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "reliquary:fortune_coin" }
+		{ item: "minecraft:beacon" }
+		{ item: "reliquary:fertile_lily_pad" }
+		{ item: "witherutils:lilly" }
+		{ count: 16, item: "minecraft:lily_pad" }
+		{
+			item: {
+				Count: 1b
+				id: "constructionwand:stone_wand"
+				tag: {
+					Damage: 0
+					wand_options: { }
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "constructionwand:iron_wand"
+				tag: {
+					Damage: 0
+					wand_options: { }
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "constructionwand:diamond_wand"
+				tag: {
+					Damage: 0
+					wand_options: { }
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "constructionwand:diamond_wand"
+				tag: {
+					Damage: 0
+					wand_options: { }
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "constructionwand:infinity_wand"
+				tag: {
+					wand_options: { }
+				}
+			}
+		}
+		{ item: "notenoughwands:acceleration_wand" }
+		{ item: "notenoughwands:teleportation_wand" }
+		{
+			item: {
+				Count: 1b
+				id: "obtrophies:trophy"
+				tag: {
+					BlockEntityTag: {
+						VariantID: 0
+						entity: "minecraft:wither_skeleton"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "obtrophies:trophy"
+				tag: {
+					BlockEntityTag: {
+						VariantID: 0
+						entity: "minecraft:creeper"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:netherite_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:diamond_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:netherite_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:diamond_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:netherite_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:netherite_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:diamond_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mysticalagriculture:supremium_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mysticalagriculture:supremium_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mysticalagriculture:supremium_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mysticalagriculture:supremium_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.1f
+		}
+		{ item: "mysticalagriculture:flight_augment", weight: 0.1f }
+		{ item: "mysticalagriculture:tinkering_table" }
+		{ item: "ironfurnaces:iron_furnace" }
+		{ item: "mob_grinding_utils:rotten_egg" }
+		{ item: "mob_grinding_utils:golden_egg" }
+		{ item: "mob_grinding_utils:saw" }
+		{ count: 3, item: "cyclic:spikes_diamond" }
+		{ count: 2, item: "botania:overgrowth_seed", weight: 3.0f }
+		{ count: 16, item: "botania:black_lotus", weight: 2.0f }
+		{ count: 8, item: "botania:blacker_lotus" }
+		{ item: "mekanism:basic_bin" }
+		{ item: "mekanism:advanced_bin" }
+		{ item: "mekanism:elite_bin" }
+		{ item: "mekanism:ultimate_bin" }
+		{
+			item: {
+				Count: 1b
+				id: "pneumaticcraft:huge_tank"
+				tag: {
+					BlockEntityTag: {
+						SavedTanks: {
+							Tank: {
+								Amount: 512000
+								FluidName: "pneumaticcraft:lubricant"
+							}
+						}
+					}
+				}
+			}
+		}
+		{ item: "cyclic:inventory_cake" }
+		{ item: "enderio:yeta_wrench" }
+		{
+			item: {
+				Count: 1b
+				id: "pneumaticcraft:pneumatic_wrench"
+				tag: {
+					"pneumaticcraft:air": 30000
+				}
+			}
+		}
+		{ item: "create:wrench" }
+		{ item: "minecraft:cake" }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 5, item: "minecraft:phantom_membrane" }
+	]
+	title: "Loot"
+}

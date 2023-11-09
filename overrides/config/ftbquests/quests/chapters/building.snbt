@@ -1,0 +1,226 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "building"
+	group: "3ABAD0DD372A432D"
+	icon: {
+		Count: 1b
+		id: "constructionwand:infinity_wand"
+		tag: {
+			wand_options: { }
+		}
+	}
+	id: "5D571A13189813C5"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Can we build it?"]
+			id: "377AF5733F5702CD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1339CBACB461F409"
+				table_id: 1231250142872842938L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "08F794200E7C3902"
+				item: "buildinggadgets2:gadget_building"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			description: ["Ctrl C Ctrl V"]
+			id: "688CB2774E8CF7F4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F71BEA7D877EA45"
+				table_id: 1231250142872842938L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5318000DB1B0150E"
+				item: {
+					Count: 1b
+					id: "buildinggadgets2:gadget_copy_paste"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			description: ["Ctrl X Ctrl V"]
+			id: "21BB1EA1EC20D8C0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "341E6FD461390D53"
+				table_id: 1231250142872842938L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2139D86E5393C501"
+				item: {
+					Count: 1b
+					id: "buildinggadgets2:gadget_cut_paste"
+					tag: {
+						pastereplace: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			description: ["Bye?"]
+			id: "08871EF6F1630F88"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45025CC2BED25C9D"
+				table_id: 1231250142872842938L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5C594961DA2AB70A"
+				item: "buildinggadgets2:gadget_destruction"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			description: ["9 Blocks "]
+			id: "49F2BA91D0C3040E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "614CF815F12DCB5F"
+				table_id: 1231250142872842938L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5FDDC8C9579F1314"
+				item: {
+					Count: 1b
+					id: "constructionwand:stone_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["49F2BA91D0C3040E"]
+			description: ["27 Blocks"]
+			id: "784427BA355FB0FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3005E8139FD746F5"
+				table_id: 1231250142872842938L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0BBF584A7FF271E2"
+				item: {
+					Count: 1b
+					id: "constructionwand:iron_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["784427BA355FB0FE"]
+			description: ["128 Blocks"]
+			id: "0A719C42776C5A7C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D3BB1C82432353E"
+				table_id: 1231250142872842938L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "40E4C2F3B24565B7"
+				item: {
+					Count: 1b
+					id: "constructionwand:diamond_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0A719C42776C5A7C"]
+			description: ["1024 Blocks"]
+			id: "4F71A3A231FE2589"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "027634FAD0C684DD"
+				table_id: 1231250142872842938L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "263D180AB940BE89"
+				item: {
+					Count: 1b
+					id: "constructionwand:infinity_wand"
+					tag: {
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			description: ["Frame it"]
+			id: "2C92CA730032E26A"
+			rewards: [{
+				id: "26BB26740B667BF6"
+				item: "framedblocks:framed_hammer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "306E0837E76CE0C7"
+				item: "framedblocks:framed_cube"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			description: ["Chisel it"]
+			id: "7AF39CD26D3F2147"
+			tasks: [{
+				id: "69D87C7FF68D4F85"
+				item: {
+					Count: 1b
+					id: "rechiseled:chisel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+	]
+	title: "Building"
+}

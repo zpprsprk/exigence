@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farming_for_blockheads"
+	group: "5301D73FD3BC0CB7"
+	id: "674417B2FF791019"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Farming for Blockheads"
+}
