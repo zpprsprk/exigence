@@ -1,0 +1,81 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "powah:energy_cable_nitro"
+  },
+  "transitionalItem": {
+    "item": "powah:energy_cable_nitro"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "powah:energy_cable_nitro"
+        },
+        {
+          "item": "powah:dielectric_paste"
+        }
+      ],
+      "results": [
+        {
+          "item": "powah:energy_cable_nitro"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "powah:energy_cable_nitro"
+        },
+        {
+          "tag": "forge:ingots/conductive_alloy"
+        }
+      ],
+      "results": [
+        {
+          "item": "powah:energy_cable_nitro"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "powah:energy_cable_nitro"
+        },
+        {
+          "item": "mekanism:ultimate_universal_cable"
+        }
+      ],
+      "results": [
+        {
+          "item": "powah:energy_cable_nitro"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "powah:energy_cable_nitro"
+        },
+        {
+          "item": "enderio:conduit_binder"
+        }
+      ],
+      "results": [
+        {
+          "item": "powah:energy_cable_nitro"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "enderio:energy_conduit"
+    }
+  ],
+  "loops": 3
+}
