@@ -1,11 +1,6 @@
-Add aether logs
 fix armor chain with botania
 figure out where to add new armor into chain
  - cataclysm
-remove references to thermal
-remove references to quark (recipes)
-add enderio plates
-fix cyclic spike recipes
 extended ae crafted in extended crafting
 skystone dust to sifting
 crude oil to create fluid drill?
@@ -16,12 +11,3 @@ crude oil to create fluid drill?
 4. get flint and make shears
 5. use leaves to make bonemeal composter
 6. make cyclic cask use to fill petal apothecary
-
-
-Add aether logs
-fix armor chain with botania
-figure out where to add new armor into chain
- - cataclysm
-
-Add to market
- - mushrooms

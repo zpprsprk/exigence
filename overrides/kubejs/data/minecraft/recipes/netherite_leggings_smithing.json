@@ -11,7 +11,7 @@
     ],
     "key": {
       "A": {
-        "item": "thermal:netherite_plate"
+        "tag": "forge:ingots/netherite"
       },
       "B": {
         "type": "forge:nbt",

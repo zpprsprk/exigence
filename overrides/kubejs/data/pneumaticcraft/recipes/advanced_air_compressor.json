@@ -9,7 +9,7 @@
   ],
   "key": {
     "A": {
-      "item": "thermal:steel_block"
+      "tag": "forge:storage_blocks/steel"
     },
     "B": {
       "item": "pneumaticcraft:compressed_iron_block"

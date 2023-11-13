@@ -2,7 +2,7 @@
   "type": "crafting_shaped",
   "pattern": [
     "TCT",
-    "CFC",
+    "C C",
     "TCT"
   ],
   "key": {
@@ -11,9 +11,6 @@
     },
     "C": {
       "item": "minecraft:cobblestone"
-    },
-    "F": {
-      "item": "quark:blackstone_furnace"
     }
   },
   "result": {

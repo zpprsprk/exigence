@@ -7,7 +7,7 @@
     ],
     "key": {
       "A": {
-        "item": "thermal:enderium_glass"
+        "tag": "enderio:fused_quartz"
       },
       "B": {
         "item": "minecraft:nether_star"

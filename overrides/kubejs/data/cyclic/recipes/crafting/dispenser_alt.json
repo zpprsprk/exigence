@@ -25,11 +25,5 @@
   },
   "result": {
     "item": "minecraft:dispenser"
-  },
-  "conditions": [
-    {
-      "type": "quark:flag",
-      "flag": "dropper_upgrade"
-    }
-  ]
+  }
 }
