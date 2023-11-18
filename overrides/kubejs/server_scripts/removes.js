@@ -54,6 +54,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'powah:crafting/cable_nitro_2'})
     event.remove({ id: 'powah:crafting/energy_cell_basic_2'})
 
+    event.remove({ id: 'pneumaticcraft:thermo_plant/plastic_from_biodiesel'})
+
     //event.remove({ id: 'minecraft:netherite_helmet'})
     //event.remove({ id: 'minecraft:netherite_chestplate'})
     //event.remove({ id: 'minecraft:netherite_leggings'})
