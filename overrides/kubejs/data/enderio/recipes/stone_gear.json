@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "tag": "forge:cobblestone"
+    },
+    "N": {
+      "tag": "forge:rods/treated_wood"
+    },
+    "S": {
+      "item": "create:shaft"
+    }
+  },
+  "pattern": [
+    "NIN",
+    "ISI",
+    "NIN"
+  ],
+  "result": {
+    "item": "enderio:stone_gear"
+  },
+  "show_notification": true
+}

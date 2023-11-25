@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "tag": "minecraft:wooden_buttons"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "G": {
+      "item": "enderio:stone_gear"
+    }
+  },
+  "pattern": [
+    "BPB",
+    "PGP",
+    "BPB"
+  ],
+  "result": {
+    "item": "create:large_cogwheel"
+  }
+}
