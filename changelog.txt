@@ -80,3 +80,10 @@ Mods Removed
 Giacomo's Fishing Net
 DankStorage
 More Red
+
+3.0.8
+Modes Removed
+Experience Obelisk
+Embers
+Everlasting Abilities
+
