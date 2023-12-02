@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:nucleosynthesizing",
+  "itemInput": {
+    "ingredient": {
+      "tag": "forge:storage_blocks/crystaltine"
+    }
+  },
+  "gasInput": {
+    "amount": 10,
+    "gas": "mekanism:antimatter"
+  },
+  "output": {
+    "item": "extendedcrafting:the_ultimate_block"
+  },
+  "duration": 1250
+}

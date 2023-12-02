@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "avaritia:neutron_ingot"
+    }
+  ],
+  "result": {
+    "item": "avaritia:neutron_nugget",
+    "count": 9
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Infinity",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalcustomization:creative",
+  "ingredient": {
+    "item": "avaritia:infinity_ingot"
+  },
+  "color": "ffffff",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot",
+    "seeds": "mysticalagriculture:item/mystical_seeds"
+  },
+  "crux": "avaritia:infinity",
+  "glint": true
+}

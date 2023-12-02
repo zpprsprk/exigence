@@ -1,0 +1,7 @@
+{
+  "name": "Creative",
+  "value": 8,
+  "farmland": "mysticalagradditions:insanium_farmland",
+  "essence": "mysticalagradditions:creative_essence",
+  "secondarySeedDrop": false
+}

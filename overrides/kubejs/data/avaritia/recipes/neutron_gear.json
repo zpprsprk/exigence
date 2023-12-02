@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "avaritia:neutron_nugget"
+    },
+    "S": {
+      "item": "witherutils:withersteel_gear"
+    }
+  },
+  "pattern": [
+    "NNN",
+    "NSN",
+    "NNN"
+  ],
+  "result": {
+    "item": "avaritia:neutron_gear"
+  },
+  "show_notification": true
+}

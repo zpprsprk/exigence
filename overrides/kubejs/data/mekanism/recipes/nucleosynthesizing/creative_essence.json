@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:nucleosynthesizing",
+  "itemInput": {
+    "ingredient": {
+      "item": "mysticalagradditions:insanium_essence"
+    }
+  },
+  "gasInput": {
+    "amount": 10,
+    "gas": "mekanism:antimatter"
+  },
+  "output": {
+    "item": "mysticalagradditions:creative_essence"
+  },
+  "duration": 1250
+}
