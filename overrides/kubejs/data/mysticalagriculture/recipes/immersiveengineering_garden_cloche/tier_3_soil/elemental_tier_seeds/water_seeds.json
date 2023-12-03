@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:water_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:water_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:water_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagriculture:tertium_farmland"
+    },
+    "time": 1200
+}

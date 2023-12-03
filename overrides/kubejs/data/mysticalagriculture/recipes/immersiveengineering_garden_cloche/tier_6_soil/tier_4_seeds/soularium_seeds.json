@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:soularium_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:soularium_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:soularium_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagradditions:insanium_farmland"
+    },
+    "time": 800
+}

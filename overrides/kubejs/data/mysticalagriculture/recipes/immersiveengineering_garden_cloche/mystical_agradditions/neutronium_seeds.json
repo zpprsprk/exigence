@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:neutronium_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:neutronium_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:neutronium_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagradditions:neutronium_crux"
+    },
+    "time": 1200
+}

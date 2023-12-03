@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:energetic_alloy_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:energetic_alloy_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:energetic_alloy_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagriculture:imperium_farmland"
+    },
+    "time": 1100
+}

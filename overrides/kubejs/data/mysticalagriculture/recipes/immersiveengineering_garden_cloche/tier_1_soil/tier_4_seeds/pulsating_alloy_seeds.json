@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:pulsating_alloy_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:pulsating_alloy_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:pulsating_alloy_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "mysticalagriculture:inferium_farmland"
+    },
+    "time": 1400
+}

@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:cloche",
+    "input": {
+        "item": "mysticalagriculture:infinity_seeds"
+    },
+    "render": {
+        "type": "crop",
+        "block": "mysticalagriculture:infinity_crop"
+    },
+    "results": [
+        {
+            "item": "mysticalagriculture:infinity_essence",
+            "count": 2
+        }
+    ],
+    "soil": {
+        "item": "avaritia:infinity"
+    },
+    "time": 2400
+}
