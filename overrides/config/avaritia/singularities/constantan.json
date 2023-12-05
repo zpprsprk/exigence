@@ -1,0 +1,22 @@
+{
+  "name": "singularity.avaritia.constantan",
+  "colors": [
+    "d99f43",
+    "bb6b3b"
+  ],
+  "timeRequired": 240,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "tag": "forge:ingots/constantan",
+        "type": "forge:tag_empty"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/constantan"
+  },
+  "enabled": true,
+  "recipeDisabled": false
+}

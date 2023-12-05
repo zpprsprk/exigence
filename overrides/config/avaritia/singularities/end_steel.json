@@ -1,0 +1,22 @@
+{
+  "name": "singularity.avaritia.end_steel",
+  "colors": [
+    "ffffff",
+    "000000"
+  ],
+  "timeRequired": 240,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "tag": "forge:ingots/end_steel",
+        "type": "forge:tag_empty"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/end_steel"
+  },
+  "enabled": true,
+  "recipeDisabled": false
+}

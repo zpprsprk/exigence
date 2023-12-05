@@ -1,0 +1,22 @@
+{
+  "name": "singularity.avaritia.conductive_alloy",
+  "colors": [
+    "ffffff",
+    "000000"
+  ],
+  "timeRequired": 240,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "tag": "forge:ingots/conductive_alloy",
+        "type": "forge:tag_empty"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/conductive_alloy"
+  },
+  "enabled": true,
+  "recipeDisabled": false
+}

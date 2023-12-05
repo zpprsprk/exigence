@@ -3,7 +3,8 @@ figure out where to add new armor into chain
  - cataclysm
 extended ae crafted in extended crafting
 skystone dust to sifting
-crude oil to create fluid drill?
+
+Make recipe for infinity catalyst include ExC Ultimate Singularity and all Avaritia Singularities
 
 1. make furnace
 2. compressed stone to make squeezer

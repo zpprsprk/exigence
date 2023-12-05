@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.certus_quartz",
+  "colors": [
+    "000000",
+    "ffffff"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/certus_quartz"
+  }
+}

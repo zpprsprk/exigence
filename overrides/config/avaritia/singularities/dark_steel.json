@@ -1,0 +1,22 @@
+{
+  "name": "singularity.avaritia.dark_steel",
+  "colors": [
+    "ffffff",
+    "000000"
+  ],
+  "timeRequired": 240,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "tag": "forge:ingots/dark_steel",
+        "type": "forge:tag_empty"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/dark_steel"
+  },
+  "enabled": true,
+  "recipeDisabled": false
+}

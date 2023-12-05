@@ -1,0 +1,22 @@
+{
+  "name": "singularity.avaritia.netherite",
+  "colors": [
+    "ffffff",
+    "000000"
+  ],
+  "timeRequired": 240,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "tag": "forge:ingots/netherite",
+        "type": "forge:tag_empty"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/netherite"
+  },
+  "enabled": true,
+  "recipeDisabled": false
+}

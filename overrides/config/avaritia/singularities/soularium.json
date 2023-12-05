@@ -1,0 +1,22 @@
+{
+  "name": "singularity.avaritia.soularium",
+  "colors": [
+    "ffffff",
+    "000000"
+  ],
+  "timeRequired": 240,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "tag": "forge:ingots/soularium",
+        "type": "forge:tag_empty"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/soularium"
+  },
+  "enabled": true,
+  "recipeDisabled": false
+}

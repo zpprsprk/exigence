@@ -1,0 +1,22 @@
+{
+  "name": "singularity.avaritia.vibrant_alloy",
+  "colors": [
+    "ffffff",
+    "000000"
+  ],
+  "timeRequired": 240,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "tag": "forge:ingots/vibrant_alloy",
+        "type": "forge:tag_empty"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/vibrant_alloy"
+  },
+  "enabled": true,
+  "recipeDisabled": false
+}
