@@ -1,0 +1,22 @@
+{
+  "name": "singularity.avaritia.insanium",
+  "colors": [
+    "ffffff",
+    "000000"
+  ],
+  "timeRequired": 240,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "tag": "forge:ingots/insanium",
+        "type": "forge:tag_empty"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/insanium"
+  },
+  "enabled": true,
+  "recipeDisabled": false
+}

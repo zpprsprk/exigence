@@ -1,0 +1,22 @@
+{
+  "name": "singularity.avaritia.plastic",
+  "colors": [
+    "ffffff",
+    "000000"
+  ],
+  "timeRequired": 240,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "tag": "pneumaticcraft:plastic_sheets",
+        "type": "forge:tag_empty"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "pneumaticcraft:plastic_sheets"
+  },
+  "enabled": true,
+  "recipeDisabled": false
+}

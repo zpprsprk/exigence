@@ -118,6 +118,8 @@
   "singularity.avaritia.energetic_alloy": "Energetic Alloy",
   "singularity.avaritia.pulsating_alloy": "Pulsating Alloy",
   "singularity.avaritia.conductive_alloy": "Conductive Alloy",
+  "singularity.avaritia.plastic": "Plastic",
+  "singularity.avaritia.insanium": "Insanium",
   "jei.category.avaritia.compressor": "Neutronium Compressor",
   "jei.tooltip.shapeless.recipe": "Shapeless Recipe",
   "jei.tooltip.avaritia.neutron_collector": "Collect Neutron Pile",
