@@ -82,8 +82,16 @@ DankStorage
 More Red
 
 3.0.8
-Modes Removed
+Mods Removed
 Experience Obelisk
 Embers
 Everlasting Abilities
 
+3.0.9
+Mods Removed
+Electron Energy
+Environmental Core
+Environmental Materials
+Environmental Tech
+Nutritional Balance
+Valkyrie Lib

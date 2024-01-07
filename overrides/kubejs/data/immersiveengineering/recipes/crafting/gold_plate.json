@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "c": {
-      "tag": "forge:ingots/netherite"
+      "tag": "forge:ingots/gold"
     },
     "H": {
       "item": "immersiveengineering:hammer"
@@ -11,9 +11,10 @@
   "pattern": [
     "Hcc",
     " cc"
+
   ],
   "result": {
     "count": 1,
-    "item": "envirocore:netherite_plate"
+    "item": "create:golden_sheet"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "witherutils:iron_plate"
+    },
+    "C": {
+      "item": "witherutils:case_small"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "PCP",
+    "PPP"
+  ],
+  "result": {
+    "item": "witherutils:case_big"
+  },
+  "show_notification": true
+}

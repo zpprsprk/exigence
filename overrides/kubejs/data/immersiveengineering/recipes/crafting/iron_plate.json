@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "c": {
-      "tag": "forge:ingots/gold"
+      "tag": "forge:ingots/iron"
     },
     "H": {
       "item": "immersiveengineering:hammer"
@@ -11,10 +11,9 @@
   "pattern": [
     "Hcc",
     " cc"
-
   ],
   "result": {
     "count": 1,
-    "item": "envirocore:gold_plate"
+    "item": "create:iron_sheet"
   }
 }
