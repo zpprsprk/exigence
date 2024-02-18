@@ -95,3 +95,6 @@ Environmental Materials
 Environmental Tech
 Nutritional Balance
 Valkyrie Lib
+
+3.0.9.1
+Changed manifest file to use neoforged so that it works with the curseforge launcher now.
