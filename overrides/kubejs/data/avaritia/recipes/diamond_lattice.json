@@ -1,0 +1,25 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    " A     A ",
+    "ABA A ABA",
+    " ABABABA ",
+    "  ABABA  ",
+    " ABABABA ",
+    "  ABABA  ",
+    " ABABABA ",
+    "ABA A ABA",
+    " A     A "
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:gems/diamond"
+    },
+    "B": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "result": {
+    "item": "avaritia:diamond_lattice"
+  }
+}

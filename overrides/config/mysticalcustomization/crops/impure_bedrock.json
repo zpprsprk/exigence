@@ -1,0 +1,15 @@
+{
+  "name": "Impure Bedrock",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalcustomization:creative",
+  "ingredient": {
+    "item": "bedrockplus:impure_bedrock_ingot"
+  },
+  "color": "606060",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot",
+    "seeds": "mysticalagriculture:item/mystical_seeds"
+  },
+  "crux": "bedrockplus:impure_bedrock_block"
+}

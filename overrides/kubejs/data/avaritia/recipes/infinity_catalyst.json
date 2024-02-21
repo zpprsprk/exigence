@@ -1,137 +1,30 @@
 {
-  "type": "avaritia:shaped_extreme_craft",
+  "type": "avaritia:infinity_catalyst_craft",
   "category": "misc",
-  "pattern": [
-    "    A    ",
-    " B CDC B ",
-    "  EFGHE  ",
-    " CIJKJLC ",
-    "MNGKOKGPQ",
-    " CRJKJSC ",
-    "  ETGUE  ",
-    " B CVC B ",
-    "    W    "
-  ],
-  "key": {
-    "A": {
-      "type": "forge:nbt",
-      "item": "avaritia:singularity",
-      "count": 1,
-      "nbt": "{Id:\"avaritia:vibrant_alloy\"}"
-    },
-    "B": {
-      "item": "avaritia:endest_pearl"
-    },
-    "C": {
-      "item": "avaritia:crystal_matrix"
-    },
-    "D": {
-      "type": "forge:nbt",
-      "item": "avaritia:singularity",
-      "count": 1,
-      "nbt": "{Id:\"avaritia:brass\"}"
-    },
-    "E": {
-      "item": "avaritia:record_fragment"
-    },
-    "F": {
-      "type": "forge:nbt",
-      "item": "avaritia:singularity",
-      "count": 1,
-      "nbt": "{Id:\"avaritia:conductive_alloy\"}"
-    },
-    "G": {
-      "item": "avaritia:cosmic_meatballs"
-    },
-    "H": {
-      "type": "forge:nbt",
-      "item": "avaritia:singularity",
-      "count": 1,
-      "nbt": "{Id:\"avaritia:netherite\"}"
-    },
-    "I": {
-      "type": "forge:nbt",
-      "item": "avaritia:singularity",
-      "count": 1,
-      "nbt": "{Id:\"avaritia:energetic_alloy\"}"
-    },
-    "J": {
-      "item": "avaritia:ultimate_stew"
-    },
-    "K": {
-      "item": "avaritia:neutron_gear"
-    },
-    "L": {
-      "type": "forge:nbt",
-      "item": "avaritia:singularity",
-      "count": 1,
-      "nbt": "{Id:\"avaritia:constantan\"}"
-    },
-    "M": {
-      "type": "forge:nbt",
-      "item": "avaritia:singularity",
-      "count": 1,
-      "nbt": "{Id:\"avaritia:bronze\"}"
-    },
-    "N": {
-      "type": "forge:nbt",
-      "item": "avaritia:singularity",
-      "count": 1,
-      "nbt": "{Id:\"avaritia:soularium\"}"
-    },
-    "O": {
+  "ingredients": [
+    {
       "item": "extendedcrafting:ultimate_singularity"
     },
-    "P": {
-      "type": "forge:nbt",
-      "item": "avaritia:singularity",
-      "count": 1,
-      "nbt": "{Id:\"avaritia:redstone_alloy\"}"
+    {
+      "item": "avaritia:crystal_matrix"
     },
-    "Q": {
-      "type": "forge:nbt",
-      "item": "avaritia:singularity",
-      "count": 1,
-      "nbt": "{Id:\"avaritia:insanium\"}"
+    {
+      "item": "bedrockplus:impure_bedrock_block"
     },
-    "R": {
-      "type": "forge:nbt",
-      "item": "avaritia:singularity",
-      "count": 1,
-      "nbt": "{Id:\"avaritia:pulsating_alloy\"}"
+    {
+      "item": "avaritia:neutron_gear"
     },
-    "S": {
-      "type": "forge:nbt",
-      "item": "avaritia:singularity",
-      "count": 1,
-      "nbt": "{Id:\"avaritia:electrum\"}"
+    {
+      "item": "avaritia:cosmic_meatballs"
     },
-    "T": {
-      "type": "forge:nbt",
-      "item": "avaritia:singularity",
-      "count": 1,
-      "nbt": "{Id:\"avaritia:steel\"}"
+    {
+      "item": "avaritia:ultimate_stew"
     },
-    "U": {
-      "type": "forge:nbt",
-      "item": "avaritia:singularity",
-      "count": 1,
-      "nbt": "{Id:\"avaritia:copper_alloy\"}"
+    {
+      "item": "avaritia:endest_pearl"
     },
-    "V": {
-      "type": "forge:nbt",
-      "item": "avaritia:singularity",
-      "count": 1,
-      "nbt": "{Id:\"avaritia:dark_steel\"}"
-    },
-    "W": {
-      "type": "forge:nbt",
-      "item": "avaritia:singularity",
-      "count": 1,
-      "nbt": "{Id:\"avaritia:plastic\"}"
+    {
+      "item": "avaritia:record_fragment"
     }
-  },
-  "result": {
-    "item": "avaritia:infinity_catalyst"
-  }
+  ]
 }

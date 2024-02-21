@@ -98,3 +98,9 @@ Valkyrie Lib
 
 3.0.9.1
 Changed manifest file to use neoforged so that it works with the curseforge launcher now.
+
+3.0.10
+Updated a bunch of mods
+
+Mods Disabled
+Enhanced Celestials
