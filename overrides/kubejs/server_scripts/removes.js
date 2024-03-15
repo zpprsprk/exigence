@@ -53,6 +53,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'powah:crafting/cable_spirited_2'})
     event.remove({ id: 'powah:crafting/cable_nitro_2'})
     event.remove({ id: 'powah:crafting/energy_cell_basic_2'})
+    event.remove({ id: 'powah:crafting/dielectric_paste_2'})
 
     event.remove({ id: 'pneumaticcraft:thermo_plant/plastic_from_biodiesel'})
 

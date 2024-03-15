@@ -1,0 +1,109 @@
+{
+  "type": "avaritia:shaped_extreme_craft",
+  "pattern": [
+    "ABBCDCBBA",
+    "BEFGHGFEB",
+    "BFIJIKIFB",
+    "CLMNOPMQC",
+    "DRIOSOIRD",
+    "CTMUOVMWC",
+    "BFIXIYIFB",
+    "BEFZRaFEB",
+    "ABBCDCBBA"
+  ],
+  "key": {
+    "A": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "B": {
+      "item": "botania:livingrock"
+    },
+    "C": {
+      "item": "botania:shimmerrock"
+    },
+    "D": {
+      "type": "forge:nbt",
+      "item": "botania:mana_ring_greater",
+      "count": 1,
+      "nbt": "{mana:2000000}"
+    },
+    "E": {
+      "item": "botania:terrasteel_block"
+    },
+    "F": {
+      "item": "botania:elementium_block"
+    },
+    "G": {
+      "item": "botania:life_essence"
+    },
+    "H": {
+      "item": "botania:rune_pride"
+    },
+    "I": {
+      "item": "botania:blacker_lotus"
+    },
+    "J": {
+      "item": "botania:rune_spring"
+    },
+    "K": {
+      "item": "botania:rune_summer"
+    },
+    "L": {
+      "item": "botania:rune_lust"
+    },
+    "M": {
+      "item": "botania:rune_mana"
+    },
+    "N": {
+      "item": "botania:rune_water"
+    },
+    "O": {
+      "type": "forge:nbt",
+      "item": "botania:mana_tablet",
+      "count": 1,
+      "nbt": "{mana:500000}"
+    },
+    "P": {
+      "item": "botania:rune_fire"
+    },
+    "Q": {
+      "item": "botania:rune_envy"
+    },
+    "R": {
+      "item": "botania:elf_glass"
+    },
+    "S": {
+      "item": "botania:pinkinator"
+    },
+    "T": {
+      "item": "botania:rune_gluttony"
+    },
+    "U": {
+      "item": "botania:rune_earth"
+    },
+    "V": {
+      "item": "botania:rune_air"
+    },
+    "W": {
+      "item": "botania:rune_wrath"
+    },
+    "X": {
+      "item": "botania:rune_autumn"
+    },
+    "Y": {
+      "item": "botania:rune_winter"
+    },
+    "Z": {
+      "item": "botania:rune_greed"
+    },
+    "a": {
+      "item": "botania:rune_sloth"
+    }
+  },
+  "result": {
+    "type": "forge:nbt",
+    "item": "botania:mana_tablet",
+    "count": 1,
+    "nbt": "{mana:500000,creative:1b}"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABBBABBBA",
+    "BCDCDCDCB",
+    "BDEEEEEDB",
+    "BCEFFFECB",
+    "ADEFGFEDA",
+    "BCEFFFECB",
+    "BDEEEEEDB",
+    "BCDCDCDCB",
+    "ABBBABBBA"
+  ],
+  "key": {
+    "A": {
+      "item": "ae2:sky_stone_small_brick"
+    },
+    "B": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "C": {
+      "item": "ae2:dense_energy_cell"
+    },
+    "D": {
+      "item": "ae2:singularity"
+    },
+    "E": {
+      "item": "ae2:controller"
+    },
+    "F": {
+      "item": "ae2:flawless_budding_quartz"
+    },
+    "G": {
+      "item": "botania:creative_pool"
+    }
+  },
+  "result": {
+    "item": "ae2:creative_energy_cell"
+  }
+}

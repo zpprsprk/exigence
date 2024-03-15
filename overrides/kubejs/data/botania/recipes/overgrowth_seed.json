@@ -1,0 +1,12 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+    {"tag": "forge:seeds"},
+    {"item": "botania:mana_bottle"},
+    {"item": "botania:mana_bottle"}
+  ],
+  "energy": 2000,
+  "result": {
+    "item": "botania:overgrowth_seed"
+  }
+}

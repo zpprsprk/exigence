@@ -1,0 +1,49 @@
+{
+  "type": "avaritia:shaped_extreme_craft",
+  "pattern": [
+    "ABCCDCCBA",
+    "BEFEFEFEB",
+    "CFGHGHGFC",
+    "CEHGIGHEC",
+    "DFGJIJGFD",
+    "CEHGIGHEC",
+    "CFGHGHGFC",
+    "BEFEFEFEB",
+    "ABCCDCCBA"
+  ],
+  "key": {
+    "A": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "B": {
+      "item": "mekanism:dynamic_tank"
+    },
+    "C": {
+      "item": "mekanism:structural_glass"
+    },
+    "D": {
+      "item": "mekanism:dynamic_valve"
+    },
+    "E": {
+      "item": "mob_grinding_utils:jumbo_tank"
+    },
+    "F": {
+      "item": "mekanism:ultimate_mechanical_pipe"
+    },
+    "G": {
+      "item": "mekanism:ultimate_fluid_tank"
+    },
+    "H": {
+      "item": "laserio:card_fluid"
+    },
+    "I": {
+      "tag": "forge:pellets/plutonium"
+    },
+    "J": {
+      "item": "mekanism:creative_chemical_tank"
+    }
+  },
+  "result": {
+    "item": "mekanism:creative_fluid_tank"
+  }
+}

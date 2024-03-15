@@ -1,0 +1,12 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+    {"tag": "botania:mystical_flowers"},
+    {"item": "botania:mana_bottle"},
+    {"item": "botania:mana_bottle"}
+  ],
+  "energy": 2000,
+  "result": {
+    "item": "botania:black_lotus"
+  }
+}

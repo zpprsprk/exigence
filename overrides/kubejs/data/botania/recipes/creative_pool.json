@@ -1,0 +1,61 @@
+{
+  "type": "avaritia:shaped_extreme_craft",
+  "pattern": [
+    "AAAAAAAAA",
+    "ABCDEDCBA",
+    "ACFGFGFCA",
+    "AHGIJIGHA",
+    "AEFKFKFEA",
+    "ALGIJIGLA",
+    "ACFGFGFCA",
+    "ABCMEMCBA",
+    "AAAAAAAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "botania:shimmerrock"
+    },
+    "B": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "C": {
+      "item": "botania:rune_mana"
+    },
+    "D": {
+      "item": "botania:spark_upgrade_dispersive"
+    },
+    "E": {
+      "item": "botania:gaia_pylon"
+    },
+    "F": {
+      "item": "botania:blacker_lotus"
+    },
+    "G": {
+      "item": "botania:spark"
+    },
+    "H": {
+      "item": "botania:spark_upgrade_recessive"
+    },
+    "I": {
+      "item": "botania:fabulous_pool"
+    },
+    "J": {
+      "item": "botania:bifrost_perm"
+    },
+    "K": {
+      "type": "forge:nbt",
+      "item": "botania:mana_tablet",
+      "count": 1,
+      "nbt": "{creative:1b,mana:500000}"
+    },
+    "L": {
+      "item": "botania:spark_upgrade_isolated"
+    },
+    "M": {
+      "item": "botania:spark_upgrade_dominant"
+    }
+  },
+  "result": {
+    "item": "botania:creative_pool"
+  }
+}

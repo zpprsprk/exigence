@@ -1,0 +1,14 @@
+{
+	"type": "pneumaticcraft:pressure_chamber",
+	"inputs": [
+		{
+			"tag": "forge:ingots/hop_graphite"
+		}
+	],
+	"pressure": 1.0,
+	"results": [
+		{
+			"item": "powah:dielectric_paste"
+		}
+	]
+}

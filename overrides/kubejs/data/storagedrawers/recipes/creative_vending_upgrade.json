@@ -1,0 +1,64 @@
+{
+  "type": "avaritia:shaped_extreme_craft",
+  "pattern": [
+    "ABBBBBBBA",
+    "BCADDDACB",
+    "BAEFGFEAB",
+    "BDHIJKHDB",
+    "BDGJLJGDB",
+    "BDHMJNHDB",
+    "BAEFGFEAB",
+    "BCADDDACB",
+    "ABBBBBBBA"
+  ],
+  "key": {
+    "A": {
+      "item": "extendedcrafting:the_ultimate_block"
+    },
+    "B": {
+      "item": "storagedrawers:creative_storage_upgrade"
+    },
+    "C": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "D": {
+      "item": "extendedcrafting:the_ultimate_catalyst"
+    },
+    "E": {
+      "item": "mysticalagradditions:insanium_gemstone_block"
+    },
+    "F": {
+      "item": "mekanism:creative_fluid_tank"
+    },
+    "G": {
+      "item": "botania:creative_pool"
+    },
+    "H": {
+      "item": "mekanism:creative_chemical_tank"
+    },
+    "I": {
+      "item": "rftoolspower:dimensionalcell_creative"
+    },
+    "J": {
+      "item": "avaritia:infinity"
+    },
+    "K": {
+      "item": "cyclic:battery_infinite"
+    },
+    "L": {
+      "item": "powah:energy_cell_creative"
+    },
+    "M": {
+      "item": "ae2:creative_energy_cell"
+    },
+    "N": {
+      "type": "forge:nbt",
+      "item": "mekanism:creative_energy_cube",
+      "count": 1,
+      "nbt": "{mekData:{EnergyContainers:[{Container:0b,stored:\"18446744073709551615.9999\"}]}}"
+    }
+  },
+  "result": {
+    "item": "storagedrawers:creative_vending_upgrade"
+  }
+}

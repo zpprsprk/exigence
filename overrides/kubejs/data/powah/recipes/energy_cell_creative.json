@@ -1,0 +1,55 @@
+{
+  "type": "avaritia:shaped_extreme_craft",
+  "pattern": [
+    "AAAAAAAAA",
+    "ABCDDDCBA",
+    "ACCEEECCA",
+    "AFEGHGEIA",
+    "AFEHJHEIA",
+    "AFEGHGEIA",
+    "ACCEEECCA",
+    "ABCKKKCBA",
+    "AAAAAAAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "B": {
+      "item": "powah:nitro_crystal_block"
+    },
+    "C": {
+      "item": "powah:reactor_nitro"
+    },
+    "D": {
+      "item": "powah:solar_panel_nitro"
+    },
+    "E": {
+      "item": "powah:energy_cable_nitro"
+    },
+    "F": {
+      "item": "powah:furnator_nitro"
+    },
+    "G": {
+      "item": "powah:energizing_rod_nitro"
+    },
+    "H": {
+      "item": "powah:energy_cell_nitro"
+    },
+    "I": {
+      "item": "powah:magmator_nitro"
+    },
+    "J": {
+      "type": "forge:nbt",
+      "item": "mekanism:creative_energy_cube",
+      "count": 1,
+      "nbt": "{mekData:{EnergyContainers:[{Container:0b,stored:\"18446744073709551615.9999\"}]}}"
+    },
+    "K": {
+      "item": "powah:thermo_generator_nitro"
+    }
+  },
+  "result": {
+    "item": "powah:energy_cell_creative"
+  }
+}

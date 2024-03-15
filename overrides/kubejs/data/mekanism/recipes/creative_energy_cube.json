@@ -1,0 +1,33 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABCBA",
+    "BDEDB",
+    "CEFEC",
+    "BDEDB",
+    "ABCBA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:black_concrete"
+    },
+    "B": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "C": {
+      "item": "mekanism:energy_tablet"
+    },
+    "D": {
+      "item": "mekanism:ultimate_energy_cube"
+    },
+    "E": {
+      "item": "extendedcrafting:the_ultimate_block"
+    },
+    "F": {
+      "item": "avaritia:infinity_catalyst"
+    }
+  },
+  "result": {
+    "item": "mekanism:creative_energy_cube"
+  }
+}

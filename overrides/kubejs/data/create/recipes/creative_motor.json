@@ -1,0 +1,61 @@
+{
+  "type": "avaritia:shaped_extreme_craft",
+  "pattern": [
+    "ABBBBBBBA",
+    "CDDDDDDDC",
+    "EBBBBBBBE",
+    "EFFFFFFFE",
+    "EGHIJIHGE",
+    "CKGHJHGKC",
+    "JLIGJGILJ",
+    "JMNHCHNMJ",
+    "AJJJEJJJA"
+  ],
+  "key": {
+    "A": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "B": {
+      "item": "minecraft:water_bucket"
+    },
+    "C": {
+      "item": "create:vertical_gearbox"
+    },
+    "D": {
+      "item": "create:water_wheel"
+    },
+    "E": {
+      "item": "create:shaft"
+    },
+    "F": {
+      "item": "minecraft:soul_sand"
+    },
+    "G": {
+      "item": "create:large_cogwheel"
+    },
+    "H": {
+      "item": "create:cogwheel"
+    },
+    "I": {
+      "item": "create:flywheel"
+    },
+    "J": {
+      "item": "create:railway_casing"
+    },
+    "K": {
+      "item": "create:rotation_speed_controller"
+    },
+    "L": {
+      "item": "create:mechanical_arm"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    },
+    "N": {
+      "item": "create:deployer"
+    }
+  },
+  "result": {
+    "item": "create:creative_motor"
+  }
+}

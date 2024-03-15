@@ -1,0 +1,22 @@
+{
+	"type": "extendedcrafting:shaped_table",
+	"pattern": [
+		"PGP",
+		"GSG",
+		"PGP"
+	],
+	"key": {
+		"P": {
+			"tag": "forge:dyes/pink"
+		},
+		"G": {
+			"item": "botania:gaia_ingot"
+		},
+		"S": {
+			"item": "mysticalagradditions:withering_soul"
+		}
+	},
+	"result": {
+		"item": "botania:pinkinator"
+	}
+}

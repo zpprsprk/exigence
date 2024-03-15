@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "I": {
+      "tag": "forge:ingots/lead"
+    },
+    "X": {
+      "item": "mekanism:steel_casing"
+    },
+    "S": {
+      "item": "mekanism:enriched_iron"
+    }
+  },
+  "pattern": [
+    "SIS",
+    "IXI",
+    "SIS"
+  ],
+  "result": {
+    "count": 4,
+    "item": "mekanismgenerators:fission_reactor_casing"
+  }
+}

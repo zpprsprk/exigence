@@ -1,0 +1,52 @@
+{
+  "type": "avaritia:shaped_extreme_craft",
+  "pattern": [
+    "AAAAAAAAA",
+    "ABCDCDCBA",
+    "ACKFEFKCA",
+    "ADFGHGFDA",
+    "ACEIJIECA",
+    "ADFGHGFDA",
+    "ACKFEFKCA",
+    "ABCDCDCBA",
+    "AAAAAAAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "rftoolsbase:machine_frame"
+    },
+    "B": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "C": {
+      "item": "rftoolspower:powercell_card"
+    },
+    "D": {
+      "item": "extendedcrafting:the_ultimate_block"
+    },
+    "E": {
+      "item": "rftoolspower:dimensionalcell_advanced"
+    },
+    "F": {
+      "item": "rftoolspower:cell3"
+    },
+    "G": {
+      "item": "extendedcrafting:the_ultimate_catalyst"
+    },
+    "H": {
+      "item": "mekanism:creative_fluid_tank"
+    },
+    "I": {
+      "item": "ae2:creative_energy_cell"
+    },
+    "J": {
+      "item": "avaritia:infinity_catalyst"
+    },
+    "K": {
+      "item": "fluxnetworks:gargantuan_flux_storage"
+    }
+  },
+  "result": {
+    "item": "rftoolspower:dimensionalcell_creative"
+  }
+}

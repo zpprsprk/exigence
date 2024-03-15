@@ -1,0 +1,48 @@
+{
+  "type": "extendedcrafting:combination",
+  "powerCost": 100,
+  "input": {
+    "item": "botania:black_lotus"
+  },
+  "ingredients": [
+    {
+      "item": "botania:black_lotus"
+    },
+    {
+      "item": "botania:black_lotus"
+    },
+    {
+      "item": "botania:black_lotus"
+    },
+    {
+      "item": "botania:black_lotus"
+    },
+    {
+      "item": "botania:black_lotus"
+    },
+    {
+      "item": "botania:black_lotus"
+    },
+    {
+      "item": "botania:black_lotus"
+    },
+    {
+      "item": "botania:black_lotus"
+    },
+    {
+      "item": "botania:black_lotus"
+    },
+    {
+      "item": "botania:black_lotus"
+    },
+    {
+      "item": "botania:black_lotus"
+    },
+    {
+      "item": "botania:black_lotus"
+    }
+  ],
+  "result": {
+    "item": "botania:blacker_lotus"
+  }
+}

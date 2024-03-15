@@ -1,0 +1,43 @@
+{
+  "type": "avaritia:shaped_extreme_craft",
+  "pattern": [
+    "ABBBBBBBA",
+    "CDDDDDDDC",
+    "CDEFEFEDC",
+    "CDFEGEFDC",
+    "CDEHGHEDC",
+    "CDFEGEFDC",
+    "CDEFEFEDC",
+    "CDDDDDDDC",
+    "ACCCCCCCA"
+  ],
+  "key": {
+    "A": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "B": {
+      "item": "mekanismgenerators:reactor_glass"
+    },
+    "C": {
+      "item": "mekanismgenerators:fission_reactor_casing"
+    },
+    "D": {
+      "item": "mekanism:steel_casing"
+    },
+    "E": {
+      "item": "mekanism:ultimate_chemical_tank"
+    },
+    "F": {
+      "item": "mekanism:upgrade_gas"
+    },
+    "G": {
+      "item": "mekanism:reprocessed_fissile_fragment"
+    },
+    "H": {
+      "item": "create:creative_motor"
+    }
+  },
+  "result": {
+    "item": "mekanism:creative_chemical_tank"
+  }
+}

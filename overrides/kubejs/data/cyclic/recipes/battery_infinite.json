@@ -1,0 +1,49 @@
+{
+  "type": "avaritia:shaped_extreme_craft",
+  "pattern": [
+    "ABBBBBBBA",
+    "BCDEEEDCB",
+    "BDFEGEFDB",
+    "BEEHIHEEB",
+    "BEGIJIGEB",
+    "BEEHIHEEB",
+    "BDFEGEFDB",
+    "BCDEEEDCB",
+    "ABBBBBBBA"
+  ],
+  "key": {
+    "A": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "B": {
+      "item": "cyclic:gem_obsidian"
+    },
+    "C": {
+      "item": "avaritia:star_fuel"
+    },
+    "D": {
+      "item": "extendedcrafting:flux_star"
+    },
+    "E": {
+      "item": "mekanism:block_refined_obsidian"
+    },
+    "F": {
+      "item": "cyclic:generator_item"
+    },
+    "G": {
+      "item": "cyclic:gem_amber"
+    },
+    "H": {
+      "item": "avaritia:diamond_lattice"
+    },
+    "I": {
+      "item": "avaritia:infinity_catalyst"
+    },
+    "J": {
+      "item": "rftoolspower:dimensionalcell_creative"
+    }
+  },
+  "result": {
+    "item": "cyclic:battery_infinite"
+  }
+}
