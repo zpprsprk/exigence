@@ -104,3 +104,10 @@ Updated a bunch of mods
 
 Mods Disabled
 Enhanced Celestials
+
+3.0.11
+Added
+Simple Storage Networks
+Updated
+Ender IO
+and more...
