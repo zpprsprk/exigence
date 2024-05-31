@@ -1,6 +1,8 @@
 console.info('Hello, World! This is the removes.js script')
 ServerEvents.recipes(event => {
 
+    event.remove({ id: 'ae2:smelting/smooth_sky_stone_block' })
+
     event.remove({ id: 'immersiveengineering:crafting/plate_nickel_hammering' })
     event.remove({ id: 'immersiveengineering:crafting/plate_electrum_hammering' })
     event.remove({ id: 'immersiveengineering:crafting/plate_silver_hammering' })

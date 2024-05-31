@@ -59,6 +59,10 @@
       "item": "minecraft:lapis_lazuli"
     },
     {
+      "chance": 0.1,
+      "item": "minecraft:coal"
+    },
+    {
       "chance": 0.05,
       "item": "minecraft:diamond"
     },

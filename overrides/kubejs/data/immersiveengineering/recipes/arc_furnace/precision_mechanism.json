@@ -1,0 +1,33 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "additives": [
+    {
+      "base_ingredient": {
+        "item": "create:cogwheel"
+      },
+      "count": 5
+    },
+    {
+      "base_ingredient": {
+        "item": "create:large_cogwheel"
+      },
+      "count": 5
+    },
+    {
+      "base_ingredient": {
+        "tag": "forge:nuggets/iron"
+      },
+      "count": 5
+    }
+  ],
+  "energy": 204800,
+  "input": {
+    "tag": "forge:plates/gold"
+  },
+  "results": [
+    {
+      "item": "create:precision_mechanism"
+    }
+  ],
+  "time": 400
+}

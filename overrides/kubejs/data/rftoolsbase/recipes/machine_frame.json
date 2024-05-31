@@ -11,7 +11,7 @@
       "item": "create:electron_tube"
     },
     "t": {
-      "tag": "forge:storage_blocks/redstone"
+      "item": "immersiveengineering:heavy_engineering"
     }
   },
   "pattern": [
