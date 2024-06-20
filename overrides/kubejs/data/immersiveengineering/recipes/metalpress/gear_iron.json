@@ -1,0 +1,14 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "energy": 2400,
+  "input": {
+    "base_ingredient": {
+      "tag": "forge:plates/iron"
+    },
+    "count": 2
+  },
+  "mold": "immersiveengineering:mold_gear",
+  "result": {
+    "item": "industrialforegoing:iron_gear"
+  }
+}

@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "key": {
         "s": {
-            "tag": "forge:rods/wooden"
+            "item": "createaddition:spool"
         },
         "w": {
             "tag": "forge:wires/copper"

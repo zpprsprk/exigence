@@ -5,7 +5,7 @@
             "tag": "forge:wires/aluminum"
         },
         "S": {
-            "item": "immersiveengineering:stick_treated"
+            "item": "createaddition:spool"
         },
         "A": {
             "item": "extendedcrafting:redstone_ingot"

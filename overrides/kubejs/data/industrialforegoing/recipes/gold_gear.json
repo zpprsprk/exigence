@@ -1,0 +1,39 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:and",
+          "values": [
+            {
+              "type": "forge:item_exists",
+              "item": "industrialforegoing:gold_gear"
+            }
+          ]
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "I": {
+            "tag": "forge:gears/stone"
+          },
+          "P": {
+            "item": "minecraft:gold_ingot"
+          }
+        },
+        "pattern": [
+          " P ",
+          "PIP",
+          " P "
+        ],
+        "result": {
+          "item": "industrialforegoing:gold_gear"
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}
