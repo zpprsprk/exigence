@@ -15,7 +15,7 @@
       },
       "B": {
         "type": "forge:nbt",
-        "item": "mekanismtools:bronze_boots",
+        "item": "mekanismtools:steel_boots",
         "count": 1,
         "nbt": "{Damage:0}"
       }

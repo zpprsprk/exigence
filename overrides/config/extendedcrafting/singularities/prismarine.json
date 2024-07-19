@@ -1,8 +1,8 @@
 {
   "name": "singularity.extendedcrafting.prismarine",
   "colors": [
-    "000000",
-    "ffffff"
+    "A4D1C2",
+    "7CB3A4"
   ],
   "ingredient": {
     "tag": "forge:dusts/prismarine"

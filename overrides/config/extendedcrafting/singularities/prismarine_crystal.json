@@ -1,8 +1,8 @@
 {
   "name": "singularity.extendedcrafting.prismarine_crystal",
   "colors": [
-    "000000",
-    "ffffff"
+    "EFFFEF",
+    "A4D1C2"
   ],
   "ingredient": {
     "tag": "forge:gems/prismarine"

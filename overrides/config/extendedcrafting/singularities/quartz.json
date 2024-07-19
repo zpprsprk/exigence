@@ -1,8 +1,8 @@
 {
   "name": "singularity.extendedcrafting.quartz",
   "colors": [
-    "000000",
-    "ffffff"
+    "EAE5DE",
+    "D4CABA"
   ],
   "ingredient": {
     "tag": "forge:gems/quartz"

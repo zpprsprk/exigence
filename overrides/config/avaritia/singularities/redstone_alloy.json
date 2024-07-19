@@ -1,8 +1,8 @@
 {
   "name": "singularity.avaritia.redstone_alloy",
   "colors": [
-    "ffffff",
-    "000000"
+    "FF8585",
+    "862C2C"
   ],
   "timeRequired": 240,
   "conditions": [

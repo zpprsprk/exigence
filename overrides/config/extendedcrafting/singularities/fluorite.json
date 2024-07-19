@@ -1,8 +1,8 @@
 {
   "name": "singularity.extendedcrafting.fluorite",
   "colors": [
-    "000000",
-    "ffffff"
+    "FEFFFF",
+    "C1EDED"
   ],
   "ingredient": {
     "tag": "forge:gems/fluorite"

@@ -2,13 +2,13 @@
   "type": "avaritia:shaped_extreme_craft",
   "pattern": [
     "ABBBBBBBA",
-    "BCADDDACB",
+    "BCADODACB",
     "BAEFGFEAB",
     "BDHIJKHDB",
-    "BDGJLJGDB",
+    "BOGJLJGOB",
     "BDHMJNHDB",
     "BAEFGFEAB",
-    "BCADDDACB",
+    "BCADODACB",
     "ABBBBBBBA"
   ],
   "key": {
@@ -56,6 +56,9 @@
       "item": "mekanism:creative_energy_cube",
       "count": 1,
       "nbt": "{mekData:{EnergyContainers:[{Container:0b,stored:\"18446744073709551615.9999\"}]}}"
+    },
+    "O": {
+      "item": "pneumaticcraft:creative_compressor"
     }
   },
   "result": {

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "solarpanels:creative_solar_element"
+  },
+  "pattern": [
+    "AAA",
+    "BBB",
+    "CCC"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:magenta_stained_glass_pane"
+    },
+    "B": {
+      "item": "botania:life_essence"
+    },
+    "C": {
+      "item": "extendedcrafting:flux_star"
+    }
+  }
+}

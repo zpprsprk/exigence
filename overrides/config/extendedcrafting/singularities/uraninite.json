@@ -1,8 +1,8 @@
 {
   "name": "singularity.extendedcrafting.uraninite",
   "colors": [
-    "000000",
-    "ffffff"
+    "00FF1A",
+    "00A314"
   ],
   "ingredient": {
     "item": "powah:uraninite"

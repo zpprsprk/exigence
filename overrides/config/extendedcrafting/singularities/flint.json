@@ -1,8 +1,8 @@
 {
   "name": "singularity.extendedcrafting.flint",
   "colors": [
-    "000000",
-    "ffffff"
+    "555555",
+    "7D7D7D"
   ],
   "ingredient": {
     "item": "minecraft:flint"

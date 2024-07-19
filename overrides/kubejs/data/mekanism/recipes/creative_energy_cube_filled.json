@@ -2,13 +2,13 @@
   "type": "avaritia:shaped_extreme_craft",
   "pattern": [
     "AAABBBAAA",
-    "ACDEEEDCA",
+    "ACDELEDCA",
     "ADFGGGFDA",
     "BEGHIHGEB",
-    "BEGJKJGEB",
+    "BLGJKJGLB",
     "BEGHIHGEB",
     "ADFGGGFDA",
-    "ACDEEEDCA",
+    "ACDELEDCA",
     "AAABBBAAA"
   ],
   "key": {
@@ -44,6 +44,9 @@
     },
     "K": {
       "item": "mekanism:creative_energy_cube"
+    },
+    "L": {
+      "item": "solarpanels:creative_solar_panel"
     }
   },
   "result": {

@@ -99,6 +99,17 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'botanypots:mysticalagriculture/crop/invar'})
     event.remove({ id: 'botanypots:mysticalagriculture/crop/rubber'})
 
+
+    event.remove({ id: 'avaritia:ae2_creative_energy_cell'})
+    event.remove({ id: 'avaritia:bot_creative_pool'})
+    event.remove({ id: 'avaritia:bot_mana_tablet'})
+    event.remove({ id: 'avaritia:eio_creative_power'})
+    event.remove({ id: 'avaritia:mek_creative_bin'})
+    event.remove({ id: 'avaritia:mek_creative_chemical_tank'})
+    event.remove({ id: 'avaritia:mek_creative_energy_cube'})
+    event.remove({ id: 'avaritia:mek_creative_fluid_tank'})
+    event.remove({ id: 'avaritia:sd_upgrade_creative'})
+
     
 
     event.replaceInput(

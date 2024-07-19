@@ -111,3 +111,9 @@ Simple Storage Networks
 Updated
 Ender IO
 and more...
+
+3.0.12
+Removed
+Enhanced Celestials
+Custom Fluid Mixin
+Updated a bunch of mods

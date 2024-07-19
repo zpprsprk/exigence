@@ -1,8 +1,8 @@
 {
   "name": "singularity.extendedcrafting.amethyst",
   "colors": [
-    "000000",
-    "ffffff"
+    "CFA0F3",
+    "54398A"
   ],
   "ingredient": {
     "tag": "forge:gems/amethyst"
