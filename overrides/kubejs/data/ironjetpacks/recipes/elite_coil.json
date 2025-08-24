@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " DR",
+    "DSD",
+    "RD "
+  ],
+  "key": {
+    "R": {
+      "tag": "forge:dusts/redstone"
+    },
+    "D": {
+      "item": "extendedcrafting:elite_component"
+    },
+    "S": {
+      "item": "ironjetpacks:advanced_coil"
+    }
+  },
+  "result": {
+    "item": "ironjetpacks:elite_coil"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:nucleosynthesizing",
+  "itemInput": {
+    "ingredient": {
+      "tag": "forge:storage_blocks/compressed_iron"
+    }
+  },
+  "gasInput": {
+    "amount": 10,
+    "gas": "mekanism:antimatter"
+  },
+  "output": {
+    "item": "pneumaticcraft:creative_compressed_iron_block"
+  },
+  "duration": 1250
+}

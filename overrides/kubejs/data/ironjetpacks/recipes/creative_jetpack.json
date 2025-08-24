@@ -1,0 +1,48 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "tier": 2,
+  "pattern": [
+    "EAAAE",
+    "ERGRE",
+    "ECJCE",
+    "ETMTE",
+    "T   T"
+  ],
+  "key": {
+    "A": {
+      "type": "forge:nbt",
+      "item": "ironjetpacks:capacitor",
+      "nbt": "{Id:\"ironjetpacks:creative\"}"
+    },
+    "T": {
+      "type": "forge:nbt",
+      "item": "ironjetpacks:thruster",
+      "nbt": "{Id:\"ironjetpacks:creative\"}"
+    },
+    "J": {
+      "type": "forge:nbt",
+      "item": "ironjetpacks:jetpack",
+      "nbt": "{Id:\"ironjetpacks:emerald\"}"
+    },
+    "C": {
+      "item": "create_jetpack:netherite_jetpack"
+    },
+    "R": {
+      "item": "firework_rocket_jetpack:netherite_firework_rocket_jetpack"
+    },
+    "G": {
+      "item": "angelring:energetic_angel_ring"
+    },
+    "E": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "M": {
+      "item": "mekanism:module_gravitational_modulating_unit"
+    }
+  },
+  "result": {
+    "type": "forge:nbt",
+    "item": "ironjetpacks:jetpack",
+    "nbt": "{Id:\"ironjetpacks:creative\"}"
+  }
+}

@@ -25,7 +25,7 @@
       "item": "pneumaticcraft:heat_sink"
     },
     "E": {
-      "tag": "forge:storage_blocks/compressed_iron"
+      "item": "pneumaticcraft:creative_compressed_iron_block"
     },
     "F": {
       "item": "pneumaticcraft:vortex_tube"
@@ -40,7 +40,7 @@
       "item": "enderio:energy_conduit"
     },
     "J": {
-      "item": "rftoolspower:dimensionalcell_creative"
+      "item": "cyclic:battery_infinite"
     }
   },
   "result": {
