@@ -1,8 +1,5 @@
-fix armor chain with botania
-figure out where to add new armor into chain
- - cataclysm
+cataclysm boss quests
 skystone dust to sifting
-
 
 
 1. make furnace

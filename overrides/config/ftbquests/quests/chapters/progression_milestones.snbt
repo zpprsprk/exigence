@@ -8,7 +8,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["77D987DEE2AB5C81"]
+			dependencies: ["4253C79CD883641F"]
 			description: ["Yes, you'll need to get a blast furnace..."]
 			id: "2CF3AA4F1A32A054"
 			rewards: [{
@@ -26,7 +26,7 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["77D987DEE2AB5C81"]
+			dependencies: ["4253C79CD883641F"]
 			description: ["The first plastic you can make is the Pneumaticcraft plastic."]
 			icon: "pneumaticcraft:plastic"
 			id: "196C00FFEAED7AB8"
@@ -171,19 +171,31 @@
 				"There are also some optional side quests for you if you get the itch to do a bit more."
 			]
 			id: "77D987DEE2AB5C81"
-			rewards: [{
-				count: 16
-				id: "1E22264E8BB8B693"
-				item: "pamhc2foodextended:tacoitem"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "1E22264E8BB8B693"
+					item: "pamhc2foodextended:tacoitem"
+					type: "item"
+				}
+				{
+					id: "61B1DB4BD8AF15E2"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					id: "21E8C3E9B7A9BD68"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3E96E18E2A9A8D29"
 				title: "Welcome"
 				type: "checkmark"
 			}]
 			x: -0.5d
-			y: -9.5d
+			y: -15.5d
 		}
 		{
 			dependencies: ["7DC8F8BB75D5CB6D"]
@@ -202,6 +214,203 @@
 			}]
 			x: -0.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["77D987DEE2AB5C81"]
+			description: ["Some of this can be skipped if you have an easy access to water, but in case of no water, squeezing leaves in the squeezer with the cask behind it will collect water. You can then use another cask to pull water from the first one to fill up your apothecary."]
+			icon: "botania:apothecary_default"
+			id: "79457A83C076F6D6"
+			rewards: [{
+				id: "41FCF3827501BEB5"
+				item: "botania:flower_bag"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4EFC64033F6209F5"
+					item: "botania:pebble"
+					type: "item"
+				}
+				{
+					id: "401D25B0928226A2"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					id: "75545EB482F126BC"
+					item: "integrateddynamics:squeezer"
+					type: "item"
+				}
+				{
+					id: "3B6D8BD246CA2391"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					id: "7D3C9238FFB8C423"
+					item: {
+						Count: 1b
+						id: "pickletweaks:flint_shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5EADCEC24E832551"
+					item: "minecraft:composter"
+					type: "item"
+				}
+				{
+					id: "05272BF129BAE4FB"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					id: "2F710A747E059EFF"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+				{
+					id: "06E82374F1C5BE84"
+					item: "cyclic:cask"
+					type: "item"
+				}
+				{
+					id: "6B0CC7627128E1AE"
+					item: "botania:apothecary_default"
+					type: "item"
+				}
+			]
+			title: "Petal Apothecary"
+			x: -0.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["79457A83C076F6D6"]
+			description: ["You are going to want a good source of ores. The little land you are on will certainly have some, but may not have all you will need. You could head to the mining dimension to get some ores, or create an orechid to generate some. Another option is to head to the bottom of the world and build a cobble generator on top of bedrock (this won't get as many types of ores though)."]
+			icon: "minecraft:iron_ore"
+			id: "728B4367EEFDE362"
+			tasks: [{
+				id: "6D11440B383E9988"
+				type: "checkmark"
+			}]
+			title: "Ores"
+			x: -0.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"21516A7C2433987E"
+				"509A9E3E0EEE4409"
+				"7719952D3F3BACC0"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Head to the nether and find a mob to kill... A floating orb will appear. If you can gather this, it will turn an anvil into a special one. This will allow you to flatten some iron without already having done so."]
+			icon: "create:iron_sheet"
+			id: "4253C79CD883641F"
+			rewards: [{
+				count: 16
+				id: "6B8CA4EEA1CA5B99"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "5BD7ACEFB745AB70"
+					type: "dimension"
+				}
+				{
+					id: "0FFFFDF269303614"
+					item: "witherutils:soulorb"
+					type: "item"
+				}
+				{
+					id: "04845623FC911BCE"
+					item: "witherutils:anvil"
+					type: "item"
+				}
+				{
+					id: "7E5CF470A50B7B59"
+					item: {
+						Count: 1b
+						id: "witherutils:hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "481B31E07828923F"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+			]
+			title: "Iron Sheets"
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["728B4367EEFDE362"]
+			description: ["Crafting the portal might pose a minor hurdle, but black flowers and a small amount of iron mined from your starting chunk should be of help here."]
+			id: "21516A7C2433987E"
+			tasks: [
+				{
+					id: "66098F6EE20C20F4"
+					item: "jamd:portal_block"
+					type: "item"
+				}
+				{
+					dimension: "jamd:mining"
+					id: "45511BCF6A8573C8"
+					title: "Visit the Mining Dimension"
+					type: "dimension"
+				}
+			]
+			title: "Visit the Mining Dimension"
+			x: -1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["728B4367EEFDE362"]
+			description: ["A generous source of mana will be needed as well though..."]
+			id: "509A9E3E0EEE4409"
+			tasks: [{
+				id: "387DA404755CB058"
+				item: "botania:orechid"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["728B4367EEFDE362"]
+			description: ["A \"vanilla\" cobblestone generator built on bedrock will generate more than just cobblestone."]
+			id: "7719952D3F3BACC0"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:bedrock"
+				id: "1510433CD35F66BA"
+				ignore_dimension: false
+				position: [I;
+					-10000
+					-64
+					-10000
+				]
+				size: [I;
+					20000
+					2
+					20000
+				]
+				title: "Head down to the Bedrock"
+				type: "location"
+			}]
+			title: "Bedrock Level"
+			x: 0.5d
+			y: -11.0d
 		}
 	]
 	title: "Progression Milestones"

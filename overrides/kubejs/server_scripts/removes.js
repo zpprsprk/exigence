@@ -110,6 +110,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'avaritia:mek_creative_fluid_tank'})
     event.remove({ id: 'avaritia:sd_upgrade_creative'})
 
+    event.remove({id: 'cyclic:shears_flint'})
     
 
     event.replaceInput(
