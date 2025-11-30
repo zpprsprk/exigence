@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "key": {
+    "A": {
+      "tag": "c:rods/wooden"
+    },
+    "B": {
+      "tag": "c:storage_blocks/iron"
+    },
+    "C": {
+      "item": "immersiveengineering:hemp_fiber"
+    }
+  },
+  "pattern": [
+    " BC",
+    " AB",
+    "A  "
+  ],
+  "result": {
+    "id": "immersiveengineering:hammer"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "TCT",
+    "C C",
+    "TCT"
+  ],
+  "key": {
+    "T": {
+      "item": "exdeorum:compressed_cobblestone"
+    },
+    "C": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "id": "minecraft:furnace",
+    "count": 1
+  }
+}
