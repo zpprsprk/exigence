@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "c": {
+            "item": "immersiveengineering:wirecoil_structure_rope"
+        },
+        "i": {
+            "tag": "c:sheetmetals/iron"
+        },
+        "r": {
+            "item": "immersiveengineering:wirecoil_redstone"
+        }
+    },
+    "pattern": [
+        "iri",
+        "rcr",
+        "iri"
+    ],
+    "result": {
+        "count": 1,
+        "id": "immersiveengineering:rs_engineering"
+    }
+}

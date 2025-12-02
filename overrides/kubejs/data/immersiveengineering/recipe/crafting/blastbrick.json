@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "c": {
+            "item": "minecraft:nether_wart"
+        },
+        "m": {
+            "item": "immersiveengineering:alloybrick"
+        },
+        "s": {
+            "tag": "c:bricks/nether"
+        }
+    },
+    "pattern": [
+        "csc",
+        "sms",
+        "csc"
+    ],
+    "result": {
+        "count": 1,
+        "id": "immersiveengineering:blastbrick"
+    }
+}

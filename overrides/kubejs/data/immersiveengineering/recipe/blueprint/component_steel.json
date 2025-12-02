@@ -1,0 +1,18 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "components",
+  "inputs": [
+    {
+      "basePredicate": {
+        "tag": "c:plates/steel"
+      },
+      "count": 2
+    },
+    {
+      "item": "create:precision_mechanism"
+    }
+  ],
+  "result": {
+    "id": "immersiveengineering:component_steel"
+  }
+}

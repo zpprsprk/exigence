@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "a": {
+            "item": "create:electron_tube"
+        },
+        "c": {
+            "item": "immersiveengineering:coil_mv"
+        },
+        "e": {
+            "item": "immersiveengineering:capacitor_lv"
+        },
+        "f": {
+            "tag": "c:plates/steel"
+        },
+        "w": {
+            "item": "createaddition:capacitor"
+        }
+    },
+    "pattern": [
+        "waw",
+        "fef",
+        "wcw"
+    ],
+    "result": {
+        "id": "immersiveengineering:capacitor_mv"
+    }
+}

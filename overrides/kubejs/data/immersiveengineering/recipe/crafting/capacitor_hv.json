@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "a": {
+            "item": "create:electron_tube"
+        },
+        "c": {
+            "item": "immersiveengineering:coil_hv"
+        },
+        "e": {
+            "item": "immersiveengineering:capacitor_mv"
+          
+        },
+        "f": {
+            "tag": "c:ingots/hop_graphite"
+        },
+        "w": {
+            "item": "createaddition:capacitor"
+        }
+    },
+    "pattern": [
+        "waw",
+        "fef",
+        "wcw"
+    ],
+    "result": {
+        "id": "immersiveengineering:capacitor_hv"
+    }
+}

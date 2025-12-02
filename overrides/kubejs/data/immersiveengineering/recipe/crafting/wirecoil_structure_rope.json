@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "C": {
+            "item": "immersiveengineering:hemp_fiber"
+        },
+        "S": {
+            "item": "createaddition:spool"
+        }
+    },
+    "pattern": [
+        "CCC",
+        "CSC",
+        "CCC"
+    ],
+    "result": {
+        "count": 2,
+        "id": "immersiveengineering:wirecoil_structure_rope"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "s": {
+            "item": "createaddition:spool"
+        },
+        "w": {
+            "tag": "c:wires/electrum"
+        }
+    },
+    "pattern": [
+        "www",
+        "wsw",
+        "www"
+    ],
+    "result": {
+        "count": 1,
+        "id": "immersiveengineering:wirecoil_electrum"
+    }
+}

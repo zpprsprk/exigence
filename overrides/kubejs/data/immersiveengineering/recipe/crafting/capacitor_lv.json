@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "a": {
+            "item": "create:electron_tube"
+        },
+        "e": {
+            "type": "immersiveengineering:fluid_stack",
+            "amount": 1000,
+            "tag": "c:redstone_acid"
+        },
+        "f": {
+            "tag": "c:plates/lead"
+        },
+        "w": {
+            "item": "createaddition:capacitor"
+        }
+    },
+    "pattern": [
+        "waw",
+        "fef",
+        "waw"
+    ],
+    "result": {
+        "id": "immersiveengineering:capacitor_lv"
+    }
+}

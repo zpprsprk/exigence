@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "C": {
+            "tag": "c:wires/aluminum"
+        },
+        "S": {
+            "item": "immersiveengineering:wirecoil_electrum"
+        },
+        "A": {
+            "tag": "c:wires/steel"
+        }
+    },
+    "pattern": [
+        "CAC",
+        "ASA",
+        "CAC"
+    ],
+    
+    "result": {
+        "count": 1,
+        "id": "immersiveengineering:wirecoil_steel"
+    }
+}

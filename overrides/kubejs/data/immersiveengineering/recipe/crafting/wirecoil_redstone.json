@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "C": {
+            "tag": "c:wires/aluminum"
+        },
+        "S": {
+            "item": "createaddition:spool"
+        },
+        "A": {
+            "item": "extendedcrafting:redstone_ingot"
+        }
+    },
+    "pattern": [
+        "CAC",
+        "ASA",
+        "CAC"
+    ],
+   
+    "result": {
+        "count": 1,
+        "id": "immersiveengineering:wirecoil_redstone"
+    }
+}

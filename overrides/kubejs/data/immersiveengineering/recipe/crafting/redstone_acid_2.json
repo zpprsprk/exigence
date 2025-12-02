@@ -1,0 +1,12 @@
+{
+  "type": "exdeorum:barrel_fluid_transformation",
+  "base_fluid": {
+    "fluid": "exdeorum:witch_water"
+  },
+  "catalyst": {
+    "block": "minecraft:redstone_block"
+  },
+  "duration": 1700,
+  "result_color": 16777214,
+  "result_fluid": "immersiveengineering:redstone_acid"
+}

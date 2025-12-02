@@ -1,0 +1,8 @@
+{"type":"immersiveengineering:blueprint",
+	"category":"components",
+	"inputs":[
+		{"tag":"immersiveengineering:treated_wood_slab"},
+		{"tag":"immersiveengineering:circuits/logic"},
+		{"tag":"c:wires/iron"},
+		{"item":"create:electron_tube"}],
+	"result":{"id":"immersiveengineering:component_electronic"}}

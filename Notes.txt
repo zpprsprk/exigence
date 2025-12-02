@@ -1,4 +1,2 @@
-Remove shortcut mesh recipes
-remove crafting recipes for  immersive engineering mechanical components
 migrate over other immersive engineering recipes
 look at the create recipes from v3
